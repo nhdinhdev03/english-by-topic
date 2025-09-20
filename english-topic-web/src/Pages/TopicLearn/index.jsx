@@ -1,0 +1,266 @@
+import { useEffect, useState } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
+import './TopicLearn.scss';
+
+const TopicLearn = () => {
+  const { topicName } = useParams();
+  const navigate = useNavigate();
+  const [vocabularyData, setVocabularyData] = useState([]);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isFlipped, setIsFlipped] = useState(false);
+  const [completedWords, setCompletedWords] = useState(new Set());
+  const [showMeaning, setShowMeaning] = useState(false);
+
+  // Load vocabulary data based on topic
+  useEffect(() => {
+    // Mapping topic names to JSON files
+    const topicFileMapping = {
+      'daily-activities': 'Daily-Activities.json',
+      'food': 'Food.json',
+      'travel': 'Travel.json',
+      'animals': 'Animal.json',
+      'colors': 'Color.json',
+      'family': 'Family.json',
+      'health': 'Health.json',
+      'work': 'Work.json',
+      'count': 'Count.json',
+      'clothes': 'Clothes.json',
+      'weather': 'Weather.json',
+      'school': 'School.json',
+      'shopping': 'Shopping.json',
+      'environment': 'Environment.json',
+      'sport': 'Sport.json'
+    };
+
+    const loadVocabulary = async () => {
+      try {
+        const fileName = topicFileMapping[topicName];
+        if (!fileName) {
+          console.error('Topic not found:', topicName);
+          return;
+        }
+
+        // Import the JSON file dynamically
+        const data = await import(`../../data/${fileName}`);
+        setVocabularyData(data.default || data);
+      } catch (error) {
+        console.error('Error loading vocabulary:', error);
+      }
+    };
+
+    if (topicName) {
+      loadVocabulary();
+    }
+  }, [topicName]);
+
+  const currentWord = vocabularyData[currentIndex];
+
+  const handleNext = () => {
+    if (currentIndex < vocabularyData.length - 1) {
+      setCurrentIndex(currentIndex + 1);
+      setIsFlipped(false);
+      setShowMeaning(false);
+    }
+  };
+
+  const handlePrevious = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1);
+      setIsFlipped(false);
+      setShowMeaning(false);
+    }
+  };
+
+  const handleFlip = () => {
+    setIsFlipped(!isFlipped);
+    setShowMeaning(!showMeaning);
+  };
+
+  const markAsLearned = () => {
+    setCompletedWords(prev => new Set([...prev, currentIndex]));
+    handleNext();
+  };
+
+  const playPronunciation = () => {
+    if (currentWord && currentWord.english) {
+      const utterance = new SpeechSynthesisUtterance(currentWord.english);
+      utterance.lang = 'en-US';
+      utterance.rate = 0.8;
+      speechSynthesis.speak(utterance);
+    }
+  };
+
+  const getTopicDisplayName = (topicName) => {
+    const displayNames = {
+      'daily-activities': 'Hoạt động hàng ngày',
+      'food': 'Thức ăn',
+      'travel': 'Du lịch',
+      'animals': 'Động vật',
+      'colors': 'Màu sắc',
+      'family': 'Gia đình',
+      'health': 'Sức khỏe',
+      'work': 'Công việc',
+      'count': 'Số đếm',
+      'clothes': 'Quần áo',
+      'weather': 'Thời tiết',
+      'school': 'Trường học',
+      'shopping': 'Mua sắm',
+      'environment': 'Môi trường',
+      'sport': 'Thể thao'
+    };
+    return displayNames[topicName] || topicName;
+  };
+
+  if (!vocabularyData.length) {
+    return (
+      <div className="topic-learn-page">
+        <div className="container">
+          <div className="loading-state">
+            <div className="spinner"></div>
+            <p>Đang tải từ vựng...</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  const progress = ((currentIndex + 1) / vocabularyData.length) * 100;
+  const learnedProgress = (completedWords.size / vocabularyData.length) * 100;
+
+  return (
+    <div className="topic-learn-page">
+      <div className="container">
+        {/* Header */}
+        <div className="learn-header">
+          <button className="back-btn" onClick={() => navigate('/topics')}>
+            ← Quay lại
+          </button>
+          <div className="topic-info">
+            <h1>{getTopicDisplayName(topicName)}</h1>
+            <p>{vocabularyData.length} từ vựng</p>
+          </div>
+        </div>
+
+        {/* Progress Bar */}
+        <div className="progress-section">
+          <div className="progress-info">
+            <span>Tiến độ: {currentIndex + 1}/{vocabularyData.length}</span>
+            <span>Đã học: {completedWords.size}/{vocabularyData.length}</span>
+          </div>
+          <div className="progress-bars">
+            <div className="progress-bar">
+              <div className="progress-fill" style={{ width: `${progress}%` }}></div>
+            </div>
+            <div className="learned-bar">
+              <div className="learned-fill" style={{ width: `${learnedProgress}%` }}></div>
+            </div>
+          </div>
+        </div>
+
+        {/* Flashcard */}
+        <div className={`flashcard ${isFlipped ? 'flipped' : ''}`}>
+          <div className="card-inner">
+            <div className="card-front">
+              <div className="word-content">
+                <h2 className="english-word">{currentWord.english}</h2>
+                {currentWord.pronunciation && (
+                  <div className="pronunciation">
+                    <span>{currentWord.pronunciation}</span>
+                    <button className="audio-btn" onClick={playPronunciation}>
+                      🔊
+                    </button>
+                  </div>
+                )}
+                {currentWord.type && (
+                  <span className="word-type">{currentWord.type}</span>
+                )}
+              </div>
+              <button className="flip-btn" onClick={handleFlip}>
+                Xem nghĩa →
+              </button>
+            </div>
+
+            <div className="card-back">
+              <div className="word-content">
+                <h2 className="vietnamese-word">{currentWord.vietnamese}</h2>
+                <h3 className="english-word-small">{currentWord.english}</h3>
+                {currentWord.pronunciation && (
+                  <div className="pronunciation">
+                    <span>{currentWord.pronunciation}</span>
+                    <button className="audio-btn" onClick={playPronunciation}>
+                      🔊
+                    </button>
+                  </div>
+                )}
+                {currentWord.type && (
+                  <span className="word-type">{currentWord.type}</span>
+                )}
+              </div>
+              <button className="flip-btn" onClick={handleFlip}>
+                ← Ẩn nghĩa
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* Controls */}
+        <div className="learn-controls">
+          <button 
+            className="control-btn secondary" 
+            onClick={handlePrevious}
+            disabled={currentIndex === 0}
+          >
+            ← Trước
+          </button>
+          
+          <button 
+            className="control-btn primary learned-btn" 
+            onClick={markAsLearned}
+            disabled={completedWords.has(currentIndex)}
+          >
+            {completedWords.has(currentIndex) ? '✓ Đã học' : 'Đã hiểu'}
+          </button>
+          
+          <button 
+            className="control-btn secondary" 
+            onClick={handleNext}
+            disabled={currentIndex === vocabularyData.length - 1}
+          >
+            Tiếp →
+          </button>
+        </div>
+
+        {/* Word Status */}
+        {completedWords.has(currentIndex) && (
+          <div className="word-status learned">
+            ✅ Bạn đã học từ này
+          </div>
+        )}
+
+        {/* Completion Message */}
+        {currentIndex === vocabularyData.length - 1 && (
+          <div className="completion-section">
+            <h3>🎉 Bạn đã hoàn thành chủ đề này!</h3>
+            <p>Đã học: {completedWords.size}/{vocabularyData.length} từ</p>
+            <div className="completion-actions">
+              <button 
+                className="control-btn primary"
+                onClick={() => navigate('/topics')}
+              >
+                Chọn chủ đề khác
+              </button>
+              <button 
+                className="control-btn secondary"
+                onClick={() => setCurrentIndex(0)}
+              >
+                Học lại từ đầu
+              </button>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default TopicLearn;

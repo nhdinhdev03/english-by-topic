@@ -6,6 +6,7 @@ const Learn = lazy(() => import("../Pages/Learn"));
 const Quiz = lazy(() => import("../Pages/Quiz"));
 const Review = lazy(() => import("../Pages/Review"));
 const Topics = lazy(() => import("../Pages/Topics"));
+const TopicLearn = lazy(() => import("../Pages/TopicLearn"));
 const Progress = lazy(() => import("../Pages/Progress"));
 const About = lazy(() => import("../Pages/About"));
 const Settings = lazy(() => import("../Pages/Settings"));
@@ -54,6 +55,11 @@ export const hiddenRoutes = [
     path: "/settings",
     element: Settings,
     name: "Cài đặt"
+  },
+  {
+    path: "/learn/:topicName",
+    element: TopicLearn,
+    name: "Học theo chủ đề"
   }
 ];
 

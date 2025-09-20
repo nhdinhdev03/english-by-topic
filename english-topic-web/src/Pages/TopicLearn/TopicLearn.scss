@@ -1,0 +1,428 @@
+.topic-learn-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 2rem 0;
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .learn-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    color: white;
+
+    .back-btn {
+      background: rgba(255, 255, 255, 0.2);
+      border: none;
+      color: white;
+      padding: 0.75rem 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      backdrop-filter: blur(10px);
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.3);
+      }
+    }
+
+    .topic-info {
+      h1 {
+        margin: 0;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+
+      p {
+        margin: 0.25rem 0 0;
+        opacity: 0.9;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .progress-section {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    color: white;
+
+    .progress-info {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+      font-weight: 500;
+    }
+
+    .progress-bars {
+      .progress-bar, .learned-bar {
+        height: 8px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+        overflow: hidden;
+        margin-bottom: 0.5rem;
+
+        .progress-fill {
+          height: 100%;
+          background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+          transition: width 0.3s ease;
+          border-radius: 4px;
+        }
+
+        .learned-fill {
+          height: 100%;
+          background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+          transition: width 0.3s ease;
+          border-radius: 4px;
+        }
+      }
+
+      .learned-bar {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .flashcard {
+    perspective: 1000px;
+    margin-bottom: 2rem;
+    height: 400px;
+
+    .card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+    }
+
+    &.flipped .card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .card-front, .card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    .card-back {
+      transform: rotateY(180deg);
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+
+    .word-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+
+      .english-word {
+        font-size: 3rem;
+        font-weight: 700;
+        margin: 0;
+        color: #333;
+      }
+
+      .english-word-small {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 0;
+        opacity: 0.9;
+      }
+
+      .vietnamese-word {
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin: 0;
+        color: white;
+      }
+
+      .pronunciation {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 1.2rem;
+        color: #666;
+
+        .card-back & {
+          color: rgba(255, 255, 255, 0.9);
+        }
+
+        .audio-btn {
+          background: none;
+          border: none;
+          font-size: 1.5rem;
+          cursor: pointer;
+          padding: 0.25rem;
+          border-radius: 4px;
+          transition: background-color 0.2s ease;
+
+          &:hover {
+            background: rgba(0, 0, 0, 0.1);
+          }
+
+          .card-back & {
+            &:hover {
+              background: rgba(255, 255, 255, 0.2);
+            }
+          }
+        }
+      }
+
+      .word-type {
+        background: #f0f0f0;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        color: #666;
+        font-weight: 500;
+
+        .card-back & {
+          background: rgba(255, 255, 255, 0.2);
+          color: white;
+        }
+      }
+    }
+
+    .flip-btn {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border: none;
+      padding: 0.75rem 2rem;
+      border-radius: 25px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+
+      .card-back & {
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+      }
+
+      &:hover {
+        transform: translateY(-2px);
+      }
+    }
+  }
+
+  .learn-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+
+    .control-btn {
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 25px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-size: 1rem;
+
+      &.primary {
+        background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+        color: white;
+
+        &:hover:not(:disabled) {
+          transform: translateY(-2px);
+          box-shadow: 0 5px 15px rgba(67, 233, 123, 0.4);
+        }
+      }
+
+      &.secondary {
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        backdrop-filter: blur(10px);
+
+        &:hover:not(:disabled) {
+          background: rgba(255, 255, 255, 0.3);
+        }
+      }
+
+      &.learned-btn {
+        &:disabled {
+          background: #28a745;
+          cursor: not-allowed;
+          opacity: 0.8;
+        }
+      }
+
+      &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        transform: none !important;
+      }
+    }
+  }
+
+  .word-status {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-weight: 600;
+
+    &.learned {
+      background: rgba(40, 167, 69, 0.2);
+      color: #28a745;
+      border: 2px solid rgba(40, 167, 69, 0.3);
+    }
+  }
+
+  .completion-section {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 2rem;
+    color: white;
+
+    h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      opacity: 0.9;
+    }
+
+    .completion-actions {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+  }
+
+  .loading-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    color: white;
+
+    .spinner {
+      width: 40px;
+      height: 40px;
+      border: 4px solid rgba(255, 255, 255, 0.3);
+      border-top: 4px solid white;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  // Responsive Design
+  @media (max-width: 768px) {
+    padding: 1rem 0;
+
+    .learn-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+
+      .topic-info h1 {
+        font-size: 1.5rem;
+      }
+    }
+
+    .flashcard {
+      height: 350px;
+
+      .card-front, .card-back {
+        padding: 1.5rem;
+      }
+
+      .word-content {
+        .english-word {
+          font-size: 2rem;
+        }
+
+        .vietnamese-word {
+          font-size: 2rem;
+        }
+      }
+    }
+
+    .learn-controls {
+      flex-direction: column;
+      gap: 0.75rem;
+
+      .control-btn {
+        width: 100%;
+        padding: 1rem;
+      }
+    }
+
+    .completion-section {
+      .completion-actions {
+        flex-direction: column;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .flashcard {
+      height: 300px;
+
+      .word-content {
+        .english-word {
+          font-size: 1.8rem;
+        }
+
+        .vietnamese-word {
+          font-size: 1.8rem;
+        }
+
+        .pronunciation {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .progress-section {
+      padding: 1rem;
+
+      .progress-info {
+        flex-direction: column;
+        gap: 0.5rem;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}

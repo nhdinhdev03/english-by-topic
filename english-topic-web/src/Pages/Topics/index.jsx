@@ -1,28 +1,162 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Topics.scss';
 
 const Topics = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
+  const [topics, setTopics] = useState([]);
 
-  // Mock data for topics
-  const topics = [
-    { id: 1, name: 'Daily Activities', category: 'life', wordCount: 120, progress: 75, color: '#3b82f6' },
-    { id: 2, name: 'Food & Drink', category: 'life', wordCount: 180, progress: 60, color: '#10b981' },
-    { id: 3, name: 'Travel', category: 'life', wordCount: 150, progress: 40, color: '#f59e0b' },
-    { id: 4, name: 'Business', category: 'work', wordCount: 200, progress: 30, color: '#8b5cf6' },
-    { id: 5, name: 'Technology', category: 'work', wordCount: 175, progress: 80, color: '#06b6d4' },
-    { id: 6, name: 'Health', category: 'life', wordCount: 140, progress: 50, color: '#ef4444' },
-    { id: 7, name: 'Education', category: 'academic', wordCount: 190, progress: 65, color: '#f97316' },
-    { id: 8, name: 'Environment', category: 'academic', wordCount: 160, progress: 25, color: '#84cc16' },
-  ];
+  // Real topics based on available JSON files
+  useEffect(() => {
+    const topicsData = [
+      { 
+        id: 'daily-activities', 
+        name: 'Hoạt động hàng ngày', 
+        category: 'life', 
+        wordCount: 120, 
+        progress: 0, 
+        color: '#3b82f6',
+        description: 'Các hoạt động thường ngày'
+      },
+      { 
+        id: 'food', 
+        name: 'Thức ăn', 
+        category: 'life', 
+        wordCount: 180, 
+        progress: 0, 
+        color: '#10b981',
+        description: 'Đồ ăn và đồ uống'
+      },
+      { 
+        id: 'travel', 
+        name: 'Du lịch', 
+        category: 'life', 
+        wordCount: 150, 
+        progress: 0, 
+        color: '#f59e0b',
+        description: 'Từ vựng về du lịch'
+      },
+      { 
+        id: 'animals', 
+        name: 'Động vật', 
+        category: 'nature', 
+        wordCount: 100, 
+        progress: 0, 
+        color: '#8b5cf6',
+        description: 'Các loài động vật'
+      },
+      { 
+        id: 'colors', 
+        name: 'Màu sắc', 
+        category: 'basic', 
+        wordCount: 50, 
+        progress: 0, 
+        color: '#06b6d4',
+        description: 'Tên các màu sắc'
+      },
+      { 
+        id: 'family', 
+        name: 'Gia đình', 
+        category: 'life', 
+        wordCount: 80, 
+        progress: 0, 
+        color: '#ef4444',
+        description: 'Thành viên gia đình'
+      },
+      { 
+        id: 'health', 
+        name: 'Sức khỏe', 
+        category: 'life', 
+        wordCount: 140, 
+        progress: 0, 
+        color: '#f97316',
+        description: 'Y tế và sức khỏe'
+      },
+      { 
+        id: 'work', 
+        name: 'Công việc', 
+        category: 'work', 
+        wordCount: 200, 
+        progress: 0, 
+        color: '#84cc16',
+        description: 'Nghề nghiệp và công việc'
+      },
+      { 
+        id: 'count', 
+        name: 'Số đếm', 
+        category: 'basic', 
+        wordCount: 95, 
+        progress: 0, 
+        color: '#ec4899',
+        description: 'Số và toán học'
+      },
+      { 
+        id: 'clothes', 
+        name: 'Quần áo', 
+        category: 'life', 
+        wordCount: 90, 
+        progress: 0, 
+        color: '#6366f1',
+        description: 'Trang phục và phụ kiện'
+      },
+      { 
+        id: 'weather', 
+        name: 'Thời tiết', 
+        category: 'nature', 
+        wordCount: 60, 
+        progress: 0, 
+        color: '#14b8a6',
+        description: 'Hiện tượng thời tiết'
+      },
+      { 
+        id: 'school', 
+        name: 'Trường học', 
+        category: 'education', 
+        wordCount: 130, 
+        progress: 0, 
+        color: '#f59e0b',
+        description: 'Giáo dục và học tập'
+      },
+      { 
+        id: 'shopping', 
+        name: 'Mua sắm', 
+        category: 'life', 
+        wordCount: 110, 
+        progress: 0, 
+        color: '#8b5cf6',
+        description: 'Mua bán và cửa hàng'
+      },
+      { 
+        id: 'environment', 
+        name: 'Môi trường', 
+        category: 'nature', 
+        wordCount: 85, 
+        progress: 0, 
+        color: '#10b981',
+        description: 'Bảo vệ môi trường'
+      },
+      { 
+        id: 'sport', 
+        name: 'Thể thao', 
+        category: 'activity', 
+        wordCount: 120, 
+        progress: 0, 
+        color: '#ef4444',
+        description: 'Các môn thể thao'
+      }
+    ];
+    setTopics(topicsData);
+  }, []);
 
   const categories = [
     { id: 'all', name: 'Tất cả', count: topics.length },
     { id: 'life', name: 'Đời sống', count: topics.filter(t => t.category === 'life').length },
     { id: 'work', name: 'Công việc', count: topics.filter(t => t.category === 'work').length },
-    { id: 'academic', name: 'Học thuật', count: topics.filter(t => t.category === 'academic').length },
+    { id: 'nature', name: 'Tự nhiên', count: topics.filter(t => t.category === 'nature').length },
+    { id: 'basic', name: 'Cơ bản', count: topics.filter(t => t.category === 'basic').length },
+    { id: 'education', name: 'Giáo dục', count: topics.filter(t => t.category === 'education').length },
+    { id: 'activity', name: 'Hoạt động', count: topics.filter(t => t.category === 'activity').length },
   ];
 
   const filteredTopics = topics.filter(topic => {
@@ -73,7 +207,7 @@ const Topics = () => {
           {filteredTopics.map(topic => (
             <Link
               key={topic.id}
-              to={`/learn/${topic.name.toLowerCase().replace(/\s+/g, '-')}`}
+              to={`/learn/${topic.id}`}
               className="topic-card card card-interactive"
             >
               <div className="topic-header">
@@ -86,6 +220,7 @@ const Topics = () => {
                 <div className="topic-meta">
                   <h3>{topic.name}</h3>
                   <p>{topic.wordCount} từ vựng</p>
+                  <small>{topic.description}</small>
                 </div>
               </div>
 
