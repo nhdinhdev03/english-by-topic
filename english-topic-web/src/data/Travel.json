@@ -1,0 +1,176 @@
+[
+  {
+    "english": "Travel",
+    "vietnamese": "Du lịch, đi du lịch",
+    "pronunciation": "/ˈtræv.əl/",
+    "type": "n/v"
+  },
+  {
+    "english": "Trip",
+    "vietnamese": "Chuyến đi",
+    "pronunciation": "/trɪp/",
+    "type": "n"
+  },
+  {
+    "english": "Journey",
+    "vietnamese": "Hành trình",
+    "pronunciation": "/ˈdʒɜː.ni/",
+    "type": "n"
+  },
+  {
+    "english": "Vacation",
+    "vietnamese": "Kỳ nghỉ",
+    "pronunciation": "/vəˈkeɪ.ʃən/",
+    "type": "n"
+  },
+  {
+    "english": "Tourist",
+    "vietnamese": "Khách du lịch",
+    "pronunciation": "/ˈtʊə.rɪst/",
+    "type": "n"
+  },
+  {
+    "english": "Destination",
+    "vietnamese": "Điểm đến",
+    "pronunciation": "/ˌdes.tɪˈneɪ.ʃən/",
+    "type": "n"
+  },
+  {
+    "english": "Itinerary",
+    "vietnamese": "Lịch trình",
+    "pronunciation": "/aɪˈtɪn.ər.ər.i/",
+    "type": "n"
+  },
+  {
+    "english": "Sightseeing",
+    "vietnamese": "Tham quan",
+    "pronunciation": "/ˈsaɪtˌsiː.ɪŋ/",
+    "type": "n"
+  },
+  {
+    "english": "Landmark",
+    "vietnamese": "Danh lam thắng cảnh",
+    "pronunciation": "/ˈlænd.mɑːk/",
+    "type": "n"
+  },
+  {
+    "english": "Adventure",
+    "vietnamese": "Cuộc phiêu lưu",
+    "pronunciation": "/ədˈven.tʃər/",
+    "type": "n"
+  },
+  {
+    "english": "Tourist attraction",
+    "vietnamese": "Điểm thu hút du lịch",
+    "pronunciation": "/ˈtʊə.rɪst əˈtræk.ʃən/",
+    "type": "n"
+  },
+  {
+    "english": "Passport",
+    "vietnamese": "Hộ chiếu",
+    "pronunciation": "/ˈpɑːs.pɔːt/",
+    "type": "n"
+  },
+  {
+    "english": "Visa",
+    "vietnamese": "Thị thực",
+    "pronunciation": "/ˈviː.zə/",
+    "type": "n"
+  },
+  {
+    "english": "Ticket",
+    "vietnamese": "Vé",
+    "pronunciation": "/ˈtɪk.ɪt/",
+    "type": "n"
+  },
+  {
+    "english": "Boarding pass",
+    "vietnamese": "Thẻ lên máy bay",
+    "pronunciation": "/ˈbɔː.dɪŋ ˌpɑːs/",
+    "type": "n"
+  },
+  {
+    "english": "Airport",
+    "vietnamese": "Sân bay",
+    "pronunciation": "/ˈeə.pɔːt/",
+    "type": "n"
+  },
+  {
+    "english": "Flight",
+    "vietnamese": "Chuyến bay",
+    "pronunciation": "/flaɪt/",
+    "type": "n"
+  },
+  {
+    "english": "Departure",
+    "vietnamese": "Sự khởi hành",
+    "pronunciation": "/dɪˈpɑː.tʃər/",
+    "type": "n"
+  },
+  {
+    "english": "Arrival",
+    "vietnamese": "Sự đến nơi",
+    "pronunciation": "/əˈraɪ.vəl/",
+    "type": "n"
+  },
+  {
+    "english": "Hotel",
+    "vietnamese": "Khách sạn",
+    "pronunciation": "/həʊˈtel/",
+    "type": "n"
+  },
+  {
+    "english": "Hostel",
+    "vietnamese": "Nhà trọ",
+    "pronunciation": "/ˈhɒs.təl/",
+    "type": "n"
+  },
+  {
+    "english": "Resort",
+    "vietnamese": "Khu nghỉ dưỡng",
+    "pronunciation": "/rɪˈzɔːt/",
+    "type": "n"
+  },
+  {
+    "english": "Luggage",
+    "vietnamese": "Hành lý",
+    "pronunciation": "/ˈlʌɡ.ɪdʒ/",
+    "type": "n"
+  },
+  {
+    "english": "Baggage claim",
+    "vietnamese": "Khu nhận hành lý",
+    "pronunciation": "/ˈbæɡ.ɪdʒ kleɪm/",
+    "type": "n"
+  },
+  {
+    "english": "Map",
+    "vietnamese": "Bản đồ",
+    "pronunciation": "/mæp/",
+    "type": "n"
+  },
+  {
+    "english": "Guidebook",
+    "vietnamese": "Sách hướng dẫn",
+    "pronunciation": "/ˈɡaɪd.bʊk/",
+    "type": "n"
+  },
+  {
+    "english": "Souvenir",
+    "vietnamese": "Quà lưu niệm",
+    "pronunciation": "/ˌsuː.vənˈɪər/",
+    "type": "n"
+  },
+  {
+    "english": "Currency",
+    "vietnamese": "Tiền tệ",
+    "pronunciation": "/ˈkʌr.ən.si/",
+    "type": "n"
+  },
+  {
+    "english": "Budget",
+    "vietnamese": "Ngân sách",
+    "pronunciation": "/ˈbʌdʒ.ɪt/",
+    "type": "n"
+  }
+]
