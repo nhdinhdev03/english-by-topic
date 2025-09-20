@@ -1,0 +1,566 @@
+[
+  {
+    "english": "Lunar New Year",
+    "vietnamese": "Tết Nguyên Đán",
+    "pronunciation": "/ˈluː.nər njuː jɪər/",
+    "type": "Holiday name"
+  },
+  {
+    "english": "Tet Holiday",
+    "vietnamese": "Kỳ nghỉ Tết",
+    "pronunciation": "/tet ˈhɒl.ɪ.deɪ/",
+    "type": "Holiday name"
+  },
+  {
+    "english": "Vietnamese New Year",
+    "vietnamese": "Tết Việt Nam",
+    "pronunciation": "/ˌvjet.nəˈmiːz njuː jɪər/",
+    "type": "Holiday name"
+  },
+  {
+    "english": "New Year's Eve",
+    "vietnamese": "Đêm giao thừa",
+    "pronunciation": "/njuː jɪərz iːv/",
+    "type": "Time period"
+  },
+  {
+    "english": "New Year's Day",
+    "vietnamese": "Ngày Tết",
+    "pronunciation": "/njuː jɪərz deɪ/",
+    "type": "Time period"
+  },
+  {
+    "english": "Spring Festival",
+    "vietnamese": "Lễ hội mùa xuân",
+    "pronunciation": "/sprɪŋ ˈfes.tɪ.vəl/",
+    "type": "Holiday name"
+  },
+  {
+    "english": "first day of spring",
+    "vietnamese": "ngày đầu xuân",
+    "pronunciation": "/fɜːst deɪ ʌv sprɪŋ/",
+    "type": "Time period"
+  },
+  {
+    "english": "lunar calendar",
+    "vietnamese": "âm lịch",
+    "pronunciation": "/ˈluː.nər ˈkæl.ən.dər/",
+    "type": "Time system"
+  },
+  {
+    "english": "solar calendar",
+    "vietnamese": "dương lịch",
+    "pronunciation": "/ˈsəʊ.lər ˈkæl.ən.dər/",
+    "type": "Time system"
+  },
+  {
+    "english": "family reunion",
+    "vietnamese": "đoàn tụ gia đình",
+    "pronunciation": "/ˈfæm.ɪ.li riːˈjuː.njən/",
+    "type": "Family tradition"
+  },
+  {
+    "english": "homecoming",
+    "vietnamese": "về quê",
+    "pronunciation": "/ˈhəʊm.kʌm.ɪŋ/",
+    "type": "Family tradition"
+  },
+  {
+    "english": "family gathering",
+    "vietnamese": "sum họp gia đình",
+    "pronunciation": "/ˈfæm.ɪ.li ˈɡæð.ər.ɪŋ/",
+    "type": "Family tradition"
+  },
+  {
+    "english": "reunion dinner",
+    "vietnamese": "bữa cơm đoàn viên",
+    "pronunciation": "/riːˈjuː.njən ˈdɪn.ər/",
+    "type": "Family tradition"
+  },
+  {
+    "english": "ancestor worship",
+    "vietnamese": "thờ cúng tổ tiên",
+    "pronunciation": "/ˈæn.ses.tər ˈwɜː.ʃɪp/",
+    "type": "Religious practice"
+  },
+  {
+    "english": "altar",
+    "vietnamese": "bàn thờ",
+    "pronunciation": "/ˈɔːl.tər/",
+    "type": "Religious item"
+  },
+  {
+    "english": "incense",
+    "vietnamese": "hương",
+    "pronunciation": "/ˈɪn.sens/",
+    "type": "Religious item"
+  },
+  {
+    "english": "offering",
+    "vietnamese": "lễ vật",
+    "pronunciation": "/ˈɒf.ər.ɪŋ/",
+    "type": "Religious practice"
+  },
+  {
+    "english": "prayer",
+    "vietnamese": "lời cầu nguyện",
+    "pronunciation": "/preər/",
+    "type": "Religious practice"
+  },
+  {
+    "english": "blessing",
+    "vietnamese": "phước lành",
+    "pronunciation": "/ˈbles.ɪŋ/",
+    "type": "Religious practice"
+  },
+  {
+    "english": "lucky money",
+    "vietnamese": "tiền lì xì",
+    "pronunciation": "/ˈlʌk.i ˈmʌn.i/",
+    "type": "Gift tradition"
+  },
+  {
+    "english": "red envelope",
+    "vietnamese": "bao lì xì",
+    "pronunciation": "/red ˈen.və.ləʊp/",
+    "type": "Gift tradition"
+  },
+  {
+    "english": "gift giving",
+    "vietnamese": "tặng quà",
+    "pronunciation": "/ɡɪft ˈɡɪv.ɪŋ/",
+    "type": "Gift tradition"
+  },
+  {
+    "english": "new clothes",
+    "vietnamese": "quần áo mới",
+    "pronunciation": "/njuː kləʊðz/",
+    "type": "Tradition"
+  },
+  {
+    "english": "ao dai",
+    "vietnamese": "áo dài",
+    "pronunciation": "/aʊ daɪ/",
+    "type": "Traditional clothing"
+  },
+  {
+    "english": "fireworks",
+    "vietnamese": "pháo hoa",
+    "pronunciation": "/ˈfaɪə.wɜːks/",
+    "type": "Celebration"
+  },
+  {
+    "english": "firecrackers",
+    "vietnamese": "pháo nổ",
+    "pronunciation": "/ˈfaɪə.kræk.ərz/",
+    "type": "Celebration"
+  },
+  {
+    "english": "dragon dance",
+    "vietnamese": "múa rồng",
+    "pronunciation": "/ˈdræɡ.ən dæns/",
+    "type": "Performance"
+  },
+  {
+    "english": "lion dance",
+    "vietnamese": "múa lân",
+    "pronunciation": "/ˈlaɪ.ən dæns/",
+    "type": "Performance"
+  },
+  {
+    "english": "traditional music",
+    "vietnamese": "nhạc truyền thống",
+    "pronunciation": "/trəˈdɪʃ.ən.əl ˈmjuː.zɪk/",
+    "type": "Performance"
+  },
+  {
+    "english": "folk song",
+    "vietnamese": "dân ca",
+    "pronunciation": "/fəʊk sɒŋ/",
+    "type": "Performance"
+  },
+  {
+    "english": "peach blossom",
+    "vietnamese": "hoa đào",
+    "pronunciation": "/piːtʃ ˈblɒs.əm/",
+    "type": "Decoration"
+  },
+  {
+    "english": "apricot blossom",
+    "vietnamese": "hoa mai",
+    "pronunciation": "/ˈeɪ.prɪ.kɒt ˈblɒs.əm/",
+    "type": "Decoration"
+  },
+  {
+    "english": "kumquat tree",
+    "vietnamese": "cây quất",
+    "pronunciation": "/ˈkʌm.kwɒt triː/",
+    "type": "Decoration"
+  },
+  {
+    "english": "cherry blossom",
+    "vietnamese": "hoa anh đào",
+    "pronunciation": "/ˈtʃer.i ˈblɒs.əm/",
+    "type": "Decoration"
+  },
+  {
+    "english": "bamboo pole",
+    "vietnamese": "cây nêu",
+    "pronunciation": "/bæmˈbuː pəʊl/",
+    "type": "Decoration"
+  },
+  {
+    "english": "red banner",
+    "vietnamese": "băng đỏ",
+    "pronunciation": "/red ˈbæn.ər/",
+    "type": "Decoration"
+  },
+  {
+    "english": "parallel sentences",
+    "vietnamese": "câu đối",
+    "pronunciation": "/ˈpær.ə.lel ˈsen.təns.ɪz/",
+    "type": "Decoration"
+  },
+  {
+    "english": "lantern",
+    "vietnamese": "đèn lồng",
+    "pronunciation": "/ˈlæn.tərn/",
+    "type": "Decoration"
+  },
+  {
+    "english": "red color",
+    "vietnamese": "màu đỏ",
+    "pronunciation": "/red ˈkʌl.ər/",
+    "type": "Symbolism"
+  },
+  {
+    "english": "gold color",
+    "vietnamese": "màu vàng",
+    "pronunciation": "/ɡəʊld ˈkʌl.ər/",
+    "type": "Symbolism"
+  },
+  {
+    "english": "five-fruit tray",
+    "vietnamese": "mâm ngũ quả",
+    "pronunciation": "/faɪv fruːt treɪ/",
+    "type": "Food tradition"
+  },
+  {
+    "english": "square sticky rice cake",
+    "vietnamese": "bánh chưng",
+    "pronunciation": "/skweər ˈstɪk.i raɪs keɪk/",
+    "type": "Traditional food"
+  },
+  {
+    "english": "cylindrical sticky rice cake",
+    "vietnamese": "bánh tét",
+    "pronunciation": "/sɪˈlɪn.drɪ.kəl ˈstɪk.i raɪs keɪk/",
+    "type": "Traditional food"
+  },
+  {
+    "english": "sticky rice",
+    "vietnamese": "xôi",
+    "pronunciation": "/ˈstɪk.i raɪs/",
+    "type": "Traditional food"
+  },
+  {
+    "english": "pickled onions",
+    "vietnamese": "dưa hành",
+    "pronunciation": "/ˈpɪk.l̩d ˈʌn.jənz/",
+    "type": "Traditional food"
+  },
+  {
+    "english": "pickled vegetables",
+    "vietnamese": "dưa muối",
+    "pronunciation": "/ˈpɪk.l̩d ˈvedʒ.tə.bəlz/",
+    "type": "Traditional food"
+  },
+  {
+    "english": "boiled chicken",
+    "vietnamese": "gà luộc",
+    "pronunciation": "/bɔɪld ˈtʃɪk.ɪn/",
+    "type": "Traditional food"
+  },
+  {
+    "english": "Vietnamese sausage",
+    "vietnamese": "giò chả",
+    "pronunciation": "/ˌvjet.nəˈmiːz ˈsɒ.sɪdʒ/",
+    "type": "Traditional food"
+  },
+  {
+    "english": "spring rolls",
+    "vietnamese": "nem rán",
+    "pronunciation": "/sprɪŋ rəʊlz/",
+    "type": "Traditional food"
+  },
+  {
+    "english": "dried candied fruits",
+    "vietnamese": "mứt tết",
+    "pronunciation": "/draɪd ˈkæn.did fruːts/",
+    "type": "Traditional food"
+  },
+  {
+    "english": "lotus seeds",
+    "vietnamese": "hạt sen",
+    "pronunciation": "/ˈləʊ.təs siːdz/",
+    "type": "Traditional food"
+  },
+  {
+    "english": "watermelon seeds",
+    "vietnamese": "hạt dưa",
+    "pronunciation": "/ˈwɔː.tər.mel.ən siːdz/",
+    "type": "Traditional food"
+  },
+  {
+    "english": "green tea",
+    "vietnamese": "trà xanh",
+    "pronunciation": "/ɡriːn tiː/",
+    "type": "Traditional drink"
+  },
+  {
+    "english": "rice wine",
+    "vietnamese": "rượu cần",
+    "pronunciation": "/raɪs waɪn/",
+    "type": "Traditional drink"
+  },
+  {
+    "english": "calligraphy",
+    "vietnamese": "thư pháp",
+    "pronunciation": "/kəˈlɪɡ.rə.fi/",
+    "type": "Art tradition"
+  },
+  {
+    "english": "traditional market",
+    "vietnamese": "chợ Tết",
+    "pronunciation": "/trəˈdɪʃ.ən.əl ˈmɑː.kɪt/",
+    "type": "Shopping"
+  },
+  {
+    "english": "flower market",
+    "vietnamese": "chợ hoa",
+    "pronunciation": "/ˈflaʊ.ər ˈmɑː.kɪt/",
+    "type": "Shopping"
+  },
+  {
+    "english": "year-end shopping",
+    "vietnamese": "mua sắm cuối năm",
+    "pronunciation": "/jɪər end ˈʃɒp.ɪŋ/",
+    "type": "Shopping"
+  },
+  {
+    "english": "house cleaning",
+    "vietnamese": "dọn dẹp nhà cửa",
+    "pronunciation": "/haʊs ˈkliː.nɪŋ/",
+    "type": "Preparation"
+  },
+  {
+    "english": "spring cleaning",
+    "vietnamese": "tổng vệ sinh",
+    "pronunciation": "/sprɪŋ ˈkliː.nɪŋ/",
+    "type": "Preparation"
+  },
+  {
+    "english": "debt payment",
+    "vietnamese": "trả nợ",
+    "pronunciation": "/det ˈpeɪ.mənt/",
+    "type": "Preparation"
+  },
+  {
+    "english": "first-footer",
+    "vietnamese": "người xông đất",
+    "pronunciation": "/ˈfɜːst ˈfʊt.ər/",
+    "type": "Tradition"
+  },
+  {
+    "english": "first visitor",
+    "vietnamese": "khách đầu tiên",
+    "pronunciation": "/fɜːst ˈvɪz.ɪ.tər/",
+    "type": "Tradition"
+  },
+  {
+    "english": "visiting relatives",
+    "vietnamese": "thăm họ hàng",
+    "pronunciation": "/ˈvɪz.ɪ.tɪŋ ˈrel.ə.tɪvz/",
+    "type": "Tradition"
+  },
+  {
+    "english": "paying respects",
+    "vietnamese": "chúc Tết",
+    "pronunciation": "/ˈpeɪ.ɪŋ rɪˈspekts/",
+    "type": "Tradition"
+  },
+  {
+    "english": "New Year greetings",
+    "vietnamese": "lời chúc năm mới",
+    "pronunciation": "/njuː jɪər ˈɡriː.tɪŋz/",
+    "type": "Tradition"
+  },
+  {
+    "english": "well wishes",
+    "vietnamese": "lời chúc tốt đẹp",
+    "pronunciation": "/wel ˈwɪʃ.ɪz/",
+    "type": "Tradition"
+  },
+  {
+    "english": "prosperity",
+    "vietnamese": "sự thịnh vượng",
+    "pronunciation": "/prɒsˈper.ɪ.ti/",
+    "type": "Good wishes"
+  },
+  {
+    "english": "happiness",
+    "vietnamese": "hạnh phúc",
+    "pronunciation": "/ˈhæp.i.nəs/",
+    "type": "Good wishes"
+  },
+  {
+    "english": "longevity",
+    "vietnamese": "trường thọ",
+    "pronunciation": "/lɒŋˈdʒev.ə.ti/",
+    "type": "Good wishes"
+  },
+  {
+    "english": "fortune",
+    "vietnamese": "may mắn, tài lộc",
+    "pronunciation": "/ˈfɔː.tʃuːn/",
+    "type": "Good wishes"
+  },
+  {
+    "english": "good health",
+    "vietnamese": "sức khỏe tốt",
+    "pronunciation": "/ɡʊd helθ/",
+    "type": "Good wishes"
+  },
+  {
+    "english": "success",
+    "vietnamese": "thành công",
+    "pronunciation": "/səkˈses/",
+    "type": "Good wishes"
+  },
+  {
+    "english": "peace",
+    "vietnamese": "bình an",
+    "pronunciation": "/piːs/",
+    "type": "Good wishes"
+  },
+  {
+    "english": "wealth",
+    "vietnamese": "giàu có",
+    "pronunciation": "/welθ/",
+    "type": "Good wishes"
+  },
+  {
+    "english": "zodiac animal",
+    "vietnamese": "con giáp",
+    "pronunciation": "/ˈzəʊ.di.æk ˈæn.ɪ.məl/",
+    "type": "Zodiac"
+  },
+  {
+    "english": "Chinese zodiac",
+    "vietnamese": "12 con giáp",
+    "pronunciation": "/tʃaɪˈniːz ˈzəʊ.di.æk/",
+    "type": "Zodiac"
+  },
+  {
+    "english": "Year of the Rat",
+    "vietnamese": "Năm Tý",
+    "pronunciation": "/jɪər ʌv ðə ræt/",
+    "type": "Zodiac"
+  },
+  {
+    "english": "Year of the Ox",
+    "vietnamese": "Năm Sửu",
+    "pronunciation": "/jɪər ʌv ði ɒks/",
+    "type": "Zodiac"
+  },
+  {
+    "english": "Year of the Tiger",
+    "vietnamese": "Năm Dần",
+    "pronunciation": "/jɪər ʌv ðə ˈtaɪ.ɡər/",
+    "type": "Zodiac"
+  },
+  {
+    "english": "Year of the Rabbit",
+    "vietnamese": "Năm Mão",
+    "pronunciation": "/jɪər ʌv ðə ˈræb.ɪt/",
+    "type": "Zodiac"
+  },
+  {
+    "english": "Year of the Dragon",
+    "vietnamese": "Năm Thìn",
+    "pronunciation": "/jɪər ʌv ðə ˈdræɡ.ən/",
+    "type": "Zodiac"
+  },
+  {
+    "english": "Year of the Snake",
+    "vietnamese": "Năm Tỵ",
+    "pronunciation": "/jɪər ʌv ðə sneɪk/",
+    "type": "Zodiac"
+  },
+  {
+    "english": "taboo",
+    "vietnamese": "điều cấm kỵ",
+    "pronunciation": "/təˈbuː/",
+    "type": "Superstition"
+  },
+  {
+    "english": "superstition",
+    "vietnamese": "mê tín",
+    "pronunciation": "/ˌsuː.pəˈstɪʃ.ən/",
+    "type": "Superstition"
+  },
+  {
+    "english": "bad luck",
+    "vietnamese": "xui xẻo",
+    "pronunciation": "/bæd lʌk/",
+    "type": "Superstition"
+  },
+  {
+    "english": "good luck",
+    "vietnamese": "may mắn",
+    "pronunciation": "/ɡʊd lʌk/",
+    "type": "Superstition"
+  },
+  {
+    "english": "auspicious",
+    "vietnamese": "tốt lành",
+    "pronunciation": "/ɔːˈspɪʃ.əs/",
+    "type": "Superstition"
+  },
+  {
+    "english": "traditional games",
+    "vietnamese": "trò chơi truyền thống",
+    "pronunciation": "/trəˈdɪʃ.ən.əl ɡeɪmz/",
+    "type": "Entertainment"
+  },
+  {
+    "english": "card games",
+    "vietnamese": "chơi bài",
+    "pronunciation": "/kɑːrd ɡeɪmz/",
+    "type": "Entertainment"
+  },
+  {
+    "english": "gambling",
+    "vietnamese": "đánh bạc",
+    "pronunciation": "/ˈɡæm.blɪŋ/",
+    "type": "Entertainment"
+  },
+  {
+    "english": "temple fair",
+    "vietnamese": "hội chùa",
+    "pronunciation": "/ˈtem.pəl feər/",
+    "type": "Event"
+  },
+  {
+    "english": "cultural festival",
+    "vietnamese": "lễ hội văn hóa",
+    "pronunciation": "/ˈkʌl.tʃər.əl ˈfes.tɪ.vəl/",
+    "type": "Event"
+  },
+  {
+    "english": "street festival",
+    "vietnamese": "lễ hội đường phố",
+    "pronunciation": "/striːt ˈfes.tɪ.vəl/",
+    "type": "Event"
+  }
+]

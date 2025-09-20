@@ -1,0 +1,560 @@
+[
+  {
+    "english": "wake up",
+    "vietnamese": "thức dậy",
+    "pronunciation": "/weɪk ʌp/",
+    "type": "Morning routine"
+  },
+  {
+    "english": "get up",
+    "vietnamese": "rời khỏi giường",
+    "pronunciation": "/ɡet ʌp/",
+    "type": "Morning routine"
+  },
+  {
+    "english": "brush teeth",
+    "vietnamese": "đánh răng",
+    "pronunciation": "/brʌʃ tiːθ/",
+    "type": "Personal hygiene"
+  },
+  {
+    "english": "wash face",
+    "vietnamese": "rửa mặt",
+    "pronunciation": "/wɒʃ feɪs/",
+    "type": "Personal hygiene"
+  },
+  {
+    "english": "take a shower",
+    "vietnamese": "tắm vòi sen",
+    "pronunciation": "/teɪk ə ˈʃaʊ.ər/",
+    "type": "Personal hygiene"
+  },
+  {
+    "english": "take a bath",
+    "vietnamese": "tắm bồn",
+    "pronunciation": "/teɪk ə bɑːθ/",
+    "type": "Personal hygiene"
+  },
+  {
+    "english": "get dressed",
+    "vietnamese": "mặc quần áo",
+    "pronunciation": "/ɡet drest/",
+    "type": "Morning routine"
+  },
+  {
+    "english": "have breakfast",
+    "vietnamese": "ăn sáng",
+    "pronunciation": "/hæv ˈbrek.fəst/",
+    "type": "Meal activity"
+  },
+  {
+    "english": "go to school/work",
+    "vietnamese": "đi học/làm",
+    "pronunciation": "/ɡəʊ tuː skuːl/wɜːk/",
+    "type": "Transportation"
+  },
+  {
+    "english": "study",
+    "vietnamese": "học bài",
+    "pronunciation": "/ˈstʌd.i/",
+    "type": "Learning activity"
+  },
+  {
+    "english": "work",
+    "vietnamese": "làm việc",
+    "pronunciation": "/wɜːk/",
+    "type": "Work activity"
+  },
+  {
+    "english": "take a break",
+    "vietnamese": "nghỉ giải lao",
+    "pronunciation": "/teɪk ə breɪk/",
+    "type": "Work activity"
+  },
+  {
+    "english": "have lunch",
+    "vietnamese": "ăn trưa",
+    "pronunciation": "/hæv lʌntʃ/",
+    "type": "Meal activity"
+  },
+  {
+    "english": "exercise",
+    "vietnamese": "tập thể dục",
+    "pronunciation": "/ˈek.sə.saɪz/",
+    "type": "Physical activity"
+  },
+  {
+    "english": "go home",
+    "vietnamese": "về nhà",
+    "pronunciation": "/ɡəʊ həʊm/",
+    "type": "Transportation"
+  },
+  {
+    "english": "cook",
+    "vietnamese": "nấu ăn",
+    "pronunciation": "/kʊk/",
+    "type": "Household task"
+  },
+  {
+    "english": "have dinner",
+    "vietnamese": "ăn tối",
+    "pronunciation": "/hæv ˈdɪn.ər/",
+    "type": "Meal activity"
+  },
+  {
+    "english": "wash the dishes",
+    "vietnamese": "rửa bát",
+    "pronunciation": "/wɒʃ ðə ˈdɪʃ.ɪz/",
+    "type": "Household task"
+  },
+  {
+    "english": "watch TV",
+    "vietnamese": "xem tivi",
+    "pronunciation": "/wɒtʃ ˌtiːˈviː/",
+    "type": "Leisure activity"
+  },
+  {
+    "english": "read a book",
+    "vietnamese": "đọc sách",
+    "pronunciation": "/riːd ə bʊk/",
+    "type": "Leisure activity"
+  },
+  {
+    "english": "listen to music",
+    "vietnamese": "nghe nhạc",
+    "pronunciation": "/ˈlɪs.ən tuː ˈmjuː.zɪk/",
+    "type": "Leisure activity"
+  },
+  {
+    "english": "surf the internet",
+    "vietnamese": "lướt web",
+    "pronunciation": "/sɜːf ði ˈɪn.tə.net/",
+    "type": "Leisure activity"
+  },
+  {
+    "english": "chat with friends",
+    "vietnamese": "trò chuyện với bạn bè",
+    "pronunciation": "/tʃæt wɪð frendz/",
+    "type": "Social activity"
+  },
+  {
+    "english": "do homework",
+    "vietnamese": "làm bài tập về nhà",
+    "pronunciation": "/duː ˈhəʊm.wɜːk/",
+    "type": "Learning activity"
+  },
+  {
+    "english": "take out the trash",
+    "vietnamese": "đổ rác",
+    "pronunciation": "/teɪk aʊt ðə træʃ/",
+    "type": "Household task"
+  },
+  {
+    "english": "go shopping",
+    "vietnamese": "đi mua sắm",
+    "pronunciation": "/ɡəʊ ˈʃɒp.ɪŋ/",
+    "type": "Errand"
+  },
+  {
+    "english": "take a nap",
+    "vietnamese": "ngủ trưa",
+    "pronunciation": "/teɪk ə næp/",
+    "type": "Rest activity"
+  },
+  {
+    "english": "go to bed",
+    "vietnamese": "đi ngủ",
+    "pronunciation": "/ɡəʊ tuː bed/",
+    "type": "Evening routine"
+  },
+  {
+    "english": "fall asleep",
+    "vietnamese": "ngủ thiếp đi",
+    "pronunciation": "/fɔːl əˈsliːp/",
+    "type": "Evening routine"
+  },
+  {
+    "english": "set the alarm",
+    "vietnamese": "đặt báo thức",
+    "pronunciation": "/set ði əˈlɑːm/",
+    "type": "Evening routine"
+  },
+  {
+    "english": "make the bed",
+    "vietnamese": "dọn giường",
+    "pronunciation": "/meɪk ðə bed/",
+    "type": "Morning routine"
+  },
+  {
+    "english": "put on clothes",
+    "vietnamese": "mặc quần áo",
+    "pronunciation": "/pʊt ɒn kləʊðz/",
+    "type": "Morning routine"
+  },
+  {
+    "english": "comb hair",
+    "vietnamese": "chải tóc",
+    "pronunciation": "/kəʊm heər/",
+    "type": "Personal grooming"
+  },
+  {
+    "english": "apply makeup",
+    "vietnamese": "trang điểm",
+    "pronunciation": "/əˈplaɪ ˈmeɪk.ʌp/",
+    "type": "Personal grooming"
+  },
+  {
+    "english": "shave",
+    "vietnamese": "cạo râu",
+    "pronunciation": "/ʃeɪv/",
+    "type": "Personal grooming"
+  },
+  {
+    "english": "wash hands",
+    "vietnamese": "rửa tay",
+    "pronunciation": "/wɒʃ hændz/",
+    "type": "Personal hygiene"
+  },
+  {
+    "english": "use the bathroom",
+    "vietnamese": "đi vệ sinh",
+    "pronunciation": "/juːz ðə ˈbɑːθ.ruːm/",
+    "type": "Personal need"
+  },
+  {
+    "english": "pack lunch",
+    "vietnamese": "chuẩn bị cơm trưa",
+    "pronunciation": "/pæk lʌntʃ/",
+    "type": "Preparation"
+  },
+  {
+    "english": "check phone",
+    "vietnamese": "kiểm tra điện thoại",
+    "pronunciation": "/tʃek fəʊn/",
+    "type": "Technology use"
+  },
+  {
+    "english": "check email",
+    "vietnamese": "kiểm tra email",
+    "pronunciation": "/tʃek ˈiː.meɪl/",
+    "type": "Technology use"
+  },
+  {
+    "english": "drive to work",
+    "vietnamese": "lái xe đi làm",
+    "pronunciation": "/draɪv tuː wɜːk/",
+    "type": "Transportation"
+  },
+  {
+    "english": "take the bus",
+    "vietnamese": "đi xe buýt",
+    "pronunciation": "/teɪk ðə bʌs/",
+    "type": "Transportation"
+  },
+  {
+    "english": "walk to school",
+    "vietnamese": "đi bộ đến trường",
+    "pronunciation": "/wɔːk tuː skuːl/",
+    "type": "Transportation"
+  },
+  {
+    "english": "attend a meeting",
+    "vietnamese": "tham dự cuộc họp",
+    "pronunciation": "/əˈtend ə ˈmiː.tɪŋ/",
+    "type": "Work activity"
+  },
+  {
+    "english": "answer emails",
+    "vietnamese": "trả lời email",
+    "pronunciation": "/ˈæn.sər ˈiː.meɪlz/",
+    "type": "Work activity"
+  },
+  {
+    "english": "make phone calls",
+    "vietnamese": "gọi điện thoại",
+    "pronunciation": "/meɪk fəʊn kɔːlz/",
+    "type": "Work activity"
+  },
+  {
+    "english": "eat a snack",
+    "vietnamese": "ăn nhẹ",
+    "pronunciation": "/iːt ə snæk/",
+    "type": "Meal activity"
+  },
+  {
+    "english": "drink water",
+    "vietnamese": "uống nước",
+    "pronunciation": "/drɪŋk ˈwɔː.tər/",
+    "type": "Personal need"
+  },
+  {
+    "english": "drink coffee",
+    "vietnamese": "uống cà phê",
+    "pronunciation": "/drɪŋk ˈkɒf.i/",
+    "type": "Personal need"
+  },
+  {
+    "english": "clean the house",
+    "vietnamese": "dọn dẹp nhà",
+    "pronunciation": "/kliːn ðə haʊs/",
+    "type": "Household task"
+  },
+  {
+    "english": "do laundry",
+    "vietnamese": "giặt quần áo",
+    "pronunciation": "/duː ˈlɔːn.dri/",
+    "type": "Household task"
+  },
+  {
+    "english": "fold clothes",
+    "vietnamese": "gấp quần áo",
+    "pronunciation": "/fəʊld kləʊðz/",
+    "type": "Household task"
+  },
+  {
+    "english": "iron clothes",
+    "vietnamese": "là quần áo",
+    "pronunciation": "/ˈaɪ.ən kləʊðz/",
+    "type": "Household task"
+  },
+  {
+    "english": "vacuum the floor",
+    "vietnamese": "hút bụi sàn nhà",
+    "pronunciation": "/ˈvæk.juːm ðə flɔːr/",
+    "type": "Household task"
+  },
+  {
+    "english": "sweep the floor",
+    "vietnamese": "quét sàn",
+    "pronunciation": "/swiːp ðə flɔːr/",
+    "type": "Household task"
+  },
+  {
+    "english": "mop the floor",
+    "vietnamese": "lau sàn",
+    "pronunciation": "/mɒp ðə flɔːr/",
+    "type": "Household task"
+  },
+  {
+    "english": "water the plants",
+    "vietnamese": "tưới cây",
+    "pronunciation": "/ˈwɔː.tər ðə plænts/",
+    "type": "Household task"
+  },
+  {
+    "english": "feed the pets",
+    "vietnamese": "cho thú cưng ăn",
+    "pronunciation": "/fiːd ðə pets/",
+    "type": "Pet care"
+  },
+  {
+    "english": "walk the dog",
+    "vietnamese": "dắt chó đi dạo",
+    "pronunciation": "/wɔːk ðə dɒɡ/",
+    "type": "Pet care"
+  },
+  {
+    "english": "pay bills",
+    "vietnamese": "trả hóa đơn",
+    "pronunciation": "/peɪ bɪlz/",
+    "type": "Financial task"
+  },
+  {
+    "english": "go to the bank",
+    "vietnamese": "đi ngân hàng",
+    "pronunciation": "/ɡəʊ tuː ðə bæŋk/",
+    "type": "Errand"
+  },
+  {
+    "english": "go to the pharmacy",
+    "vietnamese": "đi hiệu thuốc",
+    "pronunciation": "/ɡəʊ tuː ðə ˈfɑː.mə.si/",
+    "type": "Errand"
+  },
+  {
+    "english": "go to the post office",
+    "vietnamese": "đi bưu điện",
+    "pronunciation": "/ɡəʊ tuː ðə pəʊst ˈɒf.ɪs/",
+    "type": "Errand"
+  },
+  {
+    "english": "buy groceries",
+    "vietnamese": "mua thực phẩm",
+    "pronunciation": "/baɪ ˈɡrəʊ.sər.iz/",
+    "type": "Errand"
+  },
+  {
+    "english": "go to the gym",
+    "vietnamese": "đi phòng gym",
+    "pronunciation": "/ɡəʊ tuː ðə dʒɪm/",
+    "type": "Physical activity"
+  },
+  {
+    "english": "go for a walk",
+    "vietnamese": "đi dạo",
+    "pronunciation": "/ɡəʊ fər ə wɔːk/",
+    "type": "Physical activity"
+  },
+  {
+    "english": "go for a run",
+    "vietnamese": "đi chạy bộ",
+    "pronunciation": "/ɡəʊ fər ə rʌn/",
+    "type": "Physical activity"
+  },
+  {
+    "english": "play sports",
+    "vietnamese": "chơi thể thao",
+    "pronunciation": "/pleɪ spɔːts/",
+    "type": "Physical activity"
+  },
+  {
+    "english": "meet friends",
+    "vietnamese": "gặp bạn bè",
+    "pronunciation": "/miːt frendz/",
+    "type": "Social activity"
+  },
+  {
+    "english": "hang out",
+    "vietnamese": "đi chơi",
+    "pronunciation": "/hæŋ aʊt/",
+    "type": "Social activity"
+  },
+  {
+    "english": "go to the movies",
+    "vietnamese": "đi xem phim",
+    "pronunciation": "/ɡəʊ tuː ðə ˈmuː.viz/",
+    "type": "Entertainment"
+  },
+  {
+    "english": "go to a restaurant",
+    "vietnamese": "đi nhà hàng",
+    "pronunciation": "/ɡəʊ tuː ə ˈres.tər.ənt/",
+    "type": "Entertainment"
+  },
+  {
+    "english": "play video games",
+    "vietnamese": "chơi game",
+    "pronunciation": "/pleɪ ˈvɪd.i.əʊ ɡeɪmz/",
+    "type": "Leisure activity"
+  },
+  {
+    "english": "browse social media",
+    "vietnamese": "xem mạng xã hội",
+    "pronunciation": "/braʊz ˈsəʊ.ʃəl ˈmiː.di.ə/",
+    "type": "Technology use"
+  },
+  {
+    "english": "video call",
+    "vietnamese": "gọi video",
+    "pronunciation": "/ˈvɪd.i.əʊ kɔːl/",
+    "type": "Technology use"
+  },
+  {
+    "english": "text message",
+    "vietnamese": "nhắn tin",
+    "pronunciation": "/tekst ˈmes.ɪdʒ/",
+    "type": "Technology use"
+  },
+  {
+    "english": "practice hobby",
+    "vietnamese": "thực hành sở thích",
+    "pronunciation": "/ˈpræk.tɪs ˈhɒb.i/",
+    "type": "Leisure activity"
+  },
+  {
+    "english": "learn something new",
+    "vietnamese": "học điều gì đó mới",
+    "pronunciation": "/lɜːn ˈsʌm.θɪŋ njuː/",
+    "type": "Learning activity"
+  },
+  {
+    "english": "take online courses",
+    "vietnamese": "học khóa học online",
+    "pronunciation": "/teɪk ˈɒn.laɪn ˈkɔː.sɪz/",
+    "type": "Learning activity"
+  },
+  {
+    "english": "meditate",
+    "vietnamese": "thiền",
+    "pronunciation": "/ˈmed.ɪ.teɪt/",
+    "type": "Wellness activity"
+  },
+  {
+    "english": "relax",
+    "vietnamese": "thư giãn",
+    "pronunciation": "/rɪˈlæks/",
+    "type": "Wellness activity"
+  },
+  {
+    "english": "take medication",
+    "vietnamese": "uống thuốc",
+    "pronunciation": "/teɪk ˌmed.ɪˈkeɪ.ʃən/",
+    "type": "Health care"
+  },
+  {
+    "english": "see a doctor",
+    "vietnamese": "đi khám bác sĩ",
+    "pronunciation": "/siː ə ˈdɒk.tər/",
+    "type": "Health care"
+  },
+  {
+    "english": "prepare for tomorrow",
+    "vietnamese": "chuẩn bị cho ngày mai",
+    "pronunciation": "/prɪˈpeər fər təˈmɒr.əʊ/",
+    "type": "Preparation"
+  },
+  {
+    "english": "check the weather",
+    "vietnamese": "kiểm tra thời tiết",
+    "pronunciation": "/tʃek ðə ˈweð.ər/",
+    "type": "Information gathering"
+  },
+  {
+    "english": "lock the door",
+    "vietnamese": "khóa cửa",
+    "pronunciation": "/lɒk ðə dɔːr/",
+    "type": "Security task"
+  },
+  {
+    "english": "turn off lights",
+    "vietnamese": "tắt đèn",
+    "pronunciation": "/tɜːn ɒf laɪts/",
+    "type": "Evening routine"
+  },
+  {
+    "english": "charge phone",
+    "vietnamese": "sạc điện thoại",
+    "pronunciation": "/tʃɑːdʒ fəʊn/",
+    "type": "Technology maintenance"
+  },
+  {
+    "english": "plan the day",
+    "vietnamese": "lên kế hoạch cho ngày",
+    "pronunciation": "/plæn ðə deɪ/",
+    "type": "Organization"
+  },
+  {
+    "english": "write in diary",
+    "vietnamese": "viết nhật ký",
+    "pronunciation": "/raɪt ɪn ˈdaɪə.ri/",
+    "type": "Personal reflection"
+  },
+  {
+    "english": "stretch before bed",
+    "vietnamese": "duỗi người trước khi ngủ",
+    "pronunciation": "/stretʃ bɪˈfɔːr bed/",
+    "type": "Evening routine"
+  },
+  {
+    "english": "change clothes",
+    "vietnamese": "thay quần áo",
+    "pronunciation": "/tʃeɪndʒ kləʊðz/",
+    "type": "Personal care"
+  },
+  {
+    "english": "put on pajamas",
+    "vietnamese": "mặc đồ ngủ",
+    "pronunciation": "/pʊt ɒn pəˈdʒɑː.məz/",
+    "type": "Evening routine"
+  }
+]

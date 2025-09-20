@@ -1,0 +1,614 @@
+[
+  {
+    "english": "eraser",
+    "vietnamese": "cục tẩy, gôm",
+    "pronunciation": "/ɪˈreɪ.zər/",
+    "type": "Basic stationery"
+  },
+  {
+    "english": "highlighter",
+    "vietnamese": "bút đánh dấu",
+    "pronunciation": "/ˈhaɪˌlaɪ.tər/",
+    "type": "Writing tool"
+  },
+  {
+    "english": "marker",
+    "vietnamese": "bút dạ",
+    "pronunciation": "/ˈmɑː.kər/",
+    "type": "Writing tool"
+  },
+  {
+    "english": "ruler",
+    "vietnamese": "thước kẻ",
+    "pronunciation": "/ˈruː.lər/",
+    "type": "Measurement tool"
+  },
+  {
+    "english": "compass",
+    "vietnamese": "compa",
+    "pronunciation": "/ˈkʌm.pəs/",
+    "type": "Measurement tool"
+  },
+  {
+    "english": "protractor",
+    "vietnamese": "thước đo góc",
+    "pronunciation": "/prəˈtræk.tər/",
+    "type": "Measurement tool"
+  },
+  {
+    "english": "calculator",
+    "vietnamese": "máy tính cầm tay",
+    "pronunciation": "/ˈkæl.kjə.leɪ.tər/",
+    "type": "Electronic tool"
+  },
+  {
+    "english": "clipboard",
+    "vietnamese": "bìa kẹp hồ sơ",
+    "pronunciation": "/ˈklɪp.bɔːd/",
+    "type": "Organization tool"
+  },
+  {
+    "english": "folder",
+    "vietnamese": "tập hồ sơ",
+    "pronunciation": "/ˈfəʊl.dər/",
+    "type": "Organization tool"
+  },
+  {
+    "english": "binder",
+    "vietnamese": "bìa còng",
+    "pronunciation": "/ˈbaɪn.dər/",
+    "type": "Organization tool"
+  },
+  {
+    "english": "stapler",
+    "vietnamese": "dập ghim",
+    "pronunciation": "/ˈsteɪ.plər/",
+    "type": "Office supply"
+  },
+  {
+    "english": "paperclip",
+    "vietnamese": "kẹp giấy",
+    "pronunciation": "/ˈpeɪ.pə.klɪp/",
+    "type": "Office supply"
+  },
+  {
+    "english": "sticky notes",
+    "vietnamese": "giấy ghi chú",
+    "pronunciation": "/ˈstɪk.i nəʊts/",
+    "type": "Organization tool"
+  },
+  {
+    "english": "tape",
+    "vietnamese": "băng dính",
+    "pronunciation": "/teɪp/",
+    "type": "Adhesive supply"
+  },
+  {
+    "english": "glue",
+    "vietnamese": "keo dán",
+    "pronunciation": "/ɡluː/",
+    "type": "Adhesive supply"
+  },
+  {
+    "english": "chalk",
+    "vietnamese": "phấn viết bảng",
+    "pronunciation": "/tʃɔːk/",
+    "type": "Writing tool"
+  },
+  {
+    "english": "paintbrush",
+    "vietnamese": "cọ vẽ",
+    "pronunciation": "/ˈpeɪnt.brʌʃ/",
+    "type": "Art supply"
+  },
+  {
+    "english": "watercolors",
+    "vietnamese": "màu nước",
+    "pronunciation": "/ˈwɔː.tə.kʌl.ərz/",
+    "type": "Art supply"
+  },
+  {
+    "english": "crayon",
+    "vietnamese": "bút sáp màu",
+    "pronunciation": "/ˈkreɪ.ɒn/",
+    "type": "Art supply"
+  },
+  {
+    "english": "sketchbook",
+    "vietnamese": "sổ vẽ",
+    "pronunciation": "/ˈsketʃ.bʊk/",
+    "type": "Paper product"
+  },
+  {
+    "english": "drawing paper",
+    "vietnamese": "giấy vẽ",
+    "pronunciation": "/ˈdrɔː.ɪŋ ˈpeɪ.pər/",
+    "type": "Paper product"
+  },
+  {
+    "english": "textbook",
+    "vietnamese": "sách giáo khoa",
+    "pronunciation": "/ˈtekst.bʊk/",
+    "type": "Educational material"
+  },
+  {
+    "english": "dictionary",
+    "vietnamese": "từ điển",
+    "pronunciation": "/ˈdɪk.ʃən.ər.i/",
+    "type": "Reference book"
+  },
+  {
+    "english": "atlas",
+    "vietnamese": "tập bản đồ",
+    "pronunciation": "/ˈæt.ləs/",
+    "type": "Reference book"
+  },
+  {
+    "english": "flashcard",
+    "vietnamese": "thẻ ghi nhớ",
+    "pronunciation": "/ˈflæʃ.kɑːd/",
+    "type": "Learning tool"
+  },
+  {
+    "english": "report card",
+    "vietnamese": "phiếu điểm",
+    "pronunciation": "/rɪˈpɔːt kɑːd/",
+    "type": "Educational document"
+  },
+  {
+    "english": "pencil",
+    "vietnamese": "bút chì",
+    "pronunciation": "/ˈpen.səl/",
+    "type": "Writing tool"
+  },
+  {
+    "english": "pen",
+    "vietnamese": "bút mực",
+    "pronunciation": "/pen/",
+    "type": "Writing tool"
+  },
+  {
+    "english": "ballpoint pen",
+    "vietnamese": "bút bi",
+    "pronunciation": "/ˈbɔːl.pɔɪnt pen/",
+    "type": "Writing tool"
+  },
+  {
+    "english": "fountain pen",
+    "vietnamese": "bút máy",
+    "pronunciation": "/ˈfaʊn.tən pen/",
+    "type": "Writing tool"
+  },
+  {
+    "english": "pencil case",
+    "vietnamese": "hộp bút",
+    "pronunciation": "/ˈpen.səl keɪs/",
+    "type": "Storage"
+  },
+  {
+    "english": "pencil sharpener",
+    "vietnamese": "cái gọt bút chì",
+    "pronunciation": "/ˈpen.səl ˈʃɑː.pən.ər/",
+    "type": "Basic stationery"
+  },
+  {
+    "english": "mechanical pencil",
+    "vietnamese": "bút chì kim",
+    "pronunciation": "/mɪˈkæn.ɪ.kəl ˈpen.səl/",
+    "type": "Writing tool"
+  },
+  {
+    "english": "colored pencils",
+    "vietnamese": "bút chì màu",
+    "pronunciation": "/ˈkʌl.ərd ˈpen.səlz/",
+    "type": "Art supply"
+  },
+  {
+    "english": "notebook",
+    "vietnamese": "vở ghi chép",
+    "pronunciation": "/ˈnəʊt.bʊk/",
+    "type": "Paper product"
+  },
+  {
+    "english": "exercise book",
+    "vietnamese": "vở bài tập",
+    "pronunciation": "/ˈek.sər.saɪz bʊk/",
+    "type": "Paper product"
+  },
+  {
+    "english": "spiral notebook",
+    "vietnamese": "vở lò xo",
+    "pronunciation": "/ˈspaɪə.rəl ˈnəʊt.bʊk/",
+    "type": "Paper product"
+  },
+  {
+    "english": "graph paper",
+    "vietnamese": "giấy kẻ ô vuông",
+    "pronunciation": "/ɡræf ˈpeɪ.pər/",
+    "type": "Paper product"
+  },
+  {
+    "english": "lined paper",
+    "vietnamese": "giấy kẻ ngang",
+    "pronunciation": "/laɪnd ˈpeɪ.pər/",
+    "type": "Paper product"
+  },
+  {
+    "english": "blank paper",
+    "vietnamese": "giấy trắng",
+    "pronunciation": "/blæŋk ˈpeɪ.pər/",
+    "type": "Paper product"
+  },
+  {
+    "english": "index cards",
+    "vietnamese": "thẻ ghi chú",
+    "pronunciation": "/ˈɪn.deks kɑːdz/",
+    "type": "Learning tool"
+  },
+  {
+    "english": "correction fluid",
+    "vietnamese": "bút xóa, tẩy xóa",
+    "pronunciation": "/kəˈrek.ʃən ˈfluː.ɪd/",
+    "type": "Basic stationery"
+  },
+  {
+    "english": "correction tape",
+    "vietnamese": "băng xóa",
+    "pronunciation": "/kəˈrek.ʃən teɪp/",
+    "type": "Basic stationery"
+  },
+  {
+    "english": "rubber band",
+    "vietnamese": "dây thun",
+    "pronunciation": "/ˈrʌb.ər bænd/",
+    "type": "Office supply"
+  },
+  {
+    "english": "pushpin",
+    "vietnamese": "ghim cài",
+    "pronunciation": "/ˈpʊʃ.pɪn/",
+    "type": "Office supply"
+  },
+  {
+    "english": "thumbtack",
+    "vietnamese": "đinh ghim",
+    "pronunciation": "/ˈθʌm.tæk/",
+    "type": "Office supply"
+  },
+  {
+    "english": "hole punch",
+    "vietnamese": "máy đục lỗ",
+    "pronunciation": "/həʊl pʌntʃ/",
+    "type": "Office supply"
+  },
+  {
+    "english": "scissors",
+    "vietnamese": "kéo",
+    "pronunciation": "/ˈsɪz.ərz/",
+    "type": "Cutting tool"
+  },
+  {
+    "english": "glue stick",
+    "vietnamese": "keo dán dạng thỏi",
+    "pronunciation": "/ɡluː stɪk/",
+    "type": "Adhesive supply"
+  },
+  {
+    "english": "double-sided tape",
+    "vietnamese": "băng dính hai mặt",
+    "pronunciation": "/ˈdʌb.əl ˈsaɪ.dɪd teɪp/",
+    "type": "Adhesive supply"
+  },
+  {
+    "english": "masking tape",
+    "vietnamese": "băng dính che",
+    "pronunciation": "/ˈmæs.kɪŋ teɪp/",
+    "type": "Adhesive supply"
+  },
+  {
+    "english": "bookmarks",
+    "vietnamese": "đánh dấu trang",
+    "pronunciation": "/ˈbʊk.mɑːks/",
+    "type": "Reading aid"
+  },
+  {
+    "english": "book cover",
+    "vietnamese": "bìa sách",
+    "pronunciation": "/bʊk ˈkʌv.ər/",
+    "type": "Protection"
+  },
+  {
+    "english": "plastic sleeve",
+    "vietnamese": "bao nhựa",
+    "pronunciation": "/ˈplæs.tɪk sliːv/",
+    "type": "Protection"
+  },
+  {
+    "english": "ring binder",
+    "vietnamese": "bìa nhẫn",
+    "pronunciation": "/rɪŋ ˈbaɪn.dər/",
+    "type": "Organization tool"
+  },
+  {
+    "english": "dividers",
+    "vietnamese": "giấy ngăn",
+    "pronunciation": "/dɪˈvaɪ.dərz/",
+    "type": "Organization tool"
+  },
+  {
+    "english": "label maker",
+    "vietnamese": "máy in nhãn",
+    "pronunciation": "/ˈleɪ.bəl ˈmeɪ.kər/",
+    "type": "Electronic tool"
+  },
+  {
+    "english": "labels",
+    "vietnamese": "nhãn dán",
+    "pronunciation": "/ˈleɪ.bəlz/",
+    "type": "Organization tool"
+  },
+  {
+    "english": "desk organizer",
+    "vietnamese": "hộp đựng đồ dùng",
+    "pronunciation": "/desk ˈɔː.ɡən.aɪ.zər/",
+    "type": "Storage"
+  },
+  {
+    "english": "pencil holder",
+    "vietnamese": "ống đựng bút",
+    "pronunciation": "/ˈpen.səl ˈhəʊl.dər/",
+    "type": "Storage"
+  },
+  {
+    "english": "desk lamp",
+    "vietnamese": "đèn bàn",
+    "pronunciation": "/desk læmp/",
+    "type": "Lighting"
+  },
+  {
+    "english": "magnifying glass",
+    "vietnamese": "kính lúp",
+    "pronunciation": "/ˈmæɡ.nɪ.faɪ.ɪŋ ɡlæs/",
+    "type": "Optical tool"
+  },
+  {
+    "english": "timer",
+    "vietnamese": "đồng hồ bấm giờ",
+    "pronunciation": "/ˈtaɪ.mər/",
+    "type": "Time management"
+  },
+  {
+    "english": "stopwatch",
+    "vietnamese": "đồng hồ bấm giây",
+    "pronunciation": "/ˈstɒp.wɒtʃ/",
+    "type": "Time management"
+  },
+  {
+    "english": "calendar",
+    "vietnamese": "lịch",
+    "pronunciation": "/ˈkæl.ən.dər/",
+    "type": "Time management"
+  },
+  {
+    "english": "planner",
+    "vietnamese": "sổ kế hoạch",
+    "pronunciation": "/ˈplæn.ər/",
+    "type": "Organization tool"
+  },
+  {
+    "english": "agenda",
+    "vietnamese": "sổ tay",
+    "pronunciation": "/əˈdʒen.də/",
+    "type": "Organization tool"
+  },
+  {
+    "english": "whiteboard",
+    "vietnamese": "bảng trắng",
+    "pronunciation": "/ˈwaɪt.bɔːd/",
+    "type": "Display tool"
+  },
+  {
+    "english": "whiteboard marker",
+    "vietnamese": "bút viết bảng",
+    "pronunciation": "/ˈwaɪt.bɔːd ˈmɑː.kər/",
+    "type": "Writing tool"
+  },
+  {
+    "english": "blackboard",
+    "vietnamese": "bảng đen",
+    "pronunciation": "/ˈblæk.bɔːd/",
+    "type": "Display tool"
+  },
+  {
+    "english": "bulletin board",
+    "vietnamese": "bảng thông báo",
+    "pronunciation": "/ˈbʊl.ɪ.tɪn bɔːd/",
+    "type": "Display tool"
+  },
+  {
+    "english": "corkboard",
+    "vietnamese": "bảng nút chai",
+    "pronunciation": "/ˈkɔːk.bɔːd/",
+    "type": "Display tool"
+  },
+  {
+    "english": "laptop",
+    "vietnamese": "máy tính xách tay",
+    "pronunciation": "/ˈlæp.tɒp/",
+    "type": "Digital tool"
+  },
+  {
+    "english": "tablet",
+    "vietnamese": "máy tính bảng",
+    "pronunciation": "/ˈtæb.lət/",
+    "type": "Digital tool"
+  },
+  {
+    "english": "stylus",
+    "vietnamese": "bút cảm ứng",
+    "pronunciation": "/ˈstaɪ.ləs/",
+    "type": "Digital tool"
+  },
+  {
+    "english": "USB drive",
+    "vietnamese": "USB",
+    "pronunciation": "/ˌjuː.es.ˈbiː draɪv/",
+    "type": "Digital storage"
+  },
+  {
+    "english": "headphones",
+    "vietnamese": "tai nghe",
+    "pronunciation": "/ˈhed.fəʊnz/",
+    "type": "Audio equipment"
+  },
+  {
+    "english": "speakers",
+    "vietnamese": "loa",
+    "pronunciation": "/ˈspiː.kərz/",
+    "type": "Audio equipment"
+  },
+  {
+    "english": "microphone",
+    "vietnamese": "micro",
+    "pronunciation": "/ˈmaɪ.krə.fəʊn/",
+    "type": "Audio equipment"
+  },
+  {
+    "english": "printer",
+    "vietnamese": "máy in",
+    "pronunciation": "/ˈprɪn.tər/",
+    "type": "Electronic device"
+  },
+  {
+    "english": "scanner",
+    "vietnamese": "máy quét",
+    "pronunciation": "/ˈskæn.ər/",
+    "type": "Electronic device"
+  },
+  {
+    "english": "photocopier",
+    "vietnamese": "máy photocopy",
+    "pronunciation": "/ˈfəʊ.təʊˌkɒp.i.ər/",
+    "type": "Electronic device"
+  },
+  {
+    "english": "laminator",
+    "vietnamese": "máy ép plastic",
+    "pronunciation": "/ˈlæm.ɪ.neɪ.tər/",
+    "type": "Electronic device"
+  },
+  {
+    "english": "shredder",
+    "vietnamese": "máy hủy tài liệu",
+    "pronunciation": "/ˈʃred.ər/",
+    "type": "Electronic device"
+  },
+  {
+    "english": "projector",
+    "vietnamese": "máy chiếu",
+    "pronunciation": "/prəˈdʒek.tər/",
+    "type": "Display device"
+  },
+  {
+    "english": "screen",
+    "vietnamese": "màn hình",
+    "pronunciation": "/skriːn/",
+    "type": "Display device"
+  },
+  {
+    "english": "encyclopedia",
+    "vietnamese": "bách khoa toàn thư",
+    "pronunciation": "/ɪnˌsaɪ.kləˈpiː.di.ə/",
+    "type": "Reference book"
+  },
+  {
+    "english": "thesaurus",
+    "vietnamese": "từ điển từ đồng nghĩa",
+    "pronunciation": "/θɪˈsɔː.rəs/",
+    "type": "Reference book"
+  },
+  {
+    "english": "reference book",
+    "vietnamese": "sách tham khảo",
+    "pronunciation": "/ˈref.ər.əns bʊk/",
+    "type": "Reference book"
+  },
+  {
+    "english": "workbook",
+    "vietnamese": "sách bài tập",
+    "pronunciation": "/ˈwɜːk.bʊk/",
+    "type": "Educational material"
+  },
+  {
+    "english": "study guide",
+    "vietnamese": "sách hướng dẫn học tập",
+    "pronunciation": "/ˈstʌd.i ɡaɪd/",
+    "type": "Educational material"
+  },
+  {
+    "english": "test booklet",
+    "vietnamese": "tập đề thi",
+    "pronunciation": "/test ˈbʊk.lət/",
+    "type": "Educational material"
+  },
+  {
+    "english": "answer sheet",
+    "vietnamese": "giấy trả lời",
+    "pronunciation": "/ˈæn.sər ʃiːt/",
+    "type": "Educational document"
+  },
+  {
+    "english": "grade book",
+    "vietnamese": "sổ điểm",
+    "pronunciation": "/ɡreɪd bʊk/",
+    "type": "Educational document"
+  },
+  {
+    "english": "attendance sheet",
+    "vietnamese": "bảng điểm danh",
+    "pronunciation": "/əˈten.dəns ʃiːt/",
+    "type": "Educational document"
+  },
+  {
+    "english": "homework",
+    "vietnamese": "bài tập về nhà",
+    "pronunciation": "/ˈhəʊm.wɜːk/",
+    "type": "Assignment"
+  },
+  {
+    "english": "assignment",
+    "vietnamese": "bài tập",
+    "pronunciation": "/əˈsaɪn.mənt/",
+    "type": "Assignment"
+  },
+  {
+    "english": "project",
+    "vietnamese": "dự án",
+    "pronunciation": "/ˈprɒdʒ.ekt/",
+    "type": "Assignment"
+  },
+  {
+    "english": "research paper",
+    "vietnamese": "bài nghiên cứu",
+    "pronunciation": "/rɪˈsɜːtʃ ˈpeɪ.pər/",
+    "type": "Assignment"
+  },
+  {
+    "english": "essay",
+    "vietnamese": "bài luận",
+    "pronunciation": "/ˈes.eɪ/",
+    "type": "Assignment"
+  },
+  {
+    "english": "thesis",
+    "vietnamese": "luận văn",
+    "pronunciation": "/ˈθiː.sɪs/",
+    "type": "Academic document"
+  },
+  {
+    "english": "dissertation",
+    "vietnamese": "luận án",
+    "pronunciation": "/ˌdɪs.əˈteɪ.ʃən/",
+    "type": "Academic document"
+  }
+]

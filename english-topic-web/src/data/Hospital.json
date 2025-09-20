@@ -1,0 +1,572 @@
+[
+  {
+    "english": "hospital",
+    "vietnamese": "bệnh viện",
+    "pronunciation": "/ˈhɒs.pɪ.təl/",
+    "type": "Medical facility"
+  },
+  {
+    "english": "clinic",
+    "vietnamese": "phòng khám",
+    "pronunciation": "/ˈklɪn.ɪk/",
+    "type": "Medical facility"
+  },
+  {
+    "english": "emergency room",
+    "vietnamese": "phòng cấp cứu",
+    "pronunciation": "/ɪˈmɜː.dʒən.si ruːm/",
+    "type": "Hospital department"
+  },
+  {
+    "english": "doctor",
+    "vietnamese": "bác sĩ",
+    "pronunciation": "/ˈdɒk.tər/",
+    "type": "Medical professional"
+  },
+  {
+    "english": "nurse",
+    "vietnamese": "y tá",
+    "pronunciation": "/nɜːs/",
+    "type": "Medical professional"
+  },
+  {
+    "english": "surgeon",
+    "vietnamese": "bác sĩ phẫu thuật",
+    "pronunciation": "/ˈsɜː.dʒən/",
+    "type": "Medical professional"
+  },
+  {
+    "english": "patient",
+    "vietnamese": "bệnh nhân",
+    "pronunciation": "/ˈpeɪ.ʃənt/",
+    "type": "Person"
+  },
+  {
+    "english": "receptionist",
+    "vietnamese": "nhân viên lễ tân",
+    "pronunciation": "/rɪˈsep.ʃən.ɪst/",
+    "type": "Hospital staff"
+  },
+  {
+    "english": "pharmacist",
+    "vietnamese": "dược sĩ",
+    "pronunciation": "/ˈfɑː.mə.sɪst/",
+    "type": "Medical professional"
+  },
+  {
+    "english": "examination",
+    "vietnamese": "khám bệnh",
+    "pronunciation": "/ɪɡˌzæm.ɪˈneɪ.ʃən/",
+    "type": "Medical procedure"
+  },
+  {
+    "english": "diagnosis",
+    "vietnamese": "chẩn đoán",
+    "pronunciation": "/ˌdaɪ.əɡˈnəʊ.sɪs/",
+    "type": "Medical procedure"
+  },
+  {
+    "english": "prescription",
+    "vietnamese": "đơn thuốc",
+    "pronunciation": "/prɪˈskrɪp.ʃən/",
+    "type": "Medical document"
+  },
+  {
+    "english": "treatment",
+    "vietnamese": "điều trị",
+    "pronunciation": "/ˈtriːt.mənt/",
+    "type": "Medical procedure"
+  },
+  {
+    "english": "surgery",
+    "vietnamese": "phẫu thuật",
+    "pronunciation": "/ˈsɜː.dʒər.i/",
+    "type": "Medical procedure"
+  },
+  {
+    "english": "operation",
+    "vietnamese": "ca mổ",
+    "pronunciation": "/ˌɒp.ərˈeɪ.ʃən/",
+    "type": "Medical procedure"
+  },
+  {
+    "english": "medicine",
+    "vietnamese": "thuốc",
+    "pronunciation": "/ˈmed.ɪ.sɪn/",
+    "type": "Medication"
+  },
+  {
+    "english": "injection",
+    "vietnamese": "tiêm, chích",
+    "pronunciation": "/ɪnˈdʒek.ʃən/",
+    "type": "Medical procedure"
+  },
+  {
+    "english": "blood test",
+    "vietnamese": "xét nghiệm máu",
+    "pronunciation": "/blʌd test/",
+    "type": "Medical test"
+  },
+  {
+    "english": "X-ray",
+    "vietnamese": "chụp X-quang",
+    "pronunciation": "/ˈeks.reɪ/",
+    "type": "Medical test"
+  },
+  {
+    "english": "ultrasound",
+    "vietnamese": "siêu âm",
+    "pronunciation": "/ˈʌl.trə.saʊnd/",
+    "type": "Medical test"
+  },
+  {
+    "english": "ward",
+    "vietnamese": "phòng bệnh",
+    "pronunciation": "/wɔːd/",
+    "type": "Hospital area"
+  },
+  {
+    "english": "intensive care unit",
+    "vietnamese": "khoa chăm sóc đặc biệt",
+    "pronunciation": "/ɪnˈten.sɪv keər ˈjuː.nɪt/",
+    "type": "Hospital department"
+  },
+  {
+    "english": "ambulance",
+    "vietnamese": "xe cứu thương",
+    "pronunciation": "/ˈæm.bjə.ləns/",
+    "type": "Medical vehicle"
+  },
+  {
+    "english": "first aid",
+    "vietnamese": "sơ cứu",
+    "pronunciation": "/ˌfɜːst ˈeɪd/",
+    "type": "Medical procedure"
+  },
+  {
+    "english": "stretcher",
+    "vietnamese": "cáng cứu thương",
+    "pronunciation": "/ˈstretʃ.ər/",
+    "type": "Medical equipment"
+  },
+  {
+    "english": "wheelchair",
+    "vietnamese": "xe lăn",
+    "pronunciation": "/ˈwiːl.tʃeər/",
+    "type": "Medical equipment"
+  },
+  {
+    "english": "bandage",
+    "vietnamese": "băng gạc",
+    "pronunciation": "/ˈbæn.dɪdʒ/",
+    "type": "Medical supply"
+  },
+  {
+    "english": "specialist",
+    "vietnamese": "bác sĩ chuyên khoa",
+    "pronunciation": "/ˈspeʃ.əl.ɪst/",
+    "type": "Medical professional"
+  },
+  {
+    "english": "cardiologist",
+    "vietnamese": "bác sĩ tim mạch",
+    "pronunciation": "/ˌkɑː.di.ˈɒl.ə.dʒɪst/",
+    "type": "Medical specialist"
+  },
+  {
+    "english": "dermatologist",
+    "vietnamese": "bác sĩ da liễu",
+    "pronunciation": "/ˌdɜː.məˈtɒl.ə.dʒɪst/",
+    "type": "Medical specialist"
+  },
+  {
+    "english": "pediatrician",
+    "vietnamese": "bác sĩ nhi khoa",
+    "pronunciation": "/ˌpiː.di.əˈtrɪʃ.ən/",
+    "type": "Medical specialist"
+  },
+  {
+    "english": "psychiatrist",
+    "vietnamese": "bác sĩ tâm thần",
+    "pronunciation": "/saɪˈkaɪ.ə.trɪst/",
+    "type": "Medical specialist"
+  },
+  {
+    "english": "orthopedist",
+    "vietnamese": "bác sĩ chỉnh hình",
+    "pronunciation": "/ˈɔː.θə.piː.dɪst/",
+    "type": "Medical specialist"
+  },
+  {
+    "english": "gynecologist",
+    "vietnamese": "bác sĩ phụ khoa",
+    "pronunciation": "/ˌɡaɪ.nɪˈkɒl.ə.dʒɪst/",
+    "type": "Medical specialist"
+  },
+  {
+    "english": "anesthesiologist",
+    "vietnamese": "bác sĩ gây mê",
+    "pronunciation": "/ˌæn.əsˌθiː.zi.ˈɒl.ə.dʒɪst/",
+    "type": "Medical specialist"
+  },
+  {
+    "english": "radiologist",
+    "vietnamese": "bác sĩ X-quang",
+    "pronunciation": "/ˌreɪ.di.ˈɒl.ə.dʒɪst/",
+    "type": "Medical specialist"
+  },
+  {
+    "english": "neurologist",
+    "vietnamese": "bác sĩ thần kinh",
+    "pronunciation": "/njʊəˈrɒl.ə.dʒɪst/",
+    "type": "Medical specialist"
+  },
+  {
+    "english": "operating room",
+    "vietnamese": "phòng mổ",
+    "pronunciation": "/ˈɒp.ər.eɪ.tɪŋ ruːm/",
+    "type": "Hospital area"
+  },
+  {
+    "english": "recovery room",
+    "vietnamese": "phòng hồi sức",
+    "pronunciation": "/rɪˈkʌv.ər.i ruːm/",
+    "type": "Hospital area"
+  },
+  {
+    "english": "waiting room",
+    "vietnamese": "phòng chờ",
+    "pronunciation": "/ˈweɪ.tɪŋ ruːm/",
+    "type": "Hospital area"
+  },
+  {
+    "english": "laboratory",
+    "vietnamese": "phòng thí nghiệm",
+    "pronunciation": "/ləˈbɒr.ə.tər.i/",
+    "type": "Hospital department"
+  },
+  {
+    "english": "pharmacy",
+    "vietnamese": "hiệu thuốc",
+    "pronunciation": "/ˈfɑː.mə.si/",
+    "type": "Hospital department"
+  },
+  {
+    "english": "radiology",
+    "vietnamese": "khoa X-quang",
+    "pronunciation": "/ˌreɪ.di.ˈɒl.ə.dʒi/",
+    "type": "Hospital department"
+  },
+  {
+    "english": "maternity ward",
+    "vietnamese": "khoa sản",
+    "pronunciation": "/məˈtɜː.nə.ti wɔːd/",
+    "type": "Hospital department"
+  },
+  {
+    "english": "outpatient",
+    "vietnamese": "bệnh nhân ngoại trú",
+    "pronunciation": "/ˈaʊt.peɪ.ʃənt/",
+    "type": "Patient type"
+  },
+  {
+    "english": "inpatient",
+    "vietnamese": "bệnh nhân nội trú",
+    "pronunciation": "/ˈɪn.peɪ.ʃənt/",
+    "type": "Patient type"
+  },
+  {
+    "english": "appointment",
+    "vietnamese": "cuộc hẹn",
+    "pronunciation": "/əˈpɔɪnt.mənt/",
+    "type": "Medical service"
+  },
+  {
+    "english": "consultation",
+    "vietnamese": "tư vấn",
+    "pronunciation": "/ˌkɒn.səlˈteɪ.ʃən/",
+    "type": "Medical service"
+  },
+  {
+    "english": "checkup",
+    "vietnamese": "kiểm tra sức khỏe",
+    "pronunciation": "/ˈtʃek.ʌp/",
+    "type": "Medical procedure"
+  },
+  {
+    "english": "CT scan",
+    "vietnamese": "chụp CT",
+    "pronunciation": "/ˌsiː ˈtiː skæn/",
+    "type": "Medical test"
+  },
+  {
+    "english": "MRI",
+    "vietnamese": "chụp cộng hưởng từ",
+    "pronunciation": "/ˌem.ɑːrˈaɪ/",
+    "type": "Medical test"
+  },
+  {
+    "english": "EKG",
+    "vietnamese": "điện tâm đồ",
+    "pronunciation": "/ˌiː.keɪˈdʒiː/",
+    "type": "Medical test"
+  },
+  {
+    "english": "biopsy",
+    "vietnamese": "sinh thiết",
+    "pronunciation": "/ˈbaɪ.ɒp.si/",
+    "type": "Medical test"
+  },
+  {
+    "english": "vaccine",
+    "vietnamese": "vắc-xin",
+    "pronunciation": "/ˈvæk.siːn/",
+    "type": "Medication"
+  },
+  {
+    "english": "pill",
+    "vietnamese": "viên thuốc",
+    "pronunciation": "/pɪl/",
+    "type": "Medication"
+  },
+  {
+    "english": "tablet",
+    "vietnamese": "viên nén",
+    "pronunciation": "/ˈtæb.lət/",
+    "type": "Medication"
+  },
+  {
+    "english": "capsule",
+    "vietnamese": "viên nang",
+    "pronunciation": "/ˈkæp.sjuːl/",
+    "type": "Medication"
+  },
+  {
+    "english": "syrup",
+    "vietnamese": "si-rô",
+    "pronunciation": "/ˈsɪr.əp/",
+    "type": "Medication"
+  },
+  {
+    "english": "antibiotic",
+    "vietnamese": "thuốc kháng sinh",
+    "pronunciation": "/ˌæn.ti.baɪˈɒt.ɪk/",
+    "type": "Medication"
+  },
+  {
+    "english": "painkiller",
+    "vietnamese": "thuốc giảm đau",
+    "pronunciation": "/ˈpeɪnˌkɪl.ər/",
+    "type": "Medication"
+  },
+  {
+    "english": "anesthesia",
+    "vietnamese": "gây mê",
+    "pronunciation": "/ˌæn.əsˈθiː.zi.ə/",
+    "type": "Medical procedure"
+  },
+  {
+    "english": "vital signs",
+    "vietnamese": "dấu hiệu sinh tồn",
+    "pronunciation": "/ˈvaɪ.təl saɪnz/",
+    "type": "Medical measurement"
+  },
+  {
+    "english": "blood pressure",
+    "vietnamese": "huyết áp",
+    "pronunciation": "/blʌd ˈpreʃ.ər/",
+    "type": "Medical measurement"
+  },
+  {
+    "english": "temperature",
+    "vietnamese": "nhiệt độ",
+    "pronunciation": "/ˈtem.prə.tʃər/",
+    "type": "Medical measurement"
+  },
+  {
+    "english": "pulse",
+    "vietnamese": "mạch",
+    "pronunciation": "/pʌls/",
+    "type": "Medical measurement"
+  },
+  {
+    "english": "heart rate",
+    "vietnamese": "nhịp tim",
+    "pronunciation": "/hɑːt reɪt/",
+    "type": "Medical measurement"
+  },
+  {
+    "english": "stethoscope",
+    "vietnamese": "ống nghe",
+    "pronunciation": "/ˈsteθ.ə.skəʊp/",
+    "type": "Medical instrument"
+  },
+  {
+    "english": "thermometer",
+    "vietnamese": "nhiệt kế",
+    "pronunciation": "/θəˈmɒm.ɪ.tər/",
+    "type": "Medical instrument"
+  },
+  {
+    "english": "syringe",
+    "vietnamese": "ống tiêm",
+    "pronunciation": "/sɪˈrɪndʒ/",
+    "type": "Medical instrument"
+  },
+  {
+    "english": "scalpel",
+    "vietnamese": "dao mổ",
+    "pronunciation": "/ˈskæl.pəl/",
+    "type": "Medical instrument"
+  },
+  {
+    "english": "forceps",
+    "vietnamese": "kìm y khoa",
+    "pronunciation": "/ˈfɔː.seps/",
+    "type": "Medical instrument"
+  },
+  {
+    "english": "IV drip",
+    "vietnamese": "truyền dịch",
+    "pronunciation": "/ˌaɪ ˈviː drɪp/",
+    "type": "Medical equipment"
+  },
+  {
+    "english": "oxygen mask",
+    "vietnamese": "mặt nạ oxy",
+    "pronunciation": "/ˈɒk.sɪ.dʒən mæsk/",
+    "type": "Medical equipment"
+  },
+  {
+    "english": "hospital bed",
+    "vietnamese": "giường bệnh",
+    "pronunciation": "/ˈhɒs.pɪ.təl bed/",
+    "type": "Medical equipment"
+  },
+  {
+    "english": "gurney",
+    "vietnamese": "xe đẩy bệnh nhân",
+    "pronunciation": "/ˈɡɜː.ni/",
+    "type": "Medical equipment"
+  },
+  {
+    "english": "crutches",
+    "vietnamese": "nạng",
+    "pronunciation": "/krʌtʃ.ɪz/",
+    "type": "Medical aid"
+  },
+  {
+    "english": "cast",
+    "vietnamese": "bột bó",
+    "pronunciation": "/kæst/",
+    "type": "Medical aid"
+  },
+  {
+    "english": "splint",
+    "vietnamese": "nẹp",
+    "pronunciation": "/splɪnt/",
+    "type": "Medical aid"
+  },
+  {
+    "english": "stitches",
+    "vietnamese": "mũi khâu",
+    "pronunciation": "/stɪtʃ.ɪz/",
+    "type": "Medical procedure"
+  },
+  {
+    "english": "wound",
+    "vietnamese": "vết thương",
+    "pronunciation": "/wuːnd/",
+    "type": "Medical condition"
+  },
+  {
+    "english": "fever",
+    "vietnamese": "sốt",
+    "pronunciation": "/ˈfiː.vər/",
+    "type": "Symptom"
+  },
+  {
+    "english": "pain",
+    "vietnamese": "đau",
+    "pronunciation": "/peɪn/",
+    "type": "Symptom"
+  },
+  {
+    "english": "swelling",
+    "vietnamese": "sưng",
+    "pronunciation": "/ˈswel.ɪŋ/",
+    "type": "Symptom"
+  },
+  {
+    "english": "nausea",
+    "vietnamese": "buồn nôn",
+    "pronunciation": "/ˈnɔː.zi.ə/",
+    "type": "Symptom"
+  },
+  {
+    "english": "dizziness",
+    "vietnamese": "chóng mặt",
+    "pronunciation": "/ˈdɪz.i.nəs/",
+    "type": "Symptom"
+  },
+  {
+    "english": "headache",
+    "vietnamese": "đau đầu",
+    "pronunciation": "/ˈhed.eɪk/",
+    "type": "Symptom"
+  },
+  {
+    "english": "cough",
+    "vietnamese": "ho",
+    "pronunciation": "/kɒf/",
+    "type": "Symptom"
+  },
+  {
+    "english": "allergy",
+    "vietnamese": "dị ứng",
+    "pronunciation": "/ˈæl.ər.dʒi/",
+    "type": "Medical condition"
+  },
+  {
+    "english": "infection",
+    "vietnamese": "nhiễm trùng",
+    "pronunciation": "/ɪnˈfek.ʃən/",
+    "type": "Medical condition"
+  },
+  {
+    "english": "fracture",
+    "vietnamese": "gãy xương",
+    "pronunciation": "/ˈfræk.tʃər/",
+    "type": "Medical condition"
+  },
+  {
+    "english": "discharge",
+    "vietnamese": "xuất viện",
+    "pronunciation": "/dɪsˈtʃɑːdʒ/",
+    "type": "Hospital procedure"
+  },
+  {
+    "english": "admission",
+    "vietnamese": "nhập viện",
+    "pronunciation": "/ədˈmɪʃ.ən/",
+    "type": "Hospital procedure"
+  },
+  {
+    "english": "medical record",
+    "vietnamese": "hồ sơ bệnh án",
+    "pronunciation": "/ˈmed.ɪ.kəl ˈrek.ɔːd/",
+    "type": "Medical document"
+  },
+  {
+    "english": "insurance",
+    "vietnamese": "bảo hiểm",
+    "pronunciation": "/ɪnˈʃʊə.rəns/",
+    "type": "Financial"
+  },
+  {
+    "english": "visiting hours",
+    "vietnamese": "giờ thăm bệnh",
+    "pronunciation": "/ˈvɪz.ɪ.tɪŋ aʊərz/",
+    "type": "Hospital policy"
+  }
+]

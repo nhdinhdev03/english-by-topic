@@ -1,0 +1,440 @@
+[
+  {
+    "english": "Work",
+    "vietnamese": "Làm việc, công việc",
+    "pronunciation": "/wɜːk/",
+    "type": "v/n"
+  },
+  {
+    "english": "Job",
+    "vietnamese": "Nghề nghiệp",
+    "pronunciation": "/dʒɒb/",
+    "type": "n"
+  },
+  {
+    "english": "Career",
+    "vietnamese": "Sự nghiệp",
+    "pronunciation": "/kəˈrɪər/",
+    "type": "n"
+  },
+  {
+    "english": "Profession",
+    "vietnamese": "Nghề nghiệp",
+    "pronunciation": "/prəˈfeʃ.ən/",
+    "type": "n"
+  },
+  {
+    "english": "Occupation",
+    "vietnamese": "Nghề nghiệp",
+    "pronunciation": "/ˌɒk.jəˈpeɪ.ʃən/",
+    "type": "n"
+  },
+  {
+    "english": "Task",
+    "vietnamese": "Nhiệm vụ",
+    "pronunciation": "/tɑːsk/",
+    "type": "n"
+  },
+  {
+    "english": "Duty",
+    "vietnamese": "Trách nhiệm",
+    "pronunciation": "/ˈdjuː.ti/",
+    "type": "n"
+  },
+  {
+    "english": "Responsibility",
+    "vietnamese": "Trách nhiệm",
+    "pronunciation": "/rɪˌspɒn.səˈbɪl.ə.ti/",
+    "type": "n"
+  },
+  {
+    "english": "Office",
+    "vietnamese": "Văn phòng",
+    "pronunciation": "/ˈɒf.ɪs/",
+    "type": "n"
+  },
+  {
+    "english": "Company",
+    "vietnamese": "Công ty",
+    "pronunciation": "/ˈkʌm.pə.ni/",
+    "type": "n"
+  },
+  {
+    "english": "Organization",
+    "vietnamese": "Tổ chức",
+    "pronunciation": "/ˌɔː.ɡən.aɪˈzeɪ.ʃən/",
+    "type": "n"
+  },
+  {
+    "english": "Department",
+    "vietnamese": "Phòng ban",
+    "pronunciation": "/dɪˈpɑːt.mənt/",
+    "type": "n"
+  },
+  {
+    "english": "Team",
+    "vietnamese": "Nhóm, đội",
+    "pronunciation": "/tiːm/",
+    "type": "n"
+  },
+  {
+    "english": "Colleague",
+    "vietnamese": "Đồng nghiệp",
+    "pronunciation": "/ˈkɒl.iːɡ/",
+    "type": "n"
+  },
+  {
+    "english": "Boss",
+    "vietnamese": "Sếp",
+    "pronunciation": "/bɒs/",
+    "type": "n"
+  },
+  {
+    "english": "Manager",
+    "vietnamese": "Quản lý",
+    "pronunciation": "/ˈmæn.ɪ.dʒər/",
+    "type": "n"
+  },
+  {
+    "english": "Supervisor",
+    "vietnamese": "Người giám sát",
+    "pronunciation": "/ˈsuː.pə.vaɪ.zər/",
+    "type": "n"
+  },
+  {
+    "english": "Employee",
+    "vietnamese": "Nhân viên",
+    "pronunciation": "/ɪmˈplɔɪ.iː/",
+    "type": "n"
+  },
+  {
+    "english": "Staff",
+    "vietnamese": "Nhân viên",
+    "pronunciation": "/stɑːf/",
+    "type": "n"
+  },
+  {
+    "english": "Worker",
+    "vietnamese": "Công nhân",
+    "pronunciation": "/ˈwɜː.kər/",
+    "type": "n"
+  },
+  {
+    "english": "Meeting",
+    "vietnamese": "Cuộc họp",
+    "pronunciation": "/ˈmiː.tɪŋ/",
+    "type": "n"
+  },
+  {
+    "english": "Conference",
+    "vietnamese": "Hội nghị",
+    "pronunciation": "/ˈkɒn.fər.əns/",
+    "type": "n"
+  },
+  {
+    "english": "Interview",
+    "vietnamese": "Phỏng vấn",
+    "pronunciation": "/ˈɪn.tə.vjuː/",
+    "type": "n"
+  },
+  {
+    "english": "Presentation",
+    "vietnamese": "Bài thuyết trình",
+    "pronunciation": "/ˌprez.ənˈteɪ.ʃən/",
+    "type": "n"
+  },
+  {
+    "english": "Report",
+    "vietnamese": "Báo cáo",
+    "pronunciation": "/rɪˈpɔːt/",
+    "type": "n"
+  },
+  {
+    "english": "Document",
+    "vietnamese": "Tài liệu",
+    "pronunciation": "/ˈdɒk.jə.mənt/",
+    "type": "n"
+  },
+  {
+    "english": "Deadline",
+    "vietnamese": "Hạn chót",
+    "pronunciation": "/ˈded.laɪn/",
+    "type": "n"
+  },
+  {
+    "english": "Project",
+    "vietnamese": "Dự án",
+    "pronunciation": "/ˈprɒdʒ.ekt/",
+    "type": "n"
+  },
+  {
+    "english": "Plan",
+    "vietnamese": "Lập kế hoạch, kế hoạch",
+    "pronunciation": "/plæn/",
+    "type": "v/n"
+  },
+  {
+    "english": "Schedule",
+    "vietnamese": "Lịch trình",
+    "pronunciation": "/ˈʃed.juːl/",
+    "type": "n"
+  },
+  {
+    "english": "Salary",
+    "vietnamese": "Lương",
+    "pronunciation": "/ˈsæl.ər.i/",
+    "type": "n"
+  },
+  {
+    "english": "Wage",
+    "vietnamese": "Tiền công",
+    "pronunciation": "/weɪdʒ/",
+    "type": "n"
+  },
+  {
+    "english": "Bonus",
+    "vietnamese": "Tiền thưởng",
+    "pronunciation": "/ˈbəʊ.nəs/",
+    "type": "n"
+  },
+  {
+    "english": "Promotion",
+    "vietnamese": "Thăng chức",
+    "pronunciation": "/prəˈməʊ.ʃən/",
+    "type": "n"
+  },
+  {
+    "english": "Training",
+    "vietnamese": "Đào tạo",
+    "pronunciation": "/ˈtreɪ.nɪŋ/",
+    "type": "n"
+  },
+  {
+    "english": "Experience",
+    "vietnamese": "Kinh nghiệm",
+    "pronunciation": "/ɪkˈspɪə.ri.əns/",
+    "type": "n"
+  },
+  {
+    "english": "Skill",
+    "vietnamese": "Kỹ năng",
+    "pronunciation": "/skɪl/",
+    "type": "n"
+  },
+  {
+    "english": "Qualification",
+    "vietnamese": "Bằng cấp",
+    "pronunciation": "/ˌkwɒl.ɪ.fɪˈkeɪ.ʃən/",
+    "type": "n"
+  },
+  {
+    "english": "Resume",
+    "vietnamese": "Sơ yếu lý lịch",
+    "pronunciation": "/rɪˈzjuː.meɪ/",
+    "type": "n"
+  },
+  {
+    "english": "Application",
+    "vietnamese": "Đơn xin việc",
+    "pronunciation": "/ˌæp.lɪˈkeɪ.ʃən/",
+    "type": "n"
+  },
+  {
+    "english": "Assign",
+    "vietnamese": "Phân công",
+    "pronunciation": "/əˈsaɪn/",
+    "type": "v"
+  },
+  {
+    "english": "Research",
+    "vietnamese": "Nghiên cứu",
+    "pronunciation": "/rɪˈsɜːtʃ/",
+    "type": "n/v"
+  },
+  {
+    "english": "Develop",
+    "vietnamese": "Phát triển",
+    "pronunciation": "/dɪˈvel.əp/",
+    "type": "v"
+  },
+  {
+    "english": "Brainstorm",
+    "vietnamese": "Động não, lên ý tưởng",
+    "pronunciation": "/ˈbreɪn.stɔːm/",
+    "type": "v"
+  },
+  {
+    "english": "Analyze",
+    "vietnamese": "Phân tích",
+    "pronunciation": "/ˈæn.əl.aɪz/",
+    "type": "v"
+  },
+  {
+    "english": "Solve",
+    "vietnamese": "Giải quyết",
+    "pronunciation": "/sɒlv/",
+    "type": "v"
+  },
+  {
+    "english": "Organize",
+    "vietnamese": "Tổ chức",
+    "pronunciation": "/ˈɔː.ɡən.aɪz/",
+    "type": "v"
+  },
+  {
+    "english": "Cooperate",
+    "vietnamese": "Hợp tác",
+    "pronunciation": "/kəʊˈɒp.ər.eɪt/",
+    "type": "v"
+  },
+  {
+    "english": "Collaborate",
+    "vietnamese": "Hợp tác, cộng tác",
+    "pronunciation": "/kəˈlæb.ə.reɪt/",
+    "type": "v"
+  },
+  {
+    "english": "Negotiate",
+    "vietnamese": "Đàm phán",
+    "pronunciation": "/nɪˈɡəʊ.ʃi.eɪt/",
+    "type": "v"
+  },
+  {
+    "english": "Review",
+    "vietnamese": "Xem xét, đánh giá",
+    "pronunciation": "/rɪˈvjuː/",
+    "type": "v"
+  },
+  {
+    "english": "Submit",
+    "vietnamese": "Nộp, gửi đi",
+    "pronunciation": "/səbˈmɪt/",
+    "type": "v"
+  },
+  {
+    "english": "Approve",
+    "vietnamese": "Phê duyệt",
+    "pronunciation": "/əˈpruːv/",
+    "type": "v"
+  },
+  {
+    "english": "Delegate",
+    "vietnamese": "Ủy quyền, giao việc",
+    "pronunciation": "/ˈdel.ɪ.ɡeɪt/",
+    "type": "v"
+  },
+  {
+    "english": "Supervise",
+    "vietnamese": "Giám sát",
+    "pronunciation": "/ˈsuː.pə.vaɪz/",
+    "type": "v"
+  },
+  {
+    "english": "Train",
+    "vietnamese": "Đào tạo, huấn luyện",
+    "pronunciation": "/treɪn/",
+    "type": "v"
+  },
+  {
+    "english": "Hire",
+    "vietnamese": "Tuyển dụng",
+    "pronunciation": "/haɪər/",
+    "type": "v"
+  },
+  {
+    "english": "Fire",
+    "vietnamese": "Sa thải",
+    "pronunciation": "/faɪər/",
+    "type": "v"
+  },
+  {
+    "english": "Resign",
+    "vietnamese": "Từ chức, nghỉ việc",
+    "pronunciation": "/rɪˈzaɪn/",
+    "type": "v"
+  },
+  {
+    "english": "Retire",
+    "vietnamese": "Nghỉ hưu",
+    "pronunciation": "/rɪˈtaɪər/",
+    "type": "v"
+  },
+  {
+    "english": "Workload",
+    "vietnamese": "Khối lượng công việc",
+    "pronunciation": "/ˈwɜːk.ləʊd/",
+    "type": "n"
+  },
+  {
+    "english": "Overtime",
+    "vietnamese": "Làm thêm giờ",
+    "pronunciation": "/ˈəʊ.və.taɪm/",
+    "type": "n"
+  },
+  {
+    "english": "Shift",
+    "vietnamese": "Ca làm việc",
+    "pronunciation": "/ʃɪft/",
+    "type": "n"
+  },
+  {
+    "english": "Part-time",
+    "vietnamese": "Bán thời gian",
+    "pronunciation": "/ˈpɑːt.taɪm/",
+    "type": "adj"
+  },
+  {
+    "english": "Full-time",
+    "vietnamese": "Toàn thời gian",
+    "pronunciation": "/ˈfʊl.taɪm/",
+    "type": "adj"
+  },
+  {
+    "english": "Contract",
+    "vietnamese": "Hợp đồng",
+    "pronunciation": "/ˈkɒn.trækt/",
+    "type": "n"
+  },
+  {
+    "english": "Temporary",
+    "vietnamese": "Tạm thời",
+    "pronunciation": "/ˈtem.pər.ər.i/",
+    "type": "adj"
+  },
+  {
+    "english": "Permanent",
+    "vietnamese": "Lâu dài",
+    "pronunciation": "/ˈpɜː.mə.nənt/",
+    "type": "adj"
+  },
+  {
+    "english": "Freelance",
+    "vietnamese": "Tự do",
+    "pronunciation": "/ˈfriː.lɑːns/",
+    "type": "adj"
+  },
+  {
+    "english": "Internship",
+    "vietnamese": "Thực tập",
+    "pronunciation": "/ˈɪn.tɜːn.ʃɪp/",
+    "type": "n"
+  },
+  {
+    "english": "Benefits",
+    "vietnamese": "Phúc lợi",
+    "pronunciation": "/ˈben.ɪ.fɪts/",
+    "type": "n"
+  },
+  {
+    "english": "Vacation",
+    "vietnamese": "Kỳ nghỉ",
+    "pronunciation": "/vəˈkeɪ.ʃən/",
+    "type": "n"
+  },
+  {
+    "english": "Leave",
+    "vietnamese": "Nghỉ phép",
+    "pronunciation": "/liːv/",
+    "type": "n"
+  }
+]

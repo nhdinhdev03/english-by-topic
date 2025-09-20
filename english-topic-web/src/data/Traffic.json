@@ -1,0 +1,308 @@
+[
+  {
+    "english": "Traffic",
+    "vietnamese": "Giao thông",
+    "pronunciation": "/ˈtræf.ɪk/",
+    "type": "n"
+  },
+  {
+    "english": "Vehicle",
+    "vietnamese": "Phương tiện giao thông",
+    "pronunciation": "/ˈvɪə.kəl/",
+    "type": "n"
+  },
+  {
+    "english": "Road",
+    "vietnamese": "Con đường",
+    "pronunciation": "/rəʊd/",
+    "type": "n"
+  },
+  {
+    "english": "Street",
+    "vietnamese": "Đường phố",
+    "pronunciation": "/striːt/",
+    "type": "n"
+  },
+  {
+    "english": "Highway",
+    "vietnamese": "Đường cao tốc",
+    "pronunciation": "/ˈhaɪ.weɪ/",
+    "type": "n"
+  },
+  {
+    "english": "Intersection",
+    "vietnamese": "Ngã tư, giao lộ",
+    "pronunciation": "/ˌɪn.təˈsek.ʃən/",
+    "type": "n"
+  },
+  {
+    "english": "Roundabout",
+    "vietnamese": "Bùng binh",
+    "pronunciation": "/ˈraʊnd.ə.baʊt/",
+    "type": "n"
+  },
+  {
+    "english": "Traffic light",
+    "vietnamese": "Đèn giao thông",
+    "pronunciation": "/ˈtræf.ɪk laɪt/",
+    "type": "n"
+  },
+  {
+    "english": "Pedestrian",
+    "vietnamese": "Người đi bộ",
+    "pronunciation": "/pəˈdes.tri.ən/",
+    "type": "n"
+  },
+  {
+    "english": "Sidewalk",
+    "vietnamese": "Vỉa hè (Anh-Mỹ)",
+    "pronunciation": "/ˈsaɪd.wɔːk/",
+    "type": "n"
+  },
+  {
+    "english": "Pavement",
+    "vietnamese": "Vỉa hè (Anh-Anh)",
+    "pronunciation": "/ˈpeɪv.mənt/",
+    "type": "n"
+  },
+  {
+    "english": "Crosswalk",
+    "vietnamese": "Vạch sang đường",
+    "pronunciation": "/ˈkrɒs.wɔːk/",
+    "type": "n"
+  },
+  {
+    "english": "Bridge",
+    "vietnamese": "Cây cầu",
+    "pronunciation": "/brɪdʒ/",
+    "type": "n"
+  },
+  {
+    "english": "Tunnel",
+    "vietnamese": "Đường hầm",
+    "pronunciation": "/ˈtʌn.əl/",
+    "type": "n"
+  },
+  {
+    "english": "Car",
+    "vietnamese": "Xe ô tô",
+    "pronunciation": "/kɑːr/",
+    "type": "n"
+  },
+  {
+    "english": "Bus",
+    "vietnamese": "Xe buýt",
+    "pronunciation": "/bʌs/",
+    "type": "n"
+  },
+  {
+    "english": "Taxi",
+    "vietnamese": "Xe taxi",
+    "pronunciation": "/ˈtæk.si/",
+    "type": "n"
+  },
+  {
+    "english": "Train",
+    "vietnamese": "Tàu hỏa",
+    "pronunciation": "/treɪn/",
+    "type": "n"
+  },
+  {
+    "english": "Subway",
+    "vietnamese": "Tàu điện ngầm (Anh-Mỹ)",
+    "pronunciation": "/ˈsʌb.weɪ/",
+    "type": "n"
+  },
+  {
+    "english": "Underground",
+    "vietnamese": "Tàu điện ngầm (Anh-Anh)",
+    "pronunciation": "/ˌʌn.dəˈɡraʊnd/",
+    "type": "n"
+  },
+  {
+    "english": "Airplane",
+    "vietnamese": "Máy bay",
+    "pronunciation": "/ˈeə.pleɪn/",
+    "type": "n"
+  },
+  {
+    "english": "Bicycle",
+    "vietnamese": "Xe đạp",
+    "pronunciation": "/ˈbaɪ.sɪ.kəl/",
+    "type": "n"
+  },
+  {
+    "english": "Motorcycle",
+    "vietnamese": "Xe máy",
+    "pronunciation": "/ˈməʊ.təˌsaɪ.kəl/",
+    "type": "n"
+  },
+  {
+    "english": "Ferry",
+    "vietnamese": "Phà",
+    "pronunciation": "/ˈfer.i/",
+    "type": "n"
+  },
+  {
+    "english": "Boat",
+    "vietnamese": "Thuyền",
+    "pronunciation": "/bəʊt/",
+    "type": "n"
+  },
+  {
+    "english": "Traffic jam",
+    "vietnamese": "Tắc đường",
+    "pronunciation": "/ˈtræf.ɪk dʒæm/",
+    "type": "n"
+  },
+  {
+    "english": "Speed limit",
+    "vietnamese": "Giới hạn tốc độ",
+    "pronunciation": "/ˈspiːd ˌlɪm.ɪt/",
+    "type": "n"
+  },
+  {
+    "english": "Parking lot",
+    "vietnamese": "Bãi đỗ xe",
+    "pronunciation": "/ˈpɑː.kɪŋ ˌlɒt/",
+    "type": "n"
+  },
+  {
+    "english": "Seatbelt",
+    "vietnamese": "Dây an toàn",
+    "pronunciation": "/ˈsiːt.belt/",
+    "type": "n"
+  },
+  {
+    "english": "Traffic sign",
+    "vietnamese": "Biển báo giao thông",
+    "pronunciation": "/ˈtræf.ɪk saɪn/",
+    "type": "n"
+  },
+  {
+    "english": "Stop sign",
+    "vietnamese": "Biển báo dừng",
+    "pronunciation": "/stɒp saɪn/",
+    "type": "n"
+  },
+  {
+    "english": "Gas station",
+    "vietnamese": "Trạm xăng",
+    "pronunciation": "/ɡæs ˈsteɪ.ʃən/",
+    "type": "n"
+  },
+  {
+    "english": "Truck",
+    "vietnamese": "Xe tải",
+    "pronunciation": "/trʌk/",
+    "type": "n"
+  },
+  {
+    "english": "Van",
+    "vietnamese": "Xe van",
+    "pronunciation": "/væn/",
+    "type": "n"
+  },
+  {
+    "english": "Ambulance",
+    "vietnamese": "Xe cứu thương",
+    "pronunciation": "/ˈæm.bjə.ləns/",
+    "type": "n"
+  },
+  {
+    "english": "Fire truck",
+    "vietnamese": "Xe cứu hỏa",
+    "pronunciation": "/ˈfaɪər trʌk/",
+    "type": "n"
+  },
+  {
+    "english": "Police car",
+    "vietnamese": "Xe cảnh sát",
+    "pronunciation": "/pəˈliːs kɑːr/",
+    "type": "n"
+  },
+  {
+    "english": "Driver",
+    "vietnamese": "Tài xế",
+    "pronunciation": "/ˈdraɪ.vər/",
+    "type": "n"
+  },
+  {
+    "english": "Passenger",
+    "vietnamese": "Hành khách",
+    "pronunciation": "/ˈpæs.ɪn.dʒər/",
+    "type": "n"
+  },
+  {
+    "english": "License",
+    "vietnamese": "Bằng lái xe",
+    "pronunciation": "/ˈlaɪ.səns/",
+    "type": "n"
+  },
+  {
+    "english": "Helmet",
+    "vietnamese": "Mũ bảo hiểm",
+    "pronunciation": "/ˈhel.mət/",
+    "type": "n"
+  },
+  {
+    "english": "Accident",
+    "vietnamese": "Tai nạn",
+    "pronunciation": "/ˈæk.sɪ.dənt/",
+    "type": "n"
+  },
+  {
+    "english": "Lane",
+    "vietnamese": "Làn đường",
+    "pronunciation": "/leɪn/",
+    "type": "n"
+  },
+  {
+    "english": "Turn",
+    "vietnamese": "Rẽ, quẹo",
+    "pronunciation": "/tɜːrn/",
+    "type": "v"
+  },
+  {
+    "english": "Drive",
+    "vietnamese": "Lái xe",
+    "pronunciation": "/draɪv/",
+    "type": "v"
+  },
+  {
+    "english": "Park",
+    "vietnamese": "Đỗ xe",
+    "pronunciation": "/pɑːrk/",
+    "type": "v"
+  },
+  {
+    "english": "Stop",
+    "vietnamese": "Dừng lại",
+    "pronunciation": "/stɒp/",
+    "type": "v"
+  },
+  {
+    "english": "Go",
+    "vietnamese": "Đi",
+    "pronunciation": "/ɡəʊ/",
+    "type": "v"
+  },
+  {
+    "english": "Honk",
+    "vietnamese": "Bấm còi",
+    "pronunciation": "/hɒŋk/",
+    "type": "v"
+  },
+  {
+    "english": "Signal",
+    "vietnamese": "Báo hiệu",
+    "pronunciation": "/ˈsɪɡ.nəl/",
+    "type": "v"
+  },
+  {
+    "english": "Overtake",
+    "vietnamese": "Vượt",
+    "pronunciation": "/ˌəʊ.vəˈteɪk/",
+    "type": "v"
+  }
+]

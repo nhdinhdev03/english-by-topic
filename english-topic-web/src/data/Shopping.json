@@ -1,0 +1,578 @@
+[
+  {
+    "english": "shopping",
+    "vietnamese": "mua sắm",
+    "pronunciation": "/ˈʃɒp.ɪŋ/",
+    "type": "Shopping activity"
+  },
+  {
+    "english": "mall",
+    "vietnamese": "trung tâm thương mại",
+    "pronunciation": "/mɔːl/",
+    "type": "Store type"
+  },
+  {
+    "english": "store",
+    "vietnamese": "cửa hàng",
+    "pronunciation": "/stɔːr/",
+    "type": "Store type"
+  },
+  {
+    "english": "shop",
+    "vietnamese": "cửa hàng nhỏ",
+    "pronunciation": "/ʃɒp/",
+    "type": "Store type"
+  },
+  {
+    "english": "customer",
+    "vietnamese": "khách hàng",
+    "pronunciation": "/ˈkʌs.tə.mər/",
+    "type": "People"
+  },
+  {
+    "english": "cashier",
+    "vietnamese": "thu ngân",
+    "pronunciation": "/kæʃˈɪər/",
+    "type": "People"
+  },
+  {
+    "english": "seller",
+    "vietnamese": "người bán hàng",
+    "pronunciation": "/ˈsel.ər/",
+    "type": "People"
+  },
+  {
+    "english": "price",
+    "vietnamese": "giá cả",
+    "pronunciation": "/praɪs/",
+    "type": "Cost"
+  },
+  {
+    "english": "discount",
+    "vietnamese": "giảm giá",
+    "pronunciation": "/ˈdɪs.kaʊnt/",
+    "type": "Cost"
+  },
+  {
+    "english": "sale",
+    "vietnamese": "đợt giảm giá",
+    "pronunciation": "/seɪl/",
+    "type": "Cost"
+  },
+  {
+    "english": "bargain",
+    "vietnamese": "mặc cả, món hời",
+    "pronunciation": "/ˈbɑː.ɡɪn/",
+    "type": "Cost"
+  },
+  {
+    "english": "expensive",
+    "vietnamese": "đắt đỏ",
+    "pronunciation": "/ɪkˈspen.sɪv/",
+    "type": "Price description"
+  },
+  {
+    "english": "cheap",
+    "vietnamese": "rẻ",
+    "pronunciation": "/tʃiːp/",
+    "type": "Price description"
+  },
+  {
+    "english": "affordable",
+    "vietnamese": "giá cả phải chăng",
+    "pronunciation": "/əˈfɔː.də.bəl/",
+    "type": "Price description"
+  },
+  {
+    "english": "buy",
+    "vietnamese": "mua",
+    "pronunciation": "/baɪ/",
+    "type": "Shopping action"
+  },
+  {
+    "english": "sell",
+    "vietnamese": "bán",
+    "pronunciation": "/sel/",
+    "type": "Shopping action"
+  },
+  {
+    "english": "try on",
+    "vietnamese": "thử đồ",
+    "pronunciation": "/traɪ ɒn/",
+    "type": "Shopping action"
+  },
+  {
+    "english": "shopping cart",
+    "vietnamese": "xe đẩy hàng",
+    "pronunciation": "/ˈʃɒp.ɪŋ kɑːt/",
+    "type": "Shopping equipment"
+  },
+  {
+    "english": "basket",
+    "vietnamese": "giỏ hàng",
+    "pronunciation": "/ˈbɑː.skɪt/",
+    "type": "Shopping equipment"
+  },
+  {
+    "english": "receipt",
+    "vietnamese": "hóa đơn",
+    "pronunciation": "/rɪˈsiːt/",
+    "type": "Document"
+  },
+  {
+    "english": "refund",
+    "vietnamese": "hoàn tiền",
+    "pronunciation": "/ˈriː.fʌnd/",
+    "type": "Customer service"
+  },
+  {
+    "english": "exchange",
+    "vietnamese": "đổi hàng",
+    "pronunciation": "/ɪksˈtʃeɪndʒ/",
+    "type": "Customer service"
+  },
+  {
+    "english": "credit card",
+    "vietnamese": "thẻ tín dụng",
+    "pronunciation": "/ˈkrɛd.ɪt kɑːd/",
+    "type": "Payment method"
+  },
+  {
+    "english": "cash",
+    "vietnamese": "tiền mặt",
+    "pronunciation": "/kæʃ/",
+    "type": "Payment method"
+  },
+  {
+    "english": "wallet",
+    "vietnamese": "ví tiền",
+    "pronunciation": "/ˈwɒl.ɪt/",
+    "type": "Accessory"
+  },
+  {
+    "english": "window shopping",
+    "vietnamese": "xem hàng nhưng không mua",
+    "pronunciation": "/ˈwɪn.dəʊ ˈʃɒp.ɪŋ/",
+    "type": "Shopping activity"
+  },
+  {
+    "english": "special offer",
+    "vietnamese": "khuyến mãi đặc biệt",
+    "pronunciation": "/ˈspeʃ.əl ˈɒf.ər/",
+    "type": "Promotion"
+  },
+  {
+    "english": "limited edition",
+    "vietnamese": "phiên bản giới hạn",
+    "pronunciation": "/ˈlɪm.ɪ.tɪd ɪˈdɪʃ.ən/",
+    "type": "Product type"
+  },
+  {
+    "english": "out of stock",
+    "vietnamese": "hết hàng",
+    "pronunciation": "/aʊt ɒv stɒk/",
+    "type": "Stock status"
+  },
+  {
+    "english": "department store",
+    "vietnamese": "cửa hàng bách hóa",
+    "pronunciation": "/dɪˈpɑːt.mənt stɔːr/",
+    "type": "Store type"
+  },
+  {
+    "english": "supermarket",
+    "vietnamese": "siêu thị",
+    "pronunciation": "/ˈsuː.pə.mɑː.kɪt/",
+    "type": "Store type"
+  },
+  {
+    "english": "grocery store",
+    "vietnamese": "cửa hàng thực phẩm",
+    "pronunciation": "/ˈɡrəʊ.sər.i stɔːr/",
+    "type": "Store type"
+  },
+  {
+    "english": "boutique",
+    "vietnamese": "cửa hàng thời trang",
+    "pronunciation": "/buːˈtiːk/",
+    "type": "Store type"
+  },
+  {
+    "english": "outlet",
+    "vietnamese": "cửa hàng giảm giá",
+    "pronunciation": "/ˈaʊt.let/",
+    "type": "Store type"
+  },
+  {
+    "english": "marketplace",
+    "vietnamese": "chợ",
+    "pronunciation": "/ˈmɑː.kɪt.pleɪs/",
+    "type": "Store type"
+  },
+  {
+    "english": "flea market",
+    "vietnamese": "chợ trời",
+    "pronunciation": "/fliː ˈmɑː.kɪt/",
+    "type": "Store type"
+  },
+  {
+    "english": "online store",
+    "vietnamese": "cửa hàng trực tuyến",
+    "pronunciation": "/ˈɒn.laɪn stɔːr/",
+    "type": "Store type"
+  },
+  {
+    "english": "e-commerce",
+    "vietnamese": "thương mại điện tử",
+    "pronunciation": "/ˈiː.kɒm.ɜːs/",
+    "type": "Shopping method"
+  },
+  {
+    "english": "salesperson",
+    "vietnamese": "nhân viên bán hàng",
+    "pronunciation": "/ˈseɪlz.pɜː.sən/",
+    "type": "People"
+  },
+  {
+    "english": "shop assistant",
+    "vietnamese": "nhân viên cửa hàng",
+    "pronunciation": "/ʃɒp əˈsɪs.tənt/",
+    "type": "People"
+  },
+  {
+    "english": "manager",
+    "vietnamese": "quản lý",
+    "pronunciation": "/ˈmæn.ɪ.dʒər/",
+    "type": "People"
+  },
+  {
+    "english": "security guard",
+    "vietnamese": "bảo vệ",
+    "pronunciation": "/sɪˈkjʊə.rə.ti ɡɑːd/",
+    "type": "People"
+  },
+  {
+    "english": "browse",
+    "vietnamese": "duyệt xem",
+    "pronunciation": "/braʊz/",
+    "type": "Shopping action"
+  },
+  {
+    "english": "pick up",
+    "vietnamese": "lấy hàng",
+    "pronunciation": "/pɪk ʌp/",
+    "type": "Shopping action"
+  },
+  {
+    "english": "pay",
+    "vietnamese": "thanh toán",
+    "pronunciation": "/peɪ/",
+    "type": "Shopping action"
+  },
+  {
+    "english": "purchase",
+    "vietnamese": "mua hàng",
+    "pronunciation": "/ˈpɜː.tʃəs/",
+    "type": "Shopping action"
+  },
+  {
+    "english": "compare",
+    "vietnamese": "so sánh",
+    "pronunciation": "/kəmˈpeər/",
+    "type": "Shopping action"
+  },
+  {
+    "english": "return",
+    "vietnamese": "trả lại",
+    "pronunciation": "/rɪˈtɜːn/",
+    "type": "Shopping action"
+  },
+  {
+    "english": "checkout",
+    "vietnamese": "tính tiền",
+    "pronunciation": "/ˈtʃek.aʊt/",
+    "type": "Shopping action"
+  },
+  {
+    "english": "queue",
+    "vietnamese": "xếp hàng",
+    "pronunciation": "/kjuː/",
+    "type": "Shopping action"
+  },
+  {
+    "english": "line up",
+    "vietnamese": "xếp hàng",
+    "pronunciation": "/laɪn ʌp/",
+    "type": "Shopping action"
+  },
+  {
+    "english": "total",
+    "vietnamese": "tổng cộng",
+    "pronunciation": "/ˈtəʊ.təl/",
+    "type": "Cost"
+  },
+  {
+    "english": "tax",
+    "vietnamese": "thuế",
+    "pronunciation": "/tæks/",
+    "type": "Cost"
+  },
+  {
+    "english": "subtotal",
+    "vietnamese": "tổng phụ",
+    "pronunciation": "/ˈsʌb.təʊ.təl/",
+    "type": "Cost"
+  },
+  {
+    "english": "change",
+    "vietnamese": "tiền thối",
+    "pronunciation": "/tʃeɪndʒ/",
+    "type": "Cost"
+  },
+  {
+    "english": "debit card",
+    "vietnamese": "thẻ ghi nợ",
+    "pronunciation": "/ˈdeb.ɪt kɑːd/",
+    "type": "Payment method"
+  },
+  {
+    "english": "mobile payment",
+    "vietnamese": "thanh toán di động",
+    "pronunciation": "/ˈməʊ.baɪl ˈpeɪ.mənt/",
+    "type": "Payment method"
+  },
+  {
+    "english": "contactless payment",
+    "vietnamese": "thanh toán không tiếp xúc",
+    "pronunciation": "/ˈkɒn.tækt.ləs ˈpeɪ.mənt/",
+    "type": "Payment method"
+  },
+  {
+    "english": "gift card",
+    "vietnamese": "thẻ quà tặng",
+    "pronunciation": "/ɡɪft kɑːd/",
+    "type": "Payment method"
+  },
+  {
+    "english": "voucher",
+    "vietnamese": "phiếu mua hàng",
+    "pronunciation": "/ˈvaʊ.tʃər/",
+    "type": "Payment method"
+  },
+  {
+    "english": "coupon",
+    "vietnamese": "phiếu giảm giá",
+    "pronunciation": "/ˈkuː.pɒn/",
+    "type": "Promotion"
+  },
+  {
+    "english": "promotion",
+    "vietnamese": "khuyến mãi",
+    "pronunciation": "/prəˈməʊ.ʃən/",
+    "type": "Promotion"
+  },
+  {
+    "english": "clearance",
+    "vietnamese": "thanh lý",
+    "pronunciation": "/ˈklɪə.rəns/",
+    "type": "Promotion"
+  },
+  {
+    "english": "buy one get one free",
+    "vietnamese": "mua một tặng một",
+    "pronunciation": "/baɪ wʌn ɡet wʌn friː/",
+    "type": "Promotion"
+  },
+  {
+    "english": "percentage off",
+    "vietnamese": "giảm phần trăm",
+    "pronunciation": "/pəˈsen.tɪdʒ ɒf/",
+    "type": "Promotion"
+  },
+  {
+    "english": "loyalty card",
+    "vietnamese": "thẻ thành viên",
+    "pronunciation": "/ˈlɔɪ.əl.ti kɑːd/",
+    "type": "Customer program"
+  },
+  {
+    "english": "membership",
+    "vietnamese": "thành viên",
+    "pronunciation": "/ˈmem.bə.ʃɪp/",
+    "type": "Customer program"
+  },
+  {
+    "english": "rewards program",
+    "vietnamese": "chương trình tích điểm",
+    "pronunciation": "/rɪˈwɔːdz ˈprəʊ.ɡræm/",
+    "type": "Customer program"
+  },
+  {
+    "english": "fitting room",
+    "vietnamese": "phòng thử đồ",
+    "pronunciation": "/ˈfɪt.ɪŋ ruːm/",
+    "type": "Store facility"
+  },
+  {
+    "english": "dressing room",
+    "vietnamese": "phòng thay đồ",
+    "pronunciation": "/ˈdres.ɪŋ ruːm/",
+    "type": "Store facility"
+  },
+  {
+    "english": "escalator",
+    "vietnamese": "thang cuốn",
+    "pronunciation": "/ˈes.kə.leɪ.tər/",
+    "type": "Store facility"
+  },
+  {
+    "english": "elevator",
+    "vietnamese": "thang máy",
+    "pronunciation": "/ˈel.ɪ.veɪ.tər/",
+    "type": "Store facility"
+  },
+  {
+    "english": "customer service",
+    "vietnamese": "dịch vụ khách hàng",
+    "pronunciation": "/ˈkʌs.tə.mər ˈsɜː.vɪs/",
+    "type": "Service"
+  },
+  {
+    "english": "lost and found",
+    "vietnamese": "đồ thất lạc",
+    "pronunciation": "/lɒst ænd faʊnd/",
+    "type": "Service"
+  },
+  {
+    "english": "information desk",
+    "vietnamese": "quầy thông tin",
+    "pronunciation": "/ˌɪn.fəˈmeɪ.ʃən desk/",
+    "type": "Service"
+  },
+  {
+    "english": "return policy",
+    "vietnamese": "chính sách đổi trả",
+    "pronunciation": "/rɪˈtɜːn ˈpɒl.ə.si/",
+    "type": "Policy"
+  },
+  {
+    "english": "warranty",
+    "vietnamese": "bảo hành",
+    "pronunciation": "/ˈwɒr.ən.ti/",
+    "type": "Policy"
+  },
+  {
+    "english": "guarantee",
+    "vietnamese": "đảm bảo",
+    "pronunciation": "/ˌɡær.ənˈtiː/",
+    "type": "Policy"
+  },
+  {
+    "english": "size",
+    "vietnamese": "kích cỡ",
+    "pronunciation": "/saɪz/",
+    "type": "Product attribute"
+  },
+  {
+    "english": "color",
+    "vietnamese": "màu sắc",
+    "pronunciation": "/ˈkʌl.ər/",
+    "type": "Product attribute"
+  },
+  {
+    "english": "brand",
+    "vietnamese": "thương hiệu",
+    "pronunciation": "/brænd/",
+    "type": "Product attribute"
+  },
+  {
+    "english": "quality",
+    "vietnamese": "chất lượng",
+    "pronunciation": "/ˈkwɒl.ə.ti/",
+    "type": "Product attribute"
+  },
+  {
+    "english": "style",
+    "vietnamese": "kiểu dáng",
+    "pronunciation": "/staɪl/",
+    "type": "Product attribute"
+  },
+  {
+    "english": "material",
+    "vietnamese": "chất liệu",
+    "pronunciation": "/məˈtɪə.ri.əl/",
+    "type": "Product attribute"
+  },
+  {
+    "english": "product",
+    "vietnamese": "sản phẩm",
+    "pronunciation": "/ˈprɒd.ʌkt/",
+    "type": "General"
+  },
+  {
+    "english": "item",
+    "vietnamese": "món hàng",
+    "pronunciation": "/ˈaɪ.təm/",
+    "type": "General"
+  },
+  {
+    "english": "goods",
+    "vietnamese": "hàng hóa",
+    "pronunciation": "/ɡʊdz/",
+    "type": "General"
+  },
+  {
+    "english": "merchandise",
+    "vietnamese": "hàng hóa",
+    "pronunciation": "/ˈmɜː.tʃən.daɪz/",
+    "type": "General"
+  },
+  {
+    "english": "inventory",
+    "vietnamese": "tồn kho",
+    "pronunciation": "/ˈɪn.vən.tər.i/",
+    "type": "Stock status"
+  },
+  {
+    "english": "in stock",
+    "vietnamese": "còn hàng",
+    "pronunciation": "/ɪn stɒk/",
+    "type": "Stock status"
+  },
+  {
+    "english": "restock",
+    "vietnamese": "nhập hàng",
+    "pronunciation": "/ˌriːˈstɒk/",
+    "type": "Stock status"
+  },
+  {
+    "english": "delivery",
+    "vietnamese": "giao hàng",
+    "pronunciation": "/dɪˈlɪv.ər.i/",
+    "type": "Service"
+  },
+  {
+    "english": "shipping",
+    "vietnamese": "vận chuyển",
+    "pronunciation": "/ˈʃɪp.ɪŋ/",
+    "type": "Service"
+  },
+  {
+    "english": "packaging",
+    "vietnamese": "đóng gói",
+    "pronunciation": "/ˈpæk.ɪ.dʒɪŋ/",
+    "type": "Service"
+  },
+  {
+    "english": "gift wrap",
+    "vietnamese": "gói quà",
+    "pronunciation": "/ɡɪft ræp/",
+    "type": "Service"
+  },
+  {
+    "english": "personal shopper",
+    "vietnamese": "người mua hàng cá nhân",
+    "pronunciation": "/ˈpɜː.sən.əl ˈʃɒp.ər/",
+    "type": "Service"
+  }
+]

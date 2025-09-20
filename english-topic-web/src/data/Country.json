@@ -1,0 +1,524 @@
+[
+  {
+    "english": "country",
+    "vietnamese": "quốc gia",
+    "pronunciation": "/ˈkʌn.tri/",
+    "type": "General"
+  },
+  {
+    "english": "nation",
+    "vietnamese": "quốc gia, dân tộc",
+    "pronunciation": "/ˈneɪ.ʃən/",
+    "type": "General"
+  },
+  {
+    "english": "continent",
+    "vietnamese": "châu lục",
+    "pronunciation": "/ˈkɒn.tɪ.nənt/",
+    "type": "Geography"
+  },
+  {
+    "english": "Asia",
+    "vietnamese": "châu Á",
+    "pronunciation": "/ˈeɪ.ʒə/",
+    "type": "Continent"
+  },
+  {
+    "english": "Europe",
+    "vietnamese": "châu Âu",
+    "pronunciation": "/ˈjʊə.rəp/",
+    "type": "Continent"
+  },
+  {
+    "english": "Africa",
+    "vietnamese": "châu Phi",
+    "pronunciation": "/ˈæf.rɪ.kə/",
+    "type": "Continent"
+  },
+  {
+    "english": "America",
+    "vietnamese": "châu Mỹ",
+    "pronunciation": "/əˈmer.ɪ.kə/",
+    "type": "Continent"
+  },
+  {
+    "english": "North America",
+    "vietnamese": "Bắc Mỹ",
+    "pronunciation": "/nɔːrθ əˈmer.ɪ.kə/",
+    "type": "Continent"
+  },
+  {
+    "english": "South America",
+    "vietnamese": "Nam Mỹ",
+    "pronunciation": "/saʊθ əˈmer.ɪ.kə/",
+    "type": "Continent"
+  },
+  {
+    "english": "Australia",
+    "vietnamese": "châu Úc",
+    "pronunciation": "/ɒsˈtreɪ.li.ə/",
+    "type": "Continent"
+  },
+  {
+    "english": "Antarctica",
+    "vietnamese": "châu Nam Cực",
+    "pronunciation": "/ænˈtɑːr.tɪ.kə/",
+    "type": "Continent"
+  },
+  {
+    "english": "Vietnam",
+    "vietnamese": "Việt Nam",
+    "pronunciation": "/ˌvjetˈnæm/",
+    "type": "Asian country"
+  },
+  {
+    "english": "China",
+    "vietnamese": "Trung Quốc",
+    "pronunciation": "/ˈtʃaɪ.nə/",
+    "type": "Asian country"
+  },
+  {
+    "english": "Japan",
+    "vietnamese": "Nhật Bản",
+    "pronunciation": "/dʒəˈpæn/",
+    "type": "Asian country"
+  },
+  {
+    "english": "South Korea",
+    "vietnamese": "Hàn Quốc",
+    "pronunciation": "/ˌsaʊθ kəˈriː.ə/",
+    "type": "Asian country"
+  },
+  {
+    "english": "North Korea",
+    "vietnamese": "Triều Tiên",
+    "pronunciation": "/nɔːrθ kəˈriː.ə/",
+    "type": "Asian country"
+  },
+  {
+    "english": "Thailand",
+    "vietnamese": "Thái Lan",
+    "pronunciation": "/ˈtaɪ.lænd/",
+    "type": "Asian country"
+  },
+  {
+    "english": "India",
+    "vietnamese": "Ấn Độ",
+    "pronunciation": "/ˈɪn.di.ə/",
+    "type": "Asian country"
+  },
+  {
+    "english": "Indonesia",
+    "vietnamese": "Indonesia",
+    "pronunciation": "/ˌɪn.dəˈniː.ʒə/",
+    "type": "Asian country"
+  },
+  {
+    "english": "Philippines",
+    "vietnamese": "Philippines",
+    "pronunciation": "/ˈfɪl.ɪ.piːnz/",
+    "type": "Asian country"
+  },
+  {
+    "english": "Malaysia",
+    "vietnamese": "Malaysia",
+    "pronunciation": "/məˈleɪ.ʒə/",
+    "type": "Asian country"
+  },
+  {
+    "english": "Singapore",
+    "vietnamese": "Singapore",
+    "pronunciation": "/ˈsɪŋ.ə.pɔːr/",
+    "type": "Asian country"
+  },
+  {
+    "english": "Cambodia",
+    "vietnamese": "Campuchia",
+    "pronunciation": "/kæmˈboʊ.di.ə/",
+    "type": "Asian country"
+  },
+  {
+    "english": "Laos",
+    "vietnamese": "Lào",
+    "pronunciation": "/laʊs/",
+    "type": "Asian country"
+  },
+  {
+    "english": "Myanmar",
+    "vietnamese": "Myanmar",
+    "pronunciation": "/ˈmjɑːn.mɑːr/",
+    "type": "Asian country"
+  },
+  {
+    "english": "USA",
+    "vietnamese": "Mỹ",
+    "pronunciation": "/ˌjuː.esˈeɪ/",
+    "type": "North American country"
+  },
+  {
+    "english": "United States",
+    "vietnamese": "Hoa Kỳ",
+    "pronunciation": "/juˈnaɪ.tɪd steɪts/",
+    "type": "North American country"
+  },
+  {
+    "english": "Canada",
+    "vietnamese": "Canada",
+    "pronunciation": "/ˈkæn.ə.də/",
+    "type": "North American country"
+  },
+  {
+    "english": "Mexico",
+    "vietnamese": "Mexico",
+    "pronunciation": "/ˈmek.sɪ.kəʊ/",
+    "type": "North American country"
+  },
+  {
+    "english": "Brazil",
+    "vietnamese": "Brazil",
+    "pronunciation": "/brəˈzɪl/",
+    "type": "South American country"
+  },
+  {
+    "english": "Argentina",
+    "vietnamese": "Argentina",
+    "pronunciation": "/ˌɑː.dʒənˈtiː.nə/",
+    "type": "South American country"
+  },
+  {
+    "english": "Chile",
+    "vietnamese": "Chile",
+    "pronunciation": "/ˈtʃɪl.i/",
+    "type": "South American country"
+  },
+  {
+    "english": "Colombia",
+    "vietnamese": "Colombia",
+    "pronunciation": "/kəˈlʌm.bi.ə/",
+    "type": "South American country"
+  },
+  {
+    "english": "Peru",
+    "vietnamese": "Peru",
+    "pronunciation": "/pəˈruː/",
+    "type": "South American country"
+  },
+  {
+    "english": "UK",
+    "vietnamese": "Anh",
+    "pronunciation": "/ˌjuːˈkeɪ/",
+    "type": "European country"
+  },
+  {
+    "english": "United Kingdom",
+    "vietnamese": "Vương quốc Anh",
+    "pronunciation": "/juˈnaɪ.tɪd ˈkɪŋ.dəm/",
+    "type": "European country"
+  },
+  {
+    "english": "England",
+    "vietnamese": "nước Anh",
+    "pronunciation": "/ˈɪŋ.ɡlənd/",
+    "type": "European country"
+  },
+  {
+    "english": "France",
+    "vietnamese": "Pháp",
+    "pronunciation": "/frɑːns/",
+    "type": "European country"
+  },
+  {
+    "english": "Germany",
+    "vietnamese": "Đức",
+    "pronunciation": "/ˈdʒɜː.mə.ni/",
+    "type": "European country"
+  },
+  {
+    "english": "Italy",
+    "vietnamese": "Ý",
+    "pronunciation": "/ˈɪt.əl.i/",
+    "type": "European country"
+  },
+  {
+    "english": "Spain",
+    "vietnamese": "Tây Ban Nha",
+    "pronunciation": "/speɪn/",
+    "type": "European country"
+  },
+  {
+    "english": "Portugal",
+    "vietnamese": "Bồ Đào Nha",
+    "pronunciation": "/ˈpɔː.tʃə.ɡəl/",
+    "type": "European country"
+  },
+  {
+    "english": "Netherlands",
+    "vietnamese": "Hà Lan",
+    "pronunciation": "/ˈneð.ə.ləndz/",
+    "type": "European country"
+  },
+  {
+    "english": "Belgium",
+    "vietnamese": "Bỉ",
+    "pronunciation": "/ˈbel.dʒəm/",
+    "type": "European country"
+  },
+  {
+    "english": "Switzerland",
+    "vietnamese": "Thụy Sĩ",
+    "pronunciation": "/ˈswɪt.sə.lənd/",
+    "type": "European country"
+  },
+  {
+    "english": "Austria",
+    "vietnamese": "Áo",
+    "pronunciation": "/ˈɒs.tri.ə/",
+    "type": "European country"
+  },
+  {
+    "english": "Sweden",
+    "vietnamese": "Thụy Điển",
+    "pronunciation": "/ˈswiː.dən/",
+    "type": "European country"
+  },
+  {
+    "english": "Norway",
+    "vietnamese": "Na Uy",
+    "pronunciation": "/ˈnɔː.weɪ/",
+    "type": "European country"
+  },
+  {
+    "english": "Denmark",
+    "vietnamese": "Đan Mạch",
+    "pronunciation": "/ˈden.mɑːrk/",
+    "type": "European country"
+  },
+  {
+    "english": "Finland",
+    "vietnamese": "Phần Lan",
+    "pronunciation": "/ˈfɪn.lənd/",
+    "type": "European country"
+  },
+  {
+    "english": "Russia",
+    "vietnamese": "Nga",
+    "pronunciation": "/ˈrʌʃ.ə/",
+    "type": "European/Asian country"
+  },
+  {
+    "english": "Poland",
+    "vietnamese": "Ba Lan",
+    "pronunciation": "/ˈpoʊ.lənd/",
+    "type": "European country"
+  },
+  {
+    "english": "Czech Republic",
+    "vietnamese": "Cộng hòa Séc",
+    "pronunciation": "/tʃek rɪˈpʌb.lɪk/",
+    "type": "European country"
+  },
+  {
+    "english": "Egypt",
+    "vietnamese": "Ai Cập",
+    "pronunciation": "/ˈiː.dʒɪpt/",
+    "type": "African country"
+  },
+  {
+    "english": "South Africa",
+    "vietnamese": "Nam Phi",
+    "pronunciation": "/saʊθ ˈæf.rɪ.kə/",
+    "type": "African country"
+  },
+  {
+    "english": "Nigeria",
+    "vietnamese": "Nigeria",
+    "pronunciation": "/naɪˈdʒɪə.ri.ə/",
+    "type": "African country"
+  },
+  {
+    "english": "Kenya",
+    "vietnamese": "Kenya",
+    "pronunciation": "/ˈken.jə/",
+    "type": "African country"
+  },
+  {
+    "english": "Morocco",
+    "vietnamese": "Ma-rốc",
+    "pronunciation": "/məˈrɒk.oʊ/",
+    "type": "African country"
+  },
+  {
+    "english": "Australia",
+    "vietnamese": "Úc",
+    "pronunciation": "/ɒsˈtreɪ.li.ə/",
+    "type": "Oceanian country"
+  },
+  {
+    "english": "New Zealand",
+    "vietnamese": "New Zealand",
+    "pronunciation": "/nuː ˈziː.lənd/",
+    "type": "Oceanian country"
+  },
+  {
+    "english": "capital",
+    "vietnamese": "thủ đô",
+    "pronunciation": "/ˈkæp.ɪ.təl/",
+    "type": "Geography"
+  },
+  {
+    "english": "city",
+    "vietnamese": "thành phố",
+    "pronunciation": "/ˈsɪt.i/",
+    "type": "Geography"
+  },
+  {
+    "english": "border",
+    "vietnamese": "biên giới",
+    "pronunciation": "/ˈbɔː.dər/",
+    "type": "Geography"
+  },
+  {
+    "english": "nationality",
+    "vietnamese": "quốc tịch",
+    "pronunciation": "/ˌnæʃ.əˈnæl.ə.ti/",
+    "type": "Identity"
+  },
+  {
+    "english": "language",
+    "vietnamese": "ngôn ngữ",
+    "pronunciation": "/ˈlæŋ.ɡwɪdʒ/",
+    "type": "Culture"
+  },
+  {
+    "english": "culture",
+    "vietnamese": "văn hóa",
+    "pronunciation": "/ˈkʌl.tʃər/",
+    "type": "Culture"
+  },
+  {
+    "english": "population",
+    "vietnamese": "dân số",
+    "pronunciation": "/ˌpɒp.jəˈleɪ.ʃən/",
+    "type": "Demographics"
+  },
+  {
+    "english": "government",
+    "vietnamese": "chính phủ",
+    "pronunciation": "/ˈɡʌv.ən.mənt/",
+    "type": "Politics"
+  },
+  {
+    "english": "currency",
+    "vietnamese": "tiền tệ",
+    "pronunciation": "/ˈkɜː.ən.si/",
+    "type": "Economics"
+  },
+  {
+    "english": "flag",
+    "vietnamese": "lá cờ",
+    "pronunciation": "/flæɡ/",
+    "type": "Symbol"
+  },
+  {
+    "english": "anthem",
+    "vietnamese": "quốc ca",
+    "pronunciation": "/ˈæn.θəm/",
+    "type": "Symbol"
+  },
+  {
+    "english": "citizen",
+    "vietnamese": "công dân",
+    "pronunciation": "/ˈsɪt.ɪ.zən/",
+    "type": "Identity"
+  },
+  {
+    "english": "immigrant",
+    "vietnamese": "người nhập cư",
+    "pronunciation": "/ˈɪm.ɪ.ɡrənt/",
+    "type": "Identity"
+  },
+  {
+    "english": "native",
+    "vietnamese": "bản địa",
+    "pronunciation": "/ˈneɪ.tɪv/",
+    "type": "Identity"
+  },
+  {
+    "english": "foreign",
+    "vietnamese": "nước ngoài",
+    "pronunciation": "/ˈfɔː.rən/",
+    "type": "General"
+  },
+  {
+    "english": "domestic",
+    "vietnamese": "trong nước",
+    "pronunciation": "/dəˈmes.tɪk/",
+    "type": "General"
+  },
+  {
+    "english": "international",
+    "vietnamese": "quốc tế",
+    "pronunciation": "/ˌɪn.təˈnæʃ.ən.əl/",
+    "type": "General"
+  },
+  {
+    "english": "embassy",
+    "vietnamese": "đại sứ quán",
+    "pronunciation": "/ˈem.bə.si/",
+    "type": "Diplomacy"
+  },
+  {
+    "english": "visa",
+    "vietnamese": "thị thực",
+    "pronunciation": "/ˈviː.zə/",
+    "type": "Travel"
+  },
+  {
+    "english": "passport",
+    "vietnamese": "hộ chiếu",
+    "pronunciation": "/ˈpæs.pɔːrt/",
+    "type": "Travel"
+  },
+  {
+    "english": "customs",
+    "vietnamese": "hải quan",
+    "pronunciation": "/ˈkʌs.təmz/",
+    "type": "Travel"
+  },
+  {
+    "english": "territory",
+    "vietnamese": "lãnh thổ",
+    "pronunciation": "/ˈter.ɪ.tɔː.ri/",
+    "type": "Geography"
+  },
+  {
+    "english": "island",
+    "vietnamese": "đảo",
+    "pronunciation": "/ˈaɪ.lənd/",
+    "type": "Geography"
+  },
+  {
+    "english": "peninsula",
+    "vietnamese": "bán đảo",
+    "pronunciation": "/pəˈnɪn.sə.lə/",
+    "type": "Geography"
+  },
+  {
+    "english": "republic",
+    "vietnamese": "cộng hòa",
+    "pronunciation": "/rɪˈpʌb.lɪk/",
+    "type": "Government"
+  },
+  {
+    "english": "kingdom",
+    "vietnamese": "vương quốc",
+    "pronunciation": "/ˈkɪŋ.dəm/",
+    "type": "Government"
+  },
+  {
+    "english": "federation",
+    "vietnamese": "liên bang",
+    "pronunciation": "/ˌfed.əˈreɪ.ʃən/",
+    "type": "Government"
+  }
+]

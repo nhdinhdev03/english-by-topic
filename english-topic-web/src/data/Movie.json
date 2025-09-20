@@ -1,0 +1,620 @@
+[
+  {
+    "english": "movie",
+    "vietnamese": "phim điện ảnh",
+    "pronunciation": "/ˈmuː.vi/",
+    "type": "General film"
+  },
+  {
+    "english": "film",
+    "vietnamese": "bộ phim",
+    "pronunciation": "/fɪlm/",
+    "type": "General film"
+  },
+  {
+    "english": "genre",
+    "vietnamese": "thể loại phim",
+    "pronunciation": "/ˈʒɒn.rə/",
+    "type": "Film category"
+  },
+  {
+    "english": "actor",
+    "vietnamese": "nam diễn viên",
+    "pronunciation": "/ˈæk.tər/",
+    "type": "Film role"
+  },
+  {
+    "english": "actress",
+    "vietnamese": "nữ diễn viên",
+    "pronunciation": "/ˈæk.trəs/",
+    "type": "Film role"
+  },
+  {
+    "english": "director",
+    "vietnamese": "đạo diễn",
+    "pronunciation": "/daɪˈrek.tər/",
+    "type": "Film role"
+  },
+  {
+    "english": "producer",
+    "vietnamese": "nhà sản xuất",
+    "pronunciation": "/prəˈdjuː.sər/",
+    "type": "Film role"
+  },
+  {
+    "english": "script",
+    "vietnamese": "kịch bản",
+    "pronunciation": "/skrɪpt/",
+    "type": "Film element"
+  },
+  {
+    "english": "screenplay",
+    "vietnamese": "kịch bản phim",
+    "pronunciation": "/ˈskriːn.pleɪ/",
+    "type": "Film element"
+  },
+  {
+    "english": "scene",
+    "vietnamese": "cảnh phim",
+    "pronunciation": "/siːn/",
+    "type": "Film element"
+  },
+  {
+    "english": "plot",
+    "vietnamese": "cốt truyện",
+    "pronunciation": "/plɒt/",
+    "type": "Film element"
+  },
+  {
+    "english": "trailer",
+    "vietnamese": "đoạn giới thiệu phim",
+    "pronunciation": "/ˈtreɪ.lər/",
+    "type": "Film promotion"
+  },
+  {
+    "english": "soundtrack",
+    "vietnamese": "nhạc phim",
+    "pronunciation": "/ˈsaʊnd.træk/",
+    "type": "Film element"
+  },
+  {
+    "english": "special effects",
+    "vietnamese": "hiệu ứng đặc biệt",
+    "pronunciation": "/ˌspeʃ.əl ɪˈfekts/",
+    "type": "Film technology"
+  },
+  {
+    "english": "animation",
+    "vietnamese": "hoạt hình",
+    "pronunciation": "/ˌæn.ɪˈmeɪ.ʃən/",
+    "type": "Film technique"
+  },
+  {
+    "english": "action movie",
+    "vietnamese": "phim hành động",
+    "pronunciation": "/ˈæk.ʃən ˈmuː.vi/",
+    "type": "Film genre"
+  },
+  {
+    "english": "comedy",
+    "vietnamese": "phim hài",
+    "pronunciation": "/ˈkɒm.ə.di/",
+    "type": "Film genre"
+  },
+  {
+    "english": "drama movie",
+    "vietnamese": "phim tâm lý, chính kịch",
+    "pronunciation": "/ˈdrɑː.mə/",
+    "type": "Film genre"
+  },
+  {
+    "english": "horror movie",
+    "vietnamese": "phim kinh dị",
+    "pronunciation": "/ˈhɒr.ər ˈmuː.vi/",
+    "type": "Film genre"
+  },
+  {
+    "english": "sci-fi movie",
+    "vietnamese": "phim khoa học viễn tưởng",
+    "pronunciation": "/ˈsaɪ.faɪ ˈmuː.vi/",
+    "type": "Film genre"
+  },
+  {
+    "english": "fantasy movie",
+    "vietnamese": "phim giả tưởng",
+    "pronunciation": "/ˈfæn.tə.si ˈmuː.vi/",
+    "type": "Film genre"
+  },
+  {
+    "english": "romance movie",
+    "vietnamese": "phim tình cảm",
+    "pronunciation": "/rəʊˈmæns ˈmuː.vi/",
+    "type": "Film genre"
+  },
+  {
+    "english": "thriller",
+    "vietnamese": "phim ly kỳ",
+    "pronunciation": "/ˈθrɪl.ər/",
+    "type": "Film genre"
+  },
+  {
+    "english": "documentary",
+    "vietnamese": "phim tài liệu",
+    "pronunciation": "/ˌdɒk.jəˈmen.tər.i/",
+    "type": "Film genre"
+  },
+  {
+    "english": "blockbuster",
+    "vietnamese": "phim bom tấn",
+    "pronunciation": "/ˈblɒkˌbʌs.tər/",
+    "type": "Film type"
+  },
+  {
+    "english": "sequel",
+    "vietnamese": "phần tiếp theo của phim",
+    "pronunciation": "/ˈsiː.kwəl/",
+    "type": "Film series"
+  },
+  {
+    "english": "prequel",
+    "vietnamese": "phần tiền truyện",
+    "pronunciation": "/ˈpriː.kwəl/",
+    "type": "Film series"
+  },
+  {
+    "english": "dubbed movie",
+    "vietnamese": "phim lồng tiếng",
+    "pronunciation": "/dʌbd ˈmuː.vi/",
+    "type": "Film format"
+  },
+  {
+    "english": "subtitles",
+    "vietnamese": "phụ đề",
+    "pronunciation": "/ˈsʌb.taɪ.təlz/",
+    "type": "Film format"
+  },
+  {
+    "english": "cinematography",
+    "vietnamese": "nghệ thuật quay phim",
+    "pronunciation": "/ˌsɪn.ə.məˈtɒɡ.rə.fi/",
+    "type": "Film technique"
+  },
+  {
+    "english": "cinematographer",
+    "vietnamese": "quay phim",
+    "pronunciation": "/ˌsɪn.ə.məˈtɒɡ.rə.fər/",
+    "type": "Film role"
+  },
+  {
+    "english": "editor",
+    "vietnamese": "biên tập viên",
+    "pronunciation": "/ˈed.ɪ.tər/",
+    "type": "Film role"
+  },
+  {
+    "english": "composer",
+    "vietnamese": "nhà soạn nhạc",
+    "pronunciation": "/kəmˈpəʊ.zər/",
+    "type": "Film role"
+  },
+  {
+    "english": "screenwriter",
+    "vietnamese": "biên kịch",
+    "pronunciation": "/ˈskriːn.raɪ.tər/",
+    "type": "Film role"
+  },
+  {
+    "english": "costume designer",
+    "vietnamese": "nhà thiết kế trang phục",
+    "pronunciation": "/ˈkɒs.tjuːm dɪˌzaɪ.nər/",
+    "type": "Film role"
+  },
+  {
+    "english": "makeup artist",
+    "vietnamese": "chuyên gia trang điểm",
+    "pronunciation": "/ˈmeɪk.ʌp ˌɑː.tɪst/",
+    "type": "Film role"
+  },
+  {
+    "english": "stuntman",
+    "vietnamese": "diễn viên đóng thế",
+    "pronunciation": "/ˈstʌnt.mæn/",
+    "type": "Film role"
+  },
+  {
+    "english": "casting director",
+    "vietnamese": "đạo diễn casting",
+    "pronunciation": "/ˈkɑː.stɪŋ daɪˌrek.tər/",
+    "type": "Film role"
+  },
+  {
+    "english": "character",
+    "vietnamese": "nhân vật",
+    "pronunciation": "/ˈkær.ək.tər/",
+    "type": "Film element"
+  },
+  {
+    "english": "protagonist",
+    "vietnamese": "nhân vật chính",
+    "pronunciation": "/prəˈtæɡ.ə.nɪst/",
+    "type": "Film element"
+  },
+  {
+    "english": "antagonist",
+    "vietnamese": "nhân vật phản diện",
+    "pronunciation": "/ænˈtæɡ.ə.nɪst/",
+    "type": "Film element"
+  },
+  {
+    "english": "supporting actor",
+    "vietnamese": "diễn viên phụ",
+    "pronunciation": "/səˈpɔː.tɪŋ ˈæk.tər/",
+    "type": "Film role"
+  },
+  {
+    "english": "lead actor",
+    "vietnamese": "diễn viên chính",
+    "pronunciation": "/liːd ˈæk.tər/",
+    "type": "Film role"
+  },
+  {
+    "english": "cameo",
+    "vietnamese": "vai diễn khách mời",
+    "pronunciation": "/ˈkæm.i.əʊ/",
+    "type": "Film role"
+  },
+  {
+    "english": "dialogue",
+    "vietnamese": "đối thoại",
+    "pronunciation": "/ˈdaɪ.ə.lɒɡ/",
+    "type": "Film element"
+  },
+  {
+    "english": "monologue",
+    "vietnamese": "độc thoại",
+    "pronunciation": "/ˈmɒn.ə.lɒɡ/",
+    "type": "Film element"
+  },
+  {
+    "english": "voiceover",
+    "vietnamese": "lồng tiếng",
+    "pronunciation": "/ˈvɔɪs.əʊ.vər/",
+    "type": "Film technique"
+  },
+  {
+    "english": "flashback",
+    "vietnamese": "hồi tưởng",
+    "pronunciation": "/ˈflæʃ.bæk/",
+    "type": "Film technique"
+  },
+  {
+    "english": "close-up",
+    "vietnamese": "cận cảnh",
+    "pronunciation": "/ˈkləʊs.ʌp/",
+    "type": "Camera shot"
+  },
+  {
+    "english": "wide shot",
+    "vietnamese": "góc rộng",
+    "pronunciation": "/waɪd ʃɒt/",
+    "type": "Camera shot"
+  },
+  {
+    "english": "medium shot",
+    "vietnamese": "góc trung",
+    "pronunciation": "/ˈmiː.di.əm ʃɒt/",
+    "type": "Camera shot"
+  },
+  {
+    "english": "establishing shot",
+    "vietnamese": "cảnh mở đầu",
+    "pronunciation": "/ɪˈstæb.lɪʃ.ɪŋ ʃɒt/",
+    "type": "Camera shot"
+  },
+  {
+    "english": "cut",
+    "vietnamese": "cắt cảnh",
+    "pronunciation": "/kʌt/",
+    "type": "Film editing"
+  },
+  {
+    "english": "fade in",
+    "vietnamese": "hiện dần",
+    "pronunciation": "/feɪd ɪn/",
+    "type": "Film editing"
+  },
+  {
+    "english": "fade out",
+    "vietnamese": "mờ dần",
+    "pronunciation": "/feɪd aʊt/",
+    "type": "Film editing"
+  },
+  {
+    "english": "dissolve",
+    "vietnamese": "chuyển cảnh",
+    "pronunciation": "/dɪˈzɒlv/",
+    "type": "Film editing"
+  },
+  {
+    "english": "montage",
+    "vietnamese": "chuỗi cảnh ghép",
+    "pronunciation": "/ˈmɒn.tɑːʒ/",
+    "type": "Film editing"
+  },
+  {
+    "english": "western",
+    "vietnamese": "phim cao bồi",
+    "pronunciation": "/ˈwes.tən/",
+    "type": "Film genre"
+  },
+  {
+    "english": "musical",
+    "vietnamese": "phim nhạc kịch",
+    "pronunciation": "/ˈmjuː.zɪ.kəl/",
+    "type": "Film genre"
+  },
+  {
+    "english": "war movie",
+    "vietnamese": "phim chiến tranh",
+    "pronunciation": "/wɔːr ˈmuː.vi/",
+    "type": "Film genre"
+  },
+  {
+    "english": "mystery",
+    "vietnamese": "phim bí ẩn",
+    "pronunciation": "/ˈmɪs.tər.i/",
+    "type": "Film genre"
+  },
+  {
+    "english": "crime movie",
+    "vietnamese": "phim tội phạm",
+    "pronunciation": "/kraɪm ˈmuː.vi/",
+    "type": "Film genre"
+  },
+  {
+    "english": "biography",
+    "vietnamese": "phim tiểu sử",
+    "pronunciation": "/baɪˈɒɡ.rə.fi/",
+    "type": "Film genre"
+  },
+  {
+    "english": "historical drama",
+    "vietnamese": "phim lịch sử",
+    "pronunciation": "/hɪˈstɒr.ɪ.kəl ˈdrɑː.mə/",
+    "type": "Film genre"
+  },
+  {
+    "english": "family movie",
+    "vietnamese": "phim gia đình",
+    "pronunciation": "/ˈfæm.əl.i ˈmuː.vi/",
+    "type": "Film genre"
+  },
+  {
+    "english": "superhero movie",
+    "vietnamese": "phim siêu anh hùng",
+    "pronunciation": "/ˈsuː.pə.hɪə.rəʊ ˈmuː.vi/",
+    "type": "Film genre"
+  },
+  {
+    "english": "independent film",
+    "vietnamese": "phim độc lập",
+    "pronunciation": "/ˌɪn.dɪˈpen.dənt fɪlm/",
+    "type": "Film type"
+  },
+  {
+    "english": "foreign film",
+    "vietnamese": "phim nước ngoài",
+    "pronunciation": "/ˈfɒr.ən fɪlm/",
+    "type": "Film type"
+  },
+  {
+    "english": "art house film",
+    "vietnamese": "phim nghệ thuật",
+    "pronunciation": "/ɑːt haʊs fɪlm/",
+    "type": "Film type"
+  },
+  {
+    "english": "box office",
+    "vietnamese": "phòng vé",
+    "pronunciation": "/bɒks ˈɒf.ɪs/",
+    "type": "Cinema business"
+  },
+  {
+    "english": "premiere",
+    "vietnamese": "buổi ra mắt",
+    "pronunciation": "/ˈprem.i.eər/",
+    "type": "Film event"
+  },
+  {
+    "english": "screening",
+    "vietnamese": "buổi chiếu",
+    "pronunciation": "/ˈskriː.nɪŋ/",
+    "type": "Film event"
+  },
+  {
+    "english": "film festival",
+    "vietnamese": "liên hoan phim",
+    "pronunciation": "/fɪlm ˈfes.tɪ.vəl/",
+    "type": "Film event"
+  },
+  {
+    "english": "awards ceremony",
+    "vietnamese": "lễ trao giải",
+    "pronunciation": "/əˈwɔːdz ˌser.ɪˈməʊ.ni/",
+    "type": "Film event"
+  },
+  {
+    "english": "nomination",
+    "vietnamese": "đề cử",
+    "pronunciation": "/ˌnɒm.ɪˈneɪ.ʃən/",
+    "type": "Film award"
+  },
+  {
+    "english": "Oscar",
+    "vietnamese": "giải Oscar",
+    "pronunciation": "/ˈɒs.kər/",
+    "type": "Film award"
+  },
+  {
+    "english": "cinema",
+    "vietnamese": "rạp chiếu phim",
+    "pronunciation": "/ˈsɪn.ə.mə/",
+    "type": "Venue"
+  },
+  {
+    "english": "theater",
+    "vietnamese": "rạp hát",
+    "pronunciation": "/ˈθɪə.tər/",
+    "type": "Venue"
+  },
+  {
+    "english": "multiplex",
+    "vietnamese": "rạp đa phòng",
+    "pronunciation": "/ˈmʌl.tɪ.pleks/",
+    "type": "Venue"
+  },
+  {
+    "english": "IMAX",
+    "vietnamese": "màn hình IMAX",
+    "pronunciation": "/ˈaɪ.mæks/",
+    "type": "Technology"
+  },
+  {
+    "english": "3D movie",
+    "vietnamese": "phim 3D",
+    "pronunciation": "/θriː diː ˈmuː.vi/",
+    "type": "Technology"
+  },
+  {
+    "english": "streaming",
+    "vietnamese": "xem trực tuyến",
+    "pronunciation": "/ˈstriː.mɪŋ/",
+    "type": "Technology"
+  },
+  {
+    "english": "DVD",
+    "vietnamese": "đĩa DVD",
+    "pronunciation": "/ˌdiː.viːˈdiː/",
+    "type": "Technology"
+  },
+  {
+    "english": "Blu-ray",
+    "vietnamese": "đĩa Blu-ray",
+    "pronunciation": "/ˈbluː.reɪ/",
+    "type": "Technology"
+  },
+  {
+    "english": "ticket",
+    "vietnamese": "vé",
+    "pronunciation": "/ˈtɪk.ɪt/",
+    "type": "Cinema item"
+  },
+  {
+    "english": "popcorn",
+    "vietnamese": "bỏng ngô",
+    "pronunciation": "/ˈpɒp.kɔːn/",
+    "type": "Cinema snack"
+  },
+  {
+    "english": "concession stand",
+    "vietnamese": "quầy bán đồ ăn",
+    "pronunciation": "/kənˈseʃ.ən stænd/",
+    "type": "Cinema facility"
+  },
+  {
+    "english": "intermission",
+    "vietnamese": "giờ nghỉ giữa",
+    "pronunciation": "/ˌɪn.təˈmɪʃ.ən/",
+    "type": "Cinema event"
+  },
+  {
+    "english": "matinee",
+    "vietnamese": "suất chiều",
+    "pronunciation": "/ˌmæt.ɪˈneɪ/",
+    "type": "Cinema showing"
+  },
+  {
+    "english": "showtime",
+    "vietnamese": "giờ chiếu",
+    "pronunciation": "/ˈʃəʊ.taɪm/",
+    "type": "Cinema schedule"
+  },
+  {
+    "english": "sold out",
+    "vietnamese": "hết vé",
+    "pronunciation": "/səʊld aʊt/",
+    "type": "Cinema status"
+  },
+  {
+    "english": "runtime",
+    "vietnamese": "thời lượng",
+    "pronunciation": "/ˈrʌn.taɪm/",
+    "type": "Film property"
+  },
+  {
+    "english": "rating",
+    "vietnamese": "xếp hạng",
+    "pronunciation": "/ˈreɪ.tɪŋ/",
+    "type": "Film property"
+  },
+  {
+    "english": "review",
+    "vietnamese": "đánh giá",
+    "pronunciation": "/rɪˈvjuː/",
+    "type": "Film criticism"
+  },
+  {
+    "english": "critic",
+    "vietnamese": "nhà phê bình",
+    "pronunciation": "/ˈkrɪt.ɪk/",
+    "type": "Film profession"
+  },
+  {
+    "english": "synopsis",
+    "vietnamese": "tóm tắt nội dung",
+    "pronunciation": "/sɪˈnɒp.sɪs/",
+    "type": "Film description"
+  },
+  {
+    "english": "behind the scenes",
+    "vietnamese": "hậu trường",
+    "pronunciation": "/bɪˌhaɪnd ðə siːnz/",
+    "type": "Film content"
+  },
+  {
+    "english": "deleted scenes",
+    "vietnamese": "cảnh bị cắt",
+    "pronunciation": "/dɪˌliː.tɪd siːnz/",
+    "type": "Film content"
+  },
+  {
+    "english": "director's cut",
+    "vietnamese": "bản đạo diễn",
+    "pronunciation": "/daɪˌrek.təz kʌt/",
+    "type": "Film version"
+  },
+  {
+    "english": "remake",
+    "vietnamese": "bản làm lại",
+    "pronunciation": "/ˈriː.meɪk/",
+    "type": "Film type"
+  },
+  {
+    "english": "reboot",
+    "vietnamese": "khởi động lại",
+    "pronunciation": "/ˈriː.buːt/",
+    "type": "Film type"
+  },
+  {
+    "english": "franchise",
+    "vietnamese": "thương hiệu phim",
+    "pronunciation": "/ˈfræn.tʃaɪz/",
+    "type": "Film series"
+  },
+  {
+    "english": "trilogy",
+    "vietnamese": "bộ ba phim",
+    "pronunciation": "/ˈtrɪl.ə.dʒi/",
+    "type": "Film series"
+  }
+]

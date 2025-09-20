@@ -1,0 +1,716 @@
+[
+  {
+    "english": "hometown",
+    "vietnamese": "quê hương",
+    "pronunciation": "/ˈhəʊm.taʊn/",
+    "type": "General"
+  },
+  {
+    "english": "birthplace",
+    "vietnamese": "nơi sinh",
+    "pronunciation": "/ˈbɜːθ.pleɪs/",
+    "type": "General"
+  },
+  {
+    "english": "homeland",
+    "vietnamese": "Tổ quốc",
+    "pronunciation": "/ˈhəʊm.lænd/",
+    "type": "General"
+  },
+  {
+    "english": "native place",
+    "vietnamese": "quê quán",
+    "pronunciation": "/ˈneɪ.tɪv pleɪs/",
+    "type": "General"
+  },
+  {
+    "english": "countryside",
+    "vietnamese": "vùng nông thôn",
+    "pronunciation": "/ˈkʌn.tri.saɪd/",
+    "type": "Location type"
+  },
+  {
+    "english": "village",
+    "vietnamese": "làng, thôn",
+    "pronunciation": "/ˈvɪl.ɪdʒ/",
+    "type": "Location type"
+  },
+  {
+    "english": "hamlet",
+    "vietnamese": "ấp, xóm",
+    "pronunciation": "/ˈhæm.lət/",
+    "type": "Location type"
+  },
+  {
+    "english": "town",
+    "vietnamese": "thị trấn",
+    "pronunciation": "/taʊn/",
+    "type": "Location type"
+  },
+  {
+    "english": "city",
+    "vietnamese": "thành phố",
+    "pronunciation": "/ˈsɪt.i/",
+    "type": "Location type"
+  },
+  {
+    "english": "metropolis",
+    "vietnamese": "đô thị lớn",
+    "pronunciation": "/məˈtrɒp.ə.lɪs/",
+    "type": "Location type"
+  },
+  {
+    "english": "capital",
+    "vietnamese": "thủ đô",
+    "pronunciation": "/ˈkæp.ɪ.təl/",
+    "type": "Location type"
+  },
+  {
+    "english": "province",
+    "vietnamese": "tỉnh",
+    "pronunciation": "/ˈprɒv.ɪns/",
+    "type": "Administrative division"
+  },
+  {
+    "english": "state",
+    "vietnamese": "bang",
+    "pronunciation": "/steɪt/",
+    "type": "Administrative division"
+  },
+  {
+    "english": "county",
+    "vietnamese": "hạt",
+    "pronunciation": "/ˈkaʊn.ti/",
+    "type": "Administrative division"
+  },
+  {
+    "english": "district",
+    "vietnamese": "quận, huyện",
+    "pronunciation": "/ˈdɪs.trɪkt/",
+    "type": "Administrative division"
+  },
+  {
+    "english": "ward",
+    "vietnamese": "phường",
+    "pronunciation": "/wɔːrd/",
+    "type": "Administrative division"
+  },
+  {
+    "english": "commune",
+    "vietnamese": "xã",
+    "pronunciation": "/ˈkɒm.juːn/",
+    "type": "Administrative division"
+  },
+  {
+    "english": "region",
+    "vietnamese": "vùng, khu vực",
+    "pronunciation": "/ˈriː.dʒən/",
+    "type": "Geographic area"
+  },
+  {
+    "english": "area",
+    "vietnamese": "khu vực",
+    "pronunciation": "/ˈeə.ri.ə/",
+    "type": "Geographic area"
+  },
+  {
+    "english": "territory",
+    "vietnamese": "lãnh thổ",
+    "pronunciation": "/ˈter.ɪ.tər.i/",
+    "type": "Geographic area"
+  },
+  {
+    "english": "neighborhood",
+    "vietnamese": "khu dân cư",
+    "pronunciation": "/ˈneɪ.bə.hʊd/",
+    "type": "Community area"
+  },
+  {
+    "english": "community",
+    "vietnamese": "cộng đồng",
+    "pronunciation": "/kəˈmjuː.nə.ti/",
+    "type": "Community area"
+  },
+  {
+    "english": "suburb",
+    "vietnamese": "vùng ngoại ô",
+    "pronunciation": "/ˈsʌb.ɜːb/",
+    "type": "Community area"
+  },
+  {
+    "english": "downtown",
+    "vietnamese": "trung tâm thành phố",
+    "pronunciation": "/ˈdaʊn.taʊn/",
+    "type": "Community area"
+  },
+  {
+    "english": "outskirts",
+    "vietnamese": "vùng ven",
+    "pronunciation": "/ˈaʊt.skɜːts/",
+    "type": "Community area"
+  },
+  {
+    "english": "rural",
+    "vietnamese": "thuộc vùng quê",
+    "pronunciation": "/ˈrʊə.rəl/",
+    "type": "Description"
+  },
+  {
+    "english": "urban",
+    "vietnamese": "thuộc thành phố",
+    "pronunciation": "/ˈɜː.bən/",
+    "type": "Description"
+  },
+  {
+    "english": "suburban",
+    "vietnamese": "thuộc ngoại ô",
+    "pronunciation": "/səˈbɜː.bən/",
+    "type": "Description"
+  },
+  {
+    "english": "remote",
+    "vietnamese": "xa xôi, hẻo lánh",
+    "pronunciation": "/rɪˈməʊt/",
+    "type": "Description"
+  },
+  {
+    "english": "coastal",
+    "vietnamese": "ven biển",
+    "pronunciation": "/ˈkəʊ.stəl/",
+    "type": "Description"
+  },
+  {
+    "english": "mountainous",
+    "vietnamese": "có nhiều núi",
+    "pronunciation": "/ˈmaʊn.tə.nəs/",
+    "type": "Description"
+  },
+  {
+    "english": "landscape",
+    "vietnamese": "phong cảnh",
+    "pronunciation": "/ˈlænd.skeɪp/",
+    "type": "Geography"
+  },
+  {
+    "english": "scenery",
+    "vietnamese": "cảnh quan",
+    "pronunciation": "/ˈsiː.nər.i/",
+    "type": "Geography"
+  },
+  {
+    "english": "terrain",
+    "vietnamese": "địa hình",
+    "pronunciation": "/təˈreɪn/",
+    "type": "Geography"
+  },
+  {
+    "english": "river",
+    "vietnamese": "dòng sông",
+    "pronunciation": "/ˈrɪv.ər/",
+    "type": "Water features"
+  },
+  {
+    "english": "stream",
+    "vietnamese": "suối",
+    "pronunciation": "/striːm/",
+    "type": "Water features"
+  },
+  {
+    "english": "creek",
+    "vietnamese": "rạch",
+    "pronunciation": "/kriːk/",
+    "type": "Water features"
+  },
+  {
+    "english": "lake",
+    "vietnamese": "hồ",
+    "pronunciation": "/leɪk/",
+    "type": "Water features"
+  },
+  {
+    "english": "pond",
+    "vietnamese": "ao",
+    "pronunciation": "/pɒnd/",
+    "type": "Water features"
+  },
+  {
+    "english": "canal",
+    "vietnamese": "kênh",
+    "pronunciation": "/kəˈnæl/",
+    "type": "Water features"
+  },
+  {
+    "english": "sea",
+    "vietnamese": "biển",
+    "pronunciation": "/siː/",
+    "type": "Water features"
+  },
+  {
+    "english": "ocean",
+    "vietnamese": "đại dương",
+    "pronunciation": "/ˈəʊ.ʃən/",
+    "type": "Water features"
+  },
+  {
+    "english": "beach",
+    "vietnamese": "bãi biển",
+    "pronunciation": "/biːtʃ/",
+    "type": "Water features"
+  },
+  {
+    "english": "mountain",
+    "vietnamese": "núi",
+    "pronunciation": "/ˈmaʊn.tɪn/",
+    "type": "Land features"
+  },
+  {
+    "english": "hill",
+    "vietnamese": "đồi",
+    "pronunciation": "/hɪl/",
+    "type": "Land features"
+  },
+  {
+    "english": "valley",
+    "vietnamese": "thung lũng",
+    "pronunciation": "/ˈvæl.i/",
+    "type": "Land features"
+  },
+  {
+    "english": "plain",
+    "vietnamese": "đồng bằng",
+    "pronunciation": "/pleɪn/",
+    "type": "Land features"
+  },
+  {
+    "english": "plateau",
+    "vietnamese": "cao nguyên",
+    "pronunciation": "/ˈplæt.əʊ/",
+    "type": "Land features"
+  },
+  {
+    "english": "forest",
+    "vietnamese": "rừng",
+    "pronunciation": "/ˈfɒr.ɪst/",
+    "type": "Land features"
+  },
+  {
+    "english": "jungle",
+    "vietnamese": "rừng rậm",
+    "pronunciation": "/ˈdʒʌŋ.ɡəl/",
+    "type": "Land features"
+  },
+  {
+    "english": "desert",
+    "vietnamese": "sa mạc",
+    "pronunciation": "/ˈdez.ət/",
+    "type": "Land features"
+  },
+  {
+    "english": "field",
+    "vietnamese": "cánh đồng",
+    "pronunciation": "/fiːld/",
+    "type": "Agricultural"
+  },
+  {
+    "english": "farm",
+    "vietnamese": "trang trại",
+    "pronunciation": "/fɑːm/",
+    "type": "Agricultural"
+  },
+  {
+    "english": "farmland",
+    "vietnamese": "đất nông nghiệp",
+    "pronunciation": "/ˈfɑːm.lænd/",
+    "type": "Agricultural"
+  },
+  {
+    "english": "rice field",
+    "vietnamese": "ruộng lúa",
+    "pronunciation": "/raɪs fiːld/",
+    "type": "Agricultural"
+  },
+  {
+    "english": "orchard",
+    "vietnamese": "vườn cây ăn quả",
+    "pronunciation": "/ˈɔː.tʃəd/",
+    "type": "Agricultural"
+  },
+  {
+    "english": "garden",
+    "vietnamese": "vườn",
+    "pronunciation": "/ˈɡɑː.dən/",
+    "type": "Agricultural"
+  },
+  {
+    "english": "plantation",
+    "vietnamese": "đồn điền",
+    "pronunciation": "/plænˈteɪ.ʃən/",
+    "type": "Agricultural"
+  },
+  {
+    "english": "bridge",
+    "vietnamese": "cây cầu",
+    "pronunciation": "/brɪdʒ/",
+    "type": "Infrastructure"
+  },
+  {
+    "english": "road",
+    "vietnamese": "con đường",
+    "pronunciation": "/rəʊd/",
+    "type": "Infrastructure"
+  },
+  {
+    "english": "street",
+    "vietnamese": "phố",
+    "pronunciation": "/striːt/",
+    "type": "Infrastructure"
+  },
+  {
+    "english": "lane",
+    "vietnamese": "ngõ",
+    "pronunciation": "/leɪn/",
+    "type": "Infrastructure"
+  },
+  {
+    "english": "alley",
+    "vietnamese": "hẻm",
+    "pronunciation": "/ˈæl.i/",
+    "type": "Infrastructure"
+  },
+  {
+    "english": "highway",
+    "vietnamese": "đường cao tốc",
+    "pronunciation": "/ˈhaɪ.weɪ/",
+    "type": "Infrastructure"
+  },
+  {
+    "english": "railway",
+    "vietnamese": "đường sắt",
+    "pronunciation": "/ˈreɪl.weɪ/",
+    "type": "Infrastructure"
+  },
+  {
+    "english": "airport",
+    "vietnamese": "sân bay",
+    "pronunciation": "/ˈeə.pɔːt/",
+    "type": "Infrastructure"
+  },
+  {
+    "english": "port",
+    "vietnamese": "cảng",
+    "pronunciation": "/pɔːt/",
+    "type": "Infrastructure"
+  },
+  {
+    "english": "market",
+    "vietnamese": "chợ",
+    "pronunciation": "/ˈmɑː.kɪt/",
+    "type": "Community places"
+  },
+  {
+    "english": "marketplace",
+    "vietnamese": "khu chợ",
+    "pronunciation": "/ˈmɑː.kɪt.pleɪs/",
+    "type": "Community places"
+  },
+  {
+    "english": "square",
+    "vietnamese": "quảng trường",
+    "pronunciation": "/skweər/",
+    "type": "Community places"
+  },
+  {
+    "english": "park",
+    "vietnamese": "công viên",
+    "pronunciation": "/pɑːk/",
+    "type": "Community places"
+  },
+  {
+    "english": "school",
+    "vietnamese": "trường học",
+    "pronunciation": "/skuːl/",
+    "type": "Community places"
+  },
+  {
+    "english": "hospital",
+    "vietnamese": "bệnh viện",
+    "pronunciation": "/ˈhɒs.pɪ.təl/",
+    "type": "Community places"
+  },
+  {
+    "english": "library",
+    "vietnamese": "thư viện",
+    "pronunciation": "/ˈlaɪ.brər.i/",
+    "type": "Community places"
+  },
+  {
+    "english": "post office",
+    "vietnamese": "bưu điện",
+    "pronunciation": "/pəʊst ˈɒf.ɪs/",
+    "type": "Community places"
+  },
+  {
+    "english": "bank",
+    "vietnamese": "ngân hàng",
+    "pronunciation": "/bæŋk/",
+    "type": "Community places"
+  },
+  {
+    "english": "police station",
+    "vietnamese": "đồn cảnh sát",
+    "pronunciation": "/pəˈliːs ˈsteɪ.ʃən/",
+    "type": "Community places"
+  },
+  {
+    "english": "fire station",
+    "vietnamese": "trạm cứu hỏa",
+    "pronunciation": "/faɪər ˈsteɪ.ʃən/",
+    "type": "Community places"
+  },
+  {
+    "english": "pagoda",
+    "vietnamese": "chùa",
+    "pronunciation": "/pəˈɡəʊ.də/",
+    "type": "Religious places"
+  },
+  {
+    "english": "temple",
+    "vietnamese": "đền thờ",
+    "pronunciation": "/ˈtem.pəl/",
+    "type": "Religious places"
+  },
+  {
+    "english": "church",
+    "vietnamese": "nhà thờ",
+    "pronunciation": "/tʃɜːtʃ/",
+    "type": "Religious places"
+  },
+  {
+    "english": "mosque",
+    "vietnamese": "nhà thờ Hồi giáo",
+    "pronunciation": "/mɒsk/",
+    "type": "Religious places"
+  },
+  {
+    "english": "shrine",
+    "vietnamese": "đền thờ nhỏ",
+    "pronunciation": "/ʃraɪn/",
+    "type": "Religious places"
+  },
+  {
+    "english": "monastery",
+    "vietnamese": "tu viện",
+    "pronunciation": "/ˈmɒn.ə.stər.i/",
+    "type": "Religious places"
+  },
+  {
+    "english": "cemetery",
+    "vietnamese": "nghĩa trang",
+    "pronunciation": "/ˈsem.ə.ter.i/",
+    "type": "Religious places"
+  },
+  {
+    "english": "traditional",
+    "vietnamese": "truyền thống",
+    "pronunciation": "/trəˈdɪʃ.ən.əl/",
+    "type": "Cultural aspects"
+  },
+  {
+    "english": "modern",
+    "vietnamese": "hiện đại",
+    "pronunciation": "/ˈmɒd.ən/",
+    "type": "Cultural aspects"
+  },
+  {
+    "english": "ancient",
+    "vietnamese": "cổ xưa",
+    "pronunciation": "/ˈeɪn.ʃənt/",
+    "type": "Cultural aspects"
+  },
+  {
+    "english": "historic",
+    "vietnamese": "lịch sử",
+    "pronunciation": "/hɪˈstɒr.ɪk/",
+    "type": "Cultural aspects"
+  },
+  {
+    "english": "festival",
+    "vietnamese": "lễ hội",
+    "pronunciation": "/ˈfes.tɪ.vəl/",
+    "type": "Cultural events"
+  },
+  {
+    "english": "celebration",
+    "vietnamese": "lễ kỷ niệm",
+    "pronunciation": "/ˌsel.ə.ˈbreɪ.ʃən/",
+    "type": "Cultural events"
+  },
+  {
+    "english": "ceremony",
+    "vietnamese": "lễ nghi",
+    "pronunciation": "/ˈser.ə.mən.i/",
+    "type": "Cultural events"
+  },
+  {
+    "english": "holiday",
+    "vietnamese": "ngày lễ",
+    "pronunciation": "/ˈhɒl.ə.deɪ/",
+    "type": "Cultural events"
+  },
+  {
+    "english": "culture",
+    "vietnamese": "văn hóa",
+    "pronunciation": "/ˈkʌl.tʃər/",
+    "type": "Cultural concepts"
+  },
+  {
+    "english": "tradition",
+    "vietnamese": "truyền thống",
+    "pronunciation": "/trəˈdɪʃ.ən/",
+    "type": "Cultural concepts"
+  },
+  {
+    "english": "custom",
+    "vietnamese": "phong tục",
+    "pronunciation": "/ˈkʌs.təm/",
+    "type": "Cultural concepts"
+  },
+  {
+    "english": "heritage",
+    "vietnamese": "di sản",
+    "pronunciation": "/ˈher.ɪ.tɪdʒ/",
+    "type": "Cultural concepts"
+  },
+  {
+    "english": "folklore",
+    "vietnamese": "văn hóa dân gian",
+    "pronunciation": "/ˈfəʊk.lɔːr/",
+    "type": "Cultural concepts"
+  },
+  {
+    "english": "legend",
+    "vietnamese": "truyền thuyết",
+    "pronunciation": "/ˈledʒ.ənd/",
+    "type": "Cultural concepts"
+  },
+  {
+    "english": "famous for",
+    "vietnamese": "nổi tiếng về",
+    "pronunciation": "/ˈfeɪ.məs fɔːr/",
+    "type": "Characteristics"
+  },
+  {
+    "english": "known for",
+    "vietnamese": "được biết đến vì",
+    "pronunciation": "/nəʊn fɔːr/",
+    "type": "Characteristics"
+  },
+  {
+    "english": "renowned for",
+    "vietnamese": "nổi tiếng vì",
+    "pronunciation": "/rɪˈnaʊnd fɔːr/",
+    "type": "Characteristics"
+  },
+  {
+    "english": "peaceful",
+    "vietnamese": "yên bình",
+    "pronunciation": "/ˈpiːs.fəl/",
+    "type": "Characteristics"
+  },
+  {
+    "english": "quiet",
+    "vietnamese": "yên tĩnh",
+    "pronunciation": "/ˈkwaɪ.ət/",
+    "type": "Characteristics"
+  },
+  {
+    "english": "tranquil",
+    "vietnamese": "thanh bình",
+    "pronunciation": "/ˈtræŋ.kwɪl/",
+    "type": "Characteristics"
+  },
+  {
+    "english": "serene",
+    "vietnamese": "tĩnh lặng",
+    "pronunciation": "/səˈriːn/",
+    "type": "Characteristics"
+  },
+  {
+    "english": "bustling",
+    "vietnamese": "nhộn nhịp",
+    "pronunciation": "/ˈbʌs.lɪŋ/",
+    "type": "Characteristics"
+  },
+  {
+    "english": "lively",
+    "vietnamese": "sôi động",
+    "pronunciation": "/ˈlaɪv.li/",
+    "type": "Characteristics"
+  },
+  {
+    "english": "vibrant",
+    "vietnamese": "sôi nổi",
+    "pronunciation": "/ˈvaɪ.brənt/",
+    "type": "Characteristics"
+  },
+  {
+    "english": "friendly",
+    "vietnamese": "thân thiện",
+    "pronunciation": "/ˈfrend.li/",
+    "type": "Characteristics"
+  },
+  {
+    "english": "hospitable",
+    "vietnamese": "hiếu khách",
+    "pronunciation": "/hɒˈspɪt.ə.bəl/",
+    "type": "Characteristics"
+  },
+  {
+    "english": "welcoming",
+    "vietnamese": "chào đón",
+    "pronunciation": "/ˈwel.kəm.ɪŋ/",
+    "type": "Characteristics"
+  },
+  {
+    "english": "charming",
+    "vietnamese": "quyến rũ",
+    "pronunciation": "/ˈtʃɑː.mɪŋ/",
+    "type": "Characteristics"
+  },
+  {
+    "english": "picturesque",
+    "vietnamese": "đẹp như tranh",
+    "pronunciation": "/ˌpɪk.tʃəˈresk/",
+    "type": "Characteristics"
+  },
+  {
+    "english": "scenic",
+    "vietnamese": "có cảnh đẹp",
+    "pronunciation": "/ˈsiː.nɪk/",
+    "type": "Characteristics"
+  },
+  {
+    "english": "beautiful",
+    "vietnamese": "đẹp",
+    "pronunciation": "/ˈbjuː.tɪ.fəl/",
+    "type": "Characteristics"
+  },
+  {
+    "english": "gorgeous",
+    "vietnamese": "tuyệt đẹp",
+    "pronunciation": "/ˈɡɔː.dʒəs/",
+    "type": "Characteristics"
+  },
+  {
+    "english": "stunning",
+    "vietnamese": "ngoạn mục",
+    "pronunciation": "/ˈstʌn.ɪŋ/",
+    "type": "Characteristics"
+  },
+  {
+    "english": "breathtaking",
+    "vietnamese": "ngoạn mục",
+    "pronunciation": "/ˈbreθ.teɪ.kɪŋ/",
+    "type": "Characteristics"
+  }
+]

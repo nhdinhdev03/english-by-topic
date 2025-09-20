@@ -7,8 +7,8 @@
   },
   {
     "english": "Student",
-    "vietnamese": "Học sinh, sinh viên",
-    "pronunciation": "/ˈstuː.dənt/",
+    "vietnamese": "Học sinh",
+    "pronunciation": "/ˈstjuː.dənt/",
     "type": "n"
   },
   {
@@ -26,7 +26,7 @@
   {
     "english": "Classroom",
     "vietnamese": "Lớp học",
-    "pronunciation": "/ˈklæs.ruːm/",
+    "pronunciation": "/ˈklɑːs.ruːm/",
     "type": "n"
   },
   {
@@ -68,13 +68,13 @@
   {
     "english": "Blackboard",
     "vietnamese": "Bảng đen",
-    "pronunciation": "/ˈblæk.bɔːrd/",
+    "pronunciation": "/ˈblæk.bɔːd/",
     "type": "n"
   },
   {
     "english": "Whiteboard",
     "vietnamese": "Bảng trắng",
-    "pronunciation": "/ˈwaɪt.bɔːrd/",
+    "pronunciation": "/ˈwaɪt.bɔːd/",
     "type": "n"
   },
   {
@@ -85,13 +85,13 @@
   },
   {
     "english": "Notebook",
-    "vietnamese": "Vở",
+    "vietnamese": "Vở, sổ ghi chép",
     "pronunciation": "/ˈnəʊt.bʊk/",
     "type": "n"
   },
   {
     "english": "Pen",
-    "vietnamese": "Bút bi",
+    "vietnamese": "Bút mực",
     "pronunciation": "/pen/",
     "type": "n"
   },
@@ -122,7 +122,7 @@
   {
     "english": "Subject",
     "vietnamese": "Môn học",
-    "pronunciation": "/ˈsʌb.dʒekt/",
+    "pronunciation": "/ˈsʌb.dʒɪkt/",
     "type": "n"
   },
   {
@@ -199,14 +199,26 @@
   },
   {
     "english": "Grade",
-    "vietnamese": "Điểm số",
+    "vietnamese": "Lớp, điểm số",
     "pronunciation": "/ɡreɪd/",
     "type": "n"
   },
   {
+    "english": "Score",
+    "vietnamese": "Điểm số",
+    "pronunciation": "/skɔːr/",
+    "type": "n"
+  },
+  {
+    "english": "Diploma",
+    "vietnamese": "Bằng tốt nghiệp",
+    "pronunciation": "/dɪˈpləʊ.mə/",
+    "type": "n"
+  },
+  {
     "english": "Recess",
-    "vietnamese": "Giờ nghỉ",
-    "pronunciation": "/ˈriː.ses/",
+    "vietnamese": "Giờ giải lao",
+    "pronunciation": "/rɪˈses/",
     "type": "n"
   },
   {
