@@ -32,7 +32,7 @@ body {
   background: var(--background-primary);
   color: var(--text-primary);
   font-family: var(--font-primary);
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease, background-image 0.3s ease;
   
   // Light theme background pattern
   &.light-theme {

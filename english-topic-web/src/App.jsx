@@ -1,13 +1,12 @@
-
-import { Suspense } from 'react';
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import Footer from './Layouts/Footer';
-import Header from './Layouts/Header';
-import { allRoutes } from './Router';
-import ScrollToTop from './components/Scroll/ScrollToTop/ScrollToTop';
-import ScrollToTopOnNavigate from './components/Scroll/ScrollToTopOnNavigate/ScrollToTopOnNavigate';
-import { ThemeProvider } from './contexts/ThemeContext';
-import './styles/App.scss';
+import { Suspense } from "react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Footer from "./Layouts/Footer";
+import Header from "./Layouts/Header";
+import { allRoutes } from "./Router";
+import ScrollToTop from "./components/Scroll/ScrollToTop/ScrollToTop";
+import ScrollToTopOnNavigate from "./components/Scroll/ScrollToTopOnNavigate/ScrollToTopOnNavigate";
+import { ThemeProvider } from "./contexts/ThemeContext";
+import "./styles/App.scss";
 
 // Loading component
 const Loading = () => (
@@ -22,9 +21,9 @@ function App() {
     <ThemeProvider>
       <Router>
         <div className="app">
-          <Header />
-          <main className="main-content">
-            <Suspense fallback={<Loading />}>
+          <Suspense fallback={<Loading />}>
+            <Header />
+            <main className="main-content">
               <Routes>
                 {allRoutes.map((route, index) => {
                   const Component = route.element;
@@ -37,12 +36,12 @@ function App() {
                   );
                 })}
               </Routes>
-            </Suspense>
-          </main>
-          <Footer />
-          {/* Scroll components */}
-          <ScrollToTopOnNavigate />
-          <ScrollToTop />
+            </main>
+            <Footer />
+            {/* Scroll components */}
+            <ScrollToTopOnNavigate />
+            <ScrollToTop />
+          </Suspense>
         </div>
       </Router>
     </ThemeProvider>

@@ -4,10 +4,14 @@ import { createContext, useCallback, useEffect, useMemo, useState } from 'react'
 const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
-  // Kiểm tra theme từ localStorage hoặc mặc định là light
+  // Kiểm tra theme từ localStorage, system preference hoặc mặc định là light
   const [theme, setTheme] = useState(() => {
     const savedTheme = localStorage.getItem('english-by-topic-theme');
-    return savedTheme || 'light';
+    if (savedTheme) return savedTheme;
+    
+    // Check system preference if no saved theme
+    const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    return systemTheme;
   });
 
   // Toggle giữa light và dark theme
@@ -16,31 +20,46 @@ export const ThemeProvider = ({ children }) => {
     setTheme(newTheme);
   }, [theme]);
 
+  // Function to apply theme to DOM
+  const applyTheme = useCallback((themeValue) => {
+    // Set attribute for CSS variables
+    document.documentElement.setAttribute('data-theme', themeValue);
+    
+    // Update document classes
+    document.documentElement.classList.remove('light-theme', 'dark-theme');
+    document.documentElement.classList.add(`${themeValue}-theme`);
+    
+    // Optional: Update body classes for backward compatibility
+    document.body.classList.remove('light-theme', 'dark-theme');
+    document.body.classList.add(`${themeValue}-theme`);
+  }, []);
+
   // Lưu theme vào localStorage và apply vào document
   useEffect(() => {
     localStorage.setItem('english-by-topic-theme', theme);
-    
-    // Thêm class vào document để CSS có thể sử dụng
-    document.documentElement.setAttribute('data-theme', theme);
-    
-    // Thêm class vào body cho một số styling đặc biệt
-    if (theme === 'dark') {
-      document.body.classList.add('dark-theme');
-      document.body.classList.remove('light-theme');
-    } else {
-      document.body.classList.add('light-theme');
-      document.body.classList.remove('dark-theme');
-    }
-  }, [theme]);
+    applyTheme(theme);
+  }, [theme, applyTheme]);
 
-  // Set theme khi component mount
+  // Listen to system theme changes
   useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme);
-    document.body.classList.add(`${theme}-theme`);
-  }, [theme]);
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    
+    const handleChange = (e) => {
+      // Only update if no saved theme preference exists
+      const savedTheme = localStorage.getItem('english-by-topic-theme');
+      if (!savedTheme) {
+        const systemTheme = e.matches ? 'dark' : 'light';
+        setTheme(systemTheme);
+      }
+    };
+
+    mediaQuery.addEventListener('change', handleChange);
+    return () => mediaQuery.removeEventListener('change', handleChange);
+  }, []);
 
   const value = useMemo(() => ({
     theme,
+    setTheme,
     toggleTheme,
     isDark: theme === 'dark',
     isLight: theme === 'light'

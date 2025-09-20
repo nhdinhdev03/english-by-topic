@@ -5,6 +5,25 @@
     <link rel="icon" type="image/svg+xml" href="/image.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>English 3000+</title>
+    
+    <!-- Theme initialization script to prevent flash -->
+    <script>
+      (function() {
+        // Get theme from localStorage or system preference
+        const savedTheme = localStorage.getItem('english-by-topic-theme');
+        const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        const theme = savedTheme || systemTheme;
+        
+        // Apply theme immediately
+        document.documentElement.setAttribute('data-theme', theme);
+        document.documentElement.classList.add(`${theme}-theme`);
+        
+        // Store the theme for React to use
+        if (!savedTheme) {
+          localStorage.setItem('english-by-topic-theme', theme);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
