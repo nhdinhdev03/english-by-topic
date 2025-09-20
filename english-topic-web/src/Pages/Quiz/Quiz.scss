@@ -438,6 +438,213 @@
   }
 }
 
+.question-count-selector {
+  margin-bottom: var(--space-xxl);
+  
+  h3 {
+    color: var(--text-primary);
+    margin-bottom: var(--space-md);
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .count-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    justify-content: center;
+    margin-bottom: var(--space-lg);
+  }
+  
+  .count-btn {
+    padding: var(--space-sm) var(--space-md);
+    border: 2px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    background: var(--background-primary);
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 80px;
+    
+    &:hover {
+      border-color: var(--primary-color);
+      color: var(--primary-color);
+      transform: translateY(-2px);
+    }
+    
+    &.active {
+      background: var(--primary-color);
+      border-color: var(--primary-color);
+      color: white;
+      box-shadow: var(--shadow-md);
+    }
+    
+    @include respond-to(sm) {
+      font-size: 0.8rem;
+      padding: var(--space-xs) var(--space-sm);
+      min-width: 70px;
+    }
+  }
+  
+  .custom-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+    
+    label {
+      color: var(--text-primary);
+      font-weight: 500;
+      font-size: 0.9rem;
+    }
+    
+    .custom-count-input {
+      width: 80px;
+      padding: var(--space-xs) var(--space-sm);
+      border: 2px solid var(--border-color);
+      border-radius: var(--border-radius-md);
+      background: var(--background-primary);
+      color: var(--text-primary);
+      font-size: 0.9rem;
+      text-align: center;
+      transition: border-color 0.3s ease;
+      
+      &:focus {
+        outline: none;
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 3px rgba(var(--primary-color-rgb), 0.1);
+      }
+      
+      @include respond-to(sm) {
+        width: 60px;
+        font-size: 0.8rem;
+      }
+    }
+    
+    .count-info {
+      color: var(--text-secondary);
+      font-size: 0.8rem;
+    }
+  }
+}
+
+.quiz-info {
+  margin-bottom: var(--space-xl);
+  
+  .info-card {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-md);
+    padding: var(--space-lg);
+    background: linear-gradient(135deg, rgba(var(--primary-color-rgb), 0.1) 0%, rgba(var(--accent-color-rgb), 0.1) 100%);
+    border-radius: var(--border-radius-lg);
+    border: 2px solid rgba(var(--primary-color-rgb), 0.2);
+    
+    .info-icon {
+      font-size: 1.5rem;
+      margin-top: 2px;
+    }
+    
+    .info-content {
+      flex: 1;
+      
+      .info-title {
+        display: block;
+        font-weight: 600;
+        color: var(--text-primary);
+        margin-bottom: var(--space-xs);
+        font-size: 1rem;
+      }
+      
+      .info-description {
+        display: block;
+        color: var(--text-secondary);
+        font-size: 0.9rem;
+        line-height: 1.4;
+      }
+    }
+    
+    @include respond-to(sm) {
+      padding: var(--space-md);
+      gap: var(--space-sm);
+      
+      .info-icon {
+        font-size: 1.3rem;
+      }
+      
+      .info-content {
+        .info-title {
+          font-size: 0.9rem;
+        }
+        
+        .info-description {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
+
+.vocab-count-info {
+  margin-bottom: var(--space-xl);
+  
+  .vocab-info-card {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    padding: var(--space-lg);
+    background: linear-gradient(135deg, rgba(52, 152, 219, 0.1) 0%, rgba(155, 89, 182, 0.1) 100%);
+    border-radius: var(--border-radius-lg);
+    border: 2px solid rgba(52, 152, 219, 0.3);
+    box-shadow: var(--shadow-sm);
+    
+    .vocab-icon {
+      font-size: 1.8rem;
+    }
+    
+    .vocab-content {
+      flex: 1;
+      
+      .vocab-title {
+        display: block;
+        font-weight: 700;
+        color: var(--text-primary);
+        margin-bottom: var(--space-xs);
+        font-size: 1.1rem;
+      }
+      
+      .vocab-count {
+        display: block;
+        color: rgba(52, 152, 219, 0.8);
+        font-size: 0.95rem;
+        font-weight: 600;
+      }
+    }
+    
+    @include respond-to(sm) {
+      padding: var(--space-md);
+      gap: var(--space-sm);
+      
+      .vocab-icon {
+        font-size: 1.5rem;
+      }
+      
+      .vocab-content {
+        .vocab-title {
+          font-size: 1rem;
+        }
+        
+        .vocab-count {
+          font-size: 0.85rem;
+        }
+      }
+    }
+  }
+}
+
 .topics-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -477,6 +684,29 @@
     background: var(--accent-color);
     color: white;
     box-shadow: var(--shadow-lg);
+  }
+  
+  &.all-topics {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-color: transparent;
+    
+    &:hover {
+      transform: translateY(-4px) scale(1.02);
+      box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+    }
+    
+    &.selected {
+      background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+      box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+    }
+    
+    .topic-description {
+      font-size: 0.8rem;
+      opacity: 0.9;
+      margin-top: var(--space-xs);
+      text-align: center;
+    }
   }
   
   .topic-emoji {
@@ -614,10 +844,39 @@
     }
   }
   
+  .progress-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    
+    @include respond-to(sm) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--space-xs);
+    }
+  }
+  
   .progress-text {
     font-size: 0.9rem;
     color: var(--text-secondary);
     font-weight: 500;
+  }
+  
+  .topic-info {
+    font-size: 0.8rem;
+    color: var(--accent-color);
+    font-weight: 600;
+    background: var(--background-tertiary);
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--border-radius-sm);
+    border: 1px solid var(--border-color);
+    
+    @include respond-to(sm) {
+      font-size: 0.75rem;
+      padding: 2px var(--space-xs);
+    }
   }
 }
 

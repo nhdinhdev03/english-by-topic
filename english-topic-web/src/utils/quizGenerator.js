@@ -26,11 +26,12 @@ const generateIncorrectAnswers = (correctAnswer, allVocab, answerType = 'vietnam
 /**
  * Generate vocabulary translation questions (English to Vietnamese)
  */
-const generateTranslationQuestions = (vocabData, count = 5) => {
+const generateTranslationQuestions = (vocabData, count = 5, answerPool = null) => {
   const shuffledVocab = shuffleArray(vocabData).slice(0, count);
+  const pool = answerPool || vocabData;
   
   return shuffledVocab.map((vocab, index) => {
-    const incorrectAnswers = generateIncorrectAnswers(vocab.vietnamese, vocabData, 'vietnamese');
+    const incorrectAnswers = generateIncorrectAnswers(vocab.vietnamese, pool, 'vietnamese');
     const allOptions = shuffleArray([
       { id: 'a', text: vocab.vietnamese, isCorrect: true },
       { id: 'b', text: incorrectAnswers[0], isCorrect: false },
@@ -45,7 +46,8 @@ const generateTranslationQuestions = (vocabData, count = 5) => {
       questionVi: `"${vocab.english}" có nghĩa là gì?`,
       options: allOptions,
       pronunciation: vocab.pronunciation,
-      wordType: vocab.type
+      wordType: vocab.type,
+      topicInfo: vocab.topicName ? { name: vocab.topicName, emoji: vocab.topicEmoji } : null
     };
   });
 };
@@ -53,11 +55,12 @@ const generateTranslationQuestions = (vocabData, count = 5) => {
 /**
  * Generate reverse translation questions (Vietnamese to English)
  */
-const generateReverseTranslationQuestions = (vocabData, count = 5) => {
+const generateReverseTranslationQuestions = (vocabData, count = 5, answerPool = null) => {
   const shuffledVocab = shuffleArray(vocabData).slice(0, count);
+  const pool = answerPool || vocabData;
   
   return shuffledVocab.map((vocab, index) => {
-    const incorrectAnswers = generateIncorrectAnswers(vocab.english, vocabData, 'english');
+    const incorrectAnswers = generateIncorrectAnswers(vocab.english, pool, 'english');
     const allOptions = shuffleArray([
       { id: 'a', text: vocab.english, isCorrect: true },
       { id: 'b', text: incorrectAnswers[0], isCorrect: false },
@@ -72,7 +75,8 @@ const generateReverseTranslationQuestions = (vocabData, count = 5) => {
       questionVi: `"${vocab.vietnamese}" trong tiếng Anh là gì?`,
       options: allOptions,
       pronunciation: vocab.pronunciation,
-      wordType: vocab.type
+      wordType: vocab.type,
+      topicInfo: vocab.topicName ? { name: vocab.topicName, emoji: vocab.topicEmoji } : null
     };
   });
 };
@@ -80,8 +84,9 @@ const generateReverseTranslationQuestions = (vocabData, count = 5) => {
 /**
  * Generate fill-in-the-blank questions
  */
-const generateFillBlankQuestions = (vocabData, count = 3) => {
+const generateFillBlankQuestions = (vocabData, count = 3, answerPool = null) => {
   const shuffledVocab = shuffleArray(vocabData).slice(0, count);
+  const pool = answerPool || vocabData;
   
   // Simple sentence templates
   const templates = [
@@ -100,7 +105,7 @@ const generateFillBlankQuestions = (vocabData, count = 3) => {
     const sentence = template.replace('___', vocab.english.toLowerCase());
     const sentenceWithBlank = template;
     
-    const incorrectAnswers = generateIncorrectAnswers(vocab.english, vocabData, 'english');
+    const incorrectAnswers = generateIncorrectAnswers(vocab.english, pool, 'english');
     const allOptions = shuffleArray([
       { id: 'a', text: vocab.english.toLowerCase(), isCorrect: true },
       { id: 'b', text: incorrectAnswers[0].toLowerCase(), isCorrect: false },
@@ -116,7 +121,8 @@ const generateFillBlankQuestions = (vocabData, count = 3) => {
       options: allOptions,
       completeSentence: sentence,
       pronunciation: vocab.pronunciation,
-      wordType: vocab.type
+      wordType: vocab.type,
+      topicInfo: vocab.topicName ? { name: vocab.topicName, emoji: vocab.topicEmoji } : null
     };
   });
 };
@@ -124,11 +130,12 @@ const generateFillBlankQuestions = (vocabData, count = 3) => {
 /**
  * Generate pronunciation questions
  */
-const generatePronunciationQuestions = (vocabData, count = 3) => {
+const generatePronunciationQuestions = (vocabData, count = 3, answerPool = null) => {
   const shuffledVocab = shuffleArray(vocabData.filter(item => item.pronunciation)).slice(0, count);
+  const pool = answerPool || vocabData;
   
   return shuffledVocab.map((vocab, index) => {
-    const incorrectAnswers = generateIncorrectAnswers(vocab.pronunciation, vocabData.filter(item => item.pronunciation), 'pronunciation');
+    const incorrectAnswers = generateIncorrectAnswers(vocab.pronunciation, pool.filter(item => item.pronunciation), 'pronunciation');
     const allOptions = shuffleArray([
       { id: 'a', text: vocab.pronunciation, isCorrect: true },
       { id: 'b', text: incorrectAnswers[0], isCorrect: false },
@@ -142,7 +149,8 @@ const generatePronunciationQuestions = (vocabData, count = 3) => {
       question: `How is "${vocab.english}" pronounced?`,
       questionVi: `"${vocab.english}" (${vocab.vietnamese}) được phát âm như thế nào?`,
       options: allOptions,
-      wordType: vocab.type
+      wordType: vocab.type,
+      topicInfo: vocab.topicName ? { name: vocab.topicName, emoji: vocab.topicEmoji } : null
     };
   });
 };
@@ -150,13 +158,14 @@ const generatePronunciationQuestions = (vocabData, count = 3) => {
 /**
  * Generate mixed quiz from vocabulary data
  */
-export const generateMixedQuiz = (vocabData, totalQuestions = 10) => {
+export const generateMixedQuiz = (vocabData, totalQuestions = 10, answerPool = null) => {
   if (!vocabData || vocabData.length === 0) {
     return [];
   }
 
   // Ensure we have enough data
   const availableQuestions = Math.min(totalQuestions, vocabData.length);
+  const pool = answerPool || vocabData;
   
   // Distribute question types
   const translationCount = Math.ceil(availableQuestions * 0.4); // 40% translation
@@ -165,10 +174,10 @@ export const generateMixedQuiz = (vocabData, totalQuestions = 10) => {
   const pronunciationCount = availableQuestions - translationCount - reverseCount - fillBlankCount; // remaining for pronunciation
 
   const questions = [
-    ...generateTranslationQuestions(vocabData, translationCount),
-    ...generateReverseTranslationQuestions(vocabData, reverseCount),
-    ...generateFillBlankQuestions(vocabData, fillBlankCount),
-    ...generatePronunciationQuestions(vocabData, pronunciationCount)
+    ...generateTranslationQuestions(vocabData, translationCount, pool),
+    ...generateReverseTranslationQuestions(vocabData, reverseCount, pool),
+    ...generateFillBlankQuestions(vocabData, fillBlankCount, pool),
+    ...generatePronunciationQuestions(vocabData, pronunciationCount, pool)
   ];
 
   // Shuffle all questions and assign sequential IDs
@@ -179,19 +188,22 @@ export const generateMixedQuiz = (vocabData, totalQuestions = 10) => {
 /**
  * Generate quiz by specific type
  */
-export const generateQuizByType = (vocabData, type, count = 10) => {
+export const generateQuizByType = (vocabData, type, count = 10, allVocabData = null) => {
+  // Use provided allVocabData for generating incorrect answers, or fall back to vocabData
+  const answerPool = allVocabData || vocabData;
+  
   switch (type) {
     case 'translation':
-      return generateTranslationQuestions(vocabData, count);
+      return generateTranslationQuestions(vocabData, count, answerPool);
     case 'reverse_translation':
-      return generateReverseTranslationQuestions(vocabData, count);
+      return generateReverseTranslationQuestions(vocabData, count, answerPool);
     case 'fill_blank':
-      return generateFillBlankQuestions(vocabData, count);
+      return generateFillBlankQuestions(vocabData, count, answerPool);
     case 'pronunciation':
-      return generatePronunciationQuestions(vocabData, count);
+      return generatePronunciationQuestions(vocabData, count, answerPool);
     case 'mixed':
     default:
-      return generateMixedQuiz(vocabData, count);
+      return generateMixedQuiz(vocabData, count, answerPool);
   }
 };
 
@@ -230,6 +242,98 @@ export const importTopicData = async (topicKey) => {
     return module.default;
   } catch (error) {
     console.error(`Error loading topic data for ${topicKey}:`, error);
+    return [];
+  }
+};
+
+/**
+ * Import all topic data for comprehensive review
+ */
+export const importAllTopicsData = async () => {
+  try {
+    const allData = [];
+    const topicKeys = Object.keys(AVAILABLE_TOPICS);
+    
+    for (const topicKey of topicKeys) {
+      try {
+        const topicData = await importTopicData(topicKey);
+        if (topicData && topicData.length > 0) {
+          // Add topic information to each vocabulary item
+          const enrichedData = topicData.map(item => ({
+            ...item,
+            topicKey,
+            topicName: AVAILABLE_TOPICS[topicKey].name,
+            topicEmoji: AVAILABLE_TOPICS[topicKey].emoji
+          }));
+          allData.push(...enrichedData);
+        }
+      } catch (error) {
+        console.warn(`Failed to load topic ${topicKey}:`, error);
+      }
+    }
+    
+    return allData;
+  } catch (error) {
+    console.error('Error loading all topics data:', error);
+    return [];
+  }
+};
+
+/**
+ * Generate balanced quiz from all topics
+ */
+export const generateAllTopicsQuiz = async (quizType = 'mixed', questionCount = null) => {
+  try {
+    const allData = await importAllTopicsData();
+    if (allData.length === 0) {
+      throw new Error('No vocabulary data available');
+    }
+    
+    // Group data by topic for balanced distribution
+    const topicGroups = {};
+    allData.forEach(item => {
+      if (!topicGroups[item.topicKey]) {
+        topicGroups[item.topicKey] = [];
+      }
+      topicGroups[item.topicKey].push(item);
+    });
+    
+    const topicKeys = Object.keys(topicGroups);
+    
+    // Auto-calculate optimal question count if not provided
+    if (!questionCount) {
+      // Use 5 questions per topic, but max 100 total
+      questionCount = Math.min(topicKeys.length * 5, 100);
+    }
+    
+    // Calculate how many questions per topic
+    const questionsPerTopic = Math.floor(questionCount / topicKeys.length);
+    const remainingQuestions = questionCount % topicKeys.length;
+    
+    // Select vocabulary items from each topic
+    let selectedVocab = [];
+    topicKeys.forEach((topicKey, index) => {
+      const topicData = shuffleArray(topicGroups[topicKey]);
+      const count = questionsPerTopic + (index < remainingQuestions ? 1 : 0);
+      selectedVocab.push(...topicData.slice(0, count));
+    });
+    
+    // If we don't have enough items, fill from all available data
+    if (selectedVocab.length < questionCount) {
+      const remaining = questionCount - selectedVocab.length;
+      const availableItems = allData.filter(item => 
+        !selectedVocab.some(selected => 
+          selected.english === item.english && selected.topicKey === item.topicKey
+        )
+      );
+      selectedVocab.push(...shuffleArray(availableItems).slice(0, remaining));
+    }
+    
+    // Generate questions using the selected vocabulary
+    return generateQuizByType(selectedVocab, quizType, questionCount, allData);
+    
+  } catch (error) {
+    console.error('Error generating all topics quiz:', error);
     return [];
   }
 };

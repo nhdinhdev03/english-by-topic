@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
-import { AVAILABLE_TOPICS, generateQuizByType, importTopicData } from '../../utils/quizGenerator';
+import { AVAILABLE_TOPICS, generateAllTopicsQuiz, generateQuizByType, importTopicData } from '../../utils/quizGenerator';
 import { getRecentPerformance, saveQuizResult } from '../../utils/quizStorage';
 import './Quiz.scss';
 
@@ -17,6 +17,7 @@ const Quiz = () => {
   const [loading, setLoading] = useState(false);
   const [topicSelection, setTopicSelection] = useState(true);
   const [recentStats, setRecentStats] = useState(null);
+  const [topicVocabCount, setTopicVocabCount] = useState(null);
 
   // Load recent performance stats
   useEffect(() => {
@@ -56,7 +57,7 @@ const Quiz = () => {
           score: score,
           totalQuestions: quizData.length,
           percentage: percentage,
-          timeSpent: (10 * 30) - timeLeft // Approximate time spent
+          timeSpent: (quizData.length * 30) - timeLeft // Approximate time spent
         });
       }
     }, 2000);
@@ -80,9 +81,25 @@ const Quiz = () => {
     
     setLoading(true);
     try {
-      const vocabData = await importTopicData(selectedTopic);
-      if (vocabData && vocabData.length > 0) {
-        const questions = generateQuizByType(vocabData, selectedQuizType, 10);
+      let questions = [];
+      let maxQuestions = 0;
+      
+      if (selectedTopic === 'all') {
+        // Generate quiz from all topics - auto-calculate optimal questions
+        questions = await generateAllTopicsQuiz(selectedQuizType);
+      } else {
+        // Generate quiz from specific topic - use all available vocabulary
+        const vocabData = await importTopicData(selectedTopic);
+        if (vocabData && vocabData.length > 0) {
+          maxQuestions = vocabData.length; // Use all available words
+          questions = generateQuizByType(vocabData, selectedQuizType, maxQuestions);
+          
+          // Update topic vocab count for UI display
+          setTopicVocabCount(vocabData.length);
+        }
+      }
+      
+      if (questions && questions.length > 0) {
         setQuizData(questions);
         setQuizStarted(true);
         setTopicSelection(false);
@@ -104,6 +121,44 @@ const Quiz = () => {
     setSelectedAnswer(answerId);
   };
 
+  // Load vocabulary count when topic is selected
+  useEffect(() => {
+    const loadTopicVocabCount = async () => {
+      if (selectedTopic && selectedTopic !== 'all') {
+        try {
+          const vocabData = await importTopicData(selectedTopic);
+          setTopicVocabCount(vocabData ? vocabData.length : 0);
+        } catch (error) {
+          console.error('Error loading topic vocabulary count:', error);
+          setTopicVocabCount(0);
+        }
+      } else if (selectedTopic === 'all') {
+        // Calculate auto question count for all topics
+        try {
+          const { importAllTopicsData } = await import('../../utils/quizGenerator');
+          const allData = await importAllTopicsData();
+          const topicGroups = {};
+          allData.forEach(item => {
+            if (!topicGroups[item.topicKey]) {
+              topicGroups[item.topicKey] = [];
+            }
+            topicGroups[item.topicKey].push(item);
+          });
+          const topicCount = Object.keys(topicGroups).length;
+          const autoQuestionCount = Math.min(topicCount * 5, 100);
+          setTopicVocabCount(autoQuestionCount);
+        } catch (error) {
+          console.error('Error calculating all topics count:', error);
+          setTopicVocabCount(50); // fallback
+        }
+      } else {
+        setTopicVocabCount(null);
+      }
+    };
+
+    loadTopicVocabCount();
+  }, [selectedTopic]);
+
   const resetQuiz = () => {
     setQuizStarted(false);
     setTopicSelection(true);
@@ -116,6 +171,7 @@ const Quiz = () => {
     setQuizCompleted(false);
     setTimeLeft(30);
     setQuizData([]);
+    setTopicVocabCount(null);
   };
 
   const getScoreMessage = () => {
@@ -210,7 +266,37 @@ const Quiz = () => {
               </div>
             </div>
 
+            {selectedTopic && topicVocabCount && (
+              <div className="vocab-count-info">
+                <div className="vocab-info-card">
+                  <span className="vocab-icon">📚</span>
+                  <div className="vocab-content">
+                    <span className="vocab-title">
+                      {selectedTopic === 'all' 
+                        ? 'Ôn tập tất cả chủ đề'
+                        : `${AVAILABLE_TOPICS[selectedTopic]?.name}`
+                      }
+                    </span>
+                    <span className="vocab-count">
+                      {selectedTopic === 'all' 
+                        ? `${topicVocabCount} câu hỏi (5 câu/chủ đề, trộn từ tất cả)`
+                        : `${topicVocabCount} câu hỏi (tất cả từ vựng có sẵn)`
+                      }
+                    </span>
+                  </div>
+                </div>
+              </div>
+            )}
+
             <div className="topics-grid">
+              <button
+                className={`topic-card all-topics ${selectedTopic === 'all' ? 'selected' : ''}`}
+                onClick={() => setSelectedTopic('all')}
+              >
+                <span className="topic-emoji">🌟</span>
+                <span className="topic-name">Ôn tập tất cả</span>
+                <span className="topic-description">Câu hỏi từ tất cả chủ đề</span>
+              </button>
               {Object.entries(AVAILABLE_TOPICS).map(([key, topic]) => (
                 <button
                   key={key}
@@ -343,9 +429,16 @@ const Quiz = () => {
                 style={{ width: `${progress}%` }}
               ></div>
             </div>
-            <span className="progress-text">
-              Câu {currentQuestion + 1} / {quizData.length}
-            </span>
+            <div className="progress-info">
+              <span className="progress-text">
+                Câu {currentQuestion + 1} / {quizData.length}
+              </span>
+              {currentQ.topicInfo && (
+                <span className="topic-info">
+                  {currentQ.topicInfo.emoji} {currentQ.topicInfo.name}
+                </span>
+              )}
+            </div>
           </div>
           
           <div className="quiz-timer">
