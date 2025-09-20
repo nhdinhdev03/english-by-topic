@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useLanguage } from '../../contexts/useLanguage';
 import { useTheme } from '../../contexts/useTheme';
 import './Settings.scss';
@@ -19,6 +19,24 @@ const Settings = () => {
     dailyReminder: true,
     achievements: true
   });
+
+  const [showMessage, setShowMessage] = useState({
+    show: false,
+    text: '',
+    type: 'success' // 'success' or 'error'
+  });
+
+  // Load notifications từ localStorage khi component mount
+  useEffect(() => {
+    const savedNotifications = localStorage.getItem('notifications');
+    if (savedNotifications) {
+      try {
+        setNotifications(JSON.parse(savedNotifications));
+      } catch (error) {
+        console.error('Error loading notifications from localStorage:', error);
+      }
+    }
+  }, []);
 
   const handleVoiceChange = (key, value) => {
     updateVoiceSettings({
@@ -49,8 +67,78 @@ const Settings = () => {
     return availableVoices[language] || [];
   };
 
+  // Khôi phục về cài đặt mặc định
+  const resetToDefaults = () => {
+    try {
+      // Khôi phục language về US English
+      changeLanguage('en');
+      
+      // Khôi phục voice settings về mặc định
+      updateVoiceSettings({
+        voice: 'female-en-us',
+        speed: 1,
+        pitch: 1,
+        accent: 'american',
+        volume: 0.8
+      });
+      
+      // Khôi phục notifications về mặc định
+      setNotifications({
+        vocabulary: true,
+        dailyReminder: true,
+        achievements: true
+      });
+      
+      // Reset theme về light mode nếu đang ở dark mode
+      if (isDark) {
+        toggleTheme();
+      }
+      
+      // Xóa các cài đặt đã lưu trong localStorage
+      localStorage.removeItem('notifications');
+      localStorage.removeItem('theme');
+      
+      // Hiển thị thông báo thành công
+      setShowMessage({
+        show: true,
+        text: '✅ Đã khôi phục về cài đặt mặc định (US English)!',
+        type: 'success'
+      });
+      
+      // Ẩn thông báo sau 3 giây
+      setTimeout(() => {
+        setShowMessage(prev => ({ ...prev, show: false }));
+      }, 3000);
+      
+    } catch (error) {
+      console.error('Error resetting settings:', error);
+      setShowMessage({
+        show: true,
+        text: '❌ Có lỗi xảy ra khi khôi phục cài đặt!',
+        type: 'error'
+      });
+      
+      setTimeout(() => {
+        setShowMessage(prev => ({ ...prev, show: false }));
+      }, 3000);
+    }
+  };
+
   return (
     <div className="settings-page">
+      {/* Message Toast */}
+      {showMessage.show && (
+        <div className={`message-toast ${showMessage.type}`}>
+          <span className="message-text">{showMessage.text}</span>
+          <button 
+            className="message-close"
+            onClick={() => setShowMessage(prev => ({ ...prev, show: false }))}
+          >
+            ×
+          </button>
+        </div>
+      )}
+      
       <div className="settings-container">
         <div className="settings-header">
           <h1>Cài đặt</h1>
@@ -265,8 +353,13 @@ const Settings = () => {
 
           {/* Action Buttons */}
           <div className="settings-actions">
-            <button className="btn btn-primary">Lưu cài đặt</button>
-            <button className="btn btn-secondary">Khôi phục mặc định</button>
+            <button 
+              className="btn btn-warning" 
+              onClick={resetToDefaults}
+              title="Khôi phục tất cả cài đặt về giá trị mặc định"
+            >
+              🔄 Khôi phục mặc định
+            </button>
           </div>
         </div>
       </div>

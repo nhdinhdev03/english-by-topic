@@ -7,7 +7,7 @@ export { LanguageContext };
 
 export const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState(() => {
-    return localStorage.getItem('language') || 'vi';
+    return localStorage.getItem('language') || 'en';
   });
 
   const [voiceSettings, setVoiceSettings] = useState(() => {
