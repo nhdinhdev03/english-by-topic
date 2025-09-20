@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { publicRoutes } from '../../Router';
-import ThemeToggle from '../../components/ThemeToggle';
+
 import './Header.scss';
 
 // Settings Icon Component
@@ -60,7 +60,7 @@ const Header = () => {
         </nav>
 
         <div className="header-actions">
-          <ThemeToggle />
+
           
           <Link 
             to="/settings" 

@@ -1,8 +1,9 @@
 import { useState } from 'react';
+import { useTheme } from '../../contexts/useTheme';
 import './Settings.scss';
 
 const Settings = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const { toggleTheme, isDark } = useTheme();
   const [language, setLanguage] = useState('vi');
   const [voiceSettings, setVoiceSettings] = useState({
     voice: 'female-vi',
@@ -56,11 +57,12 @@ const Settings = () => {
                   <h3>Chế độ tối</h3>
                   <p>Bật chế độ tối để bảo vệ mắt khi học ban đêm</p>
                 </div>
-                <label className="toggle">
+                <label className="toggle" aria-label="Bật tắt chế độ tối">
                   <input 
                     type="checkbox" 
-                    checked={darkMode}
-                    onChange={(e) => setDarkMode(e.target.checked)}
+                    checked={isDark}
+                    onChange={toggleTheme}
+                    aria-label="Chế độ tối"
                   />
                   <span className="slider"></span>
                 </label>
@@ -196,11 +198,12 @@ const Settings = () => {
                   <h3>Từ vựng mới</h3>
                   <p>Nhận thông báo khi có từ vựng mới được thêm</p>
                 </div>
-                <label className="toggle">
+                <label className="toggle" aria-label="Bật tắt thông báo từ vựng mới">
                   <input 
                     type="checkbox" 
                     checked={notifications.vocabulary}
                     onChange={() => handleNotificationChange('vocabulary')}
+                    aria-label="Thông báo từ vựng mới"
                   />
                   <span className="slider"></span>
                 </label>
@@ -211,11 +214,12 @@ const Settings = () => {
                   <h3>Nhắc nhở hàng ngày</h3>
                   <p>Nhận thông báo nhắc nhở học tập mỗi ngày</p>
                 </div>
-                <label className="toggle">
+                <label className="toggle" aria-label="Bật tắt nhắc nhở hàng ngày">
                   <input 
                     type="checkbox" 
                     checked={notifications.dailyReminder}
                     onChange={() => handleNotificationChange('dailyReminder')}
+                    aria-label="Nhắc nhở hàng ngày"
                   />
                   <span className="slider"></span>
                 </label>
@@ -226,11 +230,12 @@ const Settings = () => {
                   <h3>Thành tích</h3>
                   <p>Nhận thông báo khi đạt được thành tích mới</p>
                 </div>
-                <label className="toggle">
+                <label className="toggle" aria-label="Bật tắt thông báo thành tích">
                   <input 
                     type="checkbox" 
                     checked={notifications.achievements}
                     onChange={() => handleNotificationChange('achievements')}
+                    aria-label="Thông báo thành tích"
                   />
                   <span className="slider"></span>
                 </label>
