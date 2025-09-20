@@ -238,5 +238,41 @@
     "vietnamese": "Học hỏi",
     "pronunciation": "/lɜːrn/",
     "type": "v"
+  },
+  {
+    "english": "Score",
+    "vietnamese": "Điểm số",
+    "pronunciation": "/skɔːr/",
+    "type": "n"
+  },
+  {
+    "english": "Diploma",
+    "vietnamese": "Bằng tốt nghiệp",
+    "pronunciation": "/dɪˈpləʊ.mə/",
+    "type": "n"
+  },
+  {
+    "english": "Uniform",
+    "vietnamese": "Đồng phục",
+    "pronunciation": "/ˈjuː.nɪ.fɔːm/",
+    "type": "n"
+  },
+  {
+    "english": "Scholarship",
+    "vietnamese": "Học bổng",
+    "pronunciation": "/ˈskɒl.ə.ʃɪp/",
+    "type": "n"
+  },
+  {
+    "english": "Attendance",
+    "vietnamese": "Sự chuyên cần",
+    "pronunciation": "/əˈten.dəns/",
+    "type": "n"
+  },
+  {
+    "english": "Curriculum",
+    "vietnamese": "Chương trình học",
+    "pronunciation": "/kəˈrɪk.jə.ləm/",
+    "type": "n"
   }
 ]
