@@ -213,6 +213,26 @@
   }
 }
 
+.language-indicator {
+  font-size: 1.2rem;
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+  cursor: pointer;
+  background: var(--background-secondary);
+  border: 1px solid var(--border-color);
+
+  &:hover {
+    transform: scale(1.1);
+    background: var(--hover-overlay);
+  }
+
+  @include respond-to(md) {
+    font-size: 1.3rem;
+    padding: var(--space-sm);
+  }
+}
+
 .settings-link {
   display: flex;
   align-items: center;
@@ -244,7 +264,81 @@
 }
 
 // ========================================
-// MOBILE MENU TOGGLE
+// HEADER ACTIONS SECTION
+// ========================================
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+
+  @include respond-to(lg) {
+    gap: var(--space-lg);
+  }
+}
+
+.language-indicator {
+  font-size: 1.2rem;
+  padding: var(--space-xs);
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+  cursor: pointer;
+  background: var(--background-secondary);
+  border: 1px solid var(--border-color);
+
+  &:hover {
+    transform: scale(1.1);
+    background: var(--hover-overlay);
+  }
+
+  @include respond-to(md) {
+    font-size: 1.3rem;
+    padding: var(--space-sm);
+  }
+}
+
+.settings-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--border-radius);
+  background: var(--background-secondary);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: var(--transition);
+
+  &:hover {
+    color: var(--primary-color);
+    background: var(--hover-overlay);
+    transform: rotate(90deg) scale(1.05);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  @include respond-to(md) {
+    width: 44px;
+    height: 44px;
+
+    svg {
+      width: 22px;
+      height: 22px;
+    }
+  }
+}
+
+// ========================================
+// MENU TOGGLE BUTTON
 // ========================================
 
 .menu-toggle {
@@ -406,5 +500,32 @@
 
   .nav-link:hover {
     transform: none;
+  }
+}
+
+// Language indicator styles
+.language-indicator {
+  font-size: 1.2rem;
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+  cursor: pointer;
+  background: var(--background-secondary);
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  height: 40px;
+
+  &:hover {
+    transform: scale(1.1);
+    background: var(--hover-overlay);
+  }
+
+  @include respond-to(md) {
+    font-size: 1.3rem;
+    min-width: 44px;
+    height: 44px;
   }
 }

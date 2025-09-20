@@ -1,16 +1,19 @@
 import { useState } from 'react';
 import { useTheme } from '../../contexts/useTheme';
+import { useLanguage } from '../../contexts/useLanguage';
 import './Settings.scss';
 
 const Settings = () => {
   const { toggleTheme, isDark } = useTheme();
-  const [language, setLanguage] = useState('vi');
-  const [voiceSettings, setVoiceSettings] = useState({
-    voice: 'female-vi',
-    speed: 1,
-    pitch: 1,
-    accent: 'northern'
-  });
+  const { 
+    language, 
+    supportedLanguages, 
+    availableVoices, 
+    voiceSettings, 
+    changeLanguage, 
+    updateVoiceSettings,
+    playText,
+  } = useLanguage();
   const [notifications, setNotifications] = useState({
     vocabulary: true,
     dailyReminder: true,
@@ -18,10 +21,9 @@ const Settings = () => {
   });
 
   const handleVoiceChange = (key, value) => {
-    setVoiceSettings(prev => ({
-      ...prev,
+    updateVoiceSettings({
       [key]: value
-    }));
+    });
   };
 
   const handleNotificationChange = (key) => {
@@ -32,8 +34,19 @@ const Settings = () => {
   };
 
   const testVoice = () => {
-    // Placeholder for voice testing
-    alert('Chức năng test giọng nói sẽ được thực hiện ở đây');
+    const testText = language === 'vi' ? 'Xin chào, đây là bài kiểm tra giọng nói' : 'Hello, this is a voice test';
+    playText(testText, language);
+  };
+
+  const getLanguageOptions = () => {
+    return Object.entries(supportedLanguages).map(([code, info]) => ({
+      value: code,
+      label: `${info.flag} ${info.name}`
+    }));
+  };
+
+  const getVoiceOptions = () => {
+    return availableVoices[language] || [];
   };
 
   return (
@@ -84,11 +97,14 @@ const Settings = () => {
                 </div>
                 <select 
                   value={language}
-                  onChange={(e) => setLanguage(e.target.value)}
+                  onChange={(e) => changeLanguage(e.target.value)}
                   className="select-input"
                 >
-                  <option value="vi">Tiếng Việt</option>
-                  <option value="en">English</option>
+                  {getLanguageOptions().map(option => (
+                    <option key={option.value} value={option.value}>
+                      {option.label}
+                    </option>
+                  ))}
                 </select>
               </div>
             </div>
@@ -111,12 +127,11 @@ const Settings = () => {
                   onChange={(e) => handleVoiceChange('voice', e.target.value)}
                   className="select-input"
                 >
-                  <option value="female-vi">Giọng nữ (Việt Nam)</option>
-                  <option value="male-vi">Giọng nam (Việt Nam)</option>
-                  <option value="female-en-us">Giọng nữ (Mỹ)</option>
-                  <option value="male-en-us">Giọng nam (Mỹ)</option>
-                  <option value="female-en-uk">Giọng nữ (Anh)</option>
-                  <option value="male-en-uk">Giọng nam (Anh)</option>
+                  {getVoiceOptions().map(voice => (
+                    <option key={voice.id} value={voice.id}>
+                      {voice.name}
+                    </option>
+                  ))}
                 </select>
               </div>
 
@@ -164,18 +179,23 @@ const Settings = () => {
 
               <div className="setting-item">
                 <div className="setting-info">
-                  <h3>Giọng địa phương</h3>
-                  <p>Chọn giọng theo vùng miền (cho tiếng Việt)</p>
+                  <h3>Âm lượng</h3>
+                  <p>Điều chỉnh âm lượng của giọng đọc</p>
                 </div>
-                <select 
-                  value={voiceSettings.accent}
-                  onChange={(e) => handleVoiceChange('accent', e.target.value)}
-                  className="select-input"
-                >
-                  <option value="northern">Miền Bắc</option>
-                  <option value="central">Miền Trung</option>
-                  <option value="southern">Miền Nam</option>
-                </select>
+                <div className="range-input-container">
+                  <span className="range-label">Nhỏ</span>
+                  <input 
+                    type="range"
+                    min="0"
+                    max="1"
+                    step="0.1"
+                    value={voiceSettings.volume}
+                    onChange={(e) => handleVoiceChange('volume', parseFloat(e.target.value))}
+                    className="range-input"
+                  />
+                  <span className="range-label">Lớn</span>
+                </div>
+                <span className="range-value">{Math.round(voiceSettings.volume * 100)}%</span>
               </div>
 
               <div className="setting-item">

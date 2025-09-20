@@ -6,6 +6,7 @@ import { allRoutes } from "./Router";
 import ScrollToTop from "./components/Scroll/ScrollToTop/ScrollToTop";
 import ScrollToTopOnNavigate from "./components/Scroll/ScrollToTopOnNavigate/ScrollToTopOnNavigate";
 import { ThemeProvider } from "./contexts/ThemeContext";
+import { LanguageProvider } from "./contexts/LanguageContext";
 import "./styles/App.scss";
 
 // Loading component
@@ -19,31 +20,33 @@ const Loading = () => (
 function App() {
   return (
     <ThemeProvider>
-      <Router>
-        <div className="app">
-          <Suspense fallback={<Loading />}>
-            <Header />
-            <main className="main-content">
-              <Routes>
-                {allRoutes.map((route, index) => {
-                  const Component = route.element;
-                  return (
-                    <Route
-                      key={index}
-                      path={route.path}
-                      element={<Component />}
-                    />
-                  );
-                })}
-              </Routes>
-            </main>
-            <Footer />
-            {/* Scroll components */}
-            <ScrollToTopOnNavigate />
-            <ScrollToTop />
-          </Suspense>
-        </div>
-      </Router>
+      <LanguageProvider>
+        <Router>
+          <div className="app">
+            <Suspense fallback={<Loading />}>
+              <Header />
+              <main className="main-content">
+                <Routes>
+                  {allRoutes.map((route, index) => {
+                    const Component = route.element;
+                    return (
+                      <Route
+                        key={index}
+                        path={route.path}
+                        element={<Component />}
+                      />
+                    );
+                  })}
+                </Routes>
+              </main>
+              <Footer />
+              {/* Scroll components */}
+              <ScrollToTopOnNavigate />
+              <ScrollToTop />
+            </Suspense>
+          </div>
+        </Router>
+      </LanguageProvider>
     </ThemeProvider>
   );
 }

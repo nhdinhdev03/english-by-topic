@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
+import { useLanguage } from '../../contexts/useLanguage';
 import './TopicLearn.scss';
 
 const TopicLearn = () => {
   const { topicName } = useParams();
   const navigate = useNavigate();
+  const { playText } = useLanguage();
   const [vocabularyData, setVocabularyData] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
@@ -83,10 +85,7 @@ const TopicLearn = () => {
 
   const playPronunciation = () => {
     if (currentWord && currentWord.english) {
-      const utterance = new SpeechSynthesisUtterance(currentWord.english);
-      utterance.lang = 'en-US';
-      utterance.rate = 0.8;
-      speechSynthesis.speak(utterance);
+      playText(currentWord.english, 'en');
     }
   };
 

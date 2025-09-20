@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { publicRoutes } from '../../Router';
+import { useLanguage } from '../../contexts/useLanguage';
 
 import './Header.scss';
 
@@ -27,6 +28,7 @@ const SettingsIcon = () => (
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
+  const { language, supportedLanguages } = useLanguage();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -34,6 +36,10 @@ const Header = () => {
 
   const isActiveRoute = (path) => {
     return location.pathname === path;
+  };
+
+  const getCurrentLanguageFlag = () => {
+    return supportedLanguages[language]?.flag || '🌐';
   };
 
   return (
@@ -60,7 +66,9 @@ const Header = () => {
         </nav>
 
         <div className="header-actions">
-
+          <span className="language-indicator" title={`Ngôn ngữ: ${supportedLanguages[language]?.name}`}>
+            {getCurrentLanguageFlag()}
+          </span>
           
           <Link 
             to="/settings" 
