@@ -3,6 +3,8 @@
 // Optimized for all devices: PC, Laptop, iPad, Mobile
 // ========================================
 
+@use "sass:map";
+
 // Breakpoints
 $breakpoints: (
   xs: 320px,    // Small mobile
@@ -15,8 +17,8 @@ $breakpoints: (
 
 // Responsive mixins
 @mixin respond-to($breakpoint) {
-  @if map-has-key($breakpoints, $breakpoint) {
-    @media (min-width: map-get($breakpoints, $breakpoint)) {
+  @if map.has-key($breakpoints, $breakpoint) {
+    @media (min-width: map.get($breakpoints, $breakpoint)) {
       @content;
     }
   } @else {
@@ -25,8 +27,8 @@ $breakpoints: (
 }
 
 @mixin respond-below($breakpoint) {
-  @if map-has-key($breakpoints, $breakpoint) {
-    $breakpoint-value: map-get($breakpoints, $breakpoint) - 1px;
+  @if map.has-key($breakpoints, $breakpoint) {
+    $breakpoint-value: map.get($breakpoints, $breakpoint) - 1px;
     @media (max-width: #{$breakpoint-value}) {
       @content;
     }
@@ -36,9 +38,9 @@ $breakpoints: (
 }
 
 @mixin respond-between($min, $max) {
-  @if map-has-key($breakpoints, $min) and map-has-key($breakpoints, $max) {
-    $min-value: map-get($breakpoints, $min);
-    $max-value: map-get($breakpoints, $max) - 1px;
+  @if map.has-key($breakpoints, $min) and map.has-key($breakpoints, $max) {
+    $min-value: map.get($breakpoints, $min);
+    $max-value: map.get($breakpoints, $max) - 1px;
     @media (min-width: #{$min-value}) and (max-width: #{$max-value}) {
       @content;
     }

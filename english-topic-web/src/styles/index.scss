@@ -1,8 +1,8 @@
+// Use responsive system first (must be at the top)
+@use './responsive.scss' as *;
+
 // Import Google Fonts
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
-
-// Import responsive system
-@import './responsive.scss';
 
 * {
   margin: 0;
@@ -10,21 +10,15 @@
   box-sizing: border-box;
 }
 
-// Font variables inspired by LoL Esports
+// Font variables
 $font-primary: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 $font-mono: "JetBrains Mono", "Monaco", "Cascadia Code", monospace;
 
 :root {
-  // Font families
-  --font-primary: #{$font-primary};
-  --font-mono: #{$font-mono};
-  
   // Base styling
   font-family: var(--font-primary);
   line-height: 1.6;
   font-weight: 400;
-  color: #71c5c9;
-  background-color: #010a13;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -35,11 +29,28 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background: #010a13;
-  background-image: 
-    radial-gradient(circle at 20% 20%, rgba(201, 170, 113, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 80% 80%, rgba(201, 170, 113, 0.05) 0%, transparent 50%);
-  background-attachment: fixed;
+  background: var(--background-primary);
+  color: var(--text-primary);
+  font-family: var(--font-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  
+  // Light theme background pattern
+  &.light-theme {
+    background: var(--background-primary);
+    background-image: 
+      radial-gradient(circle at 20% 20%, rgba(37, 99, 235, 0.05) 0%, transparent 50%),
+      radial-gradient(circle at 80% 80%, rgba(6, 182, 212, 0.05) 0%, transparent 50%);
+    background-attachment: fixed;
+  }
+  
+  // Dark theme background pattern
+  &.dark-theme {
+    background: var(--background-primary);
+    background-image: 
+      radial-gradient(circle at 20% 20%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 80%, rgba(6, 182, 212, 0.05) 0%, transparent 50%);
+    background-attachment: fixed;
+  }
 }
 
 #root {
@@ -47,54 +58,54 @@ body {
 }
 
 a {
-  color: #3cc1c8;
+  color: var(--primary-color);
   text-decoration: none;
   transition: color 0.3s ease;
-}
-
-a:hover {
-  color: #d2ebf0;
+  
+  &:hover {
+    color: var(--primary-light);
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
   font-weight: 600;
   line-height: 1.2;
-  color: #f0e6d2;
+  color: var(--text-primary);
+  transition: color 0.3s ease;
 }
 
 p {
   margin-bottom: 1rem;
-  color: #71c0c9;
+  color: var(--text-secondary);
+  transition: color 0.3s ease;
 }
 
 button {
-  border: 1px solid #6eb9c8;
-  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
   padding: 0.75rem 1.5rem;
   font-size: 0.875rem;
   font-weight: 600;
   font-family: var(--font-primary);
   cursor: pointer;
   transition: all 0.2s ease;
-  background: linear-gradient(180deg, #3c8ec8 0%, #6eaec8 100%);
-  color: #010a13;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-button:hover:not(:disabled) {
-  background: linear-gradient(180deg, #f0e6d2 0%, #3cb1c8 100%);
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(200, 155, 60, 0.3);
-}
-
-button:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-  transform: none;
-  background: #3c3c41;
-  color: #5bc0de;
+  background: var(--primary-color);
+  color: var(--text-inverse);
+  
+  &:hover:not(:disabled) {
+    background: var(--primary-dark);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-primary);
+  }
+  
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+    background: var(--background-tertiary);
+    color: var(--text-muted);
+  }
 }
 
 .container {
@@ -103,20 +114,47 @@ button:disabled {
   padding: 0 20px;
 }
 
-/* Scrollbar styling - LoL Esports inspired */
+/* Scrollbar styling for both themes */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #1e2328;
+  background: var(--background-secondary);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #6eb1c8;
+  background: var(--border-color);
   border-radius: 4px;
+  
+  &:hover {
+    background: var(--primary-color);
+  }
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #3caac8;
+/* Firefox scrollbar */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-color) var(--background-secondary);
+}
+
+// Focus styles
+*:focus {
+  outline: none;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+// Selection styles
+::selection {
+  background: var(--primary-color);
+  color: var(--text-inverse);
+}
+
+::-moz-selection {
+  background: var(--primary-color);
+  color: var(--text-inverse);
 }

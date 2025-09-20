@@ -1,0 +1,5 @@
+// Central SCSS module that forwards all shared variables and mixins
+// This allows clean imports across the project
+
+@forward './variables.scss';
+@forward './responsive.scss';

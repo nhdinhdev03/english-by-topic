@@ -1,28 +1,37 @@
-@import '../../styles/responsive.scss';
+@use '../../styles/responsive.scss' as *;
+@use '../../components/ThemeToggle/ThemeToggle.scss';
 
 // ========================================
-// RESPONSIVE HEADER DESIGN
-// Optimized for PC, Laptop, iPad, Mobile
+// MODERN RESPONSIVE HEADER DESIGN
+// Optimized for all devices with theme support
 // ========================================
 
 .header {
-  background: var(--background-secondary);
-  box-shadow: var(--shadow-md);
+  background: var(--background-primary);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow-sm);
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 2px solid var(--border-gold);
-  transition: all 0.3s ease;
-
-  // Mobile-first height
-  height: 60px;
-
-  @include respond-to(sm) {
-    height: 70px;
-  }
+  border-bottom: 1px solid var(--border-color);
+  transition: var(--transition);
+  height: 70px;
 
   @include respond-to(lg) {
     height: 80px;
+  }
+
+  // Glassmorphism effect
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--background-primary);
+    opacity: 0.95;
+    z-index: -1;
   }
 }
 
@@ -31,338 +40,371 @@
   justify-content: space-between;
   align-items: center;
   height: 100%;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
-
-  @include respond-to(sm) {
-    padding: 0 1.5rem;
-  }
+  padding: 0 var(--space-md);
 
   @include respond-to(md) {
-    padding: 0 2rem;
+    padding: 0 var(--space-lg);
   }
 
   @include respond-to(lg) {
-    padding: 0 2.5rem;
-  }
-
-  @include respond-to(xl) {
-    padding: 0 3rem;
+    padding: 0 var(--space-xl);
   }
 }
 
 // ========================================
-// LOGO SECTION
+// LOGO STYLING
 // ========================================
+
 .logo {
   text-decoration: none;
-  color: var(--primary-color);
-  transition: var(--transition-fast);
-  flex-shrink: 0;
+  color: var(--text-primary);
+  font-weight: 700;
+  font-size: 1.25rem;
+  transition: var(--transition);
   
   h2 {
     margin: 0;
-    font-size: 1.2rem;
-    font-weight: 700;
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
+    font-size: inherit;
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    letter-spacing: -0.5px;
-
-    @include respond-to(sm) {
-      font-size: 1.4rem;
-    }
-
+    
     @include respond-to(md) {
-      font-size: 1.6rem;
-    }
-
-    @include respond-to(lg) {
-      font-size: 1.75rem;
+      font-size: 1.5rem;
     }
   }
-  
+
   &:hover {
     transform: scale(1.05);
-  }
-
-  @include touch-device {
-    &:hover {
-      transform: none;
-    }
   }
 }
 
 // ========================================
-// NAVIGATION SECTION
+// NAVIGATION STYLING
 // ========================================
-.nav {
-  flex: 1;
-  margin: 0 2rem;
 
-  // Mobile: Hidden by default, shown when toggled
-  @include mobile-only {
-    position: absolute;
-    top: 100%;
+.nav {
+  @include respond-below(lg) {
+    position: fixed;
+    top: 70px;
     left: 0;
     right: 0;
-    background: var(--background-secondary);
-    border-top: 1px solid var(--border-color);
-    margin: 0;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
+    background: var(--background-primary);
     box-shadow: var(--shadow-lg);
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--transition-spring);
+    border-bottom: 1px solid var(--border-color);
     
     &.nav-open {
-      max-height: 400px;
+      transform: translateY(0);
+      opacity: 1;
+      visibility: visible;
     }
   }
 
-  // Tablet and Desktop: Always visible
-  @include tablet-only {
-    margin: 0 1rem;
-  }
-
-  @include desktop-only {
-    margin: 0 2rem;
+  @include respond-to(lg) {
+    position: static;
+    background: transparent;
+    box-shadow: none;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
   }
 }
 
 .nav-list {
-  display: flex;
   list-style: none;
   margin: 0;
-  padding: 0;
-  gap: 0.5rem;
-
-  @include mobile-only {
-    flex-direction: column;
-    padding: 1rem;
-    gap: 0.25rem;
-  }
-
-  @include respond-to(md) {
-    gap: 1rem;
-  }
+  padding: var(--space-lg) 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
 
   @include respond-to(lg) {
-    gap: 1.5rem;
-  }
-
-  @include respond-to(xl) {
-    gap: 2rem;
+    flex-direction: row;
+    gap: var(--space-md);
+    padding: 0;
   }
 }
 
 .nav-item {
-  .nav-link {
-    color: var(--text-secondary);
-    text-decoration: none;
-    padding: 0.5rem 0.75rem;
-    border-radius: var(--border-radius-sm);
-    transition: var(--transition-fast);
-    font-weight: 500;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    position: relative;
-    display: block;
-    white-space: nowrap;
+  border-bottom: 1px solid var(--border-color);
 
-    @include respond-to(sm) {
-      font-size: 0.85rem;
-      padding: 0.6rem 1rem;
-    }
+  @include respond-to(lg) {
+    border-bottom: none;
+  }
 
-    @include respond-to(md) {
-      font-size: 0.9rem;
-      padding: 0.75rem 1.25rem;
-    }
+  &:last-child {
+    border-bottom: none;
+  }
+}
 
-    @include mobile-only {
-      padding: 0.75rem 1rem;
-      font-size: 0.9rem;
-      border-radius: var(--border-radius);
-    }
-    
-    &:hover {
-      background: var(--background-tertiary);
-      color: var(--primary-color);
+.nav-link {
+  display: block;
+  padding: var(--space-md) var(--space-lg);
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: var(--transition);
+  position: relative;
+
+  @include respond-to(lg) {
+    padding: var(--space-sm) var(--space-md);
+    border-radius: var(--border-radius);
+  }
+
+  // Hover effect
+  &:hover {
+    color: var(--primary-color);
+    background: var(--hover-overlay);
+
+    @include respond-to(lg) {
       transform: translateY(-1px);
-
-      @include mobile-only {
-        transform: none;
-        background: var(--card-background-hover);
-      }
-
-      @include touch-device {
-        transform: none;
-      }
     }
-    
-    &.active {
-      background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
-      color: var(--text-dark);
-      font-weight: 600;
-      box-shadow: var(--shadow-gold);
+  }
+
+  // Active state
+  &.active {
+    color: var(--primary-color);
+    font-weight: 600;
+    background: var(--hover-overlay);
+
+    @include respond-to(lg) {
+      background: rgba(59, 130, 246, 0.1);
       
-      // Desktop active indicator
-      @include desktop-only {
-        &::after {
-          content: '';
-          position: absolute;
-          bottom: -2px;
-          left: 50%;
-          transform: translateX(-50%);
-          width: 60%;
-          height: 2px;
-          // background: var(--primary-color);
-        }
-      }
-
-      @include mobile-only {
-        &::after {
-          display: none;
-        }
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 30px;
+        height: 2px;
+        background: var(--primary-color);
+        border-radius: 1px;
       }
     }
+  }
+
+  // Focus state
+  &:focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
   }
 }
 
 // ========================================
-// HEADER ACTIONS SECTION
+// HEADER ACTIONS
 // ========================================
+
 .header-actions {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  flex-shrink: 0;
+  gap: var(--space-sm);
 
-  @include mobile-only {
-    gap: 0.5rem;
+  @include respond-to(md) {
+    gap: var(--space-md);
   }
 }
 
-// ========================================
-// SETTINGS LINK (REPLACES DROPDOWN)
-// ========================================
 .settings-link {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 40px;
   height: 40px;
-  background: var(--background-tertiary);
-  border: 1px solid var(--border-color);
-  border-radius: var(--border-radius);
   color: var(--text-secondary);
   text-decoration: none;
-  transition: var(--transition-fast);
-
-  @include respond-to(sm) {
-    width: 44px;
-    height: 44px;
-  }
-
-  @include respond-to(lg) {
-    width: 48px;
-    height: 48px;
-  }
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+  border: 1px solid transparent;
 
   &:hover {
-    background: var(--card-background-hover);
     color: var(--primary-color);
-    border-color: var(--border-gold);
-    transform: translateY(-1px);
-
-    @include touch-device {
-      transform: none;
-    }
+    background: var(--hover-overlay);
+    border-color: var(--border-color);
+    transform: scale(1.05);
   }
 
-  &.active {
-    background: var(--primary-color);
-    color: var(--text-dark);
-    border-color: var(--primary-color);
+  &:focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
   }
 
   svg {
     width: 20px;
     height: 20px;
-
-    @include respond-to(lg) {
-      width: 24px;
-      height: 24px;
-    }
   }
 }
 
 // ========================================
 // MOBILE MENU TOGGLE
 // ========================================
+
 .menu-toggle {
-  display: none;
+  display: flex;
   flex-direction: column;
-  background: none;
+  justify-content: space-around;
+  width: 32px;
+  height: 32px;
+  background: transparent;
   border: none;
   cursor: pointer;
-  padding: 0.5rem;
-  width: 40px;
-  height: 40px;
-  justify-content: center;
-  align-items: center;
-  
-  span {
-    width: 22px;
-    height: 2px;
-    background: var(--primary-color);
-    margin: 2px 0;
-    transition: var(--transition-fast);
-    border-radius: 2px;
+  padding: 4px;
+  transition: var(--transition);
+  border-radius: var(--border-radius-sm);
 
-    @include respond-to(sm) {
-      width: 25px;
-      height: 3px;
-    }
-  }
-  
-  &:hover span {
-    background: var(--primary-light);
-  }
-  
-  @include mobile-only {
-    display: flex;
-  }
-}
-
-// ========================================
-// RESPONSIVE UTILITIES
-// ========================================
-
-// Hide settings on very small screens if needed
-@media (max-width: 360px) {
-  .settings-dropdown {
+  @include respond-to(lg) {
     display: none;
   }
+
+  &:hover {
+    background: var(--hover-overlay);
+    transform: scale(1.1);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
+  }
+
+  span {
+    width: 100%;
+    height: 2px;
+    background: var(--text-secondary);
+    border-radius: 1px;
+    transition: var(--transition-spring);
+    transform-origin: center;
+
+    &:nth-child(1) {
+      transform: rotate(0deg);
+    }
+
+    &:nth-child(2) {
+      opacity: 1;
+    }
+
+    &:nth-child(3) {
+      transform: rotate(0deg);
+    }
+  }
+
+  // Animated hamburger to X
+  .nav-open ~ .header-actions & {
+    span {
+      &:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+      }
+
+      &:nth-child(2) {
+        opacity: 0;
+      }
+
+      &:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+      }
+    }
+  }
 }
 
-// Landscape mobile optimization
+// ========================================
+// ANIMATIONS AND MICRO-INTERACTIONS
+// ========================================
+
+// Smooth scroll behavior when nav links are clicked
+.nav-link {
+  scroll-behavior: smooth;
+}
+
+// Loading state for header
+.header.loading {
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--primary-color), transparent);
+    animation: loading-bar 2s infinite;
+  }
+}
+
+@keyframes loading-bar {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+// Enhanced focus management for accessibility
+.header:focus-within {
+  .nav-link:not(:focus) {
+    opacity: 0.7;
+  }
+}
+
+// Mobile landscape optimizations
 @media (max-height: 500px) and (orientation: landscape) {
   .header {
-    height: 50px;
+    height: 60px;
   }
-  
-  .nav.nav-open {
-    max-height: 200px;
+
+  .nav {
+    top: 60px;
+  }
+
+  .nav-list {
+    padding: var(--space-md) 0;
+    max-height: calc(100vh - 60px);
+    overflow-y: auto;
+  }
+
+  .nav-link {
+    padding: var(--space-sm) var(--space-lg);
   }
 }
 
-// High DPI displays
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .settings-btn svg {
-    image-rendering: -webkit-optimize-contrast;
+// High contrast mode support
+@media (prefers-contrast: high) {
+  .header {
+    border-bottom-width: 2px;
+  }
+
+  .nav-link {
+    &:hover,
+    &.active {
+      background: var(--background-tertiary);
+    }
+  }
+}
+
+// Reduced motion support
+@media (prefers-reduced-motion: reduce) {
+  .header,
+  .nav,
+  .nav-link,
+  .logo,
+  .settings-link,
+  .menu-toggle,
+  .menu-toggle span {
+    transition: none;
+    animation: none;
+  }
+
+  .logo:hover {
+    transform: none;
+  }
+
+  .nav-link:hover {
+    transform: none;
   }
 }
