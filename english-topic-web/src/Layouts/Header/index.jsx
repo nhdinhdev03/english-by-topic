@@ -21,6 +21,12 @@ const Header = () => {
               Trang chủ
             </Link>
             <Link 
+              to="/topics" 
+              className={`nav-link ${location.pathname === '/topics' ? 'active' : ''}`}
+            >
+              Danh sách chủ đề
+            </Link>
+            <Link 
               to="/about" 
               className={`nav-link ${location.pathname === '/about' ? 'active' : ''}`}
             >

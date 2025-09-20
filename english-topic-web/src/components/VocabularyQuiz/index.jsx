@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import SpeechReader from '../SpeechReader';
 import './VocabularyQuiz.css';
 
 const VocabularyQuiz = ({ words, topicTitle }) => {
@@ -8,6 +9,7 @@ const VocabularyQuiz = ({ words, topicTitle }) => {
   const [score, setScore] = useState({ correct: 0, incorrect: 0, skipped: 0 });
   const [isQuizCompleted, setIsQuizCompleted] = useState(false);
   const [userAnswers, setUserAnswers] = useState([]);
+  const [showPronunciation, setShowPronunciation] = useState(false);
 
   const currentWord = words[currentWordIndex];
   const progress = ((currentWordIndex + 1) / words.length) * 100;
@@ -175,9 +177,33 @@ const VocabularyQuiz = ({ words, topicTitle }) => {
 
       <div className="quiz-card">
         <div className="word-section">
-          <h2 className="english-word">{currentWord.english}</h2>
+          <div className="word-header">
+            <h2 className="english-word">{currentWord.english}</h2>
+            <div className="pronunciation-section">
+              <SpeechReader 
+                text={currentWord.english} 
+                language="en-US"
+                showControls={false}
+              />
+            </div>
+          </div>
           <p className="pronunciation">{currentWord.pronunciation}</p>
           <p className="example">"{currentWord.example}"</p>
+          <button 
+            className="btn-pronunciation"
+            onClick={() => setShowPronunciation(!showPronunciation)}
+          >
+            {showPronunciation ? '🔇 Ẩn phát âm' : '🔊 Hiện phát âm'}
+          </button>
+          {showPronunciation && (
+            <div className="extended-pronunciation">
+              <SpeechReader 
+                text={currentWord.english} 
+                language="en-US"
+                showControls={true}
+              />
+            </div>
+          )}
         </div>
 
         <div className="question-section">

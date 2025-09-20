@@ -1,0 +1,42 @@
+[
+  {
+    "english": "red",
+    "vietnamese": "màu đỏ",
+    "pronunciation": "/red/"
+  },
+  {
+    "english": "blue",
+    "vietnamese": "màu xanh dương",
+    "pronunciation": "/bluː/"
+  },
+  {
+    "english": "green",
+    "vietnamese": "màu xanh lá",
+    "pronunciation": "/ɡriːn/"
+  },
+  {
+    "english": "yellow",
+    "vietnamese": "màu vàng",
+    "pronunciation": "/ˈjeloʊ/"
+  },
+  {
+    "english": "black",
+    "vietnamese": "màu đen",
+    "pronunciation": "/blæk/"
+  },
+  {
+    "english": "white",
+    "vietnamese": "màu trắng",
+    "pronunciation": "/waɪt/"
+  },
+  {
+    "english": "purple",
+    "vietnamese": "màu tím",
+    "pronunciation": "/ˈpɜːrpəl/"
+  },
+  {
+    "english": "orange",
+    "vietnamese": "màu cam",
+    "pronunciation": "/ˈɔːrɪndʒ/"
+  }
+]

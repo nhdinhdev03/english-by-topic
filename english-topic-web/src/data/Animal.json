@@ -1,0 +1,52 @@
+[
+  {
+    "english": "cat",
+    "vietnamese": "con mèo",
+    "pronunciation": "/kæt/"
+  },
+  {
+    "english": "dog",
+    "vietnamese": "con chó",
+    "pronunciation": "/dɔːɡ/"
+  },
+  {
+    "english": "elephant",
+    "vietnamese": "con voi",
+    "pronunciation": "/ˈelɪfənt/"
+  },
+  {
+    "english": "lion",
+    "vietnamese": "con sư tử",
+    "pronunciation": "/ˈlaɪən/"
+  },
+  {
+    "english": "tiger",
+    "vietnamese": "con hổ",
+    "pronunciation": "/ˈtaɪɡər/"
+  },
+  {
+    "english": "bird",
+    "vietnamese": "con chim",
+    "pronunciation": "/bɜːrd/"
+  },
+  {
+    "english": "fish",
+    "vietnamese": "con cá",
+    "pronunciation": "/fɪʃ/"
+  },
+  {
+    "english": "horse",
+    "vietnamese": "con ngựa",
+    "pronunciation": "/hɔːrs/"
+  },
+  {
+    "english": "cow",
+    "vietnamese": "con bò",
+    "pronunciation": "/kaʊ/"
+  },
+  {
+    "english": "pig",
+    "vietnamese": "con heo",
+    "pronunciation": "/pɪɡ/"
+  }
+]

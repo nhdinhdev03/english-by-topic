@@ -1,0 +1,32 @@
+[
+  {
+    "english": "apple",
+    "vietnamese": "quả táo",
+    "pronunciation": "/ˈæpəl/"
+  },
+  {
+    "english": "banana",
+    "vietnamese": "quả chuối",
+    "pronunciation": "/bəˈnænə/"
+  },
+  {
+    "english": "orange",
+    "vietnamese": "quả cam",
+    "pronunciation": "/ˈɔːrɪndʒ/"
+  },
+  {
+    "english": "grape",
+    "vietnamese": "quả nho",
+    "pronunciation": "/ɡreɪp/"
+  },
+  {
+    "english": "strawberry",
+    "vietnamese": "quả dâu tây",
+    "pronunciation": "/ˈstrɔːberi/"
+  },
+  {
+    "english": "watermelon",
+    "vietnamese": "quả dưa hấu",
+    "pronunciation": "/ˈwɔːtərmelən/"
+  }
+]

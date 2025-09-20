@@ -1,0 +1,278 @@
+[
+  {
+    "english": "Weather",
+    "vietnamese": "Thời tiết",
+    "pronunciation": "/ˈweð.ər/",
+    "type": "n"
+  },
+  {
+    "english": "Climate",
+    "vietnamese": "Khí hậu",
+    "pronunciation": "/ˈklaɪ.mət/",
+    "type": "n"
+  },
+  {
+    "english": "Temperature",
+    "vietnamese": "Nhiệt độ",
+    "pronunciation": "/ˈtem.prə.tʃər/",
+    "type": "n"
+  },
+  {
+    "english": "Forecast",
+    "vietnamese": "Dự báo thời tiết",
+    "pronunciation": "/ˈfɔː.kɑːst/",
+    "type": "n"
+  },
+  {
+    "english": "Season",
+    "vietnamese": "Mùa",
+    "pronunciation": "/ˈsiː.zən/",
+    "type": "n"
+  },
+  {
+    "english": "Spring",
+    "vietnamese": "Mùa xuân",
+    "pronunciation": "/sprɪŋ/",
+    "type": "n"
+  },
+  {
+    "english": "Summer",
+    "vietnamese": "Mùa hè",
+    "pronunciation": "/ˈsʌm.ər/",
+    "type": "n"
+  },
+  {
+    "english": "Autumn",
+    "vietnamese": "Mùa thu",
+    "pronunciation": "/ˈɔː.təm/",
+    "type": "n"
+  },
+  {
+    "english": "Winter",
+    "vietnamese": "Mùa đông",
+    "pronunciation": "/ˈwɪn.tər/",
+    "type": "n"
+  },
+  {
+    "english": "Sun",
+    "vietnamese": "Mặt trời",
+    "pronunciation": "/sʌn/",
+    "type": "n"
+  },
+  {
+    "english": "Sunshine",
+    "vietnamese": "Ánh nắng",
+    "pronunciation": "/ˈsʌn.ʃaɪn/",
+    "type": "n"
+  },
+  {
+    "english": "Sunny",
+    "vietnamese": "Nắng, trời nắng",
+    "pronunciation": "/ˈsʌn.i/",
+    "type": "adj"
+  },
+  {
+    "english": "Cloud",
+    "vietnamese": "Đám mây",
+    "pronunciation": "/klaʊd/",
+    "type": "n"
+  },
+  {
+    "english": "Cloudy",
+    "vietnamese": "Nhiều mây",
+    "pronunciation": "/ˈklaʊ.di/",
+    "type": "adj"
+  },
+  {
+    "english": "Rain",
+    "vietnamese": "Mưa",
+    "pronunciation": "/reɪn/",
+    "type": "n"
+  },
+  {
+    "english": "Rainy",
+    "vietnamese": "Có mưa",
+    "pronunciation": "/ˈreɪ.ni/",
+    "type": "adj"
+  },
+  {
+    "english": "Shower",
+    "vietnamese": "Mưa rào",
+    "pronunciation": "/ˈʃaʊ.ər/",
+    "type": "n"
+  },
+  {
+    "english": "Drizzle",
+    "vietnamese": "Mưa phùn",
+    "pronunciation": "/ˈdrɪz.l̩/",
+    "type": "n"
+  },
+  {
+    "english": "Downpour",
+    "vietnamese": "Mưa lớn, mưa như trút",
+    "pronunciation": "/ˈdaʊn.pɔːr/",
+    "type": "n"
+  },
+  {
+    "english": "Thunderstorm",
+    "vietnamese": "Dông bão",
+    "pronunciation": "/ˈθʌn.də.stɔːm/",
+    "type": "n"
+  },
+  {
+    "english": "Lightning",
+    "vietnamese": "Tia chớp",
+    "pronunciation": "/ˈlaɪt.nɪŋ/",
+    "type": "n"
+  },
+  {
+    "english": "Thunder",
+    "vietnamese": "Sấm",
+    "pronunciation": "/ˈθʌn.dər/",
+    "type": "n"
+  },
+  {
+    "english": "Snow",
+    "vietnamese": "Tuyết",
+    "pronunciation": "/snəʊ/",
+    "type": "n"
+  },
+  {
+    "english": "Snowy",
+    "vietnamese": "Có tuyết",
+    "pronunciation": "/ˈsnəʊ.i/",
+    "type": "adj"
+  },
+  {
+    "english": "Blizzard",
+    "vietnamese": "Bão tuyết",
+    "pronunciation": "/ˈblɪz.əd/",
+    "type": "n"
+  },
+  {
+    "english": "Hail",
+    "vietnamese": "Mưa đá",
+    "pronunciation": "/heɪl/",
+    "type": "n"
+  },
+  {
+    "english": "Fog",
+    "vietnamese": "Sương mù",
+    "pronunciation": "/fɒɡ/",
+    "type": "n"
+  },
+  {
+    "english": "Foggy",
+    "vietnamese": "Nhiều sương mù",
+    "pronunciation": "/ˈfɒɡ.i/",
+    "type": "adj"
+  },
+  {
+    "english": "Mist",
+    "vietnamese": "Sương mù nhẹ",
+    "pronunciation": "/mɪst/",
+    "type": "n"
+  },
+  {
+    "english": "Wind",
+    "vietnamese": "Gió",
+    "pronunciation": "/wɪnd/",
+    "type": "n"
+  },
+  {
+    "english": "Windy",
+    "vietnamese": "Có gió",
+    "pronunciation": "/ˈwɪn.di/",
+    "type": "adj"
+  },
+  {
+    "english": "Storm",
+    "vietnamese": "Bão",
+    "pronunciation": "/stɔːm/",
+    "type": "n"
+  },
+  {
+    "english": "Stormy",
+    "vietnamese": "Có bão",
+    "pronunciation": "/ˈstɔː.mi/",
+    "type": "adj"
+  },
+  {
+    "english": "Hurricane",
+    "vietnamese": "Bão lớn (ở Đại Tây Dương)",
+    "pronunciation": "/ˈhʌr.ɪ.kən/",
+    "type": "n"
+  },
+  {
+    "english": "Typhoon",
+    "vietnamese": "Bão nhiệt đới (ở Thái Bình Dương)",
+    "pronunciation": "/taɪˈfuːn/",
+    "type": "n"
+  },
+  {
+    "english": "Tornado",
+    "vietnamese": "Lốc xoáy",
+    "pronunciation": "/tɔːrˈneɪ.dəʊ/",
+    "type": "n"
+  },
+  {
+    "english": "Drought",
+    "vietnamese": "Hạn hán",
+    "pronunciation": "/draʊt/",
+    "type": "n"
+  },
+  {
+    "english": "Humidity",
+    "vietnamese": "Độ ẩm",
+    "pronunciation": "/hjuːˈmɪd.ə.ti/",
+    "type": "n"
+  },
+  {
+    "english": "Humid",
+    "vietnamese": "Ẩm ướt",
+    "pronunciation": "/ˈhjuː.mɪd/",
+    "type": "adj"
+  },
+  {
+    "english": "Heatwave",
+    "vietnamese": "Đợt nắng nóng",
+    "pronunciation": "/ˈhiːt.weɪv/",
+    "type": "n"
+  },
+  {
+    "english": "Freezing",
+    "vietnamese": "Rét buốt",
+    "pronunciation": "/ˈfriː.zɪŋ/",
+    "type": "adj"
+  },
+  {
+    "english": "Chilly",
+    "vietnamese": "Lạnh",
+    "pronunciation": "/ˈtʃɪl.i/",
+    "type": "adj"
+  },
+  {
+    "english": "Warm",
+    "vietnamese": "Ấm áp",
+    "pronunciation": "/wɔːm/",
+    "type": "adj"
+  },
+  {
+    "english": "Cold",
+    "vietnamese": "Lạnh",
+    "pronunciation": "/kəʊld/",
+    "type": "adj"
+  },
+  {
+    "english": "Breezy",
+    "vietnamese": "Có gió nhẹ",
+    "pronunciation": "/ˈbriː.zi/",
+    "type": "adj"
+  },
+  {
+    "english": "Overcast",
+    "vietnamese": "U ám, âm u",
+    "pronunciation": "/ˈəʊ.və.kɑːst/",
+    "type": "adj"
+  }
+]
