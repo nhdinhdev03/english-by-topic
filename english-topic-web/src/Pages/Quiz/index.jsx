@@ -475,31 +475,21 @@ const Quiz = () => {
 
           <div className="options-grid">
             {currentQ.options.map((option) => (
-              <div key={option.id} className="option-container">
-                <button
-                  className={getOptionClass(option)}
-                  onClick={() => !showResult && selectAnswer(option.id)}
-                  disabled={showResult}
-                >
-                  <span className="option-letter">{option.id.toUpperCase()}</span>
-                  <span className="option-text">{option.text}</span>
-                  {showResult && option.isCorrect && (
-                    <span className="option-icon">✓</span>
-                  )}
-                  {showResult && selectedAnswer === option.id && !option.isCorrect && (
-                    <span className="option-icon">✗</span>
-                  )}
-                </button>
-                {currentQ.type === 'translation_vi_en' && (
-                  <AudioButton
-                    text={option.text}
-                    language="en"
-                    size="medium"
-                    variant="secondary"
-                    className="option-audio-btn"
-                  />
+              <button
+                key={option.id}
+                className={getOptionClass(option)}
+                onClick={() => !showResult && selectAnswer(option.id)}
+                disabled={showResult}
+              >
+                <span className="option-letter">{option.id.toUpperCase()}</span>
+                <span className="option-text">{option.text}</span>
+                {showResult && option.isCorrect && (
+                  <span className="option-icon">✓</span>
                 )}
-              </div>
+                {showResult && selectedAnswer === option.id && !option.isCorrect && (
+                  <span className="option-icon">✗</span>
+                )}
+              </button>
             ))}
           </div>
 
