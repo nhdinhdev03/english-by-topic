@@ -1,52 +1,182 @@
 [
   {
-    "english": "cat",
-    "vietnamese": "con mèo",
-    "pronunciation": "/kæt/"
+    "english": "Animal",
+    "vietnamese": "Động vật",
+    "pronunciation": "/ˈæn.ɪ.məl/",
+    "type": "n"
   },
   {
-    "english": "dog",
-    "vietnamese": "con chó",
-    "pronunciation": "/dɔːɡ/"
+    "english": "Cat",
+    "vietnamese": "Con mèo",
+    "pronunciation": "/kæt/",
+    "type": "n"
   },
   {
-    "english": "elephant",
-    "vietnamese": "con voi",
-    "pronunciation": "/ˈelɪfənt/"
+    "english": "Dog",
+    "vietnamese": "Con chó",
+    "pronunciation": "/dɔːɡ/",
+    "type": "n"
   },
   {
-    "english": "lion",
-    "vietnamese": "con sư tử",
-    "pronunciation": "/ˈlaɪən/"
+    "english": "Elephant",
+    "vietnamese": "Con voi",
+    "pronunciation": "/ˈelɪfənt/",
+    "type": "n"
   },
   {
-    "english": "tiger",
-    "vietnamese": "con hổ",
-    "pronunciation": "/ˈtaɪɡər/"
+    "english": "Lion",
+    "vietnamese": "Con sư tử",
+    "pronunciation": "/ˈlaɪən/",
+    "type": "n"
   },
   {
-    "english": "bird",
-    "vietnamese": "con chim",
-    "pronunciation": "/bɜːrd/"
+    "english": "Tiger",
+    "vietnamese": "Con hổ",
+    "pronunciation": "/ˈtaɪɡər/",
+    "type": "n"
   },
   {
-    "english": "fish",
-    "vietnamese": "con cá",
-    "pronunciation": "/fɪʃ/"
+    "english": "Bird",
+    "vietnamese": "Con chim",
+    "pronunciation": "/bɜːrd/",
+    "type": "n"
   },
   {
-    "english": "horse",
-    "vietnamese": "con ngựa",
-    "pronunciation": "/hɔːrs/"
+    "english": "Fish",
+    "vietnamese": "Con cá",
+    "pronunciation": "/fɪʃ/",
+    "type": "n"
   },
   {
-    "english": "cow",
-    "vietnamese": "con bò",
-    "pronunciation": "/kaʊ/"
+    "english": "Horse",
+    "vietnamese": "Con ngựa",
+    "pronunciation": "/hɔːrs/",
+    "type": "n"
   },
   {
-    "english": "pig",
-    "vietnamese": "con heo",
-    "pronunciation": "/pɪɡ/"
+    "english": "Cow",
+    "vietnamese": "Con bò",
+    "pronunciation": "/kaʊ/",
+    "type": "n"
+  },
+  {
+    "english": "Pig",
+    "vietnamese": "Con heo",
+    "pronunciation": "/pɪɡ/",
+    "type": "n"
+  },
+  {
+    "english": "Sheep",
+    "vietnamese": "Con cừu",
+    "pronunciation": "/ʃiːp/",
+    "type": "n"
+  },
+  {
+    "english": "Goat",
+    "vietnamese": "Con dê",
+    "pronunciation": "/ɡəʊt/",
+    "type": "n"
+  },
+  {
+    "english": "Chicken",
+    "vietnamese": "Con gà",
+    "pronunciation": "/ˈtʃɪk.ɪn/",
+    "type": "n"
+  },
+  {
+    "english": "Duck",
+    "vietnamese": "Con vịt",
+    "pronunciation": "/dʌk/",
+    "type": "n"
+  },
+  {
+    "english": "Rabbit",
+    "vietnamese": "Con thỏ",
+    "pronunciation": "/ˈræb.ɪt/",
+    "type": "n"
+  },
+  {
+    "english": "Mouse",
+    "vietnamese": "Con chuột",
+    "pronunciation": "/maʊs/",
+    "type": "n"
+  },
+  {
+    "english": "Monkey",
+    "vietnamese": "Con khỉ",
+    "pronunciation": "/ˈmʌŋ.ki/",
+    "type": "n"
+  },
+  {
+    "english": "Bear",
+    "vietnamese": "Con gấu",
+    "pronunciation": "/beər/",
+    "type": "n"
+  },
+  {
+    "english": "Wolf",
+    "vietnamese": "Con sói",
+    "pronunciation": "/wʊlf/",
+    "type": "n"
+  },
+  {
+    "english": "Fox",
+    "vietnamese": "Con cáo",
+    "pronunciation": "/fɒks/",
+    "type": "n"
+  },
+  {
+    "english": "Deer",
+    "vietnamese": "Con hươu",
+    "pronunciation": "/dɪər/",
+    "type": "n"
+  },
+  {
+    "english": "Giraffe",
+    "vietnamese": "Con hươu cao cổ",
+    "pronunciation": "/dʒɪˈrɑːf/",
+    "type": "n"
+  },
+  {
+    "english": "Zebra",
+    "vietnamese": "Con ngựa vằn",
+    "pronunciation": "/ˈziː.brə/",
+    "type": "n"
+  },
+  {
+    "english": "Kangaroo",
+    "vietnamese": "Con chuột túi",
+    "pronunciation": "/ˌkæŋ.ɡərˈuː/",
+    "type": "n"
+  },
+  {
+    "english": "Panda",
+    "vietnamese": "Con gấu trúc",
+    "pronunciation": "/ˈpæn.də/",
+    "type": "n"
+  },
+  {
+    "english": "Dolphin",
+    "vietnamese": "Con cá heo",
+    "pronunciation": "/ˈdɒl.fɪn/",
+    "type": "n"
+  },
+  {
+    "english": "Whale",
+    "vietnamese": "Con cá voi",
+    "pronunciation": "/weɪl/",
+    "type": "n"
+  },
+  {
+    "english": "Shark",
+    "vietnamese": "Con cá mập",
+    "pronunciation": "/ʃɑːk/",
+    "type": "n"
+  },
+  {
+    "english": "Turtle",
+    "vietnamese": "Con rùa",
+    "pronunciation": "/ˈtɜː.təl/",
+    "type": "n"
   }
 ]
