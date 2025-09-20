@@ -323,6 +323,11 @@ export const LanguageProvider = ({ children }) => {
     localStorage.setItem("voiceSettings", JSON.stringify(voiceSettings));
   }, [voiceSettings]);
 
+  // Initialize speech synthesis on component mount
+  useEffect(() => {
+    initializeSpeechSynthesis();
+  }, []);
+
   const changeLanguage = (newLanguage) => {
     if (supportedLanguages[newLanguage]) {
       setLanguage(newLanguage);
@@ -330,10 +335,33 @@ export const LanguageProvider = ({ children }) => {
   };
 
   const updateVoiceSettings = (newSettings) => {
-    setVoiceSettings((prev) => ({
-      ...prev,
-      ...newSettings,
-    }));
+    setVoiceSettings((prev) => {
+      const updated = {
+        ...prev,
+        ...newSettings,
+      };
+      
+      // Platform-specific settings optimization
+      const userAgent = navigator.userAgent.toLowerCase();
+      const isIOS = /ipad|iphone|ipod/.test(userAgent);
+      const isMobile = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(userAgent);
+      
+      // Auto-adjust settings for better compatibility
+      if (isIOS) {
+        // iOS has more limited range
+        updated.speed = Math.max(0.5, Math.min(1.5, updated.speed));
+        updated.pitch = Math.max(0.8, Math.min(1.2, updated.pitch));
+      } else if (isMobile) {
+        // Mobile generally works better with conservative settings
+        updated.speed = Math.max(0.3, Math.min(1.8, updated.speed));
+        updated.pitch = Math.max(0.5, Math.min(1.5, updated.pitch));
+      }
+      
+      // Always ensure volume is in valid range
+      updated.volume = Math.max(0.1, Math.min(1.0, updated.volume));
+      
+      return updated;
+    });
   };
 
   const getTranslation = (key) => {
@@ -352,8 +380,49 @@ export const LanguageProvider = ({ children }) => {
     };
   };
 
+  // Initialize speech synthesis for cross-platform compatibility
+  const initializeSpeechSynthesis = () => {
+    // Load voices on component mount for better compatibility
+    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+      // Force load voices on different platforms
+      speechSynthesis.getVoices();
+      
+      // Some browsers need this event to properly load voices
+      if (speechSynthesis.onvoiceschanged !== undefined) {
+        speechSynthesis.onvoiceschanged = () => {
+          console.log('Voices loaded:', speechSynthesis.getVoices().length);
+        };
+      }
+    }
+  };
+
+  // Check speech synthesis support and get available voices
+  const getSpeechSupport = () => {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
+      return {
+        supported: false,
+        reason: 'Speech synthesis not supported in this browser'
+      };
+    }
+
+    const voices = speechSynthesis.getVoices();
+    return {
+      supported: true,
+      voicesCount: voices.length,
+      availableLanguages: [...new Set(voices.map(v => v.lang.split('-')[0]))],
+      platform: {
+        isMobile: /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()),
+        isIOS: /ipad|iphone|ipod/.test(navigator.userAgent.toLowerCase()),
+        isSafari: /safari/.test(navigator.userAgent.toLowerCase()) && !/chrome/.test(navigator.userAgent.toLowerCase())
+      }
+    };
+  };
+
   const playText = (text, targetLanguage = "en") => {
     if (!text) return;
+
+    // Cancel any ongoing speech
+    speechSynthesis.cancel();
 
     // Get the appropriate voice for the target language
     const targetVoices = availableVoices[targetLanguage] || availableVoices.en;
@@ -362,25 +431,123 @@ export const LanguageProvider = ({ children }) => {
 
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = voiceConfig.lang;
-    utterance.rate = voiceSettings.speed;
-    utterance.pitch = voiceSettings.pitch;
-    utterance.volume = voiceSettings.volume;
+    utterance.rate = Math.max(0.1, Math.min(2.0, voiceSettings.speed)); // Clamp rate
+    utterance.pitch = Math.max(0.1, Math.min(2.0, voiceSettings.pitch)); // Clamp pitch
+    utterance.volume = Math.max(0.1, Math.min(1.0, voiceSettings.volume)); // Clamp volume
 
-    // Try to use a specific voice if available
-    const voices = speechSynthesis.getVoices();
-    const preferredVoice = voices.find(
-      (voice) =>
-        voice.lang.startsWith(voiceConfig.lang.split("-")[0]) &&
-        (voiceConfig.gender === "female"
-          ? voice.name.toLowerCase().includes("female")
-          : true)
-    );
+    // Cross-platform voice selection with fallbacks
+    const selectBestVoice = () => {
+      const voices = speechSynthesis.getVoices();
+      if (voices.length === 0) return null;
 
-    if (preferredVoice) {
-      utterance.voice = preferredVoice;
+      const targetLangCode = voiceConfig.lang.split('-')[0]; // e.g., 'en' from 'en-US'
+      
+      // Priority order for voice selection
+      const voicePriorities = [
+        // 1. Exact match with gender preference
+        (voice) => 
+          voice.lang === voiceConfig.lang && 
+          (voiceConfig.gender === 'female' 
+            ? voice.name.toLowerCase().includes('female') || voice.name.toLowerCase().includes('woman')
+            : voice.name.toLowerCase().includes('male') || voice.name.toLowerCase().includes('man')),
+        
+        // 2. Exact language match
+        (voice) => voice.lang === voiceConfig.lang,
+        
+        // 3. Same language, different region
+        (voice) => voice.lang.startsWith(targetLangCode),
+        
+        // 4. Default system voice for the language
+        (voice) => voice.default && voice.lang.startsWith(targetLangCode),
+        
+        // 5. Any voice with the target language
+        (voice) => voice.lang.toLowerCase().includes(targetLangCode)
+      ];
+
+      for (const priority of voicePriorities) {
+        const matchedVoice = voices.find(priority);
+        if (matchedVoice) return matchedVoice;
+      }
+
+      // Fallback: first voice for the language or default voice
+      return voices.find(voice => voice.lang.startsWith(targetLangCode)) || voices[0];
+    };
+
+    // Handle voice loading asynchronously for mobile devices
+    const initializeAndSpeak = () => {
+      const selectedVoice = selectBestVoice();
+      if (selectedVoice) {
+        utterance.voice = selectedVoice;
+      }
+
+      // Add event listeners for better cross-platform handling
+      utterance.onstart = () => {
+        console.log('Speech started');
+      };
+
+      utterance.onend = () => {
+        console.log('Speech ended');
+      };
+
+      utterance.onerror = (event) => {
+        console.warn('Speech error:', event.error);
+        // Retry with simpler settings on error
+        if (event.error === 'network' || event.error === 'synthesis-failed') {
+          const fallbackUtterance = new SpeechSynthesisUtterance(text);
+          fallbackUtterance.lang = 'en-US';
+          fallbackUtterance.rate = 1;
+          fallbackUtterance.pitch = 1;
+          fallbackUtterance.volume = 0.8;
+          speechSynthesis.speak(fallbackUtterance);
+        }
+      };
+
+      // Platform-specific optimizations
+      const userAgent = navigator.userAgent.toLowerCase();
+      const isMobile = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(userAgent);
+      const isIOS = /ipad|iphone|ipod/.test(userAgent);
+      const isSafari = /safari/.test(userAgent) && !/chrome/.test(userAgent);
+
+      if (isIOS || isSafari) {
+        // iOS/Safari specific handling
+        utterance.rate = Math.max(0.5, Math.min(1.5, voiceSettings.speed));
+        // iOS works better with shorter text chunks
+        if (text.length > 200) {
+          const chunks = text.match(/.{1,200}(?:\s|$)/g) || [text];
+          chunks.forEach((chunk, index) => {
+            setTimeout(() => {
+              const chunkUtterance = new SpeechSynthesisUtterance(chunk.trim());
+              chunkUtterance.voice = selectedVoice;
+              chunkUtterance.lang = utterance.lang;
+              chunkUtterance.rate = utterance.rate;
+              chunkUtterance.pitch = utterance.pitch;
+              chunkUtterance.volume = utterance.volume;
+              speechSynthesis.speak(chunkUtterance);
+            }, index * 100);
+          });
+          return;
+        }
+      }
+
+      if (isMobile) {
+        // Mobile-specific optimizations
+        utterance.rate = Math.max(0.3, Math.min(1.8, voiceSettings.speed));
+        // Ensure speech starts (mobile sometimes needs a small delay)
+        setTimeout(() => {
+          speechSynthesis.speak(utterance);
+        }, 100);
+      } else {
+        // Desktop handling
+        speechSynthesis.speak(utterance);
+      }
+    };
+
+    // Wait for voices to load if needed
+    if (speechSynthesis.getVoices().length === 0) {
+      speechSynthesis.addEventListener('voiceschanged', initializeAndSpeak, { once: true });
+    } else {
+      initializeAndSpeak();
     }
-
-    speechSynthesis.speak(utterance);
   };
 
   const value = {
@@ -392,6 +559,8 @@ export const LanguageProvider = ({ children }) => {
     updateVoiceSettings,
     getTranslation,
     getCurrentVoiceConfig,
+    initializeSpeechSynthesis,
+    getSpeechSupport,
     playText,
     t: getTranslation, // Shorthand for getTranslation
   };
