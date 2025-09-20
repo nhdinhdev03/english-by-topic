@@ -3,7 +3,7 @@ import { Suspense } from 'react';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Footer from './Layouts/Footer';
 import Header from './Layouts/Header';
-import { publicRoutes } from './Router';
+import { allRoutes } from './Router';
 import './styles/App.scss';
 
 // Loading component
@@ -22,7 +22,7 @@ function App() {
         <main className="main-content">
           <Suspense fallback={<Loading />}>
             <Routes>
-              {publicRoutes.map((route, index) => {
+              {allRoutes.map((route, index) => {
                 const Component = route.element;
                 return (
                   <Route

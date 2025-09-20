@@ -6,9 +6,9 @@ const Learn = lazy(() => import("../Pages/Learn"));
 const Quiz = lazy(() => import("../Pages/Quiz"));
 const Review = lazy(() => import("../Pages/Review"));
 const Topics = lazy(() => import("../Pages/Topics"));
-const Settings = lazy(() => import("../Pages/Settings"));
 const Progress = lazy(() => import("../Pages/Progress"));
 const About = lazy(() => import("../Pages/About"));
+const Settings = lazy(() => import("../Pages/Settings"));
 
 export const publicRoutes = [
   {
@@ -42,16 +42,23 @@ export const publicRoutes = [
     name: "Tiến độ"
   },
   {
-    path: "/settings",
-    element: Settings,
-    name: "Cài đặt"
-  },
-  {
     path: "/about",
     element: About,
     name: "Giới thiệu"
   }
 ];
+
+// Hidden routes - không hiển thị trong navigation menu
+export const hiddenRoutes = [
+  {
+    path: "/settings",
+    element: Settings,
+    name: "Cài đặt"
+  }
+];
+
+// Combine all routes for App.jsx
+export const allRoutes = [...publicRoutes, ...hiddenRoutes];
 
 export const privateRoutes = [
   // Có thể thêm các routes dành riêng cho admin sau này
