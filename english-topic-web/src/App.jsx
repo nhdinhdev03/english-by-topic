@@ -5,8 +5,8 @@ import Header from "./Layouts/Header";
 import { allRoutes } from "./Router";
 import ScrollToTop from "./components/Scroll/ScrollToTop/ScrollToTop";
 import ScrollToTopOnNavigate from "./components/Scroll/ScrollToTopOnNavigate/ScrollToTopOnNavigate";
-import { ThemeProvider } from "./contexts/ThemeContext";
 import { LanguageProvider } from "./contexts/LanguageContext";
+import { ThemeProvider } from "./contexts/ThemeContext";
 import "./styles/App.scss";
 
 // Loading component

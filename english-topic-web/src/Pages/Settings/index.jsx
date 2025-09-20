@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { useTheme } from '../../contexts/useTheme';
 import { useLanguage } from '../../contexts/useLanguage';
+import { useTheme } from '../../contexts/useTheme';
 import './Settings.scss';
 
 const Settings = () => {
