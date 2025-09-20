@@ -52,11 +52,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           vendor: ["react", "react-dom"],
-          animations: ["framer-motion"],
           router: ["react-router-dom"],
-          i18n: ["react-i18next", "i18next"],
-          icons: ["react-icons"],
-          utils: ["react-intersection-observer"],
         },
         // Optimize chunk file names
         chunkFileNames: "chunks/[name]-[hash].js",
@@ -84,8 +80,6 @@ export default defineConfig({
       "react",
       "react-dom",
       "react-router-dom",
-      "framer-motion",
-      "react-i18next",
     ],
   },
 });
