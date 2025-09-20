@@ -1,4 +1,6 @@
-import React, { useState, useEffect, useCallback, useMemo } from 'react';
+import { useCallback, useEffect, useState } from 'react';
+import { AVAILABLE_TOPICS, generateQuizByType, importTopicData } from '../../utils/quizGenerator';
+import { getRecentPerformance, saveQuizResult } from '../../utils/quizStorage';
 import './Quiz.scss';
 
 const Quiz = () => {
@@ -9,65 +11,20 @@ const Quiz = () => {
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [timeLeft, setTimeLeft] = useState(30);
   const [quizStarted, setQuizStarted] = useState(false);
+  const [selectedTopic, setSelectedTopic] = useState(null);
+  const [selectedQuizType, setSelectedQuizType] = useState('mixed');
+  const [quizData, setQuizData] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [topicSelection, setTopicSelection] = useState(true);
+  const [recentStats, setRecentStats] = useState(null);
 
-  // Mock quiz data
-  const quizData = useMemo(() => [
-    {
-      id: 1,
-      question: "What does 'Adventure' mean?",
-      questionVi: "'Adventure' có nghĩa là gì?",
-      options: [
-        { id: 'a', text: 'Cuộc phiêu lưu', isCorrect: true },
-        { id: 'b', text: 'Sự an toàn', isCorrect: false },
-        { id: 'c', text: 'Ngôi nhà', isCorrect: false },
-        { id: 'd', text: 'Thức ăn', isCorrect: false }
-      ]
-    },
-    {
-      id: 2,
-      question: "Choose the correct sentence:",
-      questionVi: "Chọn câu đúng:",
-      options: [
-        { id: 'a', text: 'She is very beauty', isCorrect: false },
-        { id: 'b', text: 'She is very beautiful', isCorrect: true },
-        { id: 'c', text: 'She very beautiful', isCorrect: false },
-        { id: 'd', text: 'She beautiful very', isCorrect: false }
-      ]
-    },
-    {
-      id: 3,
-      question: "What is the past tense of 'go'?",
-      questionVi: "Thì quá khứ của 'go' là gì?",
-      options: [
-        { id: 'a', text: 'goed', isCorrect: false },
-        { id: 'b', text: 'goes', isCorrect: false },
-        { id: 'c', text: 'went', isCorrect: true },
-        { id: 'd', text: 'going', isCorrect: false }
-      ]
-    },
-    {
-      id: 4,
-      question: "Complete: 'Learning English is a _____ for me.'",
-      questionVi: "Hoàn thành: 'Learning English is a _____ for me.'",
-      options: [
-        { id: 'a', text: 'easy', isCorrect: false },
-        { id: 'b', text: 'challenge', isCorrect: true },
-        { id: 'c', text: 'house', isCorrect: false },
-        { id: 'd', text: 'food', isCorrect: false }
-      ]
-    },
-    {
-      id: 5,
-      question: "What does 'beautiful' mean in Vietnamese?",
-      questionVi: "'Beautiful' có nghĩa là gì trong tiếng Việt?",
-      options: [
-        { id: 'a', text: 'Xấu xí', isCorrect: false },
-        { id: 'b', text: 'Bình thường', isCorrect: false },
-        { id: 'c', text: 'Đẹp', isCorrect: true },
-        { id: 'd', text: 'Lớn', isCorrect: false }
-      ]
+  // Load recent performance stats
+  useEffect(() => {
+    if (topicSelection) {
+      const stats = getRecentPerformance(7);
+      setRecentStats(stats);
     }
-  ], []);
+  }, [topicSelection]);
 
   const handleNextQuestion = useCallback(() => {
     if (selectedAnswer) {
@@ -90,6 +47,17 @@ const Quiz = () => {
         setTimeLeft(30);
       } else {
         setQuizCompleted(true);
+        
+        // Save quiz result
+        const percentage = Math.round((score / quizData.length) * 100);
+        saveQuizResult({
+          topic: selectedTopic,
+          quizType: selectedQuizType,
+          score: score,
+          totalQuestions: quizData.length,
+          percentage: percentage,
+          timeSpent: (10 * 30) - timeLeft // Approximate time spent
+        });
       }
     }, 2000);
   }, [selectedAnswer, currentQuestion, score, quizData]);
@@ -107,15 +75,30 @@ const Quiz = () => {
     return () => clearTimeout(timer);
   }, [timeLeft, quizStarted, showResult, quizCompleted, handleNextQuestion]);
 
-  const startQuiz = () => {
-    setQuizStarted(true);
-    setCurrentQuestion(0);
-    setScore(0);
-    setSelectedAnswer(null);
-    setShowResult(false);
-    setQuizCompleted(false);
-    setTimeLeft(30);
-  };
+  const startQuiz = useCallback(async () => {
+    if (!selectedTopic) return;
+    
+    setLoading(true);
+    try {
+      const vocabData = await importTopicData(selectedTopic);
+      if (vocabData && vocabData.length > 0) {
+        const questions = generateQuizByType(vocabData, selectedQuizType, 10);
+        setQuizData(questions);
+        setQuizStarted(true);
+        setTopicSelection(false);
+        setCurrentQuestion(0);
+        setScore(0);
+        setSelectedAnswer(null);
+        setShowResult(false);
+        setQuizCompleted(false);
+        setTimeLeft(30);
+      }
+    } catch (error) {
+      console.error('Error loading quiz data:', error);
+    } finally {
+      setLoading(false);
+    }
+  }, [selectedTopic, selectedQuizType]);
 
   const selectAnswer = (answerId) => {
     setSelectedAnswer(answerId);
@@ -123,12 +106,16 @@ const Quiz = () => {
 
   const resetQuiz = () => {
     setQuizStarted(false);
+    setTopicSelection(true);
+    setSelectedTopic(null);
+    setSelectedQuizType('mixed');
     setCurrentQuestion(0);
     setScore(0);
     setSelectedAnswer(null);
     setShowResult(false);
     setQuizCompleted(false);
     setTimeLeft(30);
+    setQuizData([]);
   };
 
   const getScoreMessage = () => {
@@ -157,6 +144,107 @@ const Quiz = () => {
     return className;
   };
 
+  if (topicSelection) {
+    return (
+      <div className="quiz-page">
+        <div className="quiz-container">
+          <div className="topic-selection">
+            <h1>🧠 Chọn chủ đề Quiz</h1>
+            <p>Chọn chủ đề từ vựng bạn muốn luyện tập</p>
+            
+            {recentStats && recentStats.totalQuizzes > 0 && (
+              <div className="recent-stats">
+                <h3>📊 Thống kê 7 ngày gần đây</h3>
+                <div className="stats-grid">
+                  <div className="stat-item">
+                    <span className="stat-number">{recentStats.totalQuizzes}</span>
+                    <span className="stat-label">Quiz đã làm</span>
+                  </div>
+                  <div className="stat-item">
+                    <span className="stat-number">{recentStats.averageScore}%</span>
+                    <span className="stat-label">Điểm trung bình</span>
+                  </div>
+                  <div className="stat-item">
+                    <span className={`stat-number ${recentStats.improvement >= 0 ? 'positive' : 'negative'}`}>
+                      {recentStats.improvement >= 0 ? '+' : ''}{recentStats.improvement}%
+                    </span>
+                    <span className="stat-label">Cải thiện</span>
+                  </div>
+                </div>
+              </div>
+            )}
+            
+            <div className="quiz-type-selector">
+              <h3>Loại câu hỏi:</h3>
+              <div className="quiz-type-options">
+                <button 
+                  className={`type-btn ${selectedQuizType === 'mixed' ? 'active' : ''}`}
+                  onClick={() => setSelectedQuizType('mixed')}
+                >
+                  🎲 Hỗn hợp
+                </button>
+                <button 
+                  className={`type-btn ${selectedQuizType === 'translation' ? 'active' : ''}`}
+                  onClick={() => setSelectedQuizType('translation')}
+                >
+                  🔤 Dịch sang tiếng Việt
+                </button>
+                <button 
+                  className={`type-btn ${selectedQuizType === 'reverse_translation' ? 'active' : ''}`}
+                  onClick={() => setSelectedQuizType('reverse_translation')}
+                >
+                  🔄 Dịch sang tiếng Anh
+                </button>
+                <button 
+                  className={`type-btn ${selectedQuizType === 'fill_blank' ? 'active' : ''}`}
+                  onClick={() => setSelectedQuizType('fill_blank')}
+                >
+                  📝 Điền từ vào chỗ trống
+                </button>
+                <button 
+                  className={`type-btn ${selectedQuizType === 'pronunciation' ? 'active' : ''}`}
+                  onClick={() => setSelectedQuizType('pronunciation')}
+                >
+                  🗣️ Phát âm
+                </button>
+              </div>
+            </div>
+
+            <div className="topics-grid">
+              {Object.entries(AVAILABLE_TOPICS).map(([key, topic]) => (
+                <button
+                  key={key}
+                  className={`topic-card ${selectedTopic === key ? 'selected' : ''}`}
+                  onClick={() => setSelectedTopic(key)}
+                >
+                  <span className="topic-emoji">{topic.emoji}</span>
+                  <span className="topic-name">{topic.name}</span>
+                </button>
+              ))}
+            </div>
+
+            <div className="selection-actions">
+              <button 
+                className="start-quiz-btn" 
+                disabled={!selectedTopic || loading}
+                onClick={startQuiz}
+              >
+                {loading ? (
+                  <div className="loading-spinner">
+                    <div className="spinner"></div>
+                    <span className="loading-text">Đang tạo câu hỏi...</span>
+                  </div>
+                ) : (
+                  '🚀 Bắt đầu Quiz'
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   if (!quizStarted) {
     return (
       <div className="quiz-page">
@@ -180,8 +268,8 @@ const Quiz = () => {
               </div>
             </div>
             
-            <button className="start-btn" onClick={startQuiz}>
-              Bắt đầu trắc nghiệm
+            <button className="start-btn" onClick={() => setTopicSelection(true)}>
+              Chọn chủ đề khác
             </button>
           </div>
         </div>
@@ -207,7 +295,7 @@ const Quiz = () => {
                 <span className="score-total">/{quizData.length}</span>
               </div>
               <p className="score-percentage">
-                {Math.round((score / quizData.length) * 100)}% chính xác
+                {quizData.length > 0 ? Math.round((score / quizData.length) * 100) : 0}% chính xác
               </p>
             </div>
             
@@ -219,6 +307,22 @@ const Quiz = () => {
                 Tiếp tục học
               </button>
             </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (quizData.length === 0) {
+    return (
+      <div className="quiz-page">
+        <div className="quiz-container">
+          <div className="quiz-intro">
+            <h1>⚠️ Không có dữ liệu</h1>
+            <p>Không thể tải dữ liệu quiz. Vui lòng thử lại sau.</p>
+            <button className="start-btn" onClick={resetQuiz}>
+              Về trang chọn chủ đề
+            </button>
           </div>
         </div>
       </div>
@@ -254,8 +358,17 @@ const Quiz = () => {
 
         <div className="question-card">
           <div className="question-content">
+            <div className="question-type-badge">
+              {currentQ.type === 'translation_en_vi' && '🔤 Dịch sang tiếng Việt'}
+              {currentQ.type === 'translation_vi_en' && '🔄 Dịch sang tiếng Anh'}
+              {currentQ.type === 'fill_blank' && '📝 Điền từ vào chỗ trống'}
+              {currentQ.type === 'pronunciation' && '🗣️ Phát âm'}
+            </div>
             <h2 className="question-text">{currentQ.question}</h2>
             <p className="question-vi">{currentQ.questionVi}</p>
+            {currentQ.pronunciation && currentQ.type !== 'pronunciation' && (
+              <p className="question-pronunciation">📢 {currentQ.pronunciation}</p>
+            )}
           </div>
 
           <div className="options-grid">
