@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from 'react';
+import AudioButton from '../../components/AudioButton';
 import { AVAILABLE_TOPICS, generateAllTopicsQuiz, generateQuizByType, importTopicData } from '../../utils/quizGenerator';
 import { getRecentPerformance, saveQuizResult } from '../../utils/quizStorage';
 import './Quiz.scss';
@@ -457,7 +458,15 @@ const Quiz = () => {
               {currentQ.type === 'fill_blank' && '📝 Điền từ vào chỗ trống'}
               {currentQ.type === 'pronunciation' && '🗣️ Phát âm'}
             </div>
-            <h2 className="question-text">{currentQ.question}</h2>
+            <div className="question-header">
+              <h2 className="question-text">{currentQ.question}</h2>
+              <AudioButton 
+                text={currentQ.question}
+                language="en"
+                size="large"
+                variant="primary"
+              />
+            </div>
             <p className="question-vi">{currentQ.questionVi}</p>
             {currentQ.pronunciation && currentQ.type !== 'pronunciation' && (
               <p className="question-pronunciation">📢 {currentQ.pronunciation}</p>
@@ -466,21 +475,31 @@ const Quiz = () => {
 
           <div className="options-grid">
             {currentQ.options.map((option) => (
-              <button
-                key={option.id}
-                className={getOptionClass(option)}
-                onClick={() => !showResult && selectAnswer(option.id)}
-                disabled={showResult}
-              >
-                <span className="option-letter">{option.id.toUpperCase()}</span>
-                <span className="option-text">{option.text}</span>
-                {showResult && option.isCorrect && (
-                  <span className="option-icon">✓</span>
+              <div key={option.id} className="option-container">
+                <button
+                  className={getOptionClass(option)}
+                  onClick={() => !showResult && selectAnswer(option.id)}
+                  disabled={showResult}
+                >
+                  <span className="option-letter">{option.id.toUpperCase()}</span>
+                  <span className="option-text">{option.text}</span>
+                  {showResult && option.isCorrect && (
+                    <span className="option-icon">✓</span>
+                  )}
+                  {showResult && selectedAnswer === option.id && !option.isCorrect && (
+                    <span className="option-icon">✗</span>
+                  )}
+                </button>
+                {currentQ.type === 'translation_vi_en' && (
+                  <AudioButton
+                    text={option.text}
+                    language="en"
+                    size="medium"
+                    variant="secondary"
+                    className="option-audio-btn"
+                  />
                 )}
-                {showResult && selectedAnswer === option.id && !option.isCorrect && (
-                  <span className="option-icon">✗</span>
-                )}
-              </button>
+              </div>
             ))}
           </div>
 

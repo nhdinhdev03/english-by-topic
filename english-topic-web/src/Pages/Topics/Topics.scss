@@ -155,11 +155,45 @@
   .topic-meta {
     flex: 1;
     
+    .topic-title-row {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: var(--space-xs);
+    }
+    
     h3 {
-      margin: 0 0 var(--space-xs) 0;
+      margin: 0;
       font-size: 1.3rem;
       font-weight: 600;
       color: var(--text-primary);
+      flex: 1;
+    }
+    
+    .topic-audio-btn {
+      background: rgba(var(--primary-color-rgb), 0.1);
+      border: 1px solid rgba(var(--primary-color-rgb), 0.3);
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      color: var(--primary-color);
+      flex-shrink: 0;
+      
+      &:hover {
+        background: rgba(var(--primary-color-rgb), 0.2);
+        border-color: var(--primary-color);
+        transform: scale(1.1);
+      }
+      
+      &:active {
+        transform: scale(0.95);
+      }
     }
     
     p {

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import AudioButton from '../../components/AudioButton';
 import './Topics.scss';
 
 const Topics = () => {
@@ -218,7 +219,16 @@ const Topics = () => {
                   📚
                 </div>
                 <div className="topic-meta">
-                  <h3>{topic.name}</h3>
+                  <div className="topic-title-row">
+                    <h3>{topic.name}</h3>
+                    <AudioButton
+                      text={topic.name}
+                      language="en"
+                      size="small"
+                      variant="minimal"
+                      className="topic-audio-btn"
+                    />
+                  </div>
                   <p>{topic.wordCount} từ vựng</p>
                   <small>{topic.description}</small>
                 </div>
