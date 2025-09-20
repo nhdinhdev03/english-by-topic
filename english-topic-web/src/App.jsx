@@ -1,9 +1,9 @@
 
-import React, { Suspense } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { publicRoutes } from './Router';
-import Header from './Layouts/Header';
+import { Suspense } from 'react';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Footer from './Layouts/Footer';
+import Header from './Layouts/Header';
+import { publicRoutes } from './Router';
 import './styles/App.scss';
 
 // Loading component

@@ -1,4 +1,3 @@
-import React from 'react';
 import './Learn.scss';
 
 const Learn = () => {
