@@ -1,0 +1,259 @@
+// ========================================
+// RESPONSIVE DESIGN SYSTEM
+// Optimized for all devices: PC, Laptop, iPad, Mobile
+// ========================================
+
+// Breakpoints
+$breakpoints: (
+  xs: 320px,    // Small mobile
+  sm: 480px,    // Mobile
+  md: 768px,    // Tablet/iPad
+  lg: 1024px,   // Small laptop
+  xl: 1200px,   // Desktop
+  xxl: 1440px   // Large desktop
+);
+
+// Responsive mixins
+@mixin respond-to($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  } @else {
+    @warn "Unknown breakpoint: #{$breakpoint}.";
+  }
+}
+
+@mixin respond-below($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    $breakpoint-value: map-get($breakpoints, $breakpoint) - 1px;
+    @media (max-width: #{$breakpoint-value}) {
+      @content;
+    }
+  } @else {
+    @warn "Unknown breakpoint: #{$breakpoint}.";
+  }
+}
+
+@mixin respond-between($min, $max) {
+  @if map-has-key($breakpoints, $min) and map-has-key($breakpoints, $max) {
+    $min-value: map-get($breakpoints, $min);
+    $max-value: map-get($breakpoints, $max) - 1px;
+    @media (min-width: #{$min-value}) and (max-width: #{$max-value}) {
+      @content;
+    }
+  } @else {
+    @warn "Unknown breakpoints: #{$min} or #{$max}.";
+  }
+}
+
+// Device-specific mixins
+@mixin mobile-only {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin tablet-only {
+  @media (min-width: 768px) and (max-width: 1023px) {
+    @content;
+  }
+}
+
+@mixin desktop-only {
+  @media (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin touch-device {
+  @media (hover: none) and (pointer: coarse) {
+    @content;
+  }
+}
+
+// Container system
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  @include respond-to(sm) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  @include respond-to(md) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  @include respond-to(lg) {
+    max-width: 1024px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  @include respond-to(xl) {
+    max-width: 1200px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  @include respond-to(xxl) {
+    max-width: 1440px;
+  }
+}
+
+// Responsive grid system
+.grid {
+  display: grid;
+  gap: 1rem;
+
+  @include respond-to(sm) {
+    gap: 1.5rem;
+  }
+
+  @include respond-to(md) {
+    gap: 2rem;
+  }
+
+  // Grid columns
+  &.grid-1 {
+    grid-template-columns: 1fr;
+  }
+
+  &.grid-2 {
+    grid-template-columns: 1fr;
+    
+    @include respond-to(md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  &.grid-3 {
+    grid-template-columns: 1fr;
+    
+    @include respond-to(sm) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    @include respond-to(lg) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  &.grid-4 {
+    grid-template-columns: 1fr;
+    
+    @include respond-to(sm) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    @include respond-to(md) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    
+    @include respond-to(lg) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
+
+// Responsive typography
+.responsive-text {
+  font-size: 1rem;
+  line-height: 1.5;
+
+  @include respond-to(sm) {
+    font-size: 1.1rem;
+  }
+
+  @include respond-to(md) {
+    font-size: 1.125rem;
+    line-height: 1.6;
+  }
+
+  @include respond-to(lg) {
+    font-size: 1.2rem;
+  }
+}
+
+// Spacing system
+$spacing: (
+  xs: 0.25rem,
+  sm: 0.5rem,
+  md: 1rem,
+  lg: 1.5rem,
+  xl: 2rem,
+  xxl: 3rem,
+  xxxl: 4rem
+);
+
+// Generate responsive spacing utilities
+@each $size, $value in $spacing {
+  .p-#{$size} { padding: $value; }
+  .pt-#{$size} { padding-top: $value; }
+  .pr-#{$size} { padding-right: $value; }
+  .pb-#{$size} { padding-bottom: $value; }
+  .pl-#{$size} { padding-left: $value; }
+  .px-#{$size} { padding-left: $value; padding-right: $value; }
+  .py-#{$size} { padding-top: $value; padding-bottom: $value; }
+  
+  .m-#{$size} { margin: $value; }
+  .mt-#{$size} { margin-top: $value; }
+  .mr-#{$size} { margin-right: $value; }
+  .mb-#{$size} { margin-bottom: $value; }
+  .ml-#{$size} { margin-left: $value; }
+  .mx-#{$size} { margin-left: $value; margin-right: $value; }
+  .my-#{$size} { margin-top: $value; margin-bottom: $value; }
+}
+
+// Responsive visibility utilities
+.hidden {
+  display: none;
+}
+
+.mobile-hidden {
+  @include mobile-only {
+    display: none;
+  }
+}
+
+.tablet-hidden {
+  @include tablet-only {
+    display: none;
+  }
+}
+
+.desktop-hidden {
+  @include desktop-only {
+    display: none;
+  }
+}
+
+.mobile-only {
+  display: none;
+  
+  @include mobile-only {
+    display: block;
+  }
+}
+
+.tablet-only {
+  display: none;
+  
+  @include tablet-only {
+    display: block;
+  }
+}
+
+.desktop-only {
+  display: none;
+  
+  @include desktop-only {
+    display: block;
+  }
+}
