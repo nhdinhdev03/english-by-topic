@@ -1,0 +1,176 @@
+[
+  {
+    "english": "Environment",
+    "vietnamese": "Môi trường",
+    "pronunciation": "/ɪnˈvaɪ.rən.mənt/",
+    "type": "n"
+  },
+  {
+    "english": "Nature",
+    "vietnamese": "Thiên nhiên",
+    "pronunciation": "/ˈneɪ.tʃər/",
+    "type": "n"
+  },
+  {
+    "english": "Ecosystem",
+    "vietnamese": "Hệ sinh thái",
+    "pronunciation": "/ˈiː.kəʊˌsɪs.təm/",
+    "type": "n"
+  },
+  {
+    "english": "Climate",
+    "vietnamese": "Khí hậu",
+    "pronunciation": "/ˈklaɪ.mət/",
+    "type": "n"
+  },
+  {
+    "english": "Pollution",
+    "vietnamese": "Ô nhiễm",
+    "pronunciation": "/pəˈluː.ʃən/",
+    "type": "n"
+  },
+  {
+    "english": "Air pollution",
+    "vietnamese": "Ô nhiễm không khí",
+    "pronunciation": "/eər pəˈluː.ʃən/",
+    "type": "n"
+  },
+  {
+    "english": "Water pollution",
+    "vietnamese": "Ô nhiễm nước",
+    "pronunciation": "/ˈwɔː.tər pəˌluː.ʃən/",
+    "type": "n"
+  },
+  {
+    "english": "Soil pollution",
+    "vietnamese": "Ô nhiễm đất",
+    "pronunciation": "/sɔɪl pəˈluː.ʃən/",
+    "type": "n"
+  },
+  {
+    "english": "Global warming",
+    "vietnamese": "Sự nóng lên toàn cầu",
+    "pronunciation": "/ˌɡləʊ.bəl ˈwɔː.mɪŋ/",
+    "type": "n"
+  },
+  {
+    "english": "Greenhouse effect",
+    "vietnamese": "Hiệu ứng nhà kính",
+    "pronunciation": "/ˈɡriːn.haʊs ɪˌfekt/",
+    "type": "n"
+  },
+  {
+    "english": "Deforestation",
+    "vietnamese": "Nạn phá rừng",
+    "pronunciation": "/ˌdiː.fɒr.ɪˈsteɪ.ʃən/",
+    "type": "n"
+  },
+  {
+    "english": "Renewable energy",
+    "vietnamese": "Năng lượng tái tạo",
+    "pronunciation": "/rɪˈnjuː.ə.bəl ˈen.ə.dʒi/",
+    "type": "n"
+  },
+  {
+    "english": "Solar energy",
+    "vietnamese": "Năng lượng mặt trời",
+    "pronunciation": "/ˈsəʊ.lər ˈen.ə.dʒi/",
+    "type": "n"
+  },
+  {
+    "english": "Wind power",
+    "vietnamese": "Năng lượng gió",
+    "pronunciation": "/wɪnd ˈpaʊ.ər/",
+    "type": "n"
+  },
+  {
+    "english": "Fossil fuel",
+    "vietnamese": "Nhiên liệu hóa thạch",
+    "pronunciation": "/ˈfɒs.əl ˌfjʊəl/",
+    "type": "n"
+  },
+  {
+    "english": "Carbon footprint",
+    "vietnamese": "Dấu chân carbon",
+    "pronunciation": "/ˈkɑː.bən ˌfʊt.prɪnt/",
+    "type": "n"
+  },
+  {
+    "english": "Biodiversity",
+    "vietnamese": "Đa dạng sinh học",
+    "pronunciation": "/ˌbaɪ.əʊ.daɪˈvɜː.sɪ.ti/",
+    "type": "n"
+  },
+  {
+    "english": "Endangered species",
+    "vietnamese": "Các loài có nguy cơ tuyệt chủng",
+    "pronunciation": "/ɪnˈdeɪn.dʒəd ˈspiː.ʃiːz/",
+    "type": "n"
+  },
+  {
+    "english": "Conservation",
+    "vietnamese": "Sự bảo tồn",
+    "pronunciation": "/ˌkɒn.səˈveɪ.ʃən/",
+    "type": "n"
+  },
+  {
+    "english": "Recycling",
+    "vietnamese": "Tái chế",
+    "pronunciation": "/ˌriːˈsaɪ.klɪŋ/",
+    "type": "n"
+  },
+  {
+    "english": "Waste",
+    "vietnamese": "Rác thải",
+    "pronunciation": "/weɪst/",
+    "type": "n"
+  },
+  {
+    "english": "Plastic waste",
+    "vietnamese": "Rác thải nhựa",
+    "pronunciation": "/ˈplæs.tɪk weɪst/",
+    "type": "n"
+  },
+  {
+    "english": "Sustainable",
+    "vietnamese": "Bền vững",
+    "pronunciation": "/səˈsteɪ.nə.bəl/",
+    "type": "adj"
+  },
+  {
+    "english": "Habitat",
+    "vietnamese": "Môi trường sống",
+    "pronunciation": "/ˈhæb.ɪ.tæt/",
+    "type": "n"
+  },
+  {
+    "english": "Natural disaster",
+    "vietnamese": "Thảm họa thiên nhiên",
+    "pronunciation": "/ˈnætʃ.ər.əl dɪˈzɑː.stər/",
+    "type": "n"
+  },
+  {
+    "english": "Flood",
+    "vietnamese": "Lũ lụt",
+    "pronunciation": "/flʌd/",
+    "type": "n"
+  },
+  {
+    "english": "Drought",
+    "vietnamese": "Hạn hán",
+    "pronunciation": "/draʊt/",
+    "type": "n"
+  },
+  {
+    "english": "Earthquake",
+    "vietnamese": "Động đất",
+    "pronunciation": "/ˈɜːθ.kweɪk/",
+    "type": "n"
+  },
+  {
+    "english": "Wildfire",
+    "vietnamese": "Cháy rừng",
+    "pronunciation": "/ˈwaɪld.faɪər/",
+    "type": "n"
+  }
+]
