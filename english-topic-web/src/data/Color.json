@@ -1,42 +1,152 @@
 [
   {
-    "english": "red",
-    "vietnamese": "màu đỏ",
-    "pronunciation": "/red/"
+    "english": "Color",
+    "vietnamese": "Màu sắc",
+    "pronunciation": "/ˈkʌl.ər/",
+    "type": "n"
   },
   {
-    "english": "blue",
-    "vietnamese": "màu xanh dương",
-    "pronunciation": "/bluː/"
+    "english": "Red",
+    "vietnamese": "Màu đỏ",
+    "pronunciation": "/red/",
+    "type": "adj/n"
   },
   {
-    "english": "green",
-    "vietnamese": "màu xanh lá",
-    "pronunciation": "/ɡriːn/"
+    "english": "Blue",
+    "vietnamese": "Màu xanh dương",
+    "pronunciation": "/bluː/",
+    "type": "adj/n"
   },
   {
-    "english": "yellow",
-    "vietnamese": "màu vàng",
-    "pronunciation": "/ˈjeloʊ/"
+    "english": "Green",
+    "vietnamese": "Màu xanh lá cây",
+    "pronunciation": "/ɡriːn/",
+    "type": "adj/n"
   },
   {
-    "english": "black",
-    "vietnamese": "màu đen",
-    "pronunciation": "/blæk/"
+    "english": "Yellow",
+    "vietnamese": "Màu vàng",
+    "pronunciation": "/ˈjel.əʊ/",
+    "type": "adj/n"
   },
   {
-    "english": "white",
-    "vietnamese": "màu trắng",
-    "pronunciation": "/waɪt/"
+    "english": "Orange",
+    "vietnamese": "Màu cam",
+    "pronunciation": "/ˈɒr.ɪndʒ/",
+    "type": "adj/n"
   },
   {
-    "english": "purple",
-    "vietnamese": "màu tím",
-    "pronunciation": "/ˈpɜːrpəl/"
+    "english": "Purple",
+    "vietnamese": "Màu tím",
+    "pronunciation": "/ˈpɜː.pəl/",
+    "type": "adj/n"
   },
   {
-    "english": "orange",
-    "vietnamese": "màu cam",
-    "pronunciation": "/ˈɔːrɪndʒ/"
+    "english": "Pink",
+    "vietnamese": "Màu hồng",
+    "pronunciation": "/pɪŋk/",
+    "type": "adj/n"
+  },
+  {
+    "english": "Brown",
+    "vietnamese": "Màu nâu",
+    "pronunciation": "/braʊn/",
+    "type": "adj/n"
+  },
+  {
+    "english": "Black",
+    "vietnamese": "Màu đen",
+    "pronunciation": "/blæk/",
+    "type": "adj/n"
+  },
+  {
+    "english": "White",
+    "vietnamese": "Màu trắng",
+    "pronunciation": "/waɪt/",
+    "type": "adj/n"
+  },
+  {
+    "english": "Gray",
+    "vietnamese": "Màu xám",
+    "pronunciation": "/ɡreɪ/",
+    "type": "adj/n"
+  },
+  {
+    "english": "Silver",
+    "vietnamese": "Màu bạc",
+    "pronunciation": "/ˈsɪl.vər/",
+    "type": "adj/n"
+  },
+  {
+    "english": "Gold",
+    "vietnamese": "Màu vàng kim",
+    "pronunciation": "/ɡəʊld/",
+    "type": "adj/n"
+  },
+  {
+    "english": "Beige",
+    "vietnamese": "Màu be",
+    "pronunciation": "/beɪʒ/",
+    "type": "adj/n"
+  },
+  {
+    "english": "Cyan",
+    "vietnamese": "Màu xanh lơ",
+    "pronunciation": "/ˈsaɪ.ən/",
+    "type": "adj/n"
+  },
+  {
+    "english": "Magenta",
+    "vietnamese": "Màu đỏ tươi",
+    "pronunciation": "/məˈdʒen.tə/",
+    "type": "adj/n"
+  },
+  {
+    "english": "Turquoise",
+    "vietnamese": "Màu xanh ngọc",
+    "pronunciation": "/ˈtɜː.kwɔɪz/",
+    "type": "adj/n"
+  },
+  {
+    "english": "Lavender",
+    "vietnamese": "Màu tím nhạt",
+    "pronunciation": "/ˈlæv.ən.dər/",
+    "type": "adj/n"
+  },
+  {
+    "english": "Maroon",
+    "vietnamese": "Màu đỏ nâu",
+    "pronunciation": "/məˈruːn/",
+    "type": "adj/n"
+  },
+  {
+    "english": "Teal",
+    "vietnamese": "Màu xanh mòng két",
+    "pronunciation": "/tiːl/",
+    "type": "adj/n"
+  },
+  {
+    "english": "Navy",
+    "vietnamese": "Màu xanh nước biển đậm",
+    "pronunciation": "/ˈneɪ.vi/",
+    "type": "adj/n"
+  },
+  {
+    "english": "Olive",
+    "vietnamese": "Màu xanh ô liu",
+    "pronunciation": "/ˈɒl.ɪv/",
+    "type": "adj/n"
+  },
+  {
+    "english": "Coral",
+    "vietnamese": "Màu san hô",
+    "pronunciation": "/ˈkɒr.əl/",
+    "type": "adj/n"
+  },
+  {
+    "english": "Peach",
+    "vietnamese": "Màu đào",
+    "pronunciation": "/piːtʃ/",
+    "type": "adj/n"
   }
 ]
