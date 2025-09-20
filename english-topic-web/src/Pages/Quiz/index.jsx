@@ -20,6 +20,27 @@ const Quiz = () => {
   const [recentStats, setRecentStats] = useState(null);
   const [topicVocabCount, setTopicVocabCount] = useState(null);
 
+  // Clean text for pronunciation - remove underscores and special formatting
+  const cleanTextForAudio = (text) => {
+    if (!text) return '';
+    
+    let cleaned = text
+      .replace(/Complete the sentence:\s*/i, '')  // Remove "Complete the sentence:" prefix
+      .replace(/Hoàn thành câu:\s*/i, '')        // Remove Vietnamese prefix
+      .replace(/["']/g, '')                        // Remove quotation marks
+      .replace(/_{3,}/g, ' blank ')               // Replace 3+ underscores with " blank "
+      .replace(/_+/g, ' blank ')                  // Replace any remaining underscores with " blank "
+      .replace(/\s+/g, ' ')                       // Replace multiple spaces with single space
+      .trim();
+    
+    // If the result is just "blank" or empty, return the original word context
+    if (cleaned === 'blank' || cleaned === '' || cleaned.length < 3) {
+      return 'fill in the blank';
+    }
+    
+    return cleaned;
+  };
+
   // Load recent performance stats
   useEffect(() => {
     if (topicSelection) {
@@ -461,7 +482,7 @@ const Quiz = () => {
             <div className="question-header">
               <h2 className="question-text">{currentQ.question}</h2>
               <AudioButton 
-                text={currentQ.question}
+                text={cleanTextForAudio(currentQ.question)}
                 language="en"
                 size="large"
                 variant="primary"
