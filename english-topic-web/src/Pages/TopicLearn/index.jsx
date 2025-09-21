@@ -7,11 +7,22 @@ const TopicLearn = () => {
   const { topicName } = useParams();
   const navigate = useNavigate();
   const { playText } = useLanguage();
+
   const [vocabularyData, setVocabularyData] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [completedWords, setCompletedWords] = useState(new Set());
   const [showMeaning, setShowMeaning] = useState(false);
+
+  // Fisher-Yates shuffle algorithm
+  const shuffleArray = (array) => {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  };
 
   // Load vocabulary data based on topic
   useEffect(() => {
@@ -52,7 +63,11 @@ const TopicLearn = () => {
         
         const data = await response.json();
         console.log(`Successfully loaded ${data.length} vocabulary items for ${topicName}`);
-        setVocabularyData(data);
+        
+        // Auto-shuffle vocabulary on initial load
+        const shuffledData = shuffleArray(data);
+
+        setVocabularyData(shuffledData);
       } catch (error) {
         console.error('Error loading vocabulary:', error);
       }
