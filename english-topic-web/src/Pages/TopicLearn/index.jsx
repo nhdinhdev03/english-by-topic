@@ -1,18 +1,21 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useLanguage } from '../../contexts/useLanguage';
+import { useProgress } from '../../contexts/useProgress';
 import './TopicLearn.scss';
 
 const TopicLearn = () => {
   const { topicName } = useParams();
   const navigate = useNavigate();
   const { playText } = useLanguage();
+  const { markWordLearned, getTopicLearnedWords } = useProgress();
 
   const [vocabularyData, setVocabularyData] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [completedWords, setCompletedWords] = useState(new Set());
   const [showMeaning, setShowMeaning] = useState(false);
+  const [learnedWords, setLearnedWords] = useState(new Set());
 
   // Fisher-Yates shuffle algorithm
   const shuffleArray = (array) => {
@@ -78,6 +81,15 @@ const TopicLearn = () => {
     }
   }, [topicName]);
 
+  // Load learned words from localStorage when component mounts
+  useEffect(() => {
+    if (topicName) {
+      const savedLearnedWords = getTopicLearnedWords(topicName);
+      const learnedWordIds = new Set(savedLearnedWords.map(word => word.english));
+      setLearnedWords(learnedWordIds);
+    }
+  }, [topicName, getTopicLearnedWords]);
+
   const currentWord = vocabularyData[currentIndex];
 
   const handleNext = () => {
@@ -102,7 +114,14 @@ const TopicLearn = () => {
   };
 
   const markAsLearned = () => {
-    setCompletedWords(prev => new Set([...prev, currentIndex]));
+    if (currentWord && topicName) {
+      // Mark word as learned in localStorage
+      markWordLearned(topicName, currentWord);
+      
+      // Update local state
+      setCompletedWords(prev => new Set([...prev, currentIndex]));
+      setLearnedWords(prev => new Set([...prev, currentWord.english]));
+    }
     handleNext();
   };
 
@@ -147,7 +166,7 @@ const TopicLearn = () => {
   }
 
   const progress = ((currentIndex + 1) / vocabularyData.length) * 100;
-  const learnedProgress = (completedWords.size / vocabularyData.length) * 100;
+  const learnedProgress = (learnedWords.size / vocabularyData.length) * 100;
 
   return (
     <div className="topic-learn-page">
@@ -167,7 +186,8 @@ const TopicLearn = () => {
         <div className="progress-section">
           <div className="progress-info">
             <span>Tiến độ: {currentIndex + 1}/{vocabularyData.length}</span>
-            <span>Đã học: {completedWords.size}/{vocabularyData.length}</span>
+            <span>Đã học: {learnedWords.size}/{vocabularyData.length}</span>
+            <span>Phiên này: {completedWords.size} từ mới</span>
           </div>
           <div className="progress-bars">
             <div className="progress-bar">
@@ -238,9 +258,9 @@ const TopicLearn = () => {
           <button 
             className="control-btn primary learned-btn" 
             onClick={markAsLearned}
-            disabled={completedWords.has(currentIndex)}
+            disabled={completedWords.has(currentIndex) || learnedWords.has(currentWord?.english)}
           >
-            {completedWords.has(currentIndex) ? '✓ Đã học' : 'Đã hiểu'}
+            {(completedWords.has(currentIndex) || learnedWords.has(currentWord?.english)) ? '✓ Đã học' : 'Đã hiểu'}
           </button>
           
           <button 
@@ -253,9 +273,9 @@ const TopicLearn = () => {
         </div>
 
         {/* Word Status */}
-        {completedWords.has(currentIndex) && (
+        {(completedWords.has(currentIndex) || learnedWords.has(currentWord?.english)) && (
           <div className="word-status learned">
-            ✅ Bạn đã học từ này
+            ✅ {completedWords.has(currentIndex) ? 'Vừa học xong từ này' : 'Bạn đã học từ này trước đây'}
           </div>
         )}
 

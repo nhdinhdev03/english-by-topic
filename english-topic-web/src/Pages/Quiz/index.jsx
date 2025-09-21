@@ -1,10 +1,12 @@
 import { useCallback, useEffect, useState } from 'react';
 import AudioButton from '../../components/AudioButton';
+import { useProgress } from '../../contexts/useProgress';
 import { AVAILABLE_TOPICS, clearQuestionHistory, generateAllTopicsQuiz, generateQuizByType, importTopicData } from '../../utils/quizGenerator';
 import { getRecentPerformance, saveQuizResult } from '../../utils/quizStorage';
 import './Quiz.scss';
 
 const Quiz = () => {
+  const { saveTopicQuizResult } = useProgress();
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [score, setScore] = useState(0);
@@ -73,17 +75,24 @@ const Quiz = () => {
         
         // Save quiz result
         const percentage = Math.round((score / quizData.length) * 100);
-        saveQuizResult({
+        const quizResult = {
           topic: selectedTopic,
           quizType: selectedQuizType,
           score: score,
           totalQuestions: quizData.length,
+          correctAnswers: score,
           percentage: percentage,
           timeSpent: (quizData.length * 30) - timeLeft // Approximate time spent
-        });
+        };
+        
+        // Save to both storage systems
+        saveQuizResult(quizResult);
+        if (selectedTopic && selectedTopic !== 'all') {
+          saveTopicQuizResult(selectedTopic, quizResult);
+        }
       }
     }, 2000);
-  }, [selectedAnswer, currentQuestion, score, quizData]);
+  }, [selectedAnswer, currentQuestion, score, quizData, selectedTopic, selectedQuizType, timeLeft, saveTopicQuizResult]);
 
   // Timer effect
   useEffect(() => {

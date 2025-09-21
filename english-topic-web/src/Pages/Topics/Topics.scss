@@ -196,10 +196,27 @@
       }
     }
     
-    p {
-      margin: 0 0 var(--space-xs) 0;
-      color: var(--text-muted);
-      font-size: 0.9rem;
+    .topic-stats {
+      margin-bottom: var(--space-xs);
+      
+      p {
+        margin: 0 0 var(--space-xs) 0;
+        color: var(--text-muted);
+        font-size: 0.9rem;
+      }
+      
+      .learned-count {
+        color: var(--success-color);
+        font-weight: 500;
+        display: block;
+        margin-bottom: 0.25rem;
+      }
+      
+      .last-studied {
+        color: var(--text-tertiary);
+        font-size: 0.75rem;
+        display: block;
+      }
     }
     
     small {

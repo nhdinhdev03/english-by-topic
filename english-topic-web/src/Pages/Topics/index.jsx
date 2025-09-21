@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import AudioButton from '../../components/AudioButton';
+import { useProgress } from '../../contexts/useProgress';
 import './Topics.scss';
 
 const Topics = () => {
@@ -8,6 +9,7 @@ const Topics = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [topics, setTopics] = useState([]);
   const [loading, setLoading] = useState(true);
+  const { getTopicProgressData, initializeTopic } = useProgress();
 
   // Real topics based on available JSON files
   useEffect(() => {
@@ -150,21 +152,35 @@ const Topics = () => {
         }
       ];
 
-      // Load word count for each topic
+      // Load word count for each topic and get progress from localStorage
       const topicsWithWordCount = await Promise.all(
         topicsData.map(async (topic) => {
           try {
             const response = await fetch(`/data/${topic.fileName}`);
             if (response.ok) {
               const data = await response.json();
-              return { ...topic, wordCount: data.length };
+              const wordCount = data.length;
+              
+              // Initialize topic progress if not exists
+              initializeTopic(topic.id, wordCount);
+              
+              // Get current progress from localStorage
+              const progress = getTopicProgressData(topic.id);
+              
+              return { 
+                ...topic, 
+                wordCount,
+                progress: progress.percentage || 0,
+                learnedWords: progress.learnedWords || 0,
+                lastStudied: progress.lastStudied
+              };
             } else {
               console.warn(`Failed to load ${topic.fileName}`);
-              return { ...topic, wordCount: 0 };
+              return { ...topic, wordCount: 0, progress: 0, learnedWords: 0 };
             }
           } catch (error) {
             console.error(`Error loading ${topic.fileName}:`, error);
-            return { ...topic, wordCount: 0 };
+            return { ...topic, wordCount: 0, progress: 0, learnedWords: 0 };
           }
         })
       );
@@ -174,9 +190,9 @@ const Topics = () => {
     };
 
     loadTopicsWithWordCount();
-  }, []);
+  }, [initializeTopic, getTopicProgressData]);
 
-  const categories = [
+  const categories = useMemo(() => [
     { id: 'all', name: 'Tất cả', count: topics.length },
     { id: 'life', name: 'Đời sống', count: topics.filter(t => t.category === 'life').length },
     { id: 'work', name: 'Công việc', count: topics.filter(t => t.category === 'work').length },
@@ -184,13 +200,15 @@ const Topics = () => {
     { id: 'basic', name: 'Cơ bản', count: topics.filter(t => t.category === 'basic').length },
     { id: 'education', name: 'Giáo dục', count: topics.filter(t => t.category === 'education').length },
     { id: 'activity', name: 'Hoạt động', count: topics.filter(t => t.category === 'activity').length },
-  ];
+  ], [topics]);
 
-  const filteredTopics = topics.filter(topic => {
-    const matchesSearch = topic.name.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesCategory = selectedCategory === 'all' || topic.category === selectedCategory;
-    return matchesSearch && matchesCategory;
-  });
+  const filteredTopics = useMemo(() => {
+    return topics.filter(topic => {
+      const matchesSearch = topic.name.toLowerCase().includes(searchTerm.toLowerCase());
+      const matchesCategory = selectedCategory === 'all' || topic.category === selectedCategory;
+      return matchesSearch && matchesCategory;
+    });
+  }, [topics, searchTerm, selectedCategory]);
 
   return (
     <div className="topics-page">
@@ -262,7 +280,17 @@ const Topics = () => {
                           className="topic-audio-btn"
                         />
                       </div>
-                      <p>{topic.wordCount} từ vựng</p>
+                      <div className="topic-stats">
+                        <p>{topic.wordCount} từ vựng</p>
+                        {topic.learnedWords > 0 && (
+                          <small className="learned-count">{topic.learnedWords} từ đã học</small>
+                        )}
+                        {topic.lastStudied && (
+                          <small className="last-studied">
+                            Học lần cuối: {new Date(topic.lastStudied).toLocaleDateString('vi-VN')}
+                          </small>
+                        )}
+                      </div>
                       <small>{topic.description}</small>
                     </div>
                   </div>

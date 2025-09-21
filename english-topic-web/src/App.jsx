@@ -7,6 +7,7 @@ import ScrollToTop from "./components/Scroll/ScrollToTop/ScrollToTop";
 import ScrollToTopOnNavigate from "./components/Scroll/ScrollToTopOnNavigate/ScrollToTopOnNavigate";
 import { LanguageProvider } from "./contexts/LanguageContext";
 import { ThemeProvider } from "./contexts/ThemeContext";
+import { ProgressProvider } from "./contexts/ProgressContext";
 import "./styles/App.scss";
 
 // Loading component
@@ -21,10 +22,11 @@ function App() {
   return (
     <ThemeProvider>
       <LanguageProvider>
-        <Router>
-          <div className="app">
-            <Suspense fallback={<Loading />}>
-              <Header />
+        <ProgressProvider>
+          <Router>
+            <div className="app">
+              <Suspense fallback={<Loading />}>
+                <Header />
               <main className="main-content">
                 <Routes>
                   {allRoutes.map((route, index) => {
@@ -46,6 +48,7 @@ function App() {
             </Suspense>
           </div>
         </Router>
+      </ProgressProvider>
       </LanguageProvider>
     </ThemeProvider>
   );
