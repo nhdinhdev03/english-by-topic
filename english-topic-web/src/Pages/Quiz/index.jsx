@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import AudioButton from '../../components/AudioButton';
-import { AVAILABLE_TOPICS, generateAllTopicsQuiz, generateQuizByType, importTopicData } from '../../utils/quizGenerator';
+import { AVAILABLE_TOPICS, clearQuestionHistory, generateAllTopicsQuiz, generateQuizByType, importTopicData } from '../../utils/quizGenerator';
 import { getRecentPerformance, saveQuizResult } from '../../utils/quizStorage';
 import './Quiz.scss';
 
@@ -114,7 +114,8 @@ const Quiz = () => {
         const vocabData = await importTopicData(selectedTopic);
         if (vocabData && vocabData.length > 0) {
           maxQuestions = vocabData.length; // Use all available words
-          questions = generateQuizByType(vocabData, selectedQuizType, maxQuestions);
+          // Pass topicKey for question history tracking
+          questions = generateQuizByType(vocabData, selectedQuizType, maxQuestions, null, selectedTopic);
           
           // Update topic vocab count for UI display
           setTopicVocabCount(vocabData.length);
@@ -195,6 +196,31 @@ const Quiz = () => {
     setQuizData([]);
     setTopicVocabCount(null);
   };
+
+  const startNewQuiz = useCallback(async () => {
+    if (!selectedTopic) return;
+    
+    // Clear question history for this topic to get fresh questions
+    clearQuestionHistory(selectedTopic === 'all' ? 'all' : selectedTopic);
+    
+    // Show feedback to user
+    setLoading(true);
+    
+    // Reset quiz state and start fresh
+    setQuizCompleted(false);
+    setCurrentQuestion(0);
+    setScore(0);
+    setSelectedAnswer(null);
+    setShowResult(false);
+    setTimeLeft(30);
+    
+    try {
+      // Generate new quiz questions
+      await startQuiz();
+    } finally {
+      setLoading(false);
+    }
+  }, [selectedTopic, startQuiz]);
 
   const getScoreMessage = () => {
     const percentage = (score / quizData.length) * 100;
@@ -408,11 +434,14 @@ const Quiz = () => {
             </div>
             
             <div className="result-actions">
-              <button className="retry-btn" onClick={resetQuiz}>
-                Làm lại
+              <button className="retry-btn" onClick={startNewQuiz} disabled={loading}>
+                {loading ? '🔄 Tạo quiz mới...' : '🎲 Quiz mới (câu hỏi khác)'}
+              </button>
+              <button className="retry-btn secondary" onClick={resetQuiz}>
+                📚 Chọn chủ đề khác
               </button>
               <button className="continue-btn" onClick={() => window.history.back()}>
-                Tiếp tục học
+                ✅ Tiếp tục học
               </button>
             </div>
           </div>
