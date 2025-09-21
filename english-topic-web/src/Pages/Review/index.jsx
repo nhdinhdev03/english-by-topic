@@ -11,15 +11,14 @@ const Review = () => {
     getAllTopicsProgress, 
     getTopicLearnedWords, 
     markWordLearned
-  } = useProgress();
-
-  const [reviewWords, setReviewWords] = useState([]);
+  } = useProgress();  const [reviewWords, setReviewWords] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [reviewedWords, setReviewedWords] = useState(new Set());
   const [difficultyFilter, setDifficultyFilter] = useState('all');
   const [selectedTopics, setSelectedTopics] = useState(new Set(['all']));
   const [reviewInterval, setReviewInterval] = useState(7); // days
+  const [reviewMode, setReviewMode] = useState('due'); // 'due' | 'all'
   const [loading, setLoading] = useState(true);
 
   // Helper function to get topic display name
@@ -103,7 +102,16 @@ const Review = () => {
       topicsToReview.forEach(topicId => {
         const learnedWords = getTopicLearnedWords(topicId);
         const wordsForReview = learnedWords.filter(word => {
-          // Filter by review interval
+          // For 'all' mode, include all learned words regardless of review schedule
+          if (reviewMode === 'all') {
+            // Only filter by difficulty if specified
+            if (difficultyFilter === 'easy' && word.reviewCount >= 4) return false;
+            if (difficultyFilter === 'medium' && (word.reviewCount < 2 || word.reviewCount > 4)) return false;
+            if (difficultyFilter === 'hard' && word.reviewCount > 3) return false;
+            return true;
+          }
+
+          // For 'due' mode, filter by review interval (original logic)
           const daysSinceLastReview = Math.floor(
             (new Date() - new Date(word.lastReviewed || word.learnedAt)) / (1000 * 60 * 60 * 24)
           );
@@ -144,7 +152,7 @@ const Review = () => {
     };
 
     loadReviewWords();
-  }, [selectedTopics, difficultyFilter, reviewInterval, availableTopics, getTopicLearnedWords, getTopicDisplayName]);
+  }, [selectedTopics, difficultyFilter, reviewInterval, reviewMode, availableTopics, getTopicLearnedWords, getTopicDisplayName]);
 
   const currentWord = reviewWords[currentIndex];
 
@@ -243,27 +251,47 @@ const Review = () => {
           </button>
           <div className="review-info">
             <h1>Ôn tập từ vựng</h1>
-            <p>Sử dụng phương pháp lặp lại cách quãng để ghi nhớ lâu dài</p>
+            <p>
+              {reviewMode === 'all' 
+                ? 'Ôn tập tất cả từ đã học - Khắc sâu kiến thức'
+                : 'Sử dụng phương pháp lặp lại cách quãng để ghi nhớ lâu dài'
+              }
+            </p>
           </div>
         </div>
 
         {/* Filters */}
         <div className="review-filters">
           <div className="filter-group">
-            <label htmlFor="review-interval">Khoảng thời gian ôn tập:</label>
+            <label htmlFor="review-mode">Chế độ ôn tập:</label>
             <select 
-              id="review-interval"
-              value={reviewInterval} 
-              onChange={(e) => setReviewInterval(Number(e.target.value))}
+              id="review-mode"
+              value={reviewMode} 
+              onChange={(e) => setReviewMode(e.target.value)}
               className="filter-select"
             >
-              <option value={1}>Từ học hôm qua</option>
-              <option value={3}>Từ học 3 ngày trước</option>
-              <option value={7}>Từ học 1 tuần trước</option>
-              <option value={14}>Từ học 2 tuần trước</option>
-              <option value={30}>Từ học 1 tháng trước</option>
+              <option value="due">Từ cần ôn tập</option>
+              <option value="all">Tất cả từ đã học</option>
             </select>
           </div>
+
+          {reviewMode === 'due' && (
+            <div className="filter-group">
+              <label htmlFor="review-interval">Khoảng thời gian ôn tập:</label>
+              <select 
+                id="review-interval"
+                value={reviewInterval} 
+                onChange={(e) => setReviewInterval(Number(e.target.value))}
+                className="filter-select"
+              >
+                <option value={1}>Từ học hôm qua</option>
+                <option value={3}>Từ học 3 ngày trước</option>
+                <option value={7}>Từ học 1 tuần trước</option>
+                <option value={14}>Từ học 2 tuần trước</option>
+                <option value={30}>Từ học 1 tháng trước</option>
+              </select>
+            </div>
+          )}
 
           <div className="filter-group">
             <label htmlFor="difficulty-filter">Độ khó:</label>
@@ -289,7 +317,7 @@ const Review = () => {
               className={`topic-chip ${selectedTopics.has('all') ? 'active' : ''}`}
               onClick={() => handleTopicSelection('all')}
             >
-              Tất cả ({availableTopics.reduce((sum, t) => sum + t.reviewCount, 0)} từ)
+              Tất cả ({availableTopics.reduce((sum, t) => sum + (reviewMode === 'all' ? t.learnedCount : t.reviewCount), 0)} từ)
             </button>
             {availableTopics.map(topic => (
               <button
@@ -297,7 +325,7 @@ const Review = () => {
                 className={`topic-chip ${selectedTopics.has(topic.id) ? 'active' : ''}`}
                 onClick={() => handleTopicSelection(topic.id)}
               >
-                {topic.name} ({topic.reviewCount})
+                {topic.name} ({reviewMode === 'all' ? topic.learnedCount : topic.reviewCount})
               </button>
             ))}
           </div>
