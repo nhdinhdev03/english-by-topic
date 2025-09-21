@@ -718,5 +718,143 @@
     "vietnamese": "đánh",
     "pronunciation": "/hɪt/",
     "type": "Aggressive action"
+  },
+  {
+    "english": "pack",
+    "vietnamese": "bó, gói",
+    "pronunciation": "/pæk/",
+    "type": "Manual activity"
+  },
+  {
+    "english": "paint",
+    "vietnamese": "quét sơn",
+    "pronunciation": "/peint/",
+    "type": "Creative activity"
+  },
+  {
+    "english": "paste",
+    "vietnamese": "dán",
+    "pronunciation": "/peist/",
+    "type": "Manual activity"
+  },
+  {
+    "english": "pick",
+    "vietnamese": "hái, nhổ",
+    "pronunciation": "/pik/",
+    "type": "Manual activity"
+  },
+  {
+    "english": "plant",
+    "vietnamese": "trồng",
+    "pronunciation": "/plænt/",
+    "type": "Gardening activity"
+  },
+  {
+    "english": "play",
+    "vietnamese": "chơi",
+    "pronunciation": "/plei/",
+    "type": "Recreational activity"
+  },
+  {
+    "english": "pour",
+    "vietnamese": "rót, đổ",
+    "pronunciation": "/pɔ:/",
+    "type": "Manual activity"
+  },
+  {
+    "english": "rake",
+    "vietnamese": "cào, cời",
+    "pronunciation": "/reik/",
+    "type": "Gardening activity"
+  },
+  {
+    "english": "ride",
+    "vietnamese": "đi, cưỡi",
+    "pronunciation": "/raid/",
+    "type": "Transportation"
+  },
+  {
+    "english": "row",
+    "vietnamese": "chèo thuyền",
+    "pronunciation": "/rou/",
+    "type": "Water activity"
+  },
+  {
+    "english": "sail",
+    "vietnamese": "lái (thuyền buồm)",
+    "pronunciation": "/seil/",
+    "type": "Water activity"
+  },
+  {
+    "english": "scrub",
+    "vietnamese": "lau, chùi, cọ rửa",
+    "pronunciation": "/skrʌb/",
+    "type": "Cleaning activity"
+  },
+  {
+    "english": "see",
+    "vietnamese": "thấy, xem",
+    "pronunciation": "/si:/",
+    "type": "Sensory action"
+  },
+  {
+    "english": "set",
+    "vietnamese": "để, đặt",
+    "pronunciation": "/set/",
+    "type": "Manual activity"
+  },
+  {
+    "english": "sew",
+    "vietnamese": "may, khâu",
+    "pronunciation": "/soʊ/",
+    "type": "Craft activity"
+  },
+  {
+    "english": "show",
+    "vietnamese": "cho xem, cho thấy, trưng bày",
+    "pronunciation": "/ʃou/",
+    "type": "Communication"
+  },
+  {
+    "english": "skate",
+    "vietnamese": "trượt băng",
+    "pronunciation": "/skeit/",
+    "type": "Sport activity"
+  },
+  {
+    "english": "stop",
+    "vietnamese": "ngừng",
+    "pronunciation": "/stɔp/",
+    "type": "Cessation"
+  },
+  {
+    "english": "sweep",
+    "vietnamese": "quét qua; lan ra",
+    "pronunciation": "/swi:p/",
+    "type": "Cleaning activity"
+  },
+  {
+    "english": "swim",
+    "vietnamese": "bơi",
+    "pronunciation": "/swim/",
+    "type": "Water activity"
+  },
+  {
+    "english": "take",
+    "vietnamese": "cầm, nắm, lấy",
+    "pronunciation": "/teik/",
+    "type": "Manual activity"
+  },
+  {
+    "english": "tell",
+    "vietnamese": "nói",
+    "pronunciation": "/tel/",
+    "type": "Communication"
+  },
+  {
+    "english": "tie",
+    "vietnamese": "buộc, cột, trói",
+    "pronunciation": "/tai/",
+    "type": "Manual activity"
   }
 ]

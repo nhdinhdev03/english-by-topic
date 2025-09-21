@@ -286,5 +286,377 @@
     "vietnamese": "Chương trình học",
     "pronunciation": "/kəˈrɪk.jə.ləm/",
     "type": "n"
+  },
+  {
+    "english": "Watercolour",
+    "vietnamese": "Màu nước",
+    "pronunciation": "/ˈwɔː.təˌkʌl.ər/",
+    "type": "n"
+  },
+  {
+    "english": "Thumbtack",
+    "vietnamese": "Đinh ghim",
+    "pronunciation": "/ˈθʌm.tæk/",
+    "type": "n"
+  },
+  {
+    "english": "Textbook",
+    "vietnamese": "Sách giáo khoa",
+    "pronunciation": "/ˈtekst.bʊk/",
+    "type": "n"
+  },
+  {
+    "english": "Test Tube",
+    "vietnamese": "Ống nghiệm",
+    "pronunciation": "/ˈtest ˌtjuːb/",
+    "type": "n"
+  },
+  {
+    "english": "Tape measure",
+    "vietnamese": "Thước dây",
+    "pronunciation": "/ˈteɪp ˌmeʒ.ər/",
+    "type": "n"
+  },
+  {
+    "english": "Stencil",
+    "vietnamese": "Giấy nến",
+    "pronunciation": "/ˈsten.səl/",
+    "type": "n"
+  },
+  {
+    "english": "Stapler",
+    "vietnamese": "Đồ dập ghim",
+    "pronunciation": "/ˈsteɪ.plər/",
+    "type": "n"
+  },
+  {
+    "english": "Staple remover",
+    "vietnamese": "Cái gỡ ghim bấm",
+    "pronunciation": "/ˈsteɪ.plər rɪˈmuː.vər/",
+    "type": "n"
+  },
+  {
+    "english": "Set Square",
+    "vietnamese": "Ê-ke",
+    "pronunciation": "/ˈset ˌskweər/",
+    "type": "n"
+  },
+  {
+    "english": "Scotch Tape",
+    "vietnamese": "Băng dính trong suốt",
+    "pronunciation": "/ˌskɒtʃ ˈteɪp/",
+    "type": "n"
+  },
+  {
+    "english": "Scissors",
+    "vietnamese": "Kéo",
+    "pronunciation": "/ˈsɪz.əz/",
+    "type": "n"
+  },
+  {
+    "english": "Ruler",
+    "vietnamese": "Thước",
+    "pronunciation": "/ˈruː.lər/",
+    "type": "n"
+  },
+  {
+    "english": "Ribbon",
+    "vietnamese": "Ruy-băng",
+    "pronunciation": "/ˈrɪb.ən/",
+    "type": "n"
+  },
+  {
+    "english": "Protractor",
+    "vietnamese": "Thước đo góc",
+    "pronunciation": "/prəˈtræk.tər/",
+    "type": "n"
+  },
+  {
+    "english": "Post-it note",
+    "vietnamese": "Giấy nhớ",
+    "pronunciation": "/ˈpəʊst.ɪt ˌnəʊt/",
+    "type": "n"
+  },
+  {
+    "english": "Pin",
+    "vietnamese": "Đinh ghim, kẹp",
+    "pronunciation": "/pɪn/",
+    "type": "n"
+  },
+  {
+    "english": "Pencil",
+    "vietnamese": "Bút chì",
+    "pronunciation": "/ˈpen.səl/",
+    "type": "n"
+  },
+  {
+    "english": "Pencil Sharpener",
+    "vietnamese": "Đồ gọt bút chì",
+    "pronunciation": "/ˈpen.səl ˌʃɑː.pən.ər/",
+    "type": "n"
+  },
+  {
+    "english": "Pencil Case",
+    "vietnamese": "Hộp bút",
+    "pronunciation": "/ˈpen.səl ˌkeɪs/",
+    "type": "n"
+  },
+  {
+    "english": "Pen",
+    "vietnamese": "Bút mực",
+    "pronunciation": "/pen/",
+    "type": "n"
+  },
+  {
+    "english": "Paper",
+    "vietnamese": "Giấy",
+    "pronunciation": "/ˈpeɪ.pər/",
+    "type": "n"
+  },
+  {
+    "english": "Paper fastener",
+    "vietnamese": "Dụng cụ kẹp giấy",
+    "pronunciation": "/ˈpeɪ.pər ˈfɑːs.ən.ər/",
+    "type": "n"
+  },
+  {
+    "english": "Paper Clip",
+    "vietnamese": "Kẹp giấy",
+    "pronunciation": "/ˈpeɪ.pə ˌklɪp/",
+    "type": "n"
+  },
+  {
+    "english": "Palette",
+    "vietnamese": "Bảng màu",
+    "pronunciation": "/ˈpæl.ət/",
+    "type": "n"
+  },
+  {
+    "english": "Paint",
+    "vietnamese": "Sơn, màu",
+    "pronunciation": "/peɪnt/",
+    "type": "n"
+  },
+  {
+    "english": "Paintbrush",
+    "vietnamese": "Chổi sơn",
+    "pronunciation": "/ˈpeɪntˌbrʌʃ/",
+    "type": "n"
+  },
+  {
+    "english": "Notebook",
+    "vietnamese": "Cuốn sổ, vở",
+    "pronunciation": "/ˈnəʊt.bʊk/",
+    "type": "n"
+  },
+  {
+    "english": "Map",
+    "vietnamese": "Bản đồ",
+    "pronunciation": "/mæp/",
+    "type": "n"
+  },
+  {
+    "english": "Magnifying Glass",
+    "vietnamese": "Kính lúp",
+    "pronunciation": "/ˈmæɡ.nɪ.faɪ.ɪŋ ˌɡlɑːs/",
+    "type": "n"
+  },
+  {
+    "english": "Index card",
+    "vietnamese": "Phiếu làm mục lục",
+    "pronunciation": "/ˈkɑːd ˌɪn.deks/",
+    "type": "n"
+  },
+  {
+    "english": "Highlighter",
+    "vietnamese": "Bút đánh dấu màu",
+    "pronunciation": "/ˈhaɪˌlaɪ.tər/",
+    "type": "n"
+  },
+  {
+    "english": "Glue",
+    "vietnamese": "Keo",
+    "pronunciation": "/ɡluː/",
+    "type": "n"
+  },
+  {
+    "english": "Globe",
+    "vietnamese": "Quả địa cầu",
+    "pronunciation": "/ɡləʊb/",
+    "type": "n"
+  },
+  {
+    "english": "Flash card",
+    "vietnamese": "Thẻ ghi nhớ",
+    "pronunciation": "/ˈflæʃ ˌkɑːd/",
+    "type": "n"
+  },
+  {
+    "english": "File Holder",
+    "vietnamese": "Tập hồ sơ",
+    "pronunciation": "/faɪlˈhəʊl.dər/",
+    "type": "n"
+  },
+  {
+    "english": "File cabinet",
+    "vietnamese": "Tủ đựng tài liệu",
+    "pronunciation": "/ˈfaɪl ˌkæb.ɪ.nət/",
+    "type": "n"
+  },
+  {
+    "english": "Felt pen",
+    "vietnamese": "Bút dạ",
+    "pronunciation": "/felt pen/",
+    "type": "n"
+  },
+  {
+    "english": "Rubber",
+    "vietnamese": "Cục tẩy",
+    "pronunciation": "/ˈrʌb.ər/",
+    "type": "n"
+  },
+  {
+    "english": "Duster",
+    "vietnamese": "Khăn lau bảng",
+    "pronunciation": "/ˈdʌs.tər/",
+    "type": "n"
+  },
+  {
+    "english": "Dossier",
+    "vietnamese": "Hồ sơ",
+    "pronunciation": "/ˈdɒs.i.eɪ/",
+    "type": "n"
+  },
+  {
+    "english": "Dictionary",
+    "vietnamese": "Từ điển",
+    "pronunciation": "/ˈdɪk.ʃən.ər.i/",
+    "type": "n"
+  },
+  {
+    "english": "Desk",
+    "vietnamese": "Bàn học",
+    "pronunciation": "/desk/",
+    "type": "n"
+  },
+  {
+    "english": "Crayon",
+    "vietnamese": "Bút chì màu",
+    "pronunciation": "/ˈkreɪ.ɒn/",
+    "type": "n"
+  },
+  {
+    "english": "Computer",
+    "vietnamese": "Máy tính bàn",
+    "pronunciation": "/kəmˈpjuː.tər/",
+    "type": "n"
+  },
+  {
+    "english": "Compass",
+    "vietnamese": "Com-pa",
+    "pronunciation": "/ˈkʌm.pəs/",
+    "type": "n"
+  },
+  {
+    "english": "Coloured Pencil",
+    "vietnamese": "Bút chì màu",
+    "pronunciation": "/ˈkʌl.əd ˈpen.səl/",
+    "type": "n"
+  },
+  {
+    "english": "Clock",
+    "vietnamese": "Đồng hồ treo tường",
+    "pronunciation": "/klɒk/",
+    "type": "n"
+  },
+  {
+    "english": "Clamp",
+    "vietnamese": "Kẹp",
+    "pronunciation": "/klæmp/",
+    "type": "n"
+  },
+  {
+    "english": "Chalk",
+    "vietnamese": "Phấn",
+    "pronunciation": "/tʃɔːk/",
+    "type": "n"
+  },
+  {
+    "english": "Chair",
+    "vietnamese": "Ghế",
+    "pronunciation": "/tʃeər/",
+    "type": "n"
+  },
+  {
+    "english": "Carbon paper",
+    "vietnamese": "Giấy than",
+    "pronunciation": "/ˈkɑː.bən ˌpeɪ.pər/",
+    "type": "n"
+  },
+  {
+    "english": "Calculator",
+    "vietnamese": "Máy tính cầm tay",
+    "pronunciation": "/ˈkæl.kjə.leɪ.tər/",
+    "type": "n"
+  },
+  {
+    "english": "Bookcase",
+    "vietnamese": "Giá sách",
+    "pronunciation": "/ˈbʊk.keɪs/",
+    "type": "n"
+  },
+  {
+    "english": "Book",
+    "vietnamese": "Sách",
+    "pronunciation": "/bʊk/",
+    "type": "n"
+  },
+  {
+    "english": "Board",
+    "vietnamese": "Bảng",
+    "pronunciation": "/bɔːd/",
+    "type": "n"
+  },
+  {
+    "english": "Blackboard",
+    "vietnamese": "Bảng đen",
+    "pronunciation": "/ˈblæk.bɔːd/",
+    "type": "n"
+  },
+  {
+    "english": "Binder",
+    "vietnamese": "Bìa rời (báo, tạp chí)",
+    "pronunciation": "/ˈbaɪn.dər/",
+    "type": "n"
+  },
+  {
+    "english": "Beaker",
+    "vietnamese": "Cốc bêse",
+    "pronunciation": "/ˈbiː.kər/",
+    "type": "n"
+  },
+  {
+    "english": "Ballpoint pen",
+    "vietnamese": "Bút bi",
+    "pronunciation": "/ˌbɔːl.pɔɪnt ˈpen/",
+    "type": "n"
+  },
+  {
+    "english": "Bag",
+    "vietnamese": "Cặp sách",
+    "pronunciation": "/bæɡ/",
+    "type": "n"
+  },
+  {
+    "english": "Backpack",
+    "vietnamese": "Ba lô",
+    "pronunciation": "/ˈbæk.pæk/",
+    "type": "n"
+  },
+  {
+    "english": "Funnel",
+    "vietnamese": "Cái phễu",
+    "pronunciation": "/ˈfʌn.əl/",
+    "type": "n"
   }
 ]
