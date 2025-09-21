@@ -1,0 +1,722 @@
+[
+  {
+    "english": "move",
+    "vietnamese": "di chuyển",
+    "pronunciation": "/muːv/",
+    "type": "Basic movement"
+  },
+  {
+    "english": "walk",
+    "vietnamese": "đi bộ",
+    "pronunciation": "/wɔːk/",
+    "type": "Basic movement"
+  },
+  {
+    "english": "run",
+    "vietnamese": "chạy",
+    "pronunciation": "/rʌn/",
+    "type": "Basic movement"
+  },
+  {
+    "english": "jump",
+    "vietnamese": "nhảy",
+    "pronunciation": "/dʒʌmp/",
+    "type": "Basic movement"
+  },
+  {
+    "english": "sit",
+    "vietnamese": "ngồi",
+    "pronunciation": "/sɪt/",
+    "type": "Position"
+  },
+  {
+    "english": "stand",
+    "vietnamese": "đứng",
+    "pronunciation": "/stænd/",
+    "type": "Position"
+  },
+  {
+    "english": "lie down",
+    "vietnamese": "nằm xuống",
+    "pronunciation": "/laɪ daʊn/",
+    "type": "Position"
+  },
+  {
+    "english": "raise",
+    "vietnamese": "giơ lên",
+    "pronunciation": "/reɪz/",
+    "type": "Body movement"
+  },
+  {
+    "english": "stretch",
+    "vietnamese": "duỗi người",
+    "pronunciation": "/stretʃ/",
+    "type": "Body movement"
+  },
+  {
+    "english": "bend",
+    "vietnamese": "cúi xuống, gập người",
+    "pronunciation": "/bend/",
+    "type": "Body movement"
+  },
+  {
+    "english": "turn",
+    "vietnamese": "quay, xoay",
+    "pronunciation": "/tɜːn/",
+    "type": "Body movement"
+  },
+  {
+    "english": "nod",
+    "vietnamese": "gật đầu",
+    "pronunciation": "/nɒd/",
+    "type": "Head movement"
+  },
+  {
+    "english": "shake",
+    "vietnamese": "lắc, bắt tay",
+    "pronunciation": "/ʃeɪk/",
+    "type": "Hand gesture"
+  },
+  {
+    "english": "wave",
+    "vietnamese": "vẫy tay",
+    "pronunciation": "/weɪv/",
+    "type": "Hand gesture"
+  },
+  {
+    "english": "clap",
+    "vietnamese": "vỗ tay",
+    "pronunciation": "/klæp/",
+    "type": "Hand gesture"
+  },
+  {
+    "english": "point",
+    "vietnamese": "chỉ tay",
+    "pronunciation": "/pɔɪnt/",
+    "type": "Hand gesture"
+  },
+  {
+    "english": "snap",
+    "vietnamese": "búng tay",
+    "pronunciation": "/snæp/",
+    "type": "Hand gesture"
+  },
+  {
+    "english": "yawn",
+    "vietnamese": "ngáp",
+    "pronunciation": "/jɔːn/",
+    "type": "Involuntary action"
+  },
+  {
+    "english": "cough",
+    "vietnamese": "ho",
+    "pronunciation": "/kɒf/",
+    "type": "Involuntary action"
+  },
+  {
+    "english": "sneeze",
+    "vietnamese": "hắt hơi",
+    "pronunciation": "/sniːz/",
+    "type": "Involuntary action"
+  },
+  {
+    "english": "breathe",
+    "vietnamese": "thở",
+    "pronunciation": "/briːð/",
+    "type": "Respiratory action"
+  },
+  {
+    "english": "blink",
+    "vietnamese": "chớp mắt",
+    "pronunciation": "/blɪŋk/",
+    "type": "Eye movement"
+  },
+  {
+    "english": "smile",
+    "vietnamese": "cười mỉm",
+    "pronunciation": "/smaɪl/",
+    "type": "Facial expression"
+  },
+  {
+    "english": "laugh",
+    "vietnamese": "cười thành tiếng",
+    "pronunciation": "/lɑːf/",
+    "type": "Facial expression"
+  },
+  {
+    "english": "cry",
+    "vietnamese": "khóc",
+    "pronunciation": "/kraɪ/",
+    "type": "Facial expression"
+  },
+  {
+    "english": "frown",
+    "vietnamese": "nhăn mặt",
+    "pronunciation": "/fraʊn/",
+    "type": "Facial expression"
+  },
+  {
+    "english": "bite",
+    "vietnamese": "cắn",
+    "pronunciation": "/baɪt/",
+    "type": "Mouth action"
+  },
+  {
+    "english": "chew",
+    "vietnamese": "nhai",
+    "pronunciation": "/tʃuː/",
+    "type": "Mouth action"
+  },
+  {
+    "english": "lick",
+    "vietnamese": "liếm",
+    "pronunciation": "/lɪk/",
+    "type": "Mouth action"
+  },
+  {
+    "english": "crawl",
+    "vietnamese": "bò",
+    "pronunciation": "/krɔːl/",
+    "type": "Basic movement"
+  },
+  {
+    "english": "climb",
+    "vietnamese": "leo trèo",
+    "pronunciation": "/klaɪm/",
+    "type": "Basic movement"
+  },
+  {
+    "english": "skip",
+    "vietnamese": "nhảy cóc",
+    "pronunciation": "/skɪp/",
+    "type": "Basic movement"
+  },
+  {
+    "english": "hop",
+    "vietnamese": "nhảy một chân",
+    "pronunciation": "/hɒp/",
+    "type": "Basic movement"
+  },
+  {
+    "english": "dance",
+    "vietnamese": "nhảy múa",
+    "pronunciation": "/dæns/",
+    "type": "Rhythmic movement"
+  },
+  {
+    "english": "march",
+    "vietnamese": "diễu hành",
+    "pronunciation": "/mɑːtʃ/",
+    "type": "Basic movement"
+  },
+  {
+    "english": "jog",
+    "vietnamese": "chạy bộ nhẹ",
+    "pronunciation": "/dʒɒɡ/",
+    "type": "Basic movement"
+  },
+  {
+    "english": "sprint",
+    "vietnamese": "chạy nước rút",
+    "pronunciation": "/sprɪnt/",
+    "type": "Basic movement"
+  },
+  {
+    "english": "kneel",
+    "vietnamese": "quỳ",
+    "pronunciation": "/niːl/",
+    "type": "Position"
+  },
+  {
+    "english": "squat",
+    "vietnamese": "ngồi xổm",
+    "pronunciation": "/skwɒt/",
+    "type": "Position"
+  },
+  {
+    "english": "crouch",
+    "vietnamese": "cúi thấp người",
+    "pronunciation": "/kraʊtʃ/",
+    "type": "Position"
+  },
+  {
+    "english": "lean",
+    "vietnamese": "tựa, nghiêng",
+    "pronunciation": "/liːn/",
+    "type": "Body movement"
+  },
+  {
+    "english": "twist",
+    "vietnamese": "xoắn người",
+    "pronunciation": "/twɪst/",
+    "type": "Body movement"
+  },
+  {
+    "english": "roll",
+    "vietnamese": "lăn",
+    "pronunciation": "/rəʊl/",
+    "type": "Body movement"
+  },
+  {
+    "english": "spin",
+    "vietnamese": "quay tròn",
+    "pronunciation": "/spɪn/",
+    "type": "Body movement"
+  },
+  {
+    "english": "tilt",
+    "vietnamese": "nghiêng",
+    "pronunciation": "/tɪlt/",
+    "type": "Body movement"
+  },
+  {
+    "english": "swing",
+    "vietnamese": "đong đưa",
+    "pronunciation": "/swɪŋ/",
+    "type": "Body movement"
+  },
+  {
+    "english": "reach",
+    "vietnamese": "với tới",
+    "pronunciation": "/riːtʃ/",
+    "type": "Arm movement"
+  },
+  {
+    "english": "grab",
+    "vietnamese": "chộp lấy",
+    "pronunciation": "/ɡræb/",
+    "type": "Hand action"
+  },
+  {
+    "english": "grasp",
+    "vietnamese": "nắm chặt",
+    "pronunciation": "/ɡrɑːsp/",
+    "type": "Hand action"
+  },
+  {
+    "english": "hold",
+    "vietnamese": "cầm, giữ",
+    "pronunciation": "/həʊld/",
+    "type": "Hand action"
+  },
+  {
+    "english": "squeeze",
+    "vietnamese": "ép, siết",
+    "pronunciation": "/skwiːz/",
+    "type": "Hand action"
+  },
+  {
+    "english": "pinch",
+    "vietnamese": "véo, nhíu",
+    "pronunciation": "/pɪntʃ/",
+    "type": "Hand action"
+  },
+  {
+    "english": "touch",
+    "vietnamese": "chạm",
+    "pronunciation": "/tʌtʃ/",
+    "type": "Hand action"
+  },
+  {
+    "english": "pat",
+    "vietnamese": "vỗ nhẹ",
+    "pronunciation": "/pæt/",
+    "type": "Hand action"
+  },
+  {
+    "english": "tap",
+    "vietnamese": "gõ nhẹ",
+    "pronunciation": "/tæp/",
+    "type": "Hand action"
+  },
+  {
+    "english": "rub",
+    "vietnamese": "chà xát",
+    "pronunciation": "/rʌb/",
+    "type": "Hand action"
+  },
+  {
+    "english": "scratch",
+    "vietnamese": "gãi",
+    "pronunciation": "/skrætʃ/",
+    "type": "Hand action"
+  },
+  {
+    "english": "push",
+    "vietnamese": "đẩy",
+    "pronunciation": "/pʊʃ/",
+    "type": "Force action"
+  },
+  {
+    "english": "pull",
+    "vietnamese": "kéo",
+    "pronunciation": "/pʊl/",
+    "type": "Force action"
+  },
+  {
+    "english": "lift",
+    "vietnamese": "nâng lên",
+    "pronunciation": "/lɪft/",
+    "type": "Force action"
+  },
+  {
+    "english": "carry",
+    "vietnamese": "mang, bế",
+    "pronunciation": "/ˈkær.i/",
+    "type": "Force action"
+  },
+  {
+    "english": "drag",
+    "vietnamese": "kéo lê",
+    "pronunciation": "/dræɡ/",
+    "type": "Force action"
+  },
+  {
+    "english": "throw",
+    "vietnamese": "ném",
+    "pronunciation": "/θrəʊ/",
+    "type": "Projectile action"
+  },
+  {
+    "english": "catch",
+    "vietnamese": "bắt",
+    "pronunciation": "/kætʃ/",
+    "type": "Projectile action"
+  },
+  {
+    "english": "kick",
+    "vietnamese": "đá",
+    "pronunciation": "/kɪk/",
+    "type": "Leg action"
+  },
+  {
+    "english": "stomp",
+    "vietnamese": "giậm chân",
+    "pronunciation": "/stɒmp/",
+    "type": "Leg action"
+  },
+  {
+    "english": "step",
+    "vietnamese": "bước",
+    "pronunciation": "/step/",
+    "type": "Leg action"
+  },
+  {
+    "english": "tiptoe",
+    "vietnamese": "đi nhón chân",
+    "pronunciation": "/ˈtɪp.təʊ/",
+    "type": "Leg action"
+  },
+  {
+    "english": "stumble",
+    "vietnamese": "vấp ngã",
+    "pronunciation": "/ˈstʌm.bəl/",
+    "type": "Leg action"
+  },
+  {
+    "english": "trip",
+    "vietnamese": "bị vấp",
+    "pronunciation": "/trɪp/",
+    "type": "Leg action"
+  },
+  {
+    "english": "fall",
+    "vietnamese": "ngã",
+    "pronunciation": "/fɔːl/",
+    "type": "Involuntary movement"
+  },
+  {
+    "english": "slip",
+    "vietnamese": "trượt",
+    "pronunciation": "/slɪp/",
+    "type": "Involuntary movement"
+  },
+  {
+    "english": "slide",
+    "vietnamese": "trượt",
+    "pronunciation": "/slaɪd/",
+    "type": "Movement"
+  },
+  {
+    "english": "look",
+    "vietnamese": "nhìn",
+    "pronunciation": "/lʊk/",
+    "type": "Eye movement"
+  },
+  {
+    "english": "stare",
+    "vietnamese": "nhìn chằm chằm",
+    "pronunciation": "/steər/",
+    "type": "Eye movement"
+  },
+  {
+    "english": "glance",
+    "vietnamese": "liếc nhìn",
+    "pronunciation": "/ɡlæns/",
+    "type": "Eye movement"
+  },
+  {
+    "english": "peek",
+    "vietnamese": "nhìn trộm",
+    "pronunciation": "/piːk/",
+    "type": "Eye movement"
+  },
+  {
+    "english": "wink",
+    "vietnamese": "nháy mắt",
+    "pronunciation": "/wɪŋk/",
+    "type": "Eye movement"
+  },
+  {
+    "english": "close eyes",
+    "vietnamese": "nhắm mắt",
+    "pronunciation": "/kləʊz aɪz/",
+    "type": "Eye movement"
+  },
+  {
+    "english": "open eyes",
+    "vietnamese": "mở mắt",
+    "pronunciation": "/ˈəʊ.pən aɪz/",
+    "type": "Eye movement"
+  },
+  {
+    "english": "listen",
+    "vietnamese": "lắng nghe",
+    "pronunciation": "/ˈlɪs.ən/",
+    "type": "Ear action"
+  },
+  {
+    "english": "hear",
+    "vietnamese": "nghe thấy",
+    "pronunciation": "/hɪər/",
+    "type": "Ear action"
+  },
+  {
+    "english": "speak",
+    "vietnamese": "nói",
+    "pronunciation": "/spiːk/",
+    "type": "Mouth action"
+  },
+  {
+    "english": "talk",
+    "vietnamese": "nói chuyện",
+    "pronunciation": "/tɔːk/",
+    "type": "Mouth action"
+  },
+  {
+    "english": "whisper",
+    "vietnamese": "thì thầm",
+    "pronunciation": "/ˈwɪs.pər/",
+    "type": "Mouth action"
+  },
+  {
+    "english": "shout",
+    "vietnamese": "hét",
+    "pronunciation": "/ʃaʊt/",
+    "type": "Mouth action"
+  },
+  {
+    "english": "scream",
+    "vietnamese": "la hét",
+    "pronunciation": "/skriːm/",
+    "type": "Mouth action"
+  },
+  {
+    "english": "sing",
+    "vietnamese": "hát",
+    "pronunciation": "/sɪŋ/",
+    "type": "Mouth action"
+  },
+  {
+    "english": "hum",
+    "vietnamese": "ngâm nga",
+    "pronunciation": "/hʌm/",
+    "type": "Mouth action"
+  },
+  {
+    "english": "whistle",
+    "vietnamese": "huýt sáo",
+    "pronunciation": "/ˈwɪs.əl/",
+    "type": "Mouth action"
+  },
+  {
+    "english": "swallow",
+    "vietnamese": "nuốt",
+    "pronunciation": "/ˈswɒl.əʊ/",
+    "type": "Mouth action"
+  },
+  {
+    "english": "spit",
+    "vietnamese": "nhổ",
+    "pronunciation": "/spɪt/",
+    "type": "Mouth action"
+  },
+  {
+    "english": "kiss",
+    "vietnamese": "hôn",
+    "pronunciation": "/kɪs/",
+    "type": "Mouth action"
+  },
+  {
+    "english": "blow",
+    "vietnamese": "thổi",
+    "pronunciation": "/bləʊ/",
+    "type": "Mouth action"
+  },
+  {
+    "english": "suck",
+    "vietnamese": "mút, hút",
+    "pronunciation": "/sʌk/",
+    "type": "Mouth action"
+  },
+  {
+    "english": "hiccup",
+    "vietnamese": "nấc cụt",
+    "pronunciation": "/ˈhɪk.ʌp/",
+    "type": "Involuntary action"
+  },
+  {
+    "english": "burp",
+    "vietnamese": "ợ",
+    "pronunciation": "/bɜːp/",
+    "type": "Involuntary action"
+  },
+  {
+    "english": "snore",
+    "vietnamese": "ngáy",
+    "pronunciation": "/snɔːr/",
+    "type": "Involuntary action"
+  },
+  {
+    "english": "shiver",
+    "vietnamese": "run rẩy",
+    "pronunciation": "/ˈʃɪv.ər/",
+    "type": "Involuntary action"
+  },
+  {
+    "english": "tremble",
+    "vietnamese": "run sợ",
+    "pronunciation": "/ˈtrem.bəl/",
+    "type": "Involuntary action"
+  },
+  {
+    "english": "sweat",
+    "vietnamese": "đổ mồ hôi",
+    "pronunciation": "/swet/",
+    "type": "Involuntary action"
+  },
+  {
+    "english": "blush",
+    "vietnamese": "đỏ mặt",
+    "pronunciation": "/blʌʃ/",
+    "type": "Involuntary action"
+  },
+  {
+    "english": "giggle",
+    "vietnamese": "cười khúc khích",
+    "pronunciation": "/ˈɡɪɡ.əl/",
+    "type": "Facial expression"
+  },
+  {
+    "english": "grin",
+    "vietnamese": "cười toe toét",
+    "pronunciation": "/ɡrɪn/",
+    "type": "Facial expression"
+  },
+  {
+    "english": "pout",
+    "vietnamese": "bĩu môi",
+    "pronunciation": "/paʊt/",
+    "type": "Facial expression"
+  },
+  {
+    "english": "sulk",
+    "vietnamese": "hờn dỗi",
+    "pronunciation": "/sʌlk/",
+    "type": "Facial expression"
+  },
+  {
+    "english": "scowl",
+    "vietnamese": "cau mày",
+    "pronunciation": "/skaʊl/",
+    "type": "Facial expression"
+  },
+  {
+    "english": "wince",
+    "vietnamese": "nhăn mặt vì đau",
+    "pronunciation": "/wɪns/",
+    "type": "Facial expression"
+  },
+  {
+    "english": "grimace",
+    "vietnamese": "làm mặt xấu",
+    "pronunciation": "/ˈɡrɪm.ɪs/",
+    "type": "Facial expression"
+  },
+  {
+    "english": "shrug",
+    "vietnamese": "nhún vai",
+    "pronunciation": "/ʃrʌɡ/",
+    "type": "Shoulder gesture"
+  },
+  {
+    "english": "hug",
+    "vietnamese": "ôm",
+    "pronunciation": "/hʌɡ/",
+    "type": "Affectionate gesture"
+  },
+  {
+    "english": "embrace",
+    "vietnamese": "ôm ghì",
+    "pronunciation": "/ɪmˈbreɪs/",
+    "type": "Affectionate gesture"
+  },
+  {
+    "english": "cuddle",
+    "vietnamese": "âu yếm",
+    "pronunciation": "/ˈkʌd.əl/",
+    "type": "Affectionate gesture"
+  },
+  {
+    "english": "pet",
+    "vietnamese": "vuốt ve",
+    "pronunciation": "/pet/",
+    "type": "Gentle action"
+  },
+  {
+    "english": "stroke",
+    "vietnamese": "vuốt",
+    "pronunciation": "/strəʊk/",
+    "type": "Gentle action"
+  },
+  {
+    "english": "tickle",
+    "vietnamese": "cù",
+    "pronunciation": "/ˈtɪk.əl/",
+    "type": "Playful action"
+  },
+  {
+    "english": "poke",
+    "vietnamese": "chọc",
+    "pronunciation": "/pəʊk/",
+    "type": "Playful action"
+  },
+  {
+    "english": "slap",
+    "vietnamese": "tát",
+    "pronunciation": "/slæp/",
+    "type": "Aggressive action"
+  },
+  {
+    "english": "punch",
+    "vietnamese": "đấm",
+    "pronunciation": "/pʌntʃ/",
+    "type": "Aggressive action"
+  },
+  {
+    "english": "hit",
+    "vietnamese": "đánh",
+    "pronunciation": "/hɪt/",
+    "type": "Aggressive action"
+  }
+]

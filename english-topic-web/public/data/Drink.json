@@ -1,0 +1,404 @@
+[
+  {
+    "english": "water",
+    "vietnamese": "nước",
+    "pronunciation": "/ˈwɔːtər/",
+    "type": "Non-alcoholic"
+  },
+  {
+    "english": "sparkling water",
+    "vietnamese": "nước có ga",
+    "pronunciation": "/ˈspɑrkəlɪŋ ˈwɔːtər/",
+    "type": "Non-alcoholic"
+  },
+  {
+    "english": "mineral water",
+    "vietnamese": "nước khoáng",
+    "pronunciation": "/ˈmɪnərəl ˈwɔːtər/",
+    "type": "Non-alcoholic"
+  },
+  {
+    "english": "orange juice",
+    "vietnamese": "nước cam",
+    "pronunciation": "/ˈɔrɪndʒ dʒus/",
+    "type": "Juice"
+  },
+  {
+    "english": "apple juice",
+    "vietnamese": "nước táo",
+    "pronunciation": "/ˈæpəl dʒus/",
+    "type": "Juice"
+  },
+  {
+    "english": "grape juice",
+    "vietnamese": "nước nho",
+    "pronunciation": "/ɡreɪp dʒus/",
+    "type": "Juice"
+  },
+  {
+    "english": "lemon juice",
+    "vietnamese": "nước chanh",
+    "pronunciation": "/ˈlemən dʒus/",
+    "type": "Juice"
+  },
+  {
+    "english": "tomato juice",
+    "vietnamese": "nước cà chua",
+    "pronunciation": "/təˈmeɪtoʊ dʒus/",
+    "type": "Juice"
+  },
+  {
+    "english": "coffee",
+    "vietnamese": "cà phê",
+    "pronunciation": "/ˈkɔfi/",
+    "type": "Hot drink"
+  },
+  {
+    "english": "espresso",
+    "vietnamese": "cà phê espresso",
+    "pronunciation": "/esˈpresoʊ/",
+    "type": "Hot drink"
+  },
+  {
+    "english": "cappuccino",
+    "vietnamese": "cappuccino",
+    "pronunciation": "/ˌkæpəˈtʃinoʊ/",
+    "type": "Hot drink"
+  },
+  {
+    "english": "latte",
+    "vietnamese": "latte",
+    "pronunciation": "/ˈlɑte/",
+    "type": "Hot drink"
+  },
+  {
+    "english": "americano",
+    "vietnamese": "americano",
+    "pronunciation": "/əˌmerɪˈkɑnoʊ/",
+    "type": "Hot drink"
+  },
+  {
+    "english": "iced coffee",
+    "vietnamese": "cà phê đá",
+    "pronunciation": "/aɪst ˈkɔfi/",
+    "type": "Cold drink"
+  },
+  {
+    "english": "black tea",
+    "vietnamese": "trà đen",
+    "pronunciation": "/blæk ti/",
+    "type": "Hot drink"
+  },
+  {
+    "english": "green tea",
+    "vietnamese": "trà xanh",
+    "pronunciation": "/ɡrin ti/",
+    "type": "Hot drink"
+  },
+  {
+    "english": "oolong tea",
+    "vietnamese": "trà ô long",
+    "pronunciation": "/ˈulɔŋ ti/",
+    "type": "Hot drink"
+  },
+  {
+    "english": "jasmine tea",
+    "vietnamese": "trà hoa nhài",
+    "pronunciation": "/ˈdʒæzmɪn ti/",
+    "type": "Hot drink"
+  },
+  {
+    "english": "herbal tea",
+    "vietnamese": "trà thảo dược",
+    "pronunciation": "/ˈɜrbəl ti/",
+    "type": "Hot drink"
+  },
+  {
+    "english": "milk tea",
+    "vietnamese": "trà sữa",
+    "pronunciation": "/mɪlk ti/",
+    "type": "Cold drink"
+  },
+  {
+    "english": "bubble tea",
+    "vietnamese": "trà sữa trân châu",
+    "pronunciation": "/ˈbʌbəl ti/",
+    "type": "Cold drink"
+  },
+  {
+    "english": "soda",
+    "vietnamese": "nước ngọt có ga",
+    "pronunciation": "/ˈsoʊdə/",
+    "type": "Soft drink"
+  },
+  {
+    "english": "cola",
+    "vietnamese": "cola",
+    "pronunciation": "/ˈkoʊlə/",
+    "type": "Soft drink"
+  },
+  {
+    "english": "lemonade",
+    "vietnamese": "nước chanh",
+    "pronunciation": "/ˈleməˌneɪd/",
+    "type": "Soft drink"
+  },
+  {
+    "english": "energy drink",
+    "vietnamese": "nước tăng lực",
+    "pronunciation": "/ˈenərdʒi drɪŋk/",
+    "type": "Soft drink"
+  },
+  {
+    "english": "sports drink",
+    "vietnamese": "nước uống thể thao",
+    "pronunciation": "/spɔrts drɪŋk/",
+    "type": "Soft drink"
+  },
+  {
+    "english": "milk",
+    "vietnamese": "sữa",
+    "pronunciation": "/mɪlk/",
+    "type": "Non-alcoholic"
+  },
+  {
+    "english": "whole milk",
+    "vietnamese": "sữa nguyên kem",
+    "pronunciation": "/hoʊl mɪlk/",
+    "type": "Non-alcoholic"
+  },
+  {
+    "english": "skim milk",
+    "vietnamese": "sữa tách kem",
+    "pronunciation": "/skɪm mɪlk/",
+    "type": "Non-alcoholic"
+  },
+  {
+    "english": "almond milk",
+    "vietnamese": "sữa hạnh nhân",
+    "pronunciation": "/ˈæmənd mɪlk/",
+    "type": "Non-alcoholic"
+  },
+  {
+    "english": "coconut milk",
+    "vietnamese": "sữa dừa",
+    "pronunciation": "/ˈkoʊkənʌt mɪlk/",
+    "type": "Non-alcoholic"
+  },
+  {
+    "english": "beer",
+    "vietnamese": "bia",
+    "pronunciation": "/bɪr/",
+    "type": "Alcoholic"
+  },
+  {
+    "english": "wine",
+    "vietnamese": "rượu vang",
+    "pronunciation": "/waɪn/",
+    "type": "Alcoholic"
+  },
+  {
+    "english": "red wine",
+    "vietnamese": "rượu vang đỏ",
+    "pronunciation": "/red waɪn/",
+    "type": "Alcoholic"
+  },
+  {
+    "english": "white wine",
+    "vietnamese": "rượu vang trắng",
+    "pronunciation": "/waɪt waɪn/",
+    "type": "Alcoholic"
+  },
+  {
+    "english": "champagne",
+    "vietnamese": "champagne",
+    "pronunciation": "/ʃæmˈpeɪn/",
+    "type": "Alcoholic"
+  },
+  {
+    "english": "whiskey",
+    "vietnamese": "whiskey",
+    "pronunciation": "/ˈwɪski/",
+    "type": "Alcoholic"
+  },
+  {
+    "english": "vodka",
+    "vietnamese": "vodka",
+    "pronunciation": "/ˈvɑdkə/",
+    "type": "Alcoholic"
+  },
+  {
+    "english": "rum",
+    "vietnamese": "rum",
+    "pronunciation": "/rʌm/",
+    "type": "Alcoholic"
+  },
+  {
+    "english": "cocktail",
+    "vietnamese": "cocktail",
+    "pronunciation": "/ˈkɑkˌteɪl/",
+    "type": "Alcoholic"
+  },
+  {
+    "english": "mojito",
+    "vietnamese": "mojito",
+    "pronunciation": "/moʊˈhitoʊ/",
+    "type": "Alcoholic"
+  },
+  {
+    "english": "margarita",
+    "vietnamese": "margarita",
+    "pronunciation": "/ˌmɑrɡəˈritə/",
+    "type": "Alcoholic"
+  },
+  {
+    "english": "smoothie",
+    "vietnamese": "sinh tố",
+    "pronunciation": "/ˈsmuði/",
+    "type": "Non-alcoholic"
+  },
+  {
+    "english": "milkshake",
+    "vietnamese": "sữa lắc",
+    "pronunciation": "/ˈmɪlkˌʃeɪk/",
+    "type": "Non-alcoholic"
+  },
+  {
+    "english": "hot chocolate",
+    "vietnamese": "chocolate nóng",
+    "pronunciation": "/hɑt ˈtʃɔklət/",
+    "type": "Hot drink"
+  },
+  {
+    "english": "cocoa",
+    "vietnamese": "ca cao",
+    "pronunciation": "/ˈkoʊkoʊ/",
+    "type": "Hot drink"
+  },
+  {
+    "english": "iced tea",
+    "vietnamese": "trà đá",
+    "pronunciation": "/aɪst ti/",
+    "type": "Cold drink"
+  },
+  {
+    "english": "fruit punch",
+    "vietnamese": "nước trái cây pha",
+    "pronunciation": "/frut pʌntʃ/",
+    "type": "Non-alcoholic"
+  },
+  {
+    "english": "lemon water",
+    "vietnamese": "nước chanh",
+    "pronunciation": "/ˈlemən ˈwɔːtər/",
+    "type": "Non-alcoholic"
+  },
+  {
+    "english": "coconut water",
+    "vietnamese": "nước dừa",
+    "pronunciation": "/ˈkoʊkənʌt ˈwɔːtər/",
+    "type": "Non-alcoholic"
+  },
+  {
+    "english": "ginger ale",
+    "vietnamese": "nước gừng có ga",
+    "pronunciation": "/ˈdʒɪndʒər eɪl/",
+    "type": "Soft drink"
+  },
+  {
+    "english": "tonic water",
+    "vietnamese": "nước tonic",
+    "pronunciation": "/ˈtɑnɪk ˈwɔːtər/",
+    "type": "Soft drink"
+  },
+  {
+    "english": "club soda",
+    "vietnamese": "nước soda",
+    "pronunciation": "/klʌb ˈsoʊdə/",
+    "type": "Soft drink"
+  },
+  {
+    "english": "fruit juice",
+    "vietnamese": "nước trái cây",
+    "pronunciation": "/frut dʒus/",
+    "type": "Juice"
+  },
+  {
+    "english": "cranberry juice",
+    "vietnamese": "nước nam việt quất",
+    "pronunciation": "/ˈkrænˌberi dʒus/",
+    "type": "Juice"
+  },
+  {
+    "english": "pineapple juice",
+    "vietnamese": "nước dứa",
+    "pronunciation": "/ˈpaɪnˌæpəl dʒus/",
+    "type": "Juice"
+  },
+  {
+    "english": "mango juice",
+    "vietnamese": "nước xoài",
+    "pronunciation": "/ˈmæŋɡoʊ dʒus/",
+    "type": "Juice"
+  },
+  {
+    "english": "protein shake",
+    "vietnamese": "protein lắc",
+    "pronunciation": "/ˈproʊtin ʃeɪk/",
+    "type": "Non-alcoholic"
+  },
+  {
+    "english": "kombucha",
+    "vietnamese": "kombucha",
+    "pronunciation": "/kəmˈbutʃə/",
+    "type": "Non-alcoholic"
+  },
+  {
+    "english": "matcha",
+    "vietnamese": "matcha",
+    "pronunciation": "/ˈmætʃə/",
+    "type": "Hot drink"
+  },
+  {
+    "english": "chai tea",
+    "vietnamese": "trà chai",
+    "pronunciation": "/tʃaɪ ti/",
+    "type": "Hot drink"
+  },
+  {
+    "english": "iced latte",
+    "vietnamese": "latte đá",
+    "pronunciation": "/aɪst ˈlɑte/",
+    "type": "Cold drink"
+  },
+  {
+    "english": "cold brew",
+    "vietnamese": "cà phê pha lạnh",
+    "pronunciation": "/koʊld bru/",
+    "type": "Cold drink"
+  },
+  {
+    "english": "frappuccino",
+    "vietnamese": "frappuccino",
+    "pronunciation": "/ˌfræpəˈtʃinoʊ/",
+    "type": "Cold drink"
+  },
+  {
+    "english": "bottled water",
+    "vietnamese": "nước đóng chai",
+    "pronunciation": "/ˈbɑtəld ˈwɔːtər/",
+    "type": "Non-alcoholic"
+  },
+  {
+    "english": "tap water",
+    "vietnamese": "nước máy",
+    "pronunciation": "/tæp ˈwɔːtər/",
+    "type": "Non-alcoholic"
+  },
+  {
+    "english": "filtered water",
+    "vietnamese": "nước lọc",
+    "pronunciation": "/ˈfɪltərd ˈwɔːtər/",
+    "type": "Non-alcoholic"
+  }
+]

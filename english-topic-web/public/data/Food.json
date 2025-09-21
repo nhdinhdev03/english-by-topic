@@ -1,0 +1,194 @@
+[
+  {
+    "english": "Food",
+    "vietnamese": "Thức ăn",
+    "pronunciation": "/fuːd/",
+    "type": "n"
+  },
+  {
+    "english": "Meal",
+    "vietnamese": "Bữa ăn",
+    "pronunciation": "/miːl/",
+    "type": "n"
+  },
+  {
+    "english": "Dish",
+    "vietnamese": "Món ăn",
+    "pronunciation": "/dɪʃ/",
+    "type": "n"
+  },
+  {
+    "english": "Cuisine",
+    "vietnamese": "Ẩm thực",
+    "pronunciation": "/kwɪˈziːn/",
+    "type": "n"
+  },
+  {
+    "english": "Ingredient",
+    "vietnamese": "Nguyên liệu",
+    "pronunciation": "/ɪnˈɡriː.di.ənt/",
+    "type": "n"
+  },
+  {
+    "english": "Breakfast",
+    "vietnamese": "Bữa sáng",
+    "pronunciation": "/ˈbrek.fəst/",
+    "type": "n"
+  },
+  {
+    "english": "Lunch",
+    "vietnamese": "Bữa trưa",
+    "pronunciation": "/lʌntʃ/",
+    "type": "n"
+  },
+  {
+    "english": "Dinner",
+    "vietnamese": "Bữa tối",
+    "pronunciation": "/ˈdɪn.ər/",
+    "type": "n"
+  },
+  {
+    "english": "Snack",
+    "vietnamese": "Đồ ăn nhẹ",
+    "pronunciation": "/snæk/",
+    "type": "n"
+  },
+  {
+    "english": "Appetizer",
+    "vietnamese": "Món khai vị",
+    "pronunciation": "/ˈæp.ɪ.taɪ.zər/",
+    "type": "n"
+  },
+  {
+    "english": "Main course",
+    "vietnamese": "Món chính",
+    "pronunciation": "/ˌmeɪn ˈkɔːrs/",
+    "type": "n"
+  },
+  {
+    "english": "Dessert",
+    "vietnamese": "Món tráng miệng",
+    "pronunciation": "/dɪˈzɜːt/",
+    "type": "n"
+  },
+  {
+    "english": "Rice",
+    "vietnamese": "Cơm, gạo",
+    "pronunciation": "/raɪs/",
+    "type": "n"
+  },
+  {
+    "english": "Noodles",
+    "vietnamese": "Mì, bún, phở",
+    "pronunciation": "/ˈnuː.dlz/",
+    "type": "n"
+  },
+  {
+    "english": "Bread",
+    "vietnamese": "Bánh mì",
+    "pronunciation": "/bred/",
+    "type": "n"
+  },
+  {
+    "english": "Soup",
+    "vietnamese": "Súp, canh",
+    "pronunciation": "/suːp/",
+    "type": "n"
+  },
+  {
+    "english": "Salad",
+    "vietnamese": "Salad, rau trộn",
+    "pronunciation": "/ˈsæl.əd/",
+    "type": "n"
+  },
+  {
+    "english": "Meat",
+    "vietnamese": "Thịt",
+    "pronunciation": "/miːt/",
+    "type": "n"
+  },
+  {
+    "english": "Beef",
+    "vietnamese": "Thịt bò",
+    "pronunciation": "/biːf/",
+    "type": "n"
+  },
+  {
+    "english": "Pork",
+    "vietnamese": "Thịt heo",
+    "pronunciation": "/pɔːk/",
+    "type": "n"
+  },
+  {
+    "english": "Chicken",
+    "vietnamese": "Thịt gà",
+    "pronunciation": "/ˈtʃɪk.ɪn/",
+    "type": "n"
+  },
+  {
+    "english": "Seafood",
+    "vietnamese": "Hải sản",
+    "pronunciation": "/ˈsiː.fuːd/",
+    "type": "n"
+  },
+  {
+    "english": "Fish",
+    "vietnamese": "Cá",
+    "pronunciation": "/fɪʃ/",
+    "type": "n"
+  },
+  {
+    "english": "Egg",
+    "vietnamese": "Trứng",
+    "pronunciation": "/eɡ/",
+    "type": "n"
+  },
+  {
+    "english": "Vegetable",
+    "vietnamese": "Rau củ",
+    "pronunciation": "/ˈvedʒ.tə.bəl/",
+    "type": "n"
+  },
+  {
+    "english": "Fruit",
+    "vietnamese": "Trái cây",
+    "pronunciation": "/fruːt/",
+    "type": "n"
+  },
+  {
+    "english": "Spicy",
+    "vietnamese": "Cay",
+    "pronunciation": "/ˈspaɪ.si/",
+    "type": "adj"
+  },
+  {
+    "english": "Sweet",
+    "vietnamese": "Ngọt",
+    "pronunciation": "/swiːt/",
+    "type": "adj"
+  },
+  {
+    "english": "Sour",
+    "vietnamese": "Chua",
+    "pronunciation": "/saʊər/",
+    "type": "adj"
+  },
+  {
+    "english": "Bitter",
+    "vietnamese": "Đắng",
+    "pronunciation": "/ˈbɪt.ər/",
+    "type": "adj"
+  },
+  {
+    "english": "Salty",
+    "vietnamese": "Mặn",
+    "pronunciation": "/ˈsɒl.ti/",
+    "type": "adj"
+  },
+  {
+    "english": "Delicious",
+    "vietnamese": "Ngon",
+    "pronunciation": "/dɪˈlɪʃ.əs/",
+    "type": "adj"
+  }
+]

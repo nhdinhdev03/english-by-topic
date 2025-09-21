@@ -1,0 +1,440 @@
+[
+  {
+    "english": "insect",
+    "vietnamese": "côn trùng",
+    "pronunciation": "/ˈɪn.sekt/",
+    "type": "General"
+  },
+  {
+    "english": "bug",
+    "vietnamese": "bọ",
+    "pronunciation": "/bʌɡ/",
+    "type": "General"
+  },
+  {
+    "english": "ant",
+    "vietnamese": "kiến",
+    "pronunciation": "/ænt/",
+    "type": "Social insect"
+  },
+  {
+    "english": "worker ant",
+    "vietnamese": "kiến thợ",
+    "pronunciation": "/ˈwɜː.kər ænt/",
+    "type": "Social insect"
+  },
+  {
+    "english": "fire ant",
+    "vietnamese": "kiến lửa",
+    "pronunciation": "/ˈfaɪər ænt/",
+    "type": "Social insect"
+  },
+  {
+    "english": "bee",
+    "vietnamese": "ong",
+    "pronunciation": "/biː/",
+    "type": "Social insect"
+  },
+  {
+    "english": "honeybee",
+    "vietnamese": "ong mật",
+    "pronunciation": "/ˈhʌn.i.biː/",
+    "type": "Social insect"
+  },
+  {
+    "english": "bumblebee",
+    "vietnamese": "ong nghệ",
+    "pronunciation": "/ˈbʌm.bəl.biː/",
+    "type": "Social insect"
+  },
+  {
+    "english": "wasp",
+    "vietnamese": "ong bắp cày",
+    "pronunciation": "/wɒsp/",
+    "type": "Social insect"
+  },
+  {
+    "english": "hornet",
+    "vietnamese": "ong vò vẽ",
+    "pronunciation": "/ˈhɔː.nɪt/",
+    "type": "Social insect"
+  },
+  {
+    "english": "butterfly",
+    "vietnamese": "bướm",
+    "pronunciation": "/ˈbʌt.ə.flaɪ/",
+    "type": "Flying insect"
+  },
+  {
+    "english": "monarch butterfly",
+    "vietnamese": "bướm chúa",
+    "pronunciation": "/ˈmɒn.ək ˈbʌt.ə.flaɪ/",
+    "type": "Flying insect"
+  },
+  {
+    "english": "moth",
+    "vietnamese": "bướm đêm",
+    "pronunciation": "/mɒθ/",
+    "type": "Flying insect"
+  },
+  {
+    "english": "beetle",
+    "vietnamese": "bọ cánh cứng",
+    "pronunciation": "/ˈbiː.tl/",
+    "type": "Ground insect"
+  },
+  {
+    "english": "ladybug",
+    "vietnamese": "bọ rùa",
+    "pronunciation": "/ˈleɪ.di.bʌɡ/",
+    "type": "Beneficial insect"
+  },
+  {
+    "english": "cockroach",
+    "vietnamese": "gián",
+    "pronunciation": "/ˈkɒk.rəʊtʃ/",
+    "type": "Household pest"
+  },
+  {
+    "english": "grasshopper",
+    "vietnamese": "châu chấu",
+    "pronunciation": "/ˈɡrɑːsˌhɒp.ər/",
+    "type": "Jumping insect"
+  },
+  {
+    "english": "locust",
+    "vietnamese": "châu chấu sa mạc",
+    "pronunciation": "/ˈləʊ.kəst/",
+    "type": "Jumping insect"
+  },
+  {
+    "english": "cricket",
+    "vietnamese": "dế",
+    "pronunciation": "/ˈkrɪk.ɪt/",
+    "type": "Jumping insect"
+  },
+  {
+    "english": "dragonfly",
+    "vietnamese": "chuồn chuồn",
+    "pronunciation": "/ˈdræɡ.ən.flaɪ/",
+    "type": "Flying insect"
+  },
+  {
+    "english": "damselfly",
+    "vietnamese": "chuồn chuồn kim",
+    "pronunciation": "/ˈdæm.zəl.flaɪ/",
+    "type": "Flying insect"
+  },
+  {
+    "english": "mosquito",
+    "vietnamese": "muỗi",
+    "pronunciation": "/mɒˈskiː.təʊ/",
+    "type": "Blood-sucking insect"
+  },
+  {
+    "english": "fly",
+    "vietnamese": "ruồi",
+    "pronunciation": "/flaɪ/",
+    "type": "Flying insect"
+  },
+  {
+    "english": "housefly",
+    "vietnamese": "ruồi nhà",
+    "pronunciation": "/ˈhaʊs.flaɪ/",
+    "type": "Flying insect"
+  },
+  {
+    "english": "fruit fly",
+    "vietnamese": "ruồi giấm",
+    "pronunciation": "/fruːt flaɪ/",
+    "type": "Flying insect"
+  },
+  {
+    "english": "flea",
+    "vietnamese": "bọ chét",
+    "pronunciation": "/fliː/",
+    "type": "Parasitic insect"
+  },
+  {
+    "english": "louse",
+    "vietnamese": "chí, rận",
+    "pronunciation": "/laʊs/",
+    "type": "Parasitic insect"
+  },
+  {
+    "english": "tick",
+    "vietnamese": "ve",
+    "pronunciation": "/tɪk/",
+    "type": "Parasitic arachnid"
+  },
+  {
+    "english": "termite",
+    "vietnamese": "mối",
+    "pronunciation": "/ˈtɜː.maɪt/",
+    "type": "Wood-eating insect"
+  },
+  {
+    "english": "carpenter ant",
+    "vietnamese": "kiến cưa",
+    "pronunciation": "/ˈkɑː.pən.tər ænt/",
+    "type": "Wood-eating insect"
+  },
+  {
+    "english": "spider",
+    "vietnamese": "nhện",
+    "pronunciation": "/ˈspaɪ.dər/",
+    "type": "Arachnid"
+  },
+  {
+    "english": "black widow",
+    "vietnamese": "nhện góa phụ đen",
+    "pronunciation": "/blæk ˈwɪd.əʊ/",
+    "type": "Venomous arachnid"
+  },
+  {
+    "english": "tarantula",
+    "vietnamese": "nhện tarantula",
+    "pronunciation": "/təˈræn.tʃə.lə/",
+    "type": "Large arachnid"
+  },
+  {
+    "english": "scorpion",
+    "vietnamese": "bọ cạp",
+    "pronunciation": "/ˈskɔː.pi.ən/",
+    "type": "Arachnid"
+  },
+  {
+    "english": "centipede",
+    "vietnamese": "rết",
+    "pronunciation": "/ˈsen.tɪ.piːd/",
+    "type": "Myriapod"
+  },
+  {
+    "english": "millipede",
+    "vietnamese": "cuốn chiếu",
+    "pronunciation": "/ˈmɪl.ɪ.piːd/",
+    "type": "Myriapod"
+  },
+  {
+    "english": "caterpillar",
+    "vietnamese": "sâu bướm",
+    "pronunciation": "/ˈkæt.ə.pɪl.ər/",
+    "type": "Larva"
+  },
+  {
+    "english": "larva",
+    "vietnamese": "ấu trùng",
+    "pronunciation": "/ˈlɑː.və/",
+    "type": "Life stage"
+  },
+  {
+    "english": "pupa",
+    "vietnamese": "nhộng",
+    "pronunciation": "/ˈpjuː.pə/",
+    "type": "Life stage"
+  },
+  {
+    "english": "cocoon",
+    "vietnamese": "kén tơ",
+    "pronunciation": "/kəˈkuːn/",
+    "type": "Life stage"
+  },
+  {
+    "english": "firefly",
+    "vietnamese": "đom đóm",
+    "pronunciation": "/ˈfaɪə.flaɪ/",
+    "type": "Bioluminescent insect"
+  },
+  {
+    "english": "glowworm",
+    "vietnamese": "sâu phát sáng",
+    "pronunciation": "/ˈɡləʊ.wɜːm/",
+    "type": "Bioluminescent insect"
+  },
+  {
+    "english": "stink bug",
+    "vietnamese": "bọ xít",
+    "pronunciation": "/stɪŋk bʌɡ/",
+    "type": "Shield bug"
+  },
+  {
+    "english": "praying mantis",
+    "vietnamese": "bọ ngựa",
+    "pronunciation": "/ˈpreɪ.ɪŋ ˈmæn.tɪs/",
+    "type": "Predatory insect"
+  },
+  {
+    "english": "walking stick",
+    "vietnamese": "bọ que",
+    "pronunciation": "/ˈwɔː.kɪŋ stɪk/",
+    "type": "Camouflaged insect"
+  },
+  {
+    "english": "aphid",
+    "vietnamese": "rệp",
+    "pronunciation": "/ˈeɪ.fɪd/",
+    "type": "Plant pest"
+  },
+  {
+    "english": "mite",
+    "vietnamese": "ve nhỏ",
+    "pronunciation": "/maɪt/",
+    "type": "Tiny arachnid"
+  },
+  {
+    "english": "earwig",
+    "vietnamese": "bọ tai",
+    "pronunciation": "/ˈɪə.wɪɡ/",
+    "type": "Ground insect"
+  },
+  {
+    "english": "silverfish",
+    "vietnamese": "cá bạc",
+    "pronunciation": "/ˈsɪl.və.fɪʃ/",
+    "type": "Household pest"
+  },
+  {
+    "english": "mayfly",
+    "vietnamese": "ruồi tháng năm",
+    "pronunciation": "/ˈmeɪ.flaɪ/",
+    "type": "Aquatic insect"
+  },
+  {
+    "english": "cicada",
+    "vietnamese": "ve sầu",
+    "pronunciation": "/sɪˈkeɪ.də/",
+    "type": "Singing insect"
+  },
+  {
+    "english": "weevil",
+    "vietnamese": "mọt",
+    "pronunciation": "/ˈwiː.vəl/",
+    "type": "Grain pest"
+  },
+  {
+    "english": "thrips",
+    "vietnamese": "tơi",
+    "pronunciation": "/θrɪps/",
+    "type": "Plant pest"
+  },
+  {
+    "english": "webworm",
+    "vietnamese": "sâu róm",
+    "pronunciation": "/ˈweb.wɜːm/",
+    "type": "Tree pest"
+  },
+  {
+    "english": "borer",
+    "vietnamese": "sâu đục thân",
+    "pronunciation": "/ˈbɔː.rər/",
+    "type": "Tree pest"
+  },
+  {
+    "english": "antennae",
+    "vietnamese": "râu (của côn trùng)",
+    "pronunciation": "/ænˈten.iː/",
+    "type": "Body part"
+  },
+  {
+    "english": "wings",
+    "vietnamese": "cánh",
+    "pronunciation": "/wɪŋz/",
+    "type": "Body part"
+  },
+  {
+    "english": "legs",
+    "vietnamese": "chân",
+    "pronunciation": "/leɡz/",
+    "type": "Body part"
+  },
+  {
+    "english": "abdomen",
+    "vietnamese": "bụng",
+    "pronunciation": "/ˈæb.də.mən/",
+    "type": "Body part"
+  },
+  {
+    "english": "thorax",
+    "vietnamese": "ngực",
+    "pronunciation": "/ˈθɔː.ræks/",
+    "type": "Body part"
+  },
+  {
+    "english": "head",
+    "vietnamese": "đầu",
+    "pronunciation": "/hed/",
+    "type": "Body part"
+  },
+  {
+    "english": "compound eyes",
+    "vietnamese": "mắt kép",
+    "pronunciation": "/ˈkɒm.paʊnd aɪz/",
+    "type": "Body part"
+  },
+  {
+    "english": "exoskeleton",
+    "vietnamese": "bộ xương ngoài",
+    "pronunciation": "/ˌek.səʊˈskel.ɪ.tən/",
+    "type": "Body part"
+  },
+  {
+    "english": "metamorphosis",
+    "vietnamese": "biến thái",
+    "pronunciation": "/ˌmet.əˈmɔː.fə.sɪs/",
+    "type": "Process"
+  },
+  {
+    "english": "pollination",
+    "vietnamese": "thụ phấn",
+    "pronunciation": "/ˌpɒl.ɪˈneɪ.ʃən/",
+    "type": "Process"
+  },
+  {
+    "english": "hive",
+    "vietnamese": "tổ ong",
+    "pronunciation": "/haɪv/",
+    "type": "Habitat"
+  },
+  {
+    "english": "nest",
+    "vietnamese": "tổ",
+    "pronunciation": "/nest/",
+    "type": "Habitat"
+  },
+  {
+    "english": "colony",
+    "vietnamese": "đàn",
+    "pronunciation": "/ˈkɒl.ə.ni/",
+    "type": "Group"
+  },
+  {
+    "english": "swarm",
+    "vietnamese": "đàn bay",
+    "pronunciation": "/swɔːm/",
+    "type": "Group"
+  },
+  {
+    "english": "sting",
+    "vietnamese": "đốt",
+    "pronunciation": "/stɪŋ/",
+    "type": "Action"
+  },
+  {
+    "english": "bite",
+    "vietnamese": "cắn",
+    "pronunciation": "/baɪt/",
+    "type": "Action"
+  },
+  {
+    "english": "buzz",
+    "vietnamese": "kêu vo vo",
+    "pronunciation": "/bʌz/",
+    "type": "Sound"
+  },
+  {
+    "english": "chirp",
+    "vietnamese": "kêu típ típ",
+    "pronunciation": "/tʃɜːp/",
+    "type": "Sound"
+  }
+]

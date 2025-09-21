@@ -42,9 +42,17 @@ const TopicLearn = () => {
           return;
         }
 
-        // Import the JSON file dynamically
-        const data = await import(`../../data/${fileName}`);
-        setVocabularyData(data.default || data);
+        console.log(`Loading vocabulary for topic: ${topicName}, file: ${fileName}`);
+        
+        // Use fetch instead of dynamic import for JSON files
+        const response = await fetch(`/data/${fileName}`);
+        if (!response.ok) {
+          throw new Error(`Failed to fetch ${fileName}: ${response.status}`);
+        }
+        
+        const data = await response.json();
+        console.log(`Successfully loaded ${data.length} vocabulary items for ${topicName}`);
+        setVocabularyData(data);
       } catch (error) {
         console.error('Error loading vocabulary:', error);
       }
@@ -84,7 +92,7 @@ const TopicLearn = () => {
   };
 
   const playPronunciation = () => {
-    if (currentWord && currentWord.english) {
+    if (currentWord?.english) {
       playText(currentWord.english, 'en');
     }
   };

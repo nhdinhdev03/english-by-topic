@@ -1,0 +1,362 @@
+[
+  {
+    "english": "Job",
+    "vietnamese": "Công việc, nghề nghiệp",
+    "pronunciation": "/dʒɒb/",
+    "type": "n"
+  },
+  {
+    "english": "Occupation",
+    "vietnamese": "Nghề nghiệp",
+    "pronunciation": "/ˌɒk.jʊˈpeɪ.ʃən/",
+    "type": "n"
+  },
+  {
+    "english": "Career",
+    "vietnamese": "Sự nghiệp",
+    "pronunciation": "/kəˈrɪər/",
+    "type": "n"
+  },
+  {
+    "english": "Work",
+    "vietnamese": "Công việc",
+    "pronunciation": "/wɜːk/",
+    "type": "n"
+  },
+  {
+    "english": "Employee",
+    "vietnamese": "Nhân viên",
+    "pronunciation": "/ɪmˈplɔɪ.iː/",
+    "type": "n"
+  },
+  {
+    "english": "Employer",
+    "vietnamese": "Nhà tuyển dụng",
+    "pronunciation": "/ɪmˈplɔɪ.ər/",
+    "type": "n"
+  },
+  {
+    "english": "Boss",
+    "vietnamese": "Sếp, ông chủ",
+    "pronunciation": "/bɒs/",
+    "type": "n"
+  },
+  {
+    "english": "Manager",
+    "vietnamese": "Quản lý",
+    "pronunciation": "/ˈmæn.ɪ.dʒər/",
+    "type": "n"
+  },
+  {
+    "english": "Director",
+    "vietnamese": "Giám đốc",
+    "pronunciation": "/dɪˈrek.tər/",
+    "type": "n"
+  },
+  {
+    "english": "CEO",
+    "vietnamese": "Tổng giám đốc",
+    "pronunciation": "/ˌsiː.iːˈəʊ/",
+    "type": "n"
+  },
+  {
+    "english": "Assistant",
+    "vietnamese": "Trợ lý",
+    "pronunciation": "/əˈsɪs.tənt/",
+    "type": "n"
+  },
+  {
+    "english": "Accountant",
+    "vietnamese": "Kế toán",
+    "pronunciation": "/əˈkaʊn.tənt/",
+    "type": "n"
+  },
+  {
+    "english": "Secretary",
+    "vietnamese": "Thư ký",
+    "pronunciation": "/ˈsek.rə.tər.i/",
+    "type": "n"
+  },
+  {
+    "english": "Engineer",
+    "vietnamese": "Kỹ sư",
+    "pronunciation": "/ˌen.dʒɪˈnɪər/",
+    "type": "n"
+  },
+  {
+    "english": "Architect",
+    "vietnamese": "Kiến trúc sư",
+    "pronunciation": "/ˈɑː.kɪ.tek/",
+    "type": "n"
+  },
+  {
+    "english": "Doctor",
+    "vietnamese": "Bác sĩ",
+    "pronunciation": "/ˈdɒk.tər/",
+    "type": "n"
+  },
+  {
+    "english": "Nurse",
+    "vietnamese": "Y tá",
+    "pronunciation": "/nɜːs/",
+    "type": "n"
+  },
+  {
+    "english": "Pharmacist",
+    "vietnamese": "Dược sĩ",
+    "pronunciation": "/ˈfɑː.mə.sɪst/",
+    "type": "n"
+  },
+  {
+    "english": "Dentist",
+    "vietnamese": "Nha sĩ",
+    "pronunciation": "/ˈden.tɪst/",
+    "type": "n"
+  },
+  {
+    "english": "Surgeon",
+    "vietnamese": "Bác sĩ phẫu thuật",
+    "pronunciation": "/ˈsɜː.dʒən/",
+    "type": "n"
+  },
+  {
+    "english": "Teacher",
+    "vietnamese": "Giáo viên",
+    "pronunciation": "/ˈtiː.tʃər/",
+    "type": "n"
+  },
+  {
+    "english": "Professor",
+    "vietnamese": "Giáo sư",
+    "pronunciation": "/prəˈfes.ər/",
+    "type": "n"
+  },
+  {
+    "english": "Lawyer",
+    "vietnamese": "Luật sư",
+    "pronunciation": "/ˈlɔɪ.ər/",
+    "type": "n"
+  },
+  {
+    "english": "Judge",
+    "vietnamese": "Thẩm phán",
+    "pronunciation": "/dʒʌdʒ/",
+    "type": "n"
+  },
+  {
+    "english": "Police officer",
+    "vietnamese": "Cảnh sát",
+    "pronunciation": "/pəˈliːs ˈɒf.ɪ.sər/",
+    "type": "n"
+  },
+  {
+    "english": "Firefighter",
+    "vietnamese": "Lính cứu hỏa",
+    "pronunciation": "/ˈfaɪəˌfaɪ.tər/",
+    "type": "n"
+  },
+  {
+    "english": "Soldier",
+    "vietnamese": "Lính, quân nhân",
+    "pronunciation": "/ˈsəʊl.dʒər/",
+    "type": "n"
+  },
+  {
+    "english": "Pilot",
+    "vietnamese": "Phi công",
+    "pronunciation": "/ˈpaɪ.lət/",
+    "type": "n"
+  },
+  {
+    "english": "Flight attendant",
+    "vietnamese": "Tiếp viên hàng không",
+    "pronunciation": "/ˈflaɪt əˌten.dənt/",
+    "type": "n"
+  },
+  {
+    "english": "Driver",
+    "vietnamese": "Tài xế",
+    "pronunciation": "/ˈdraɪ.vər/",
+    "type": "n"
+  },
+  {
+    "english": "Chef",
+    "vietnamese": "Đầu bếp",
+    "pronunciation": "/ʃef/",
+    "type": "n"
+  },
+  {
+    "english": "Waiter",
+    "vietnamese": "Bồi bàn nam",
+    "pronunciation": "/ˈweɪ.tər/",
+    "type": "n"
+  },
+  {
+    "english": "Waitress",
+    "vietnamese": "Bồi bàn nữ",
+    "pronunciation": "/ˈweɪ.trəs/",
+    "type": "n"
+  },
+  {
+    "english": "Baker",
+    "vietnamese": "Thợ làm bánh",
+    "pronunciation": "/ˈbeɪ.kər/",
+    "type": "n"
+  },
+  {
+    "english": "Barber",
+    "vietnamese": "Thợ cắt tóc nam",
+    "pronunciation": "/ˈbɑː.bər/",
+    "type": "n"
+  },
+  {
+    "english": "Hairdresser",
+    "vietnamese": "Thợ làm tóc nữ",
+    "pronunciation": "/ˈheəˌdres.ər/",
+    "type": "n"
+  },
+  {
+    "english": "Mechanic",
+    "vietnamese": "Thợ sửa máy",
+    "pronunciation": "/məˈkæn.ɪk/",
+    "type": "n"
+  },
+  {
+    "english": "Electrician",
+    "vietnamese": "Thợ điện",
+    "pronunciation": "/ɪˌlekˈtrɪʃ.ən/",
+    "type": "n"
+  },
+  {
+    "english": "Plumber",
+    "vietnamese": "Thợ sửa ống nước",
+    "pronunciation": "/ˈplʌm.ər/",
+    "type": "n"
+  },
+  {
+    "english": "Carpenter",
+    "vietnamese": "Thợ mộc",
+    "pronunciation": "/ˈkɑː.pɪn.tər/",
+    "type": "n"
+  },
+  {
+    "english": "Scientist",
+    "vietnamese": "Nhà khoa học",
+    "pronunciation": "/ˈsaɪən.tɪst/",
+    "type": "n"
+  },
+  {
+    "english": "Researcher",
+    "vietnamese": "Nhà nghiên cứu",
+    "pronunciation": "/rɪˈsɜː.tʃər/",
+    "type": "n"
+  },
+  {
+    "english": "Journalist",
+    "vietnamese": "Nhà báo",
+    "pronunciation": "/ˈdʒɜː.nə.lɪst/",
+    "type": "n"
+  },
+  {
+    "english": "Photographer",
+    "vietnamese": "Nhiếp ảnh gia",
+    "pronunciation": "/fəˈtɒɡ.rə.fər/",
+    "type": "n"
+  },
+  {
+    "english": "Writer",
+    "vietnamese": "Nhà văn",
+    "pronunciation": "/ˈraɪ.tər/",
+    "type": "n"
+  },
+  {
+    "english": "Artist",
+    "vietnamese": "Họa sĩ, nghệ sĩ",
+    "pronunciation": "/ˈɑː.tɪst/",
+    "type": "n"
+  },
+  {
+    "english": "Musician",
+    "vietnamese": "Nhạc sĩ",
+    "pronunciation": "/mjuˈzɪʃ.ən/",
+    "type": "n"
+  },
+  {
+    "english": "Actor",
+    "vietnamese": "Nam diễn viên",
+    "pronunciation": "/ˈæk.tər/",
+    "type": "n"
+  },
+  {
+    "english": "Actress",
+    "vietnamese": "Nữ diễn viên",
+    "pronunciation": "/ˈæk.trəs/",
+    "type": "n"
+  },
+  {
+    "english": "Model",
+    "vietnamese": "Người mẫu",
+    "pronunciation": "/ˈmɒd.əl/",
+    "type": "n"
+  },
+  {
+    "english": "Designer",
+    "vietnamese": "Nhà thiết kế",
+    "pronunciation": "/dɪˈzaɪ.nər/",
+    "type": "n"
+  },
+  {
+    "english": "Entrepreneur",
+    "vietnamese": "Doanh nhân",
+    "pronunciation": "/ˌɒn.trə.prəˈnɜːr/",
+    "type": "n"
+  },
+  {
+    "english": "Businessman",
+    "vietnamese": "Nam doanh nhân",
+    "pronunciation": "/ˈbɪz.nɪs.mən/",
+    "type": "n"
+  },
+  {
+    "english": "Businesswoman",
+    "vietnamese": "Nữ doanh nhân",
+    "pronunciation": "/ˈbɪz.nɪsˌwʊm.ən/",
+    "type": "n"
+  },
+  {
+    "english": "Banker",
+    "vietnamese": "Nhân viên ngân hàng",
+    "pronunciation": "/ˈbæŋ.kər/",
+    "type": "n"
+  },
+  {
+    "english": "Real estate agent",
+    "vietnamese": "Nhân viên môi giới bất động sản",
+    "pronunciation": "/ˈrɪəl ɪˌsteɪt ˈeɪ.dʒənt/",
+    "type": "n"
+  },
+  {
+    "english": "Consultant",
+    "vietnamese": "Cố vấn",
+    "pronunciation": "/kənˈsʌl.tənt/",
+    "type": "n"
+  },
+  {
+    "english": "Programmer",
+    "vietnamese": "Lập trình viên",
+    "pronunciation": "/ˈprəʊ.ɡræm.ər/",
+    "type": "n"
+  },
+  {
+    "english": "IT specialist",
+    "vietnamese": "Chuyên gia CNTT",
+    "pronunciation": "/ˌaɪˈtiː ˈspeʃ.əl.ɪst/",
+    "type": "n"
+  },
+  {
+    "english": "Freelancer",
+    "vietnamese": "Người làm việc tự do",
+    "pronunciation": "/ˈfriː.lɑːn.sər/",
+    "type": "n"
+  }
+]

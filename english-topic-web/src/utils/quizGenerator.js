@@ -238,8 +238,17 @@ export const importTopicData = async (topicKey) => {
       throw new Error(`Topic "${topicKey}" not found`);
     }
     
-    const module = await import(`../data/${topicInfo.file}`);
-    return module.default;
+    console.log(`Loading topic data for: ${topicKey}, file: ${topicInfo.file}`);
+    
+    // Use fetch instead of dynamic import for JSON files
+    const response = await fetch(`/data/${topicInfo.file}`);
+    if (!response.ok) {
+      throw new Error(`Failed to fetch ${topicInfo.file}: ${response.status}`);
+    }
+    
+    const data = await response.json();
+    console.log(`Successfully loaded ${data.length} items for topic: ${topicKey}`);
+    return data;
   } catch (error) {
     console.error(`Error loading topic data for ${topicKey}:`, error);
     return [];
