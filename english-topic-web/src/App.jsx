@@ -6,8 +6,8 @@ import { allRoutes } from "./Router";
 import ScrollToTop from "./components/Scroll/ScrollToTop/ScrollToTop";
 import ScrollToTopOnNavigate from "./components/Scroll/ScrollToTopOnNavigate/ScrollToTopOnNavigate";
 import { LanguageProvider } from "./contexts/LanguageContext";
-import { ThemeProvider } from "./contexts/ThemeContext";
 import { ProgressProvider } from "./contexts/ProgressContext";
+import { ThemeProvider } from "./contexts/ThemeContext";
 import "./styles/App.scss";
 
 // Loading component
