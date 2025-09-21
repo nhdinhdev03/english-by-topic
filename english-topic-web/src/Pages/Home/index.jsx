@@ -10,6 +10,12 @@ const Home = () => {
       link: "/quiz"
     },
     {
+      title: "Ôn lại từ đã học",
+      description: "Hệ thống lặp cách quãng thông minh, ôn tập dựa trên mức độ thành thạo",
+      icon: "🔄",
+      link: "/review"
+    },
+    {
       title: "Danh mục theo chủ đề",
       description: "Dễ duyệt, lọc, đánh dấu trạng thái học của từng từ",
       icon: "📚",
@@ -53,7 +59,7 @@ const Home = () => {
       <section className="features-section">
         <div className="container">
           <h2 className="section-title">Tính năng nổi bật</h2>
-          <div className="features-grid grid grid-2">
+          <div className="features-grid grid grid-3">
             {features.map((feature, index) => (
               <Link key={index} to={feature.link} className="feature-card card">
                 <div className="feature-icon">{feature.icon}</div>
