@@ -1,0 +1,271 @@
+// ========================================
+// CARD COMPONENT - Modern & Flexible
+// ========================================
+
+.card {
+  // Base styles
+  background: var(--card-background);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-xl);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  // No border variant
+  &.card-no-border {
+    border: none;
+  }
+
+  // Clickable card
+  &.card-clickable {
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    width: 100%;
+
+    &:focus-visible {
+      outline: 2px solid var(--primary-color);
+      outline-offset: 2px;
+    }
+  }
+
+  // Hoverable effect
+  &.card-hoverable {
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+      border-color: var(--primary-color);
+    }
+  }
+
+  // Padding variants
+  &.card-padding-none {
+    .card-body {
+      padding: 0;
+    }
+  }
+
+  &.card-padding-small {
+    .card-body {
+      padding: 1rem;
+    }
+  }
+
+  &.card-padding-medium {
+    .card-body {
+      padding: 1.5rem;
+    }
+  }
+
+  &.card-padding-large {
+    .card-body {
+      padding: 2rem;
+    }
+  }
+
+  // Shadow variants
+  &.card-shadow-none {
+    box-shadow: none;
+  }
+
+  &.card-shadow-small {
+    box-shadow: var(--shadow-sm);
+  }
+
+  &.card-shadow-medium {
+    box-shadow: var(--shadow-md);
+  }
+
+  &.card-shadow-large {
+    box-shadow: var(--shadow-lg);
+  }
+
+  &.card-shadow-xl {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  }
+}
+
+// ========================================
+// CARD SECTIONS
+// ========================================
+
+.card-header {
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--background-secondary);
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: var(--text-primary);
+}
+
+.card-body {
+  flex: 1;
+  padding: 1.5rem;
+  color: var(--text-primary);
+}
+
+.card-footer {
+  padding: 1rem 1.5rem;
+  border-top: 1px solid var(--border-color);
+  background: var(--background-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+// ========================================
+// VARIANTS
+// ========================================
+
+.card-default {
+  // Default styling already applied
+}
+
+.card-primary {
+  border-color: var(--primary-color);
+
+  .card-header {
+    background: linear-gradient(
+      135deg,
+      var(--primary-color) 0%,
+      var(--primary-dark) 100%
+    );
+    color: white;
+    border-bottom: none;
+  }
+}
+
+.card-success {
+  border-color: var(--success-color);
+
+  .card-header {
+    background: var(--success-color);
+    color: white;
+    border-bottom: none;
+  }
+}
+
+.card-warning {
+  border-color: var(--warning-color);
+
+  .card-header {
+    background: var(--warning-color);
+    color: white;
+    border-bottom: none;
+  }
+}
+
+.card-danger {
+  border-color: var(--danger-color);
+
+  .card-header {
+    background: var(--danger-color);
+    color: white;
+    border-bottom: none;
+  }
+}
+
+.card-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--accent-color) 100%
+  );
+  color: white;
+  border: none;
+
+  .card-header,
+  .card-footer {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: white;
+  }
+
+  .card-body {
+    color: white;
+  }
+}
+
+// ========================================
+// SPECIAL EFFECTS
+// ========================================
+
+// Glassmorphism card
+.card-glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.15);
+  }
+}
+
+// Animated border card
+.card-animated-border {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+    padding: 2px;
+    background: linear-gradient(
+      45deg,
+      var(--primary-color),
+      var(--accent-color),
+      var(--success-color),
+      var(--primary-color)
+    );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    background-size: 300% 300%;
+    animation: gradient-animation 3s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+
+// ========================================
+// RESPONSIVE
+// ========================================
+@media (max-width: 768px) {
+  .card-header {
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+  }
+
+  .card-body {
+    padding: 1.25rem;
+  }
+
+  .card-footer {
+    padding: 0.875rem 1.25rem;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .card.card-padding-large .card-body {
+    padding: 1.5rem;
+  }
+}
