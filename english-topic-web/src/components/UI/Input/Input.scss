@@ -1,0 +1,230 @@
+// ========================================
+// INPUT COMPONENT - Modern & Accessible
+// ========================================
+
+.input-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  &.input-full-width {
+    width: 100%;
+  }
+}
+
+.input-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+
+  .input-required {
+    color: var(--danger-color);
+    margin-left: 0.25rem;
+  }
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.input-field {
+  width: 100%;
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  color: var(--text-primary);
+  background: var(--card-background);
+  border: 2px solid var(--border-color);
+  border-radius: var(--border-radius-lg);
+  transition: all 0.2s ease;
+  outline: none;
+
+  &::placeholder {
+    color: var(--text-muted);
+  }
+
+  &:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(var(--primary-color-rgb), 0.1);
+  }
+
+  &:disabled {
+    background: var(--background-tertiary);
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+}
+
+.input-icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  transition: color 0.2s ease;
+
+  &.input-icon-left {
+    left: 1rem;
+  }
+
+  &.input-icon-right {
+    right: 1rem;
+  }
+
+  &.input-password-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: var(--border-radius);
+
+    &:hover {
+      color: var(--text-primary);
+      background: var(--hover-overlay);
+    }
+  }
+}
+
+.input-helper {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+
+  &.input-helper-error {
+    color: var(--danger-color);
+  }
+}
+
+// ========================================
+// SIZES
+// ========================================
+
+.input-small {
+  .input-field {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    min-height: 36px;
+  }
+
+  &.input-with-icon-left .input-field {
+    padding-left: 2.5rem;
+  }
+
+  &.input-with-icon-right .input-field {
+    padding-right: 2.5rem;
+  }
+}
+
+.input-medium {
+  .input-field {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    min-height: 44px;
+  }
+
+  &.input-with-icon-left .input-field {
+    padding-left: 3rem;
+  }
+
+  &.input-with-icon-right .input-field {
+    padding-right: 3rem;
+  }
+}
+
+.input-large {
+  .input-field {
+    padding: 1rem 1.25rem;
+    font-size: 1.125rem;
+    min-height: 52px;
+  }
+
+  &.input-with-icon-left .input-field {
+    padding-left: 3.5rem;
+  }
+
+  &.input-with-icon-right .input-field {
+    padding-right: 3.5rem;
+  }
+}
+
+// ========================================
+// VARIANTS
+// ========================================
+
+.input-outlined {
+  // Default styling
+}
+
+.input-filled {
+  .input-field {
+    background: var(--background-tertiary);
+    border: 2px solid transparent;
+    border-bottom: 2px solid var(--border-color);
+    border-radius: var(--border-radius-lg) var(--border-radius-lg) 0 0;
+
+    &:focus {
+      background: var(--card-background);
+      border-bottom-color: var(--primary-color);
+    }
+  }
+}
+
+.input-standard {
+  .input-field {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid var(--border-color);
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+    &:focus {
+      border-bottom-color: var(--primary-color);
+      box-shadow: none;
+    }
+  }
+}
+
+// ========================================
+// STATES
+// ========================================
+
+.input-error {
+  .input-field {
+    border-color: var(--danger-color);
+
+    &:focus {
+      box-shadow: 0 0 0 3px rgba(var(--danger-color-rgb), 0.1);
+    }
+  }
+
+  .input-icon {
+    color: var(--danger-color);
+  }
+}
+
+.input-disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.input-focused {
+  .input-icon {
+    color: var(--primary-color);
+  }
+}
+
+// ========================================
+// RESPONSIVE
+// ========================================
+
+@media (max-width: 768px) {
+  .input-large {
+    .input-field {
+      padding: 0.875rem 1rem;
+      font-size: 1rem;
+      min-height: 48px;
+    }
+  }
+}
