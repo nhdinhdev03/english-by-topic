@@ -1,0 +1,151 @@
+// ========================================
+// SKELETON LOADING COMPONENTS
+// ========================================
+
+.skeleton {
+  background: var(--background-tertiary);
+  display: block;
+  overflow: hidden;
+  position: relative;
+
+  // Variants
+  &.skeleton-text {
+    height: 1em;
+    border-radius: var(--border-radius);
+    margin-bottom: 0.5rem;
+    transform-origin: 0 60%;
+    transform: scale(1, 0.6);
+
+    &:last-child {
+      margin-bottom: 0;
+      width: 80%;
+    }
+  }
+
+  &.skeleton-circular {
+    border-radius: 50%;
+  }
+
+  &.skeleton-rectangular {
+    border-radius: 0;
+  }
+
+  &.skeleton-rounded {
+    border-radius: var(--border-radius-lg);
+  }
+
+  // Animations
+  &.skeleton-animation-pulse {
+    animation: skeleton-pulse 1.5s ease-in-out infinite;
+  }
+
+  &.skeleton-animation-wave {
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      transform: translateX(-100%);
+      background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.4),
+        transparent
+      );
+      animation: skeleton-wave 1.5s infinite;
+    }
+  }
+}
+
+// Group spacing
+.skeleton-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+// ========================================
+// PRESET COMPONENTS
+// ========================================
+
+.skeleton-card {
+  background: var(--card-background);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius-xl);
+  overflow: hidden;
+
+  .skeleton-card-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}
+
+.skeleton-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  .skeleton-list-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .skeleton-list-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+}
+
+// ========================================
+// ANIMATIONS
+// ========================================
+
+@keyframes skeleton-pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes skeleton-wave {
+  0% {
+    transform: translateX(-100%);
+  }
+  60% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+// ========================================
+// DARK THEME
+// ========================================
+
+:root[data-theme="dark"] {
+  .skeleton {
+    background: rgba(255, 255, 255, 0.05);
+
+    &.skeleton-animation-wave::after {
+      background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.1),
+        transparent
+      );
+    }
+  }
+}
