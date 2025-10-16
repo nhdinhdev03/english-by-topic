@@ -45,7 +45,8 @@ const TopicLearn = () => {
       'school': 'School.json',
       'shopping': 'Shopping.json',
       'environment': 'Environment.json',
-      'sport': 'Sport.json'
+      'sport': 'Sport.json',
+      'arts': 'Arts.json'
     };
 
     const loadVocabulary = async () => {
