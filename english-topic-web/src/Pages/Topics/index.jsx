@@ -1,12 +1,12 @@
-import { useEffect, useMemo, useState } from 'react';
-import { Link } from 'react-router-dom';
-import AudioButton from '../../components/AudioButton';
-import { useProgress } from '../../contexts/useProgress';
-import './Topics.scss';
+import { useEffect, useMemo, useState } from "react";
+import { Link } from "react-router-dom";
+import AudioButton from "../../components/AudioButton";
+import { useProgress } from "../../contexts/useProgress";
+import "./Topics.scss";
 
 const Topics = () => {
-  const [searchTerm, setSearchTerm] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState('all');
+  const [searchTerm, setSearchTerm] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("all");
   const [topics, setTopics] = useState([]);
   const [loading, setLoading] = useState(true);
   const { getTopicProgressData, initializeTopic } = useProgress();
@@ -15,141 +15,150 @@ const Topics = () => {
   useEffect(() => {
     const loadTopicsWithWordCount = async () => {
       const topicsData = [
-        { 
-          id: 'daily-activities', 
-          name: 'Hoạt động hàng ngày', 
-          category: 'life', 
-          fileName: 'Daily-Activities.json',
-          progress: 0, 
-          color: '#3b82f6',
-          description: 'Các hoạt động thường ngày'
+        {
+          id: "daily-activities",
+          name: "Hoạt động hàng ngày",
+          category: "life",
+          fileName: "Daily-Activities.json",
+          progress: 0,
+          color: "#3b82f6",
+          description: "Các hoạt động thường ngày",
         },
-        { 
-          id: 'food', 
-          name: 'Thức ăn', 
-          category: 'life', 
-          fileName: 'Food.json',
-          progress: 0, 
-          color: '#10b981',
-          description: 'Đồ ăn và đồ uống'
+        {
+          id: "food",
+          name: "Thức ăn",
+          category: "life",
+          fileName: "Food.json",
+          progress: 0,
+          color: "#10b981",
+          description: "Đồ ăn và đồ uống",
         },
-        { 
-          id: 'travel', 
-          name: 'Du lịch', 
-          category: 'life', 
-          fileName: 'Travel.json',
-          progress: 0, 
-          color: '#f59e0b',
-          description: 'Từ vựng về du lịch'
+        {
+          id: "travel",
+          name: "Du lịch",
+          category: "life",
+          fileName: "Travel.json",
+          progress: 0,
+          color: "#f59e0b",
+          description: "Từ vựng về du lịch",
         },
-        { 
-          id: 'animals', 
-          name: 'Động vật', 
-          category: 'nature', 
-          fileName: 'Animal.json',
-          progress: 0, 
-          color: '#8b5cf6',
-          description: 'Các loài động vật'
+        {
+          id: "animals",
+          name: "Động vật",
+          category: "nature",
+          fileName: "Animal.json",
+          progress: 0,
+          color: "#8b5cf6",
+          description: "Các loài động vật",
         },
-        { 
-          id: 'colors', 
-          name: 'Màu sắc', 
-          category: 'basic', 
-          fileName: 'Color.json',
-          progress: 0, 
-          color: '#06b6d4',
-          description: 'Tên các màu sắc'
+        {
+          id: "colors",
+          name: "Màu sắc",
+          category: "basic",
+          fileName: "Color.json",
+          progress: 0,
+          color: "#06b6d4",
+          description: "Tên các màu sắc",
         },
-        { 
-          id: 'family', 
-          name: 'Gia đình', 
-          category: 'life', 
-          fileName: 'Family.json',
-          progress: 0, 
-          color: '#ef4444',
-          description: 'Thành viên gia đình'
+        {
+          id: "family",
+          name: "Gia đình",
+          category: "life",
+          fileName: "Family.json",
+          progress: 0,
+          color: "#ef4444",
+          description: "Thành viên gia đình",
         },
-        { 
-          id: 'health', 
-          name: 'Sức khỏe', 
-          category: 'life', 
-          fileName: 'Health.json',
-          progress: 0, 
-          color: '#f97316',
-          description: 'Y tế và sức khỏe'
+        {
+          id: "health",
+          name: "Sức khỏe",
+          category: "life",
+          fileName: "Health.json",
+          progress: 0,
+          color: "#f97316",
+          description: "Y tế và sức khỏe",
         },
-        { 
-          id: 'work', 
-          name: 'Công việc', 
-          category: 'work', 
-          fileName: 'Work.json',
-          progress: 0, 
-          color: '#84cc16',
-          description: 'Nghề nghiệp và công việc'
+        {
+          id: "work",
+          name: "Công việc",
+          category: "work",
+          fileName: "Work.json",
+          progress: 0,
+          color: "#84cc16",
+          description: "Nghề nghiệp và công việc",
         },
-        { 
-          id: 'count', 
-          name: 'Số đếm', 
-          category: 'basic', 
-          fileName: 'Count.json',
-          progress: 0, 
-          color: '#ec4899',
-          description: 'Số và toán học'
+        {
+          id: "count",
+          name: "Số đếm",
+          category: "basic",
+          fileName: "Count.json",
+          progress: 0,
+          color: "#ec4899",
+          description: "Số và toán học",
         },
-        { 
-          id: 'clothes', 
-          name: 'Quần áo', 
-          category: 'life', 
-          fileName: 'Clothes.json',
-          progress: 0, 
-          color: '#6366f1',
-          description: 'Trang phục và phụ kiện'
+        {
+          id: "clothes",
+          name: "Quần áo",
+          category: "life",
+          fileName: "Clothes.json",
+          progress: 0,
+          color: "#6366f1",
+          description: "Trang phục và phụ kiện",
         },
-        { 
-          id: 'weather', 
-          name: 'Thời tiết', 
-          category: 'nature', 
-          fileName: 'Weather.json',
-          progress: 0, 
-          color: '#14b8a6',
-          description: 'Hiện tượng thời tiết'
+        {
+          id: "weather",
+          name: "Thời tiết",
+          category: "nature",
+          fileName: "Weather.json",
+          progress: 0,
+          color: "#14b8a6",
+          description: "Hiện tượng thời tiết",
         },
-        { 
-          id: 'school', 
-          name: 'Trường học', 
-          category: 'education', 
-          fileName: 'School.json',
-          progress: 0, 
-          color: '#f59e0b',
-          description: 'Giáo dục và học tập'
+        {
+          id: "school",
+          name: "Trường học",
+          category: "education",
+          fileName: "School.json",
+          progress: 0,
+          color: "#f59e0b",
+          description: "Giáo dục và học tập",
         },
-        { 
-          id: 'shopping', 
-          name: 'Mua sắm', 
-          category: 'life', 
-          fileName: 'Shopping.json',
-          progress: 0, 
-          color: '#8b5cf6',
-          description: 'Mua bán và cửa hàng'
+        {
+          id: "shopping",
+          name: "Mua sắm",
+          category: "life",
+          fileName: "Shopping.json",
+          progress: 0,
+          color: "#8b5cf6",
+          description: "Mua bán và cửa hàng",
         },
-        { 
-          id: 'environment', 
-          name: 'Môi trường', 
-          category: 'nature', 
-          fileName: 'Environment.json',
-          progress: 0, 
-          color: '#10b981',
-          description: 'Bảo vệ môi trường'
+        {
+          id: "environment",
+          name: "Môi trường",
+          category: "nature",
+          fileName: "Environment.json",
+          progress: 0,
+          color: "#10b981",
+          description: "Bảo vệ môi trường",
         },
-        { 
-          id: 'sport', 
-          name: 'Thể thao', 
-          category: 'activity', 
-          fileName: 'Sport.json',
-          progress: 0, 
-          color: '#ef4444',
-          description: 'Các môn thể thao'
-        }
+        {
+          id: "sport",
+          name: "Thể thao",
+          category: "activity",
+          fileName: "Sport.json",
+          progress: 0,
+          color: "#ef4444",
+          description: "Các môn thể thao",
+        },
+        {
+          id: "arts",
+          name: "Nghệ thuật",
+          category: "culture",
+          fileName: "Arts.json",
+          progress: 0,
+          color: "#d946ef",
+          description: "Hội họa, điêu khắc và nghệ thuật",
+        },
       ];
 
       // Load word count for each topic and get progress from localStorage
@@ -160,19 +169,19 @@ const Topics = () => {
             if (response.ok) {
               const data = await response.json();
               const wordCount = data.length;
-              
+
               // Initialize topic progress if not exists
               initializeTopic(topic.id, wordCount);
-              
+
               // Get current progress from localStorage
               const progress = getTopicProgressData(topic.id);
-              
-              return { 
-                ...topic, 
+
+              return {
+                ...topic,
                 wordCount,
                 progress: progress.percentage || 0,
                 learnedWords: progress.learnedWords || 0,
-                lastStudied: progress.lastStudied
+                lastStudied: progress.lastStudied,
               };
             } else {
               console.warn(`Failed to load ${topic.fileName}`);
@@ -192,20 +201,55 @@ const Topics = () => {
     loadTopicsWithWordCount();
   }, [initializeTopic, getTopicProgressData]);
 
-  const categories = useMemo(() => [
-    { id: 'all', name: 'Tất cả', count: topics.length },
-    { id: 'life', name: 'Đời sống', count: topics.filter(t => t.category === 'life').length },
-    { id: 'work', name: 'Công việc', count: topics.filter(t => t.category === 'work').length },
-    { id: 'nature', name: 'Tự nhiên', count: topics.filter(t => t.category === 'nature').length },
-    { id: 'basic', name: 'Cơ bản', count: topics.filter(t => t.category === 'basic').length },
-    { id: 'education', name: 'Giáo dục', count: topics.filter(t => t.category === 'education').length },
-    { id: 'activity', name: 'Hoạt động', count: topics.filter(t => t.category === 'activity').length },
-  ], [topics]);
+  const categories = useMemo(
+    () => [
+      { id: "all", name: "Tất cả", count: topics.length },
+      {
+        id: "life",
+        name: "Đời sống",
+        count: topics.filter((t) => t.category === "life").length,
+      },
+      {
+        id: "work",
+        name: "Công việc",
+        count: topics.filter((t) => t.category === "work").length,
+      },
+      {
+        id: "nature",
+        name: "Tự nhiên",
+        count: topics.filter((t) => t.category === "nature").length,
+      },
+      {
+        id: "basic",
+        name: "Cơ bản",
+        count: topics.filter((t) => t.category === "basic").length,
+      },
+      {
+        id: "education",
+        name: "Giáo dục",
+        count: topics.filter((t) => t.category === "education").length,
+      },
+      {
+        id: "activity",
+        name: "Hoạt động",
+        count: topics.filter((t) => t.category === "activity").length,
+      },
+      {
+        id: "culture",
+        name: "Văn hóa",
+        count: topics.filter((t) => t.category === "culture").length,
+      },
+    ],
+    [topics]
+  );
 
   const filteredTopics = useMemo(() => {
-    return topics.filter(topic => {
-      const matchesSearch = topic.name.toLowerCase().includes(searchTerm.toLowerCase());
-      const matchesCategory = selectedCategory === 'all' || topic.category === selectedCategory;
+    return topics.filter((topic) => {
+      const matchesSearch = topic.name
+        .toLowerCase()
+        .includes(searchTerm.toLowerCase());
+      const matchesCategory =
+        selectedCategory === "all" || topic.category === selectedCategory;
       return matchesSearch && matchesCategory;
     });
   }, [topics, searchTerm, selectedCategory]);
@@ -217,7 +261,8 @@ const Topics = () => {
         <div className="topics-header">
           <h1 className="heading-1">Chủ đề từ vựng</h1>
           <p className="topics-subtitle">
-            Khám phá và học từ vựng theo các chủ đề đa dạng, từ cơ bản đến nâng cao
+            Khám phá và học từ vựng theo các chủ đề đa dạng, từ cơ bản đến nâng
+            cao
           </p>
         </div>
 
@@ -241,10 +286,12 @@ const Topics = () => {
               </div>
 
               <div className="category-filters">
-                {categories.map(category => (
+                {categories.map((category) => (
                   <button
                     key={category.id}
-                    className={`category-btn ${selectedCategory === category.id ? 'active' : ''}`}
+                    className={`category-btn ${
+                      selectedCategory === category.id ? "active" : ""
+                    }`}
                     onClick={() => setSelectedCategory(category.id)}
                   >
                     {category.name}
@@ -256,14 +303,14 @@ const Topics = () => {
 
             {/* Topics Grid */}
             <div className="topics-grid grid grid-3">
-              {filteredTopics.map(topic => (
+              {filteredTopics.map((topic) => (
                 <Link
                   key={topic.id}
                   to={`/learn/${topic.id}`}
                   className="topic-card card card-interactive"
                 >
                   <div className="topic-header">
-                    <div 
+                    <div
                       className="topic-icon"
                       style={{ backgroundColor: topic.color }}
                     >
@@ -283,11 +330,16 @@ const Topics = () => {
                       <div className="topic-stats">
                         <p>{topic.wordCount} từ vựng</p>
                         {topic.learnedWords > 0 && (
-                          <small className="learned-count">{topic.learnedWords} từ đã học</small>
+                          <small className="learned-count">
+                            {topic.learnedWords} từ đã học
+                          </small>
                         )}
                         {topic.lastStudied && (
                           <small className="last-studied">
-                            Học lần cuối: {new Date(topic.lastStudied).toLocaleDateString('vi-VN')}
+                            Học lần cuối:{" "}
+                            {new Date(topic.lastStudied).toLocaleDateString(
+                              "vi-VN"
+                            )}
                           </small>
                         )}
                       </div>
@@ -301,11 +353,11 @@ const Topics = () => {
                       <span>{topic.progress}%</span>
                     </div>
                     <div className="progress-bar">
-                      <div 
+                      <div
                         className="progress-fill"
-                        style={{ 
+                        style={{
                           width: `${topic.progress}%`,
-                          backgroundColor: topic.color 
+                          backgroundColor: topic.color,
                         }}
                       ></div>
                     </div>
