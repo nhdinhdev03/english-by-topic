@@ -1,0 +1,578 @@
+[
+    {
+        "english": "Art",
+        "vietnamese": "Nghệ thuật",
+        "pronunciation": "/ɑːrt/",
+        "type": "n"
+    },
+    {
+        "english": "Painting",
+        "vietnamese": "Bức tranh, hội họa",
+        "pronunciation": "/ˈpeɪn.tɪŋ/",
+        "type": "n"
+    },
+    {
+        "english": "Sculpture",
+        "vietnamese": "Tác phẩm điêu khắc",
+        "pronunciation": "/ˈskʌlp.tʃər/",
+        "type": "n"
+    },
+    {
+        "english": "Drawing",
+        "vietnamese": "Bản vẽ",
+        "pronunciation": "/ˈdrɔː.ɪŋ/",
+        "type": "n"
+    },
+    {
+        "english": "Artist",
+        "vietnamese": "Nghệ sĩ",
+        "pronunciation": "/ˈɑːr.tɪst/",
+        "type": "n"
+    },
+    {
+        "english": "Painter",
+        "vietnamese": "Họa sĩ",
+        "pronunciation": "/ˈpeɪn.tər/",
+        "type": "n"
+    },
+    {
+        "english": "Sculptor",
+        "vietnamese": "Nhà điêu khắc",
+        "pronunciation": "/ˈskʌlp.tər/",
+        "type": "n"
+    },
+    {
+        "english": "Museum",
+        "vietnamese": "Bảo tàng",
+        "pronunciation": "/mjuːˈziː.əm/",
+        "type": "n"
+    },
+    {
+        "english": "Gallery",
+        "vietnamese": "Phòng trưng bày",
+        "pronunciation": "/ˈɡæl.ər.i/",
+        "type": "n"
+    },
+    {
+        "english": "Exhibition",
+        "vietnamese": "Triển lãm",
+        "pronunciation": "/ˌek.sɪˈbɪʃ.ən/",
+        "type": "n"
+    },
+    {
+        "english": "Canvas",
+        "vietnamese": "Vải bạt vẽ tranh",
+        "pronunciation": "/ˈkæn.vəs/",
+        "type": "n"
+    },
+    {
+        "english": "Brush",
+        "vietnamese": "Cọ vẽ",
+        "pronunciation": "/brʌʃ/",
+        "type": "n"
+    },
+    {
+        "english": "Palette",
+        "vietnamese": "Bảng pha màu",
+        "pronunciation": "/ˈpæl.ət/",
+        "type": "n"
+    },
+    {
+        "english": "Masterpiece",
+        "vietnamese": "Kiệt tác",
+        "pronunciation": "/ˈmæs.tər.piːs/",
+        "type": "n"
+    },
+    {
+        "english": "Portrait",
+        "vietnamese": "Chân dung",
+        "pronunciation": "/ˈpɔːr.trət/",
+        "type": "n"
+    },
+    {
+        "english": "Landscape",
+        "vietnamese": "Tranh phong cảnh",
+        "pronunciation": "/ˈlænd.skeɪp/",
+        "type": "n"
+    },
+    {
+        "english": "Still life",
+        "vietnamese": "Tranh tĩnh vật",
+        "pronunciation": "/ˌstɪl ˈlaɪf/",
+        "type": "n"
+    },
+    {
+        "english": "Abstract",
+        "vietnamese": "Trừu tượng",
+        "pronunciation": "/ˈæb.strækt/",
+        "type": "adj"
+    },
+    {
+        "english": "Realistic",
+        "vietnamese": "Chân thực",
+        "pronunciation": "/ˌriː.əˈlɪs.tɪk/",
+        "type": "adj"
+    },
+    {
+        "english": "Contemporary",
+        "vietnamese": "Đương đại",
+        "pronunciation": "/kənˈtem.pər.er.i/",
+        "type": "adj"
+    },
+    {
+        "english": "Classical",
+        "vietnamese": "Cổ điển",
+        "pronunciation": "/ˈklæs.ɪ.kəl/",
+        "type": "adj"
+    },
+    {
+        "english": "Modern",
+        "vietnamese": "Hiện đại",
+        "pronunciation": "/ˈmɑː.dɚn/",
+        "type": "adj"
+    },
+    {
+        "english": "Sketch",
+        "vietnamese": "Phác họa",
+        "pronunciation": "/sketʃ/",
+        "type": "n, v"
+    },
+    {
+        "english": "Frame",
+        "vietnamese": "Khung tranh",
+        "pronunciation": "/freɪm/",
+        "type": "n"
+    },
+    {
+        "english": "Color",
+        "vietnamese": "Màu sắc",
+        "pronunciation": "/ˈkʌl.ɚ/",
+        "type": "n"
+    },
+    {
+        "english": "Shade",
+        "vietnamese": "Bóng tối, sắc thái",
+        "pronunciation": "/ʃeɪd/",
+        "type": "n"
+    },
+    {
+        "english": "Tone",
+        "vietnamese": "Tông màu",
+        "pronunciation": "/toʊn/",
+        "type": "n"
+    },
+    {
+        "english": "Texture",
+        "vietnamese": "Kết cấu, chất liệu",
+        "pronunciation": "/ˈteks.tʃɚ/",
+        "type": "n"
+    },
+    {
+        "english": "Perspective",
+        "vietnamese": "Phối cảnh",
+        "pronunciation": "/pɚˈspek.tɪv/",
+        "type": "n"
+    },
+    {
+        "english": "Composition",
+        "vietnamese": "Bố cục",
+        "pronunciation": "/ˌkɑːm.pəˈzɪʃ.ən/",
+        "type": "n"
+    },
+    {
+        "english": "Technique",
+        "vietnamese": "Kỹ thuật",
+        "pronunciation": "/tekˈniːk/",
+        "type": "n"
+    },
+    {
+        "english": "Style",
+        "vietnamese": "Phong cách",
+        "pronunciation": "/staɪl/",
+        "type": "n"
+    },
+    {
+        "english": "Impressionism",
+        "vietnamese": "Trường phái ấn tượng",
+        "pronunciation": "/ɪmˈpreʃ.ən.ɪ.zəm/",
+        "type": "n"
+    },
+    {
+        "english": "Cubism",
+        "vietnamese": "Trường phái lập thể",
+        "pronunciation": "/ˈkjuː.bɪ.zəm/",
+        "type": "n"
+    },
+    {
+        "english": "Surrealism",
+        "vietnamese": "Trường phái siêu thực",
+        "pronunciation": "/səˈriː.ə.lɪ.zəm/",
+        "type": "n"
+    },
+    {
+        "english": "Renaissance",
+        "vietnamese": "Thời kỳ Phục hưng",
+        "pronunciation": "/ˈren.ə.sɑːns/",
+        "type": "n"
+    },
+    {
+        "english": "Installation",
+        "vietnamese": "Tác phẩm sắp đặt",
+        "pronunciation": "/ˌɪn.stəˈleɪ.ʃən/",
+        "type": "n"
+    },
+    {
+        "english": "Performance art",
+        "vietnamese": "Nghệ thuật trình diễn",
+        "pronunciation": "/pɚˈfɔːr.məns ɑːrt/",
+        "type": "n"
+    },
+    {
+        "english": "Photography",
+        "vietnamese": "Nhiếp ảnh",
+        "pronunciation": "/fəˈtɑː.ɡrə.fi/",
+        "type": "n"
+    },
+    {
+        "english": "Photograph",
+        "vietnamese": "Bức ảnh",
+        "pronunciation": "/ˈfoʊ.t̬ə.ɡræf/",
+        "type": "n"
+    },
+    {
+        "english": "Photographer",
+        "vietnamese": "Nhiếp ảnh gia",
+        "pronunciation": "/fəˈtɑː.ɡrə.fɚ/",
+        "type": "n"
+    },
+    {
+        "english": "Pottery",
+        "vietnamese": "Đồ gốm",
+        "pronunciation": "/ˈpɑː.t̬ɚ.i/",
+        "type": "n"
+    },
+    {
+        "english": "Ceramic",
+        "vietnamese": "Gốm sứ",
+        "pronunciation": "/səˈræm.ɪk/",
+        "type": "n"
+    },
+    {
+        "english": "Clay",
+        "vietnamese": "Đất sét",
+        "pronunciation": "/kleɪ/",
+        "type": "n"
+    },
+    {
+        "english": "Carve",
+        "vietnamese": "Khắc, chạm",
+        "pronunciation": "/kɑːrv/",
+        "type": "v"
+    },
+    {
+        "english": "Mold",
+        "vietnamese": "Khuôn đúc",
+        "pronunciation": "/moʊld/",
+        "type": "n, v"
+    },
+    {
+        "english": "Cast",
+        "vietnamese": "Đúc",
+        "pronunciation": "/kæst/",
+        "type": "v"
+    },
+    {
+        "english": "Craft",
+        "vietnamese": "Thủ công nghệ thuật",
+        "pronunciation": "/kræft/",
+        "type": "n"
+    },
+    {
+        "english": "Handicraft",
+        "vietnamese": "Đồ thủ công",
+        "pronunciation": "/ˈhæn.di.kræft/",
+        "type": "n"
+    },
+    {
+        "english": "Creative",
+        "vietnamese": "Sáng tạo",
+        "pronunciation": "/kriˈeɪ.t̬ɪv/",
+        "type": "adj"
+    },
+    {
+        "english": "Creativity",
+        "vietnamese": "Sự sáng tạo",
+        "pronunciation": "/ˌkriː.eɪˈtɪv.ə.t̬i/",
+        "type": "n"
+    },
+    {
+        "english": "Inspire",
+        "vietnamese": "Truyền cảm hứng",
+        "pronunciation": "/ɪnˈspaɪr/",
+        "type": "v"
+    },
+    {
+        "english": "Inspiration",
+        "vietnamese": "Cảm hứng",
+        "pronunciation": "/ˌɪn.spəˈreɪ.ʃən/",
+        "type": "n"
+    },
+    {
+        "english": "Express",
+        "vietnamese": "Biểu đạt",
+        "pronunciation": "/ɪkˈspres/",
+        "type": "v"
+    },
+    {
+        "english": "Expression",
+        "vietnamese": "Sự biểu đạt",
+        "pronunciation": "/ɪkˈspreʃ.ən/",
+        "type": "n"
+    },
+    {
+        "english": "Aesthetic",
+        "vietnamese": "Thẩm mỹ",
+        "pronunciation": "/esˈθet̬.ɪk/",
+        "type": "adj, n"
+    },
+    {
+        "english": "Beauty",
+        "vietnamese": "Vẻ đẹp",
+        "pronunciation": "/ˈbjuː.t̬i/",
+        "type": "n"
+    },
+    {
+        "english": "Visual",
+        "vietnamese": "Thị giác",
+        "pronunciation": "/ˈvɪʒ.u.əl/",
+        "type": "adj"
+    },
+    {
+        "english": "Image",
+        "vietnamese": "Hình ảnh",
+        "pronunciation": "/ˈɪm.ɪdʒ/",
+        "type": "n"
+    },
+    {
+        "english": "Illustration",
+        "vietnamese": "Hình minh họa",
+        "pronunciation": "/ˌɪl.əˈstreɪ.ʃən/",
+        "type": "n"
+    },
+    {
+        "english": "Illustrator",
+        "vietnamese": "Họa sĩ minh họa",
+        "pronunciation": "/ˈɪl.ə.streɪ.t̬ɚ/",
+        "type": "n"
+    },
+    {
+        "english": "Graffiti",
+        "vietnamese": "Nghệ thuật graffiti",
+        "pronunciation": "/ɡrəˈfiː.t̬i/",
+        "type": "n"
+    },
+    {
+        "english": "Mural",
+        "vietnamese": "Tranh tường",
+        "pronunciation": "/ˈmjʊr.əl/",
+        "type": "n"
+    },
+    {
+        "english": "Mosaic",
+        "vietnamese": "Tranh khảm",
+        "pronunciation": "/moʊˈzeɪ.ɪk/",
+        "type": "n"
+    },
+    {
+        "english": "Collage",
+        "vietnamese": "Tranh ghép",
+        "pronunciation": "/kəˈlɑːʒ/",
+        "type": "n"
+    },
+    {
+        "english": "Print",
+        "vietnamese": "Bản in",
+        "pronunciation": "/prɪnt/",
+        "type": "n, v"
+    },
+    {
+        "english": "Printmaking",
+        "vietnamese": "Nghệ thuật in tranh",
+        "pronunciation": "/ˈprɪnt.meɪ.kɪŋ/",
+        "type": "n"
+    },
+    {
+        "english": "Watercolor",
+        "vietnamese": "Màu nước",
+        "pronunciation": "/ˈwɑː.t̬ɚ.kʌl.ɚ/",
+        "type": "n"
+    },
+    {
+        "english": "Oil painting",
+        "vietnamese": "Tranh sơn dầu",
+        "pronunciation": "/ˈɔɪl ˌpeɪn.tɪŋ/",
+        "type": "n"
+    },
+    {
+        "english": "Acrylic",
+        "vietnamese": "Sơn acrylic",
+        "pronunciation": "/əˈkrɪl.ɪk/",
+        "type": "n, adj"
+    },
+    {
+        "english": "Ink",
+        "vietnamese": "Mực",
+        "pronunciation": "/ɪŋk/",
+        "type": "n"
+    },
+    {
+        "english": "Charcoal",
+        "vietnamese": "Than chì",
+        "pronunciation": "/ˈtʃɑːr.koʊl/",
+        "type": "n"
+    },
+    {
+        "english": "Pastel",
+        "vietnamese": "Phấn màu",
+        "pronunciation": "/pæˈstel/",
+        "type": "n"
+    },
+    {
+        "english": "Calligraphy",
+        "vietnamese": "Thư pháp",
+        "pronunciation": "/kəˈlɪɡ.rə.fi/",
+        "type": "n"
+    },
+    {
+        "english": "Design",
+        "vietnamese": "Thiết kế",
+        "pronunciation": "/dɪˈzaɪn/",
+        "type": "n, v"
+    },
+    {
+        "english": "Designer",
+        "vietnamese": "Nhà thiết kế",
+        "pronunciation": "/dɪˈzaɪ.nɚ/",
+        "type": "n"
+    },
+    {
+        "english": "Architecture",
+        "vietnamese": "Kiến trúc",
+        "pronunciation": "/ˈɑːr.kɪ.tek.tʃɚ/",
+        "type": "n"
+    },
+    {
+        "english": "Architect",
+        "vietnamese": "Kiến trúc sư",
+        "pronunciation": "/ˈɑːr.kɪ.tekt/",
+        "type": "n"
+    },
+    {
+        "english": "Graphic design",
+        "vietnamese": "Thiết kế đồ họa",
+        "pronunciation": "/ˈɡræf.ɪk dɪˈzaɪn/",
+        "type": "n"
+    },
+    {
+        "english": "Digital art",
+        "vietnamese": "Nghệ thuật số",
+        "pronunciation": "/ˈdɪdʒ.ɪ.t̬əl ɑːrt/",
+        "type": "n"
+    },
+    {
+        "english": "Animation",
+        "vietnamese": "Hoạt hình",
+        "pronunciation": "/ˌæn.əˈmeɪ.ʃən/",
+        "type": "n"
+    },
+    {
+        "english": "Animator",
+        "vietnamese": "Họa sĩ hoạt hình",
+        "pronunciation": "/ˈæn.ə.meɪ.t̬ɚ/",
+        "type": "n"
+    },
+    {
+        "english": "Curator",
+        "vietnamese": "Người quản lý triển lãm",
+        "pronunciation": "/kjʊˈreɪ.t̬ɚ/",
+        "type": "n"
+    },
+    {
+        "english": "Auction",
+        "vietnamese": "Đấu giá",
+        "pronunciation": "/ˈɑːk.ʃən/",
+        "type": "n"
+    },
+    {
+        "english": "Collector",
+        "vietnamese": "Nhà sưu tập",
+        "pronunciation": "/kəˈlek.tɚ/",
+        "type": "n"
+    },
+    {
+        "english": "Collection",
+        "vietnamese": "Bộ sưu tập",
+        "pronunciation": "/kəˈlek.ʃən/",
+        "type": "n"
+    },
+    {
+        "english": "Reproduce",
+        "vietnamese": "Tái tạo, sao chép",
+        "pronunciation": "/ˌriː.prəˈduːs/",
+        "type": "v"
+    },
+    {
+        "english": "Reproduction",
+        "vietnamese": "Bản sao",
+        "pronunciation": "/ˌriː.prəˈdʌk.ʃən/",
+        "type": "n"
+    },
+    {
+        "english": "Original",
+        "vietnamese": "Bản gốc",
+        "pronunciation": "/əˈrɪdʒ.ən.əl/",
+        "type": "adj, n"
+    },
+    {
+        "english": "Authentic",
+        "vietnamese": "Chân thực, xác thực",
+        "pronunciation": "/ɑːˈθen.t̬ɪk/",
+        "type": "adj"
+    },
+    {
+        "english": "Fake",
+        "vietnamese": "Giả mạo",
+        "pronunciation": "/feɪk/",
+        "type": "adj, n"
+    },
+    {
+        "english": "Forgery",
+        "vietnamese": "Đồ giả",
+        "pronunciation": "/ˈfɔːr.dʒɚ.i/",
+        "type": "n"
+    },
+    {
+        "english": "Restore",
+        "vietnamese": "Khôi phục",
+        "pronunciation": "/rɪˈstɔːr/",
+        "type": "v"
+    },
+    {
+        "english": "Restoration",
+        "vietnamese": "Sự khôi phục",
+        "pronunciation": "/ˌres.təˈreɪ.ʃən/",
+        "type": "n"
+    },
+    {
+        "english": "Preserve",
+        "vietnamese": "Bảo tồn",
+        "pronunciation": "/prɪˈzɝːv/",
+        "type": "v"
+    },
+    {
+        "english": "Preservation",
+        "vietnamese": "Sự bảo tồn",
+        "pronunciation": "/ˌprez.ɚˈveɪ.ʃən/",
+        "type": "n"
+    }
+]
