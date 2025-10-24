@@ -65,8 +65,12 @@ const Header = () => {
                     isActiveRoute(route.path) ? "active" : ""
                   }`}
                   onClick={() => setIsMenuOpen(false)}
+                  title={route.name}
                 >
-                  {route.name}
+                  <span className="nav-link-full">{route.name}</span>
+                  {route.shortName && (
+                    <span className="nav-link-short">{route.shortName}</span>
+                  )}
                 </Link>
               </li>
             ))}
@@ -74,7 +78,7 @@ const Header = () => {
         </nav>
 
         <div className="header-actions">
-          <Link to="/settings"  aria-label="Cài đặt">
+          <Link to="/settings" aria-label="Cài đặt">
             <span
               className="language-indicator"
               title={`Ngôn ngữ: ${supportedLanguages[language]?.name}`}

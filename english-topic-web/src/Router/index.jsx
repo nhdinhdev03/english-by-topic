@@ -32,6 +32,7 @@ export const publicRoutes = [
     path: "/grammar-quiz",
     element: GrammarQuiz,
     name: "Grammar Top Notch 2",
+    shortName: "Grammar TN2",
   },
   {
     path: "/review",
