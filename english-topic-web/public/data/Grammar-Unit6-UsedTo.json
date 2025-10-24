@@ -1,0 +1,556 @@
+{
+    "topic": "Used to - Unit 6",
+    "level": "Top Notch 2",
+    "questions": [
+        {
+            "id": 1,
+            "question": "I _____ play football when I was young.",
+            "options": [
+                "used to",
+                "use to",
+                "am used to",
+                "get used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 2,
+            "question": "She _____ live in Paris before she moved here.",
+            "options": [
+                "used to",
+                "use to",
+                "is used to",
+                "gets used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 3,
+            "question": "_____ you _____ drink coffee?",
+            "options": [
+                "Did/use to",
+                "Do/used to",
+                "Are/used to",
+                "Have/used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 4,
+            "question": "They _____ have a dog, but it died last year.",
+            "options": [
+                "used to",
+                "use to",
+                "are used to",
+                "get used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 5,
+            "question": "I _____ not _____ eat meat, but now I'm vegetarian.",
+            "options": [
+                "did/use to",
+                "do/used to",
+                "am/used to",
+                "have/used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 6,
+            "question": "He _____ work in a bank before he retired.",
+            "options": [
+                "used to",
+                "use to",
+                "is used to",
+                "gets used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 7,
+            "question": "We _____ go to the beach every summer.",
+            "options": [
+                "used to",
+                "use to",
+                "are used to",
+                "get used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 8,
+            "question": "_____ she _____ have long hair?",
+            "options": [
+                "Did/use to",
+                "Does/used to",
+                "Is/used to",
+                "Has/used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 9,
+            "question": "I _____ getting up early now.",
+            "options": [
+                "am used to",
+                "used to",
+                "use to",
+                "did use to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 10,
+            "question": "They _____ live in the countryside.",
+            "options": [
+                "used to",
+                "use to",
+                "are used to",
+                "get used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 11,
+            "question": "He _____ smoke, but he quit five years ago.",
+            "options": [
+                "used to",
+                "use to",
+                "is used to",
+                "gets used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 12,
+            "question": "I'm _____ working late.",
+            "options": [
+                "used to",
+                "use to",
+                "used",
+                "using to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 13,
+            "question": "_____ you _____ play the piano?",
+            "options": [
+                "Did/use to",
+                "Do/used to",
+                "Are/used to",
+                "Have/used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 14,
+            "question": "She _____ be very shy, but now she's confident.",
+            "options": [
+                "used to",
+                "use to",
+                "is used to",
+                "gets used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 15,
+            "question": "We are _____ the cold weather here.",
+            "options": [
+                "used to",
+                "use to",
+                "using to",
+                "used"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 16,
+            "question": "He _____ walk to school every day.",
+            "options": [
+                "used to",
+                "use to",
+                "is used to",
+                "gets used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 17,
+            "question": "I didn't _____ like vegetables.",
+            "options": [
+                "use to",
+                "used to",
+                "am used to",
+                "get used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 18,
+            "question": "They _____ living in the city now.",
+            "options": [
+                "are used to",
+                "used to",
+                "use to",
+                "did use to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 19,
+            "question": "_____ he _____ wear glasses?",
+            "options": [
+                "Did/use to",
+                "Does/used to",
+                "Is/used to",
+                "Has/used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 20,
+            "question": "She _____ have a motorcycle.",
+            "options": [
+                "used to",
+                "use to",
+                "is used to",
+                "gets used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 21,
+            "question": "I'm getting _____ the new system.",
+            "options": [
+                "used to",
+                "use to",
+                "using to",
+                "used"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 22,
+            "question": "We _____ visit our grandparents every weekend.",
+            "options": [
+                "used to",
+                "use to",
+                "are used to",
+                "get used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 23,
+            "question": "He is _____ driving on the left.",
+            "options": [
+                "used to",
+                "use to",
+                "using to",
+                "used"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 24,
+            "question": "_____ they _____ live here?",
+            "options": [
+                "Did/use to",
+                "Do/used to",
+                "Are/used to",
+                "Have/used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 25,
+            "question": "I _____ eat fast food, but I stopped.",
+            "options": [
+                "used to",
+                "use to",
+                "am used to",
+                "get used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 26,
+            "question": "She's _____ living alone now.",
+            "options": [
+                "used to",
+                "use to",
+                "using to",
+                "used"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 27,
+            "question": "They _____ have a swimming pool.",
+            "options": [
+                "used to",
+                "use to",
+                "are used to",
+                "get used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 28,
+            "question": "I didn't _____ exercise regularly.",
+            "options": [
+                "use to",
+                "used to",
+                "am used to",
+                "get used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 29,
+            "question": "He's getting _____ his new job.",
+            "options": [
+                "used to",
+                "use to",
+                "using to",
+                "used"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 30,
+            "question": "_____ you _____ study French?",
+            "options": [
+                "Did/use to",
+                "Do/used to",
+                "Are/used to",
+                "Have/used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 31,
+            "question": "We _____ go camping in the summer.",
+            "options": [
+                "used to",
+                "use to",
+                "are used to",
+                "get used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 32,
+            "question": "I am _____ spicy food now.",
+            "options": [
+                "used to",
+                "use to",
+                "using to",
+                "used"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 33,
+            "question": "She _____ collect stamps as a hobby.",
+            "options": [
+                "used to",
+                "use to",
+                "is used to",
+                "gets used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 34,
+            "question": "They're _____ the noise from the street.",
+            "options": [
+                "used to",
+                "use to",
+                "using to",
+                "used"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 35,
+            "question": "_____ she _____ work nights?",
+            "options": [
+                "Did/use to",
+                "Does/used to",
+                "Is/used to",
+                "Has/used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 36,
+            "question": "He _____ play tennis every weekend.",
+            "options": [
+                "used to",
+                "use to",
+                "is used to",
+                "gets used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 37,
+            "question": "I'm not _____ this kind of weather yet.",
+            "options": [
+                "used to",
+                "use to",
+                "using to",
+                "used"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 38,
+            "question": "We didn't _____ have a car.",
+            "options": [
+                "use to",
+                "used to",
+                "are used to",
+                "get used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 39,
+            "question": "She's _____ working from home.",
+            "options": [
+                "used to",
+                "use to",
+                "using to",
+                "used"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 40,
+            "question": "_____ he _____ be a teacher?",
+            "options": [
+                "Did/use to",
+                "Does/used to",
+                "Is/used to",
+                "Has/used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 41,
+            "question": "They _____ live in a small apartment.",
+            "options": [
+                "used to",
+                "use to",
+                "are used to",
+                "get used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 42,
+            "question": "I'm getting _____ my new schedule.",
+            "options": [
+                "used to",
+                "use to",
+                "using to",
+                "used"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 43,
+            "question": "He _____ drink a lot of soda.",
+            "options": [
+                "used to",
+                "use to",
+                "is used to",
+                "gets used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 44,
+            "question": "We are _____ the hot weather.",
+            "options": [
+                "used to",
+                "use to",
+                "using to",
+                "used"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 45,
+            "question": "_____ you _____ live near the beach?",
+            "options": [
+                "Did/use to",
+                "Do/used to",
+                "Are/used to",
+                "Have/used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 46,
+            "question": "She _____ read a lot of books.",
+            "options": [
+                "used to",
+                "use to",
+                "is used to",
+                "gets used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 47,
+            "question": "He's _____ speaking English every day.",
+            "options": [
+                "used to",
+                "use to",
+                "using to",
+                "used"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 48,
+            "question": "I didn't _____ wake up this early.",
+            "options": [
+                "use to",
+                "used to",
+                "am used to",
+                "get used to"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 49,
+            "question": "They're getting _____ their new house.",
+            "options": [
+                "used to",
+                "use to",
+                "using to",
+                "used"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 50,
+            "question": "_____ she _____ dance professionally?",
+            "options": [
+                "Did/use to",
+                "Does/used to",
+                "Is/used to",
+                "Has/used to"
+            ],
+            "correctAnswer": 0
+        }
+    ]
+}
