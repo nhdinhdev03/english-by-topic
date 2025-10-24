@@ -1,38 +1,47 @@
-import { Link } from 'react-router-dom';
-import './Home.scss';
+import { Link } from "react-router-dom";
+import "./Home.scss";
 
 const Home = () => {
   const features = [
     {
       title: "Ôn tập chủ động",
-      description: "Trắc nghiệm 4 đáp án ngẫu nhiên, tránh lặp với chế độ ôn cách quãng",
+      description:
+        "Trắc nghiệm 4 đáp án ngẫu nhiên, tránh lặp với chế độ ôn cách quãng",
       icon: "🧠",
-      link: "/quiz"
+      link: "/quiz",
+    },
+    {
+      title: "Grammar Top Notch 2",
+      description:
+        "500 câu hỏi ngữ pháp theo 10 chủ đề, đáp án đa dạng, giải thích chi tiết",
+      icon: "📝",
+      link: "/grammar-quiz",
     },
     {
       title: "Ôn lại từ đã học",
-      description: "Hệ thống lặp cách quãng thông minh, ôn tập dựa trên mức độ thành thạo",
+      description:
+        "Hệ thống lặp cách quãng thông minh, ôn tập dựa trên mức độ thành thạo",
       icon: "🔄",
-      link: "/review"
+      link: "/review",
     },
     {
       title: "Danh mục theo chủ đề",
       description: "Dễ duyệt, lọc, đánh dấu trạng thái học của từng từ",
       icon: "📚",
-      link: "/topics"
+      link: "/topics",
     },
     {
       title: "Luyện phát âm",
       description: "Nghe TTS nhiều giọng, thu âm và so khớp phát âm cơ bản",
       icon: "🎤",
-      link: "/learn"
+      link: "/learn",
     },
     {
       title: "Theo dõi tiến độ",
       description: "Điểm, streak, biểu đồ tiến bộ, mức tự tin từng từ",
       icon: "📊",
-      link: "/progress"
-    }
+      link: "/progress",
+    },
   ];
 
   return (
@@ -79,12 +88,12 @@ const Home = () => {
               <div className="stat-label">Từ vựng cốt lõi</div>
             </div>
             <div className="stat-item">
-              <div className="stat-number">50+</div>
-              <div className="stat-label">Chủ đề đa dạng</div>
+              <div className="stat-number">500</div>
+              <div className="stat-label">Câu hỏi ngữ pháp</div>
             </div>
             <div className="stat-item">
-              <div className="stat-number">100%</div>
-              <div className="stat-label">Miễn phí</div>
+              <div className="stat-number">50+</div>
+              <div className="stat-label">Chủ đề đa dạng</div>
             </div>
           </div>
         </div>

@@ -10,43 +10,49 @@ const TopicLearn = lazy(() => import("../Pages/TopicLearn"));
 const Progress = lazy(() => import("../Pages/Progress"));
 const About = lazy(() => import("../Pages/About"));
 const Settings = lazy(() => import("../Pages/Settings"));
+const GrammarQuiz = lazy(() => import("../Pages/GrammarQuiz"));
 
 export const publicRoutes = [
   {
     path: "/",
     element: Home,
-    name: "Trang chủ"
+    name: "Trang chủ",
   },
   {
     path: "/learn",
     element: Learn,
-    name: "Học từ mới"
+    name: "Học từ mới",
   },
   {
     path: "/quiz",
     element: Quiz,
-    name: "Trắc nghiệm"
+    name: "Trắc nghiệm",
+  },
+  {
+    path: "/grammar-quiz",
+    element: GrammarQuiz,
+    name: "Grammar Top Notch 2",
   },
   {
     path: "/review",
     element: Review,
-    name: "Ôn tập"
+    name: "Ôn tập",
   },
   {
     path: "/topics",
     element: Topics,
-    name: "Chủ đề"
+    name: "Chủ đề",
   },
   {
     path: "/progress",
     element: Progress,
-    name: "Tiến độ"
+    name: "Tiến độ",
   },
   {
     path: "/about",
     element: About,
-    name: "Giới thiệu"
-  }
+    name: "Giới thiệu",
+  },
 ];
 
 // Hidden routes - không hiển thị trong navigation menu
@@ -54,13 +60,13 @@ export const hiddenRoutes = [
   {
     path: "/settings",
     element: Settings,
-    name: "Cài đặt"
+    name: "Cài đặt",
   },
   {
     path: "/learn/:topicName",
     element: TopicLearn,
-    name: "Học theo chủ đề"
-  }
+    name: "Học theo chủ đề",
+  },
 ];
 
 // Combine all routes for App.jsx

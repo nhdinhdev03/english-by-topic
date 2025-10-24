@@ -1,0 +1,556 @@
+{
+    "topic": "Quantifiers - Unit 5",
+    "level": "Top Notch 2",
+    "questions": [
+        {
+            "id": 1,
+            "question": "There are _____ people in the room.",
+            "options": [
+                "some",
+                "much",
+                "a little",
+                "any"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 2,
+            "question": "I don't have _____ time today.",
+            "options": [
+                "much",
+                "many",
+                "a few",
+                "some"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 3,
+            "question": "Do you have _____ sugar?",
+            "options": [
+                "any",
+                "many",
+                "a few",
+                "much"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 4,
+            "question": "She bought _____ books yesterday.",
+            "options": [
+                "some",
+                "much",
+                "any",
+                "a little"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 5,
+            "question": "There isn't _____ milk in the fridge.",
+            "options": [
+                "any",
+                "some",
+                "many",
+                "a few"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 6,
+            "question": "We have _____ of homework tonight.",
+            "options": [
+                "a lot",
+                "many",
+                "much",
+                "any"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 7,
+            "question": "How _____ friends do you have?",
+            "options": [
+                "many",
+                "much",
+                "a lot of",
+                "some"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 8,
+            "question": "There is _____ water in the bottle.",
+            "options": [
+                "some",
+                "many",
+                "a few",
+                "any"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 9,
+            "question": "I don't need _____ help.",
+            "options": [
+                "any",
+                "some",
+                "many",
+                "a few"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 10,
+            "question": "They have _____ of experience.",
+            "options": [
+                "lots",
+                "many",
+                "a few",
+                "any"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 11,
+            "question": "How _____ money do you need?",
+            "options": [
+                "much",
+                "many",
+                "a lot of",
+                "some"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 12,
+            "question": "There are _____ of apples in the basket.",
+            "options": [
+                "a lot",
+                "much",
+                "any",
+                "a little"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 13,
+            "question": "She doesn't have _____ patience.",
+            "options": [
+                "much",
+                "many",
+                "a few",
+                "some"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 14,
+            "question": "Would you like _____ coffee?",
+            "options": [
+                "some",
+                "any",
+                "many",
+                "a few"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 15,
+            "question": "There aren't _____ cars on the street.",
+            "options": [
+                "many",
+                "much",
+                "a little",
+                "some"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 16,
+            "question": "I have _____ of things to do.",
+            "options": [
+                "lots",
+                "much",
+                "any",
+                "a little"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 17,
+            "question": "Do we need _____ eggs?",
+            "options": [
+                "any",
+                "much",
+                "a little",
+                "lots"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 18,
+            "question": "She has _____ friends in this city.",
+            "options": [
+                "many",
+                "much",
+                "a little",
+                "any"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 19,
+            "question": "There isn't _____ noise here.",
+            "options": [
+                "much",
+                "many",
+                "a few",
+                "some"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 20,
+            "question": "We saw _____ interesting places.",
+            "options": [
+                "some",
+                "much",
+                "any",
+                "a little"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 21,
+            "question": "How _____ children does she have?",
+            "options": [
+                "many",
+                "much",
+                "a lot of",
+                "some"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 22,
+            "question": "There is _____ rice left.",
+            "options": [
+                "some",
+                "many",
+                "a few",
+                "any"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 23,
+            "question": "I don't want _____ problems.",
+            "options": [
+                "any",
+                "some",
+                "much",
+                "a little"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 24,
+            "question": "They have _____ of free time.",
+            "options": [
+                "a lot",
+                "many",
+                "a few",
+                "any"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 25,
+            "question": "How _____ information do you have?",
+            "options": [
+                "much",
+                "many",
+                "a lot of",
+                "some"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 26,
+            "question": "There are _____ of students here.",
+            "options": [
+                "lots",
+                "much",
+                "any",
+                "a little"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 27,
+            "question": "She doesn't eat _____ meat.",
+            "options": [
+                "much",
+                "many",
+                "a few",
+                "some"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 28,
+            "question": "Can I have _____ water, please?",
+            "options": [
+                "some",
+                "any",
+                "many",
+                "a few"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 29,
+            "question": "There aren't _____ chairs in the room.",
+            "options": [
+                "many",
+                "much",
+                "a little",
+                "some"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 30,
+            "question": "I have _____ of work to finish.",
+            "options": [
+                "a lot",
+                "many",
+                "a few",
+                "any"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 31,
+            "question": "Do you know _____ good restaurants?",
+            "options": [
+                "any",
+                "much",
+                "a little",
+                "lots"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 32,
+            "question": "He has _____ money in his wallet.",
+            "options": [
+                "some",
+                "many",
+                "a few",
+                "any"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 33,
+            "question": "There isn't _____ traffic today.",
+            "options": [
+                "much",
+                "many",
+                "a few",
+                "some"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 34,
+            "question": "We need _____ vegetables for the soup.",
+            "options": [
+                "some",
+                "much",
+                "any",
+                "a little"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 35,
+            "question": "How _____ languages can you speak?",
+            "options": [
+                "many",
+                "much",
+                "a lot of",
+                "some"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 36,
+            "question": "There is _____ cheese in the fridge.",
+            "options": [
+                "some",
+                "many",
+                "a few",
+                "any"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 37,
+            "question": "I don't have _____ questions.",
+            "options": [
+                "any",
+                "some",
+                "much",
+                "a little"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 38,
+            "question": "They drink _____ of tea every day.",
+            "options": [
+                "a lot",
+                "many",
+                "a few",
+                "any"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 39,
+            "question": "How _____ sugar do you want?",
+            "options": [
+                "much",
+                "many",
+                "a lot of",
+                "some"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 40,
+            "question": "There are _____ of people waiting.",
+            "options": [
+                "lots",
+                "much",
+                "any",
+                "a little"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 41,
+            "question": "She doesn't have _____ free time.",
+            "options": [
+                "much",
+                "many",
+                "a few",
+                "some"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 42,
+            "question": "Would you like _____ cake?",
+            "options": [
+                "some",
+                "any",
+                "many",
+                "a few"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 43,
+            "question": "There aren't _____ problems with this plan.",
+            "options": [
+                "many",
+                "much",
+                "a little",
+                "some"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 44,
+            "question": "I have _____ of ideas for the project.",
+            "options": [
+                "lots",
+                "much",
+                "any",
+                "a little"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 45,
+            "question": "Do you have _____ brothers or sisters?",
+            "options": [
+                "any",
+                "much",
+                "a little",
+                "lots"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 46,
+            "question": "He made _____ mistakes in the test.",
+            "options": [
+                "some",
+                "much",
+                "any",
+                "a little"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 47,
+            "question": "There isn't _____ space in the car.",
+            "options": [
+                "much",
+                "many",
+                "a few",
+                "some"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 48,
+            "question": "We bought _____ new furniture.",
+            "options": [
+                "some",
+                "many",
+                "a few",
+                "any"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 49,
+            "question": "How _____ hours do you work?",
+            "options": [
+                "many",
+                "much",
+                "a lot of",
+                "some"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 50,
+            "question": "There is _____ bread on the table.",
+            "options": [
+                "some",
+                "many",
+                "a few",
+                "any"
+            ],
+            "correctAnswer": 0
+        }
+    ]
+}
