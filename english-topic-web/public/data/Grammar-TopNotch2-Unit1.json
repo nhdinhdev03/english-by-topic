@@ -1,0 +1,608 @@
+{
+    "topic": "Present Perfect - Hiện tại hoàn thành",
+    "unit": "Unit 1",
+    "level": "Top Notch 2",
+    "description": "Thì hiện tại hoàn thành - S + have/has + V3/ed",
+    "questions": [
+        {
+            "id": 1,
+            "question": "They _____ to Japan three times.",
+            "options": [
+                "has been",
+                "have been",
+                "been",
+                "are"
+            ],
+            "correctAnswer": 1,
+            "explanation": "They (số nhiều) + have + V3 (been)"
+        },
+        {
+            "id": 2,
+            "question": "She _____ her homework yet.",
+            "options": [
+                "haven't finished",
+                "didn't finish",
+                "hasn't finished",
+                "doesn't finish"
+            ],
+            "correctAnswer": 2,
+            "explanation": "She (số ít) + hasn't + V3 với 'yet'"
+        },
+        {
+            "id": 3,
+            "question": "_____ you ever _____ Mexican food?",
+            "options": [
+                "Has/tried",
+                "Do/try",
+                "Have/tried",
+                "Did/try"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Have + you + ever + V3 (câu hỏi Present Perfect)"
+        },
+        {
+            "id": 4,
+            "question": "I _____ that movie before.",
+            "options": [
+                "has seen",
+                "saw",
+                "seeing",
+                "have seen"
+            ],
+            "correctAnswer": 3,
+            "explanation": "I + have + V3 với 'before'"
+        },
+        {
+            "id": 5,
+            "question": "He _____ in this company since 2015.",
+            "options": [
+                "has worked",
+                "have worked",
+                "worked",
+                "working"
+            ],
+            "correctAnswer": 0,
+            "explanation": "He + has + V3 với 'since + mốc thời gian'"
+        },
+        {
+            "id": 6,
+            "question": "We _____ our project already.",
+            "options": [
+                "completed",
+                "have completed",
+                "has completed",
+                "complete"
+            ],
+            "correctAnswer": 1,
+            "explanation": "We + have + V3 với 'already'"
+        },
+        {
+            "id": 7,
+            "question": "_____ she _____ the Great Wall of China?",
+            "options": [
+                "Have/visited",
+                "Did/visit",
+                "Has/visited",
+                "Does/visit"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Has + she + V3 (câu hỏi Present Perfect)"
+        },
+        {
+            "id": 8,
+            "question": "They _____ married for 10 years.",
+            "options": [
+                "are",
+                "have been",
+                "has been",
+                "were"
+            ],
+            "correctAnswer": 1,
+            "explanation": "They + have been + for + khoảng thời gian"
+        },
+        {
+            "id": 9,
+            "question": "I _____ my keys. Can you help me find them?",
+            "options": [
+                "lost",
+                "am losing",
+                "have lost",
+                "has lost"
+            ],
+            "correctAnswer": 2,
+            "explanation": "I + have + V3 (hành động vừa xảy ra)"
+        },
+        {
+            "id": 10,
+            "question": "_____ you _____ your lunch yet?",
+            "options": [
+                "Did/have",
+                "Do/have",
+                "Have/had",
+                "Has/had"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Have + you + V3 với 'yet'"
+        },
+        {
+            "id": 11,
+            "question": "She _____ never _____ a horse before.",
+            "options": [
+                "did/ride",
+                "has/ridden",
+                "have/ridden",
+                "does/ride"
+            ],
+            "correctAnswer": 1,
+            "explanation": "She + has + never + V3"
+        },
+        {
+            "id": 12,
+            "question": "We _____ here since 8 o'clock.",
+            "options": [
+                "are",
+                "were",
+                "have been",
+                "has been"
+            ],
+            "correctAnswer": 2,
+            "explanation": "We + have been + since + điểm thời gian"
+        },
+        {
+            "id": 13,
+            "question": "He _____ just _____ his car.",
+            "options": [
+                "did/wash",
+                "has/washed",
+                "have/washed",
+                "does/wash"
+            ],
+            "correctAnswer": 1,
+            "explanation": "He + has + just + V3"
+        },
+        {
+            "id": 14,
+            "question": "_____ they _____ the museum before?",
+            "options": [
+                "Did/visit",
+                "Have/visited",
+                "Has/visited",
+                "Do/visit"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Have + they + V3 + before"
+        },
+        {
+            "id": 15,
+            "question": "I _____ recently _____ a new job.",
+            "options": [
+                "did/start",
+                "have/started",
+                "has/started",
+                "do/start"
+            ],
+            "correctAnswer": 1,
+            "explanation": "I + have + recently + V3"
+        },
+        {
+            "id": 16,
+            "question": "She _____ in Paris for five years.",
+            "options": [
+                "lived",
+                "lives",
+                "has lived",
+                "have lived"
+            ],
+            "correctAnswer": 2,
+            "explanation": "She + has + V3 + for + khoảng thời gian"
+        },
+        {
+            "id": 17,
+            "question": "We _____ our grandparents lately.",
+            "options": [
+                "didn't see",
+                "haven't seen",
+                "hasn't seen",
+                "don't see"
+            ],
+            "correctAnswer": 1,
+            "explanation": "We + haven't + V3 với 'lately'"
+        },
+        {
+            "id": 18,
+            "question": "_____ he ever _____ sushi?",
+            "options": [
+                "Did/eat",
+                "Have/eaten",
+                "Has/eaten",
+                "Does/eat"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Has + he + ever + V3"
+        },
+        {
+            "id": 19,
+            "question": "They _____ all their money on vacation.",
+            "options": [
+                "spent",
+                "have spent",
+                "has spent",
+                "spending"
+            ],
+            "correctAnswer": 1,
+            "explanation": "They + have + V3"
+        },
+        {
+            "id": 20,
+            "question": "This is the first time I _____ Banh mi in Vietnam.",
+            "options": [
+                "ate",
+                "have eaten",
+                "has eaten",
+                "eat"
+            ],
+            "correctAnswer": 1,
+            "explanation": "This is the first time + Present Perfect"
+        },
+        {
+            "id": 21,
+            "question": "She _____ to the gym this morning.",
+            "options": [
+                "was",
+                "has been",
+                "have been",
+                "is"
+            ],
+            "correctAnswer": 1,
+            "explanation": "She + has been (hành động đã hoàn thành)"
+        },
+        {
+            "id": 22,
+            "question": "_____ you _____ your homework?",
+            "options": [
+                "Did/finish",
+                "Have/finished",
+                "Has/finished",
+                "Do/finish"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Have + you + V3"
+        },
+        {
+            "id": 23,
+            "question": "He _____ his phone again!",
+            "options": [
+                "broke",
+                "has broken",
+                "have broken",
+                "breaks"
+            ],
+            "correctAnswer": 1,
+            "explanation": "He + has + V3 (hành động vừa xảy ra)"
+        },
+        {
+            "id": 24,
+            "question": "We _____ English for three years.",
+            "options": [
+                "studied",
+                "study",
+                "have studied",
+                "has studied"
+            ],
+            "correctAnswer": 2,
+            "explanation": "We + have + V3 + for + khoảng thời gian"
+        },
+        {
+            "id": 25,
+            "question": "_____ she _____ her email today?",
+            "options": [
+                "Did/check",
+                "Has/checked",
+                "Have/checked",
+                "Does/check"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Has + she + V3"
+        },
+        {
+            "id": 26,
+            "question": "They _____ never _____ to Australia.",
+            "options": [
+                "did/go",
+                "do/go",
+                "have/been",
+                "has/been"
+            ],
+            "correctAnswer": 2,
+            "explanation": "They + have + never + been to (nơi chốn)"
+        },
+        {
+            "id": 27,
+            "question": "I _____ my friend since last month.",
+            "options": [
+                "didn't meet",
+                "haven't met",
+                "hasn't met",
+                "don't meet"
+            ],
+            "correctAnswer": 1,
+            "explanation": "I + haven't + V3 + since"
+        },
+        {
+            "id": 28,
+            "question": "She _____ already _____ her dinner.",
+            "options": [
+                "did/eat",
+                "has/eaten",
+                "have/eaten",
+                "does/eat"
+            ],
+            "correctAnswer": 1,
+            "explanation": "She + has + already + V3"
+        },
+        {
+            "id": 29,
+            "question": "_____ you ever _____ in a plane?",
+            "options": [
+                "Did/fly",
+                "Have/flown",
+                "Has/flown",
+                "Do/fly"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Have + you + ever + V3"
+        },
+        {
+            "id": 30,
+            "question": "He _____ in London since he was born.",
+            "options": [
+                "has lived",
+                "have lived",
+                "lived",
+                "lives"
+            ],
+            "correctAnswer": 0,
+            "explanation": "He + has + V3 + since"
+        },
+        {
+            "id": 31,
+            "question": "We _____ just _____ from vacation.",
+            "options": [
+                "did/return",
+                "have/returned",
+                "has/returned",
+                "do/return"
+            ],
+            "correctAnswer": 1,
+            "explanation": "We + have + just + V3"
+        },
+        {
+            "id": 32,
+            "question": "_____ they _____ the news?",
+            "options": [
+                "Did/hear",
+                "Have/heard",
+                "Has/heard",
+                "Do/hear"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Have + they + V3"
+        },
+        {
+            "id": 33,
+            "question": "This is the best champagne I _____ ever _____ .",
+            "options": [
+                "did/drink",
+                "have/drunk",
+                "has/drunk",
+                "do/drink"
+            ],
+            "correctAnswer": 1,
+            "explanation": "So sánh nhất + Present Perfect"
+        },
+        {
+            "id": 34,
+            "question": "She _____ her keys somewhere.",
+            "options": [
+                "left",
+                "has left",
+                "have left",
+                "leaves"
+            ],
+            "correctAnswer": 1,
+            "explanation": "She + has + V3"
+        },
+        {
+            "id": 35,
+            "question": "_____ he _____ his report yet?",
+            "options": [
+                "Did/submit",
+                "Has/submitted",
+                "Have/submitted",
+                "Does/submit"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Has + he + V3 + yet"
+        },
+        {
+            "id": 36,
+            "question": "They _____ that movie many times.",
+            "options": [
+                "watched",
+                "have watched",
+                "has watched",
+                "watch"
+            ],
+            "correctAnswer": 1,
+            "explanation": "They + have + V3 + many times"
+        },
+        {
+            "id": 37,
+            "question": "I _____ never _____ such a beautiful place.",
+            "options": [
+                "did/see",
+                "have/seen",
+                "has/seen",
+                "do/see"
+            ],
+            "correctAnswer": 1,
+            "explanation": "I + have + never + V3"
+        },
+        {
+            "id": 38,
+            "question": "She _____ in this school for 10 years.",
+            "options": [
+                "taught",
+                "teaches",
+                "has taught",
+                "have taught"
+            ],
+            "correctAnswer": 2,
+            "explanation": "She + has + V3 + for + khoảng thời gian"
+        },
+        {
+            "id": 39,
+            "question": "_____ you _____ your teeth this morning?",
+            "options": [
+                "Did/brush",
+                "Have/brushed",
+                "Has/brushed",
+                "Do/brush"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Have + you + V3"
+        },
+        {
+            "id": 40,
+            "question": "He _____ his wallet at home.",
+            "options": [
+                "forgot",
+                "has forgotten",
+                "have forgotten",
+                "forgets"
+            ],
+            "correctAnswer": 1,
+            "explanation": "He + has + V3"
+        },
+        {
+            "id": 41,
+            "question": "We _____ this song before.",
+            "options": [
+                "heard",
+                "have heard",
+                "has heard",
+                "hear"
+            ],
+            "correctAnswer": 1,
+            "explanation": "We + have + V3 + before"
+        },
+        {
+            "id": 42,
+            "question": "_____ she ever _____ karaoke?",
+            "options": [
+                "Did/sing",
+                "Has/sung",
+                "Have/sung",
+                "Does/sing"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Has + she + ever + V3"
+        },
+        {
+            "id": 43,
+            "question": "They _____ their house recently.",
+            "options": [
+                "painted",
+                "have painted",
+                "has painted",
+                "paint"
+            ],
+            "correctAnswer": 1,
+            "explanation": "They + have + V3 + recently"
+        },
+        {
+            "id": 44,
+            "question": "I _____ my homework already.",
+            "options": [
+                "did",
+                "have done",
+                "has done",
+                "do"
+            ],
+            "correctAnswer": 1,
+            "explanation": "I + have + V3 + already"
+        },
+        {
+            "id": 45,
+            "question": "She _____ to Italy twice.",
+            "options": [
+                "traveled",
+                "travels",
+                "has traveled",
+                "have traveled"
+            ],
+            "correctAnswer": 2,
+            "explanation": "She + has + V3 + twice"
+        },
+        {
+            "id": 46,
+            "question": "_____ you _____ the answer yet?",
+            "options": [
+                "Did/find",
+                "Have/found",
+                "Has/found",
+                "Do/find"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Have + you + V3 + yet"
+        },
+        {
+            "id": 47,
+            "question": "He _____ never _____ a lie.",
+            "options": [
+                "did/tell",
+                "has/told",
+                "have/told",
+                "does/tell"
+            ],
+            "correctAnswer": 1,
+            "explanation": "He + has + never + V3"
+        },
+        {
+            "id": 48,
+            "question": "We _____ our tickets online.",
+            "options": [
+                "bought",
+                "have bought",
+                "has bought",
+                "buy"
+            ],
+            "correctAnswer": 1,
+            "explanation": "We + have + V3"
+        },
+        {
+            "id": 49,
+            "question": "_____ they _____ the game?",
+            "options": [
+                "Did/win",
+                "Have/won",
+                "Has/won",
+                "Do/win"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Have + they + V3"
+        },
+        {
+            "id": 50,
+            "question": "I _____ always _____ to watch Iron Man.",
+            "options": [
+                "did/want",
+                "have/wanted",
+                "has/wanted",
+                "do/want"
+            ],
+            "correctAnswer": 1,
+            "explanation": "I + have + always + V3"
+        }
+    ]
+}
