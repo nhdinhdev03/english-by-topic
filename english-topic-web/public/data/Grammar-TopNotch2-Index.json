@@ -1,0 +1,83 @@
+{
+    "title": "Grammar Top Notch 2 - Complete Practice",
+    "description": "Bộ câu hỏi ôn tập ngữ pháp Top Notch 2 - 10 Units với 500 câu hỏi",
+    "level": "Top Notch 2",
+    "totalUnits": 10,
+    "totalQuestions": 500,
+    "units": [
+        {
+            "unitNumber": 1,
+            "unitName": "Getting Acquainted",
+            "topic": "Present Perfect - Hiện tại hoàn thành",
+            "grammar": "S + have/has + V3/ed",
+            "fileData": "Grammar-TopNotch2-Unit1.json"
+        },
+        {
+            "unitNumber": 2,
+            "unitName": "Going to the Movies",
+            "topic": "Present Perfect với For & Since",
+            "grammar": "for + khoảng thời gian, since + mốc thời gian",
+            "fileData": "Grammar-TopNotch2-Unit2.json"
+        },
+        {
+            "unitNumber": 3,
+            "unitName": "Staying in Hotels",
+            "topic": "Future with Will & Real Conditional",
+            "grammar": "will + V0, If + S + V, S + will + V0",
+            "fileData": "Grammar-TopNotch2-Unit3.json"
+        },
+        {
+            "unitNumber": 4,
+            "unitName": "Cars and Driving",
+            "topic": "Past Continuous - Quá khứ tiếp diễn",
+            "grammar": "S + was/were + V-ing",
+            "fileData": "Grammar-TopNotch2-Unit4.json"
+        },
+        {
+            "unitNumber": 5,
+            "unitName": "Personal Care and Appearance",
+            "topic": "Quantifiers - Định lượng từ",
+            "grammar": "some, any, much, many, a lot of, lots of",
+            "fileData": "Grammar-TopNotch2-Unit5.json"
+        },
+        {
+            "unitNumber": 6,
+            "unitName": "Eating Well",
+            "topic": "Used to - Đã từng",
+            "grammar": "used to + V0, be/get used to + V-ing",
+            "fileData": "Grammar-TopNotch2-Unit6.json"
+        },
+        {
+            "unitNumber": 7,
+            "unitName": "About Personality",
+            "topic": "Gerunds and Infinitives",
+            "grammar": "V-ing / to V",
+            "fileData": "Grammar-TopNotch2-Unit7.json"
+        },
+        {
+            "unitNumber": 8,
+            "unitName": "The Arts",
+            "topic": "Passive Voice - Câu bị động",
+            "grammar": "S + be + V3/ed",
+            "fileData": "Grammar-TopNotch2-Unit8.json"
+        },
+        {
+            "unitNumber": 9,
+            "unitName": "Living in Cyberspace",
+            "topic": "Infinitive of Purpose & Comparisons",
+            "grammar": "to + V0, as...as, -er than, the most",
+            "fileData": "Grammar-TopNotch2-Unit9.json"
+        },
+        {
+            "unitNumber": 10,
+            "unitName": "Ethics and Values",
+            "topic": "Unreal Conditional - Điều kiện không có thật",
+            "grammar": "If + S + V2, S + would + V0",
+            "fileData": "Grammar-TopNotch2-Unit10.json"
+        }
+    ],
+    "instructions": {
+        "vi": "Chọn Unit để bắt đầu luyện tập. Mỗi Unit có 50 câu hỏi trắc nghiệm với 4 đáp án.",
+        "en": "Select a Unit to start practicing. Each Unit has 50 multiple choice questions with 4 options."
+    }
+}
