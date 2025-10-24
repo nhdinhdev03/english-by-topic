@@ -1,0 +1,556 @@
+{
+    "topic": "Past Continuous - Unit 4",
+    "level": "Top Notch 2",
+    "questions": [
+        {
+            "id": 1,
+            "question": "I _____ TV when she called.",
+            "options": [
+                "was watching",
+                "were watching",
+                "watched",
+                "am watching"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 2,
+            "question": "They _____ in the park at 5 PM yesterday.",
+            "options": [
+                "were playing",
+                "was playing",
+                "played",
+                "are playing"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 3,
+            "question": "She _____ dinner when I arrived.",
+            "options": [
+                "was cooking",
+                "were cooking",
+                "cooked",
+                "is cooking"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 4,
+            "question": "We _____ about you last night.",
+            "options": [
+                "were talking",
+                "was talking",
+                "talked",
+                "are talking"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 5,
+            "question": "He _____ a book when the phone rang.",
+            "options": [
+                "was reading",
+                "were reading",
+                "read",
+                "is reading"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 6,
+            "question": "It _____ when we left the house.",
+            "options": [
+                "was raining",
+                "were raining",
+                "rained",
+                "is raining"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 7,
+            "question": "They _____ for the bus at 8 AM.",
+            "options": [
+                "were waiting",
+                "was waiting",
+                "waited",
+                "are waiting"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 8,
+            "question": "I _____ to music while studying.",
+            "options": [
+                "was listening",
+                "were listening",
+                "listened",
+                "am listening"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 9,
+            "question": "She _____ her hair when you knocked.",
+            "options": [
+                "was washing",
+                "were washing",
+                "washed",
+                "is washing"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 10,
+            "question": "We _____ in the garden all afternoon.",
+            "options": [
+                "were working",
+                "was working",
+                "worked",
+                "are working"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 11,
+            "question": "He _____ coffee when I saw him.",
+            "options": [
+                "was drinking",
+                "were drinking",
+                "drank",
+                "is drinking"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 12,
+            "question": "They _____ a movie at that time.",
+            "options": [
+                "were watching",
+                "was watching",
+                "watched",
+                "are watching"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 13,
+            "question": "I _____ a shower when the doorbell rang.",
+            "options": [
+                "was taking",
+                "were taking",
+                "took",
+                "am taking"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 14,
+            "question": "She _____ on the phone for hours.",
+            "options": [
+                "was talking",
+                "were talking",
+                "talked",
+                "is talking"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 15,
+            "question": "We _____ our homework at 7 PM.",
+            "options": [
+                "were doing",
+                "was doing",
+                "did",
+                "are doing"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 16,
+            "question": "He _____ to work when he had the accident.",
+            "options": [
+                "was driving",
+                "were driving",
+                "drove",
+                "is driving"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 17,
+            "question": "They _____ football when it started to rain.",
+            "options": [
+                "were playing",
+                "was playing",
+                "played",
+                "are playing"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 18,
+            "question": "I _____ my room all morning.",
+            "options": [
+                "was cleaning",
+                "were cleaning",
+                "cleaned",
+                "am cleaning"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 19,
+            "question": "She _____ at me strangely.",
+            "options": [
+                "was looking",
+                "were looking",
+                "looked",
+                "is looking"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 20,
+            "question": "We _____ to the radio while cooking.",
+            "options": [
+                "were listening",
+                "was listening",
+                "listened",
+                "are listening"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 21,
+            "question": "He _____ not _____ attention in class.",
+            "options": [
+                "was/paying",
+                "were/paying",
+                "did/pay",
+                "is/paying"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 22,
+            "question": "They _____ loudly in the library.",
+            "options": [
+                "were talking",
+                "was talking",
+                "talked",
+                "are talking"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 23,
+            "question": "I _____ an email when the power went out.",
+            "options": [
+                "was writing",
+                "were writing",
+                "wrote",
+                "am writing"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 24,
+            "question": "She _____ for her exam all week.",
+            "options": [
+                "was studying",
+                "were studying",
+                "studied",
+                "is studying"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 25,
+            "question": "We _____ in the pool when it got dark.",
+            "options": [
+                "were swimming",
+                "was swimming",
+                "swam",
+                "are swimming"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 26,
+            "question": "_____ you _____ TV at 9 PM last night?",
+            "options": [
+                "Were/watching",
+                "Was/watching",
+                "Did/watch",
+                "Are/watching"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 27,
+            "question": "He _____ his teeth when I called.",
+            "options": [
+                "was brushing",
+                "were brushing",
+                "brushed",
+                "is brushing"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 28,
+            "question": "They _____ pictures at the museum.",
+            "options": [
+                "were taking",
+                "was taking",
+                "took",
+                "are taking"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 29,
+            "question": "I _____ about moving to Canada.",
+            "options": [
+                "was thinking",
+                "were thinking",
+                "thought",
+                "am thinking"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 30,
+            "question": "She _____ a song when I entered.",
+            "options": [
+                "was singing",
+                "were singing",
+                "sang",
+                "is singing"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 31,
+            "question": "We _____ for a taxi in the rain.",
+            "options": [
+                "were standing",
+                "was standing",
+                "stood",
+                "are standing"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 32,
+            "question": "He _____ his car when I saw him.",
+            "options": [
+                "was fixing",
+                "were fixing",
+                "fixed",
+                "is fixing"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 33,
+            "question": "They _____ the news at that moment.",
+            "options": [
+                "were watching",
+                "was watching",
+                "watched",
+                "are watching"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 34,
+            "question": "I _____ not _____ well last night.",
+            "options": [
+                "was/sleeping",
+                "were/sleeping",
+                "did/sleep",
+                "am/sleeping"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 35,
+            "question": "She _____ her best dress yesterday evening.",
+            "options": [
+                "was wearing",
+                "were wearing",
+                "wore",
+                "is wearing"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 36,
+            "question": "We _____ a new recipe last Sunday.",
+            "options": [
+                "were trying",
+                "was trying",
+                "tried",
+                "are trying"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 37,
+            "question": "_____ he _____ when you arrived?",
+            "options": [
+                "Was/working",
+                "Were/working",
+                "Did/work",
+                "Is/working"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 38,
+            "question": "They _____ a cake for the party.",
+            "options": [
+                "were making",
+                "was making",
+                "made",
+                "are making"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 39,
+            "question": "I _____ my bicycle when I fell.",
+            "options": [
+                "was riding",
+                "were riding",
+                "rode",
+                "am riding"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 40,
+            "question": "She _____ not _____ to me yesterday.",
+            "options": [
+                "was/talking",
+                "were/talking",
+                "did/talk",
+                "is/talking"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 41,
+            "question": "We _____ a great time at the beach.",
+            "options": [
+                "were having",
+                "was having",
+                "had",
+                "are having"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 42,
+            "question": "He _____ fast when the police stopped him.",
+            "options": [
+                "was driving",
+                "were driving",
+                "drove",
+                "is driving"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 43,
+            "question": "They _____ chess in the park.",
+            "options": [
+                "were playing",
+                "was playing",
+                "played",
+                "are playing"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 44,
+            "question": "I _____ for my keys everywhere.",
+            "options": [
+                "was looking",
+                "were looking",
+                "looked",
+                "am looking"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 45,
+            "question": "She _____ beautiful music on the piano.",
+            "options": [
+                "was playing",
+                "were playing",
+                "played",
+                "is playing"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 46,
+            "question": "We _____ our favorite show at 8 PM.",
+            "options": [
+                "were watching",
+                "was watching",
+                "watched",
+                "are watching"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 47,
+            "question": "_____ it _____ when you left?",
+            "options": [
+                "Was/snowing",
+                "Were/snowing",
+                "Did/snow",
+                "Is/snowing"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 48,
+            "question": "He _____ strange sounds outside.",
+            "options": [
+                "was hearing",
+                "were hearing",
+                "heard",
+                "is hearing"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 49,
+            "question": "They _____ photos of the sunset.",
+            "options": [
+                "were taking",
+                "was taking",
+                "took",
+                "are taking"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 50,
+            "question": "I _____ a documentary when you texted me.",
+            "options": [
+                "was watching",
+                "were watching",
+                "watched",
+                "am watching"
+            ],
+            "correctAnswer": 0
+        }
+    ]
+}
