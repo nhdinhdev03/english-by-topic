@@ -1,0 +1,556 @@
+{
+    "topic": "Present Perfect - Unit 1",
+    "level": "Top Notch 2",
+    "questions": [
+        {
+            "id": 1,
+            "question": "They _____ to Japan three times.",
+            "options": [
+                "has been",
+                "have been",
+                "been",
+                "are been"
+            ],
+            "correctAnswer": 1
+        },
+        {
+            "id": 2,
+            "question": "She _____ her homework yet.",
+            "options": [
+                "haven't finished",
+                "didn't finish",
+                "hasn't finished",
+                "doesn't finish"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 3,
+            "question": "_____ you ever _____ Mexican food?",
+            "options": [
+                "Has/tried",
+                "Do/try",
+                "Have/tried",
+                "Did/try"
+            ],
+            "correctAnswer": 2
+        },
+        {
+            "id": 4,
+            "question": "I _____ that movie before.",
+            "options": [
+                "has seen",
+                "saw",
+                "seeing",
+                "have seen"
+            ],
+            "correctAnswer": 3
+        },
+        {
+            "id": 5,
+            "question": "He _____ in this company since 2015.",
+            "options": [
+                "has worked",
+                "have worked",
+                "worked",
+                "working"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 6,
+            "question": "We _____ our project already.",
+            "options": [
+                "have completed",
+                "has completed",
+                "completed",
+                "complete"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 7,
+            "question": "_____ she _____ the Great Wall of China?",
+            "options": [
+                "Has/visited",
+                "Have/visited",
+                "Did/visit",
+                "Does/visit"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 8,
+            "question": "They _____ to each other for 10 years.",
+            "options": [
+                "have been married",
+                "has been married",
+                "are married",
+                "were married"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 9,
+            "question": "I _____ my keys. Can you help me find them?",
+            "options": [
+                "have lost",
+                "has lost",
+                "lost",
+                "am losing"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 10,
+            "question": "_____ you _____ your lunch yet?",
+            "options": [
+                "Have/had",
+                "Has/had",
+                "Did/have",
+                "Do/have"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 11,
+            "question": "She _____ never _____ a horse before.",
+            "options": [
+                "has/ridden",
+                "have/ridden",
+                "did/ride",
+                "does/ride"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 12,
+            "question": "We _____ here since 8 o'clock.",
+            "options": [
+                "have been",
+                "has been",
+                "are",
+                "were"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 13,
+            "question": "He _____ just _____ his car.",
+            "options": [
+                "has/washed",
+                "have/washed",
+                "did/wash",
+                "does/wash"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 14,
+            "question": "_____ they _____ the museum before?",
+            "options": [
+                "Have/visited",
+                "Has/visited",
+                "Did/visit",
+                "Do/visit"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 15,
+            "question": "I _____ recently _____ a new job.",
+            "options": [
+                "have/started",
+                "has/started",
+                "did/start",
+                "do/start"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 16,
+            "question": "She _____ in Paris for five years.",
+            "options": [
+                "has lived",
+                "have lived",
+                "lived",
+                "lives"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 17,
+            "question": "We _____ our grandparents lately.",
+            "options": [
+                "haven't seen",
+                "hasn't seen",
+                "didn't see",
+                "don't see"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 18,
+            "question": "_____ he ever _____ sushi?",
+            "options": [
+                "Has/eaten",
+                "Have/eaten",
+                "Did/eat",
+                "Does/eat"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 19,
+            "question": "They _____ all their money on vacation.",
+            "options": [
+                "have spent",
+                "has spent",
+                "spent",
+                "spending"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 20,
+            "question": "I _____ this book three times already.",
+            "options": [
+                "have read",
+                "has read",
+                "read",
+                "reading"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 21,
+            "question": "She _____ to the gym this morning.",
+            "options": [
+                "has been",
+                "have been",
+                "was",
+                "is"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 22,
+            "question": "_____ you _____ your homework?",
+            "options": [
+                "Have/finished",
+                "Has/finished",
+                "Did/finish",
+                "Do/finish"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 23,
+            "question": "He _____ his phone again!",
+            "options": [
+                "has broken",
+                "have broken",
+                "broke",
+                "breaks"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 24,
+            "question": "We _____ English for three years.",
+            "options": [
+                "have studied",
+                "has studied",
+                "studied",
+                "study"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 25,
+            "question": "_____ she _____ her email today?",
+            "options": [
+                "Has/checked",
+                "Have/checked",
+                "Did/check",
+                "Does/check"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 26,
+            "question": "They _____ never _____ to Australia.",
+            "options": [
+                "have/been",
+                "has/been",
+                "did/go",
+                "do/go"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 27,
+            "question": "I _____ my friend since last month.",
+            "options": [
+                "haven't met",
+                "hasn't met",
+                "didn't meet",
+                "don't meet"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 28,
+            "question": "She _____ already _____ her dinner.",
+            "options": [
+                "has/eaten",
+                "have/eaten",
+                "did/eat",
+                "does/eat"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 29,
+            "question": "_____ you ever _____ in a plane?",
+            "options": [
+                "Have/flown",
+                "Has/flown",
+                "Did/fly",
+                "Do/fly"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 30,
+            "question": "He _____ in London since he was born.",
+            "options": [
+                "has lived",
+                "have lived",
+                "lived",
+                "lives"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 31,
+            "question": "We _____ just _____ from vacation.",
+            "options": [
+                "have/returned",
+                "has/returned",
+                "did/return",
+                "do/return"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 32,
+            "question": "_____ they _____ the news?",
+            "options": [
+                "Have/heard",
+                "Has/heard",
+                "Did/hear",
+                "Do/hear"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 33,
+            "question": "I _____ that restaurant before.",
+            "options": [
+                "have tried",
+                "has tried",
+                "tried",
+                "try"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 34,
+            "question": "She _____ her keys somewhere.",
+            "options": [
+                "has left",
+                "have left",
+                "left",
+                "leaves"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 35,
+            "question": "_____ he _____ his report yet?",
+            "options": [
+                "Has/submitted",
+                "Have/submitted",
+                "Did/submit",
+                "Does/submit"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 36,
+            "question": "They _____ that movie many times.",
+            "options": [
+                "have watched",
+                "has watched",
+                "watched",
+                "watch"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 37,
+            "question": "I _____ never _____ such a beautiful place.",
+            "options": [
+                "have/seen",
+                "has/seen",
+                "did/see",
+                "do/see"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 38,
+            "question": "She _____ in this school for 10 years.",
+            "options": [
+                "has taught",
+                "have taught",
+                "taught",
+                "teaches"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 39,
+            "question": "_____ you _____ your teeth this morning?",
+            "options": [
+                "Have/brushed",
+                "Has/brushed",
+                "Did/brush",
+                "Do/brush"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 40,
+            "question": "He _____ his wallet at home.",
+            "options": [
+                "has forgotten",
+                "have forgotten",
+                "forgot",
+                "forgets"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 41,
+            "question": "We _____ this song before.",
+            "options": [
+                "have heard",
+                "has heard",
+                "heard",
+                "hear"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 42,
+            "question": "_____ she ever _____ karaoke?",
+            "options": [
+                "Has/sung",
+                "Have/sung",
+                "Did/sing",
+                "Does/sing"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 43,
+            "question": "They _____ their house recently.",
+            "options": [
+                "have painted",
+                "has painted",
+                "painted",
+                "paint"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 44,
+            "question": "I _____ my homework already.",
+            "options": [
+                "have done",
+                "has done",
+                "did",
+                "do"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 45,
+            "question": "She _____ to Italy twice.",
+            "options": [
+                "has traveled",
+                "have traveled",
+                "traveled",
+                "travels"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 46,
+            "question": "_____ you _____ the answer yet?",
+            "options": [
+                "Have/found",
+                "Has/found",
+                "Did/find",
+                "Do/find"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 47,
+            "question": "He _____ never _____ a lie.",
+            "options": [
+                "has/told",
+                "have/told",
+                "did/tell",
+                "does/tell"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 48,
+            "question": "We _____ our tickets online.",
+            "options": [
+                "have bought",
+                "has bought",
+                "bought",
+                "buy"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 49,
+            "question": "_____ they _____ the game?",
+            "options": [
+                "Have/won",
+                "Has/won",
+                "Did/win",
+                "Do/win"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 50,
+            "question": "I _____ this exercise before.",
+            "options": [
+                "have practiced",
+                "has practiced",
+                "practiced",
+                "practice"
+            ],
+            "correctAnswer": 0
+        }
+    ]
+}

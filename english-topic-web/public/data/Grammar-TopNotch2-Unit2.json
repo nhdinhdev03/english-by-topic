@@ -1,0 +1,608 @@
+{
+    "topic": "Present Perfect với For & Since",
+    "unit": "Unit 2: Going to the Movies",
+    "level": "Top Notch 2",
+    "description": "Sử dụng Present Perfect với 'for' (khoảng thời gian) và 'since' (mốc thời gian)",
+    "questions": [
+        {
+            "id": 1,
+            "question": "I have lived here _____ 2010.",
+            "options": [
+                "for",
+                "since",
+                "in",
+                "at"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Dùng 'since' trước mốc thời gian cụ thể (2010)"
+        },
+        {
+            "id": 2,
+            "question": "She has worked in this company _____ five years.",
+            "options": [
+                "since",
+                "in",
+                "at",
+                "for"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Dùng 'for' trước khoảng thời gian (five years)"
+        },
+        {
+            "id": 3,
+            "question": "How long _____ you been learning English?",
+            "options": [
+                "has",
+                "have",
+                "do",
+                "are"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Dùng 'have' với chủ ngữ 'you' trong câu hỏi Present Perfect"
+        },
+        {
+            "id": 4,
+            "question": "They haven't seen each other _____ last summer.",
+            "options": [
+                "for",
+                "in",
+                "since",
+                "at"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'since' trước mốc thời gian (last summer)"
+        },
+        {
+            "id": 5,
+            "question": "He has been a teacher _____ 2015.",
+            "options": [
+                "for",
+                "at",
+                "in",
+                "since"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Dùng 'since' trước năm cụ thể (2015)"
+        },
+        {
+            "id": 6,
+            "question": "We have known him _____ a long time.",
+            "options": [
+                "since",
+                "for",
+                "at",
+                "in"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Dùng 'for' trước khoảng thời gian (a long time)"
+        },
+        {
+            "id": 7,
+            "question": "_____ have you been waiting here?",
+            "options": [
+                "How long",
+                "When",
+                "What time",
+                "How often"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Dùng 'How long' để hỏi về thời gian kéo dài"
+        },
+        {
+            "id": 8,
+            "question": "I _____ met him before.",
+            "options": [
+                "has never",
+                "have never",
+                "never have",
+                "never has"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Trật tự: have + never + V3"
+        },
+        {
+            "id": 9,
+            "question": "She has lived in London _____ three months.",
+            "options": [
+                "since",
+                "in",
+                "for",
+                "at"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'for' trước khoảng thời gian (three months)"
+        },
+        {
+            "id": 10,
+            "question": "They have been married _____ 2000.",
+            "options": [
+                "for",
+                "in",
+                "at",
+                "since"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Dùng 'since' trước năm cụ thể (2000)"
+        },
+        {
+            "id": 11,
+            "question": "How long _____ she known about this?",
+            "options": [
+                "have",
+                "has",
+                "do",
+                "is"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Dùng 'has' với chủ ngữ 'she'"
+        },
+        {
+            "id": 12,
+            "question": "We haven't eaten anything _____ breakfast.",
+            "options": [
+                "for",
+                "in",
+                "since",
+                "at"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'since' trước mốc thời gian (breakfast)"
+        },
+        {
+            "id": 13,
+            "question": "I have studied English _____ I was 10 years old.",
+            "options": [
+                "for",
+                "since",
+                "when",
+                "while"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Dùng 'since' trước mệnh đề chỉ mốc thời gian"
+        },
+        {
+            "id": 14,
+            "question": "He has worked here _____ many years.",
+            "options": [
+                "since",
+                "in",
+                "for",
+                "at"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'for' trước khoảng thời gian (many years)"
+        },
+        {
+            "id": 15,
+            "question": "How long have you _____ this car?",
+            "options": [
+                "buy",
+                "bought",
+                "had",
+                "have"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'had' (V3 của have) để nói về sở hữu"
+        },
+        {
+            "id": 16,
+            "question": "They have been friends _____ childhood.",
+            "options": [
+                "for",
+                "in",
+                "since",
+                "at"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'since' trước mốc thời gian (childhood)"
+        },
+        {
+            "id": 17,
+            "question": "She _____ been here since morning.",
+            "options": [
+                "have",
+                "is",
+                "has",
+                "are"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'has' với chủ ngữ 'she'"
+        },
+        {
+            "id": 18,
+            "question": "I haven't seen him _____ ages.",
+            "options": [
+                "since",
+                "for",
+                "in",
+                "at"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Dùng 'for' với 'ages' (khoảng thời gian dài)"
+        },
+        {
+            "id": 19,
+            "question": "We have lived in this house _____ we got married.",
+            "options": [
+                "for",
+                "when",
+                "since",
+                "while"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'since' trước mệnh đề chỉ mốc thời gian"
+        },
+        {
+            "id": 20,
+            "question": "How long have they _____ English?",
+            "options": [
+                "learn",
+                "learning",
+                "learned",
+                "been learning"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Dùng 'been V-ing' cho hành động kéo dài đến hiện tại"
+        },
+        {
+            "id": 21,
+            "question": "He has played football _____ he was a child.",
+            "options": [
+                "for",
+                "when",
+                "since",
+                "while"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'since' trước mệnh đề chỉ mốc thời gian"
+        },
+        {
+            "id": 22,
+            "question": "I have known her _____ two years.",
+            "options": [
+                "since",
+                "for",
+                "in",
+                "at"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Dùng 'for' trước khoảng thời gian (two years)"
+        },
+        {
+            "id": 23,
+            "question": "They _____ been waiting for an hour.",
+            "options": [
+                "has",
+                "have",
+                "are",
+                "is"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Dùng 'have' với chủ ngữ 'they'"
+        },
+        {
+            "id": 24,
+            "question": "She hasn't called me _____ last week.",
+            "options": [
+                "for",
+                "in",
+                "since",
+                "at"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'since' trước mốc thời gian (last week)"
+        },
+        {
+            "id": 25,
+            "question": "How long has it _____ raining?",
+            "options": [
+                "be",
+                "being",
+                "been",
+                "is"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'been' (V3 của be) trong Present Perfect Continuous"
+        },
+        {
+            "id": 26,
+            "question": "We have been here _____ 9 o'clock.",
+            "options": [
+                "for",
+                "in",
+                "since",
+                "at"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'since' trước mốc thời gian cụ thể (9 o'clock)"
+        },
+        {
+            "id": 27,
+            "question": "I have worked in this field _____ a decade.",
+            "options": [
+                "since",
+                "in",
+                "for",
+                "at"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'for' trước khoảng thời gian (a decade)"
+        },
+        {
+            "id": 28,
+            "question": "_____ long have you been studying here?",
+            "options": [
+                "How",
+                "What",
+                "When",
+                "Where"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Dùng 'How long' để hỏi về thời gian kéo dài"
+        },
+        {
+            "id": 29,
+            "question": "He has been sick _____ Monday.",
+            "options": [
+                "for",
+                "in",
+                "since",
+                "at"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'since' trước ngày cụ thể (Monday)"
+        },
+        {
+            "id": 30,
+            "question": "They haven't traveled _____ several months.",
+            "options": [
+                "since",
+                "for",
+                "in",
+                "at"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Dùng 'for' trước khoảng thời gian (several months)"
+        },
+        {
+            "id": 31,
+            "question": "She _____ lived here since 2018.",
+            "options": [
+                "have",
+                "is",
+                "has",
+                "are"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'has' với chủ ngữ 'she'"
+        },
+        {
+            "id": 32,
+            "question": "I have been learning Spanish _____ six months.",
+            "options": [
+                "since",
+                "in",
+                "for",
+                "at"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'for' trước khoảng thời gian (six months)"
+        },
+        {
+            "id": 33,
+            "question": "How long have you _____ in this city?",
+            "options": [
+                "live",
+                "living",
+                "lived",
+                "been living"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Dùng 'been living' cho hành động kéo dài đến hiện tại"
+        },
+        {
+            "id": 34,
+            "question": "We haven't met _____ Christmas.",
+            "options": [
+                "for",
+                "in",
+                "since",
+                "at"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'since' trước dịp lễ cụ thể (Christmas)"
+        },
+        {
+            "id": 35,
+            "question": "He has been a doctor _____ 10 years.",
+            "options": [
+                "since",
+                "in",
+                "for",
+                "at"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'for' trước khoảng thời gian (10 years)"
+        },
+        {
+            "id": 36,
+            "question": "They have known each other _____ they were children.",
+            "options": [
+                "for",
+                "when",
+                "since",
+                "while"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'since' trước mệnh đề chỉ mốc thời gian"
+        },
+        {
+            "id": 37,
+            "question": "_____ have they been married?",
+            "options": [
+                "How long",
+                "When",
+                "What time",
+                "How often"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Dùng 'How long' để hỏi về thời gian kéo dài"
+        },
+        {
+            "id": 38,
+            "question": "I haven't slept well _____ days.",
+            "options": [
+                "since",
+                "for",
+                "in",
+                "at"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Dùng 'for' trước khoảng thời gian (days)"
+        },
+        {
+            "id": 39,
+            "question": "She has worked here _____ she graduated.",
+            "options": [
+                "for",
+                "when",
+                "since",
+                "while"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'since' trước mệnh đề chỉ mốc thời gian"
+        },
+        {
+            "id": 40,
+            "question": "We have been waiting _____ an hour.",
+            "options": [
+                "since",
+                "in",
+                "for",
+                "at"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'for' trước khoảng thời gian (an hour)"
+        },
+        {
+            "id": 41,
+            "question": "How long has he _____ this problem?",
+            "options": [
+                "have",
+                "having",
+                "had",
+                "has"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'had' (V3 của have)"
+        },
+        {
+            "id": 42,
+            "question": "They haven't spoken _____ their argument.",
+            "options": [
+                "for",
+                "in",
+                "since",
+                "at"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'since' trước sự kiện cụ thể (their argument)"
+        },
+        {
+            "id": 43,
+            "question": "I have been interested in music _____ I was young.",
+            "options": [
+                "for",
+                "when",
+                "since",
+                "while"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'since' trước mệnh đề chỉ mốc thời gian"
+        },
+        {
+            "id": 44,
+            "question": "She _____ studied French for three years.",
+            "options": [
+                "have",
+                "is",
+                "has",
+                "are"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'has' với chủ ngữ 'she'"
+        },
+        {
+            "id": 45,
+            "question": "We have lived here _____ a very long time.",
+            "options": [
+                "since",
+                "in",
+                "for",
+                "at"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'for' trước khoảng thời gian (a very long time)"
+        },
+        {
+            "id": 46,
+            "question": "How long have you _____ playing tennis?",
+            "options": [
+                "be",
+                "being",
+                "been",
+                "is"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'been' trong Present Perfect Continuous"
+        },
+        {
+            "id": 47,
+            "question": "He hasn't eaten anything _____ yesterday.",
+            "options": [
+                "for",
+                "in",
+                "since",
+                "at"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'since' trước mốc thời gian (yesterday)"
+        },
+        {
+            "id": 48,
+            "question": "They have been together _____ many years.",
+            "options": [
+                "since",
+                "in",
+                "for",
+                "at"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'for' trước khoảng thời gian (many years)"
+        },
+        {
+            "id": 49,
+            "question": "I _____ been working here since January.",
+            "options": [
+                "has",
+                "have",
+                "am",
+                "is"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Dùng 'have' với chủ ngữ 'I'"
+        },
+        {
+            "id": 50,
+            "question": "She hasn't visited us _____ her birthday.",
+            "options": [
+                "for",
+                "in",
+                "since",
+                "at"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'since' trước sự kiện cụ thể (her birthday)"
+        }
+    ]
+}
