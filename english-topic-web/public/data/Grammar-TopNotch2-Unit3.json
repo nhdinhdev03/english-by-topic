@@ -1,0 +1,608 @@
+{
+    "topic": "Future with Will & Real Conditional",
+    "unit": "Unit 3: Staying in Hotels",
+    "level": "Top Notch 2",
+    "description": "Sử dụng 'will' cho tương lai và câu điều kiện có thực loại 1",
+    "questions": [
+        {
+            "id": 1,
+            "question": "If it rains tomorrow, I _____ stay at home.",
+            "options": [
+                "would",
+                "will",
+                "can",
+                "might"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Câu điều kiện loại 1: If + hiện tại đơn, S + will + V0"
+        },
+        {
+            "id": 2,
+            "question": "She _____ call you later.",
+            "options": [
+                "is",
+                "will",
+                "does",
+                "has"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Dùng 'will' để diễn tả quyết định tức thì trong tương lai"
+        },
+        {
+            "id": 3,
+            "question": "If you study hard, you _____ pass the exam.",
+            "options": [
+                "would",
+                "can",
+                "will",
+                "should"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Câu điều kiện loại 1: If + hiện tại đơn, S + will + V0"
+        },
+        {
+            "id": 4,
+            "question": "They _____ arrive at 6 PM.",
+            "options": [
+                "are",
+                "do",
+                "have",
+                "will"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Dùng 'will' để diễn tả dự đoán về tương lai"
+        },
+        {
+            "id": 5,
+            "question": "If she _____ here, she will help us.",
+            "options": [
+                "comes",
+                "will come",
+                "come",
+                "coming"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Mệnh đề if dùng thì hiện tại đơn trong câu điều kiện loại 1"
+        },
+        {
+            "id": 6,
+            "question": "I _____ be there in 10 minutes.",
+            "options": [
+                "am",
+                "do",
+                "will",
+                "have"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'will' để hứa hẹn về tương lai"
+        },
+        {
+            "id": 7,
+            "question": "If we don't hurry, we _____ miss the train.",
+            "options": [
+                "would",
+                "will",
+                "can",
+                "might"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Câu điều kiện loại 1: If + hiện tại đơn, S + will + V0"
+        },
+        {
+            "id": 8,
+            "question": "He _____ not go to the party tonight.",
+            "options": [
+                "is",
+                "does",
+                "will",
+                "has"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'will not' để diễn tả quyết định không làm gì trong tương lai"
+        },
+        {
+            "id": 9,
+            "question": "If it _____ sunny, we will go to the beach.",
+            "options": [
+                "will be",
+                "is",
+                "be",
+                "being"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Mệnh đề if dùng thì hiện tại đơn"
+        },
+        {
+            "id": 10,
+            "question": "_____ you help me with this?",
+            "options": [
+                "Do",
+                "Are",
+                "Will",
+                "Have"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'Will' để yêu cầu lịch sự"
+        },
+        {
+            "id": 11,
+            "question": "If they win, they _____ celebrate.",
+            "options": [
+                "would",
+                "will",
+                "can",
+                "might"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Câu điều kiện loại 1: If + hiện tại đơn, S + will + V0"
+        },
+        {
+            "id": 12,
+            "question": "We _____ go shopping tomorrow.",
+            "options": [
+                "are",
+                "do",
+                "will",
+                "have"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'will' để diễn tả kế hoạch trong tương lai"
+        },
+        {
+            "id": 13,
+            "question": "If you need help, I _____ be there for you.",
+            "options": [
+                "would",
+                "can",
+                "will",
+                "should"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Câu điều kiện loại 1: If + hiện tại đơn, S + will + V0"
+        },
+        {
+            "id": 14,
+            "question": "She _____ finish her work by 5 PM.",
+            "options": [
+                "is",
+                "does",
+                "will",
+                "has"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'will' để dự đoán hành động hoàn thành trong tương lai"
+        },
+        {
+            "id": 15,
+            "question": "If he _____ tired, he will rest.",
+            "options": [
+                "will be",
+                "is",
+                "be",
+                "being"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Mệnh đề if dùng thì hiện tại đơn"
+        },
+        {
+            "id": 16,
+            "question": "I think it _____ rain soon.",
+            "options": [
+                "is",
+                "does",
+                "will",
+                "has"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'will' để dự đoán thời tiết"
+        },
+        {
+            "id": 17,
+            "question": "If you _____ me, I will tell you the truth.",
+            "options": [
+                "will ask",
+                "ask",
+                "asking",
+                "asked"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Mệnh đề if dùng thì hiện tại đơn"
+        },
+        {
+            "id": 18,
+            "question": "They _____ probably come late.",
+            "options": [
+                "are",
+                "do",
+                "will",
+                "have"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'will' với 'probably' để dự đoán"
+        },
+        {
+            "id": 19,
+            "question": "If she doesn't call, we _____ go without her.",
+            "options": [
+                "would",
+                "will",
+                "can",
+                "might"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Câu điều kiện loại 1: If + hiện tại đơn, S + will + V0"
+        },
+        {
+            "id": 20,
+            "question": "_____ it be sunny tomorrow?",
+            "options": [
+                "Does",
+                "Is",
+                "Will",
+                "Has"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'Will' để hỏi về dự đoán tương lai"
+        },
+        {
+            "id": 21,
+            "question": "If we save money, we _____ buy a new car.",
+            "options": [
+                "would",
+                "can",
+                "will",
+                "should"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Câu điều kiện loại 1: If + hiện tại đơn, S + will + V0"
+        },
+        {
+            "id": 22,
+            "question": "He _____ be 30 years old next month.",
+            "options": [
+                "is",
+                "does",
+                "will",
+                "has"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'will' để nói về tuổi tác trong tương lai"
+        },
+        {
+            "id": 23,
+            "question": "If you _____ early, you will catch the bus.",
+            "options": [
+                "will leave",
+                "leave",
+                "leaving",
+                "left"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Mệnh đề if dùng thì hiện tại đơn"
+        },
+        {
+            "id": 24,
+            "question": "I _____ meet you at the station.",
+            "options": [
+                "am",
+                "do",
+                "will",
+                "have"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'will' để hứa sẽ làm gì"
+        },
+        {
+            "id": 25,
+            "question": "If it _____ cold, we will stay inside.",
+            "options": [
+                "will be",
+                "is",
+                "be",
+                "being"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Mệnh đề if dùng thì hiện tại đơn"
+        },
+        {
+            "id": 26,
+            "question": "She _____ not forget your birthday.",
+            "options": [
+                "is",
+                "does",
+                "will",
+                "has"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'will not' để hứa không quên"
+        },
+        {
+            "id": 27,
+            "question": "If they _____ us, we will go together.",
+            "options": [
+                "will invite",
+                "invite",
+                "inviting",
+                "invited"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Mệnh đề if dùng thì hiện tại đơn"
+        },
+        {
+            "id": 28,
+            "question": "We _____ see you next week.",
+            "options": [
+                "are",
+                "do",
+                "will",
+                "have"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'will' để nói về kế hoạch gặp gỡ"
+        },
+        {
+            "id": 29,
+            "question": "If you don't understand, I _____ explain again.",
+            "options": [
+                "would",
+                "can",
+                "will",
+                "should"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Câu điều kiện loại 1: If + hiện tại đơn, S + will + V0"
+        },
+        {
+            "id": 30,
+            "question": "He _____ be very happy to hear the news.",
+            "options": [
+                "is",
+                "does",
+                "will",
+                "has"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'will' để dự đoán cảm xúc"
+        },
+        {
+            "id": 31,
+            "question": "If she _____ hard, she will succeed.",
+            "options": [
+                "will work",
+                "works",
+                "work",
+                "working"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Mệnh đề if dùng thì hiện tại đơn với chủ ngữ số ít"
+        },
+        {
+            "id": 32,
+            "question": "I _____ tell him when I see him.",
+            "options": [
+                "am",
+                "do",
+                "will",
+                "have"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'will' trong mệnh đề chính của câu điều kiện thời gian"
+        },
+        {
+            "id": 33,
+            "question": "If we _____ lucky, we will win.",
+            "options": [
+                "will be",
+                "are",
+                "be",
+                "being"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Mệnh đề if dùng thì hiện tại đơn"
+        },
+        {
+            "id": 34,
+            "question": "They _____ travel to Japan next year.",
+            "options": [
+                "are",
+                "do",
+                "will",
+                "have"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'will' để nói về kế hoạch tương lai"
+        },
+        {
+            "id": 35,
+            "question": "If you _____ carefully, you won't make mistakes.",
+            "options": [
+                "will listen",
+                "listen",
+                "listening",
+                "listened"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Mệnh đề if dùng thì hiện tại đơn"
+        },
+        {
+            "id": 36,
+            "question": "She _____ probably agree with you.",
+            "options": [
+                "is",
+                "does",
+                "will",
+                "has"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'will probably' để dự đoán"
+        },
+        {
+            "id": 37,
+            "question": "If he _____ the answer, he will tell us.",
+            "options": [
+                "will know",
+                "knows",
+                "know",
+                "knowing"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Mệnh đề if dùng thì hiện tại đơn với chủ ngữ số ít"
+        },
+        {
+            "id": 38,
+            "question": "We _____ be late if we don't leave now.",
+            "options": [
+                "are",
+                "do",
+                "will",
+                "have"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Câu điều kiện loại 1: S + will + V0 + if + hiện tại đơn"
+        },
+        {
+            "id": 39,
+            "question": "If it _____ expensive, we won't buy it.",
+            "options": [
+                "will be",
+                "is",
+                "be",
+                "being"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Mệnh đề if dùng thì hiện tại đơn"
+        },
+        {
+            "id": 40,
+            "question": "I _____ send you the details tomorrow.",
+            "options": [
+                "am",
+                "do",
+                "will",
+                "have"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'will' để hứa gửi thông tin"
+        },
+        {
+            "id": 41,
+            "question": "If they _____ ready, we will start.",
+            "options": [
+                "will be",
+                "are",
+                "be",
+                "being"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Mệnh đề if dùng thì hiện tại đơn"
+        },
+        {
+            "id": 42,
+            "question": "He _____ never forget this day.",
+            "options": [
+                "is",
+                "does",
+                "will",
+                "has"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'will never' để nhấn mạnh sẽ không bao giờ quên"
+        },
+        {
+            "id": 43,
+            "question": "If you _____ this button, the machine will stop.",
+            "options": [
+                "will press",
+                "press",
+                "pressing",
+                "pressed"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Mệnh đề if dùng thì hiện tại đơn"
+        },
+        {
+            "id": 44,
+            "question": "She _____ definitely come to the party.",
+            "options": [
+                "is",
+                "does",
+                "will",
+                "has"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'will definitely' để khẳng định chắc chắn"
+        },
+        {
+            "id": 45,
+            "question": "If we _____ more time, we will finish the project.",
+            "options": [
+                "will have",
+                "have",
+                "having",
+                "had"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Mệnh đề if dùng thì hiện tại đơn"
+        },
+        {
+            "id": 46,
+            "question": "I think he _____ like this gift.",
+            "options": [
+                "is",
+                "does",
+                "will",
+                "has"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'will' để dự đoán sở thích"
+        },
+        {
+            "id": 47,
+            "question": "If she _____ the job, she will move to London.",
+            "options": [
+                "will get",
+                "gets",
+                "get",
+                "getting"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Mệnh đề if dùng thì hiện tại đơn với chủ ngữ số ít"
+        },
+        {
+            "id": 48,
+            "question": "They _____ build a new house next year.",
+            "options": [
+                "are",
+                "do",
+                "will",
+                "have"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'will' để nói về kế hoạch xây nhà"
+        },
+        {
+            "id": 49,
+            "question": "If you _____ him, say hello for me.",
+            "options": [
+                "will see",
+                "see",
+                "seeing",
+                "saw"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Mệnh đề if dùng thì hiện tại đơn"
+        },
+        {
+            "id": 50,
+            "question": "_____ you be free this weekend?",
+            "options": [
+                "Do",
+                "Are",
+                "Will",
+                "Have"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Dùng 'Will' để hỏi về tình trạng rảnh rỗi trong tương lai"
+        }
+    ]
+}
