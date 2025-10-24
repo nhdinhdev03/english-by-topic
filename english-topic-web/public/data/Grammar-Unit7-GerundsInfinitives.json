@@ -1,0 +1,556 @@
+{
+    "topic": "Gerunds and Infinitives - Unit 7",
+    "level": "Top Notch 2",
+    "questions": [
+        {
+            "id": 1,
+            "question": "I enjoy _____ to music.",
+            "options": [
+                "listening",
+                "to listen",
+                "listen",
+                "listened"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 2,
+            "question": "She wants _____ a doctor.",
+            "options": [
+                "to become",
+                "becoming",
+                "become",
+                "became"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 3,
+            "question": "They decided _____ a new car.",
+            "options": [
+                "to buy",
+                "buying",
+                "buy",
+                "bought"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 4,
+            "question": "He finished _____ his homework.",
+            "options": [
+                "doing",
+                "to do",
+                "do",
+                "did"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 5,
+            "question": "I would like _____ you tomorrow.",
+            "options": [
+                "to see",
+                "seeing",
+                "see",
+                "saw"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 6,
+            "question": "She avoids _____ junk food.",
+            "options": [
+                "eating",
+                "to eat",
+                "eat",
+                "ate"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 7,
+            "question": "We plan _____ to Paris next year.",
+            "options": [
+                "to go",
+                "going",
+                "go",
+                "went"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 8,
+            "question": "He keeps _____ the same mistakes.",
+            "options": [
+                "making",
+                "to make",
+                "make",
+                "made"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 9,
+            "question": "I hope _____ you again soon.",
+            "options": [
+                "to meet",
+                "meeting",
+                "meet",
+                "met"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 10,
+            "question": "They suggested _____ to the movies.",
+            "options": [
+                "going",
+                "to go",
+                "go",
+                "went"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 11,
+            "question": "She refused _____ him.",
+            "options": [
+                "to help",
+                "helping",
+                "help",
+                "helped"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 12,
+            "question": "I miss _____ with my family.",
+            "options": [
+                "being",
+                "to be",
+                "be",
+                "was"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 13,
+            "question": "He agreed _____ us.",
+            "options": [
+                "to join",
+                "joining",
+                "join",
+                "joined"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 14,
+            "question": "We can't stand _____ in line.",
+            "options": [
+                "waiting",
+                "to wait",
+                "wait",
+                "waited"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 15,
+            "question": "She promised _____ on time.",
+            "options": [
+                "to arrive",
+                "arriving",
+                "arrive",
+                "arrived"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 16,
+            "question": "I practice _____ guitar every day.",
+            "options": [
+                "playing",
+                "to play",
+                "play",
+                "played"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 17,
+            "question": "They expect _____ tomorrow.",
+            "options": [
+                "to finish",
+                "finishing",
+                "finish",
+                "finished"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 18,
+            "question": "He denied _____ the money.",
+            "options": [
+                "taking",
+                "to take",
+                "take",
+                "took"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 19,
+            "question": "I need _____ to the bank.",
+            "options": [
+                "to go",
+                "going",
+                "go",
+                "went"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 20,
+            "question": "She considered _____ her job.",
+            "options": [
+                "changing",
+                "to change",
+                "change",
+                "changed"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 21,
+            "question": "We want _____ our parents this weekend.",
+            "options": [
+                "to visit",
+                "visiting",
+                "visit",
+                "visited"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 22,
+            "question": "He admitted _____ the vase.",
+            "options": [
+                "breaking",
+                "to break",
+                "break",
+                "broke"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 23,
+            "question": "I prefer _____ tea to coffee.",
+            "options": [
+                "drinking",
+                "to drink",
+                "drink",
+                "drank"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 24,
+            "question": "She chose _____ at home.",
+            "options": [
+                "to stay",
+                "staying",
+                "stay",
+                "stayed"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 25,
+            "question": "They imagined _____ in a big city.",
+            "options": [
+                "living",
+                "to live",
+                "live",
+                "lived"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 26,
+            "question": "I learned _____ when I was six.",
+            "options": [
+                "to swim",
+                "swimming",
+                "swim",
+                "swam"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 27,
+            "question": "He postponed _____ the decision.",
+            "options": [
+                "making",
+                "to make",
+                "make",
+                "made"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 28,
+            "question": "We managed _____ the project on time.",
+            "options": [
+                "to complete",
+                "completing",
+                "complete",
+                "completed"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 29,
+            "question": "She loves _____ in the rain.",
+            "options": [
+                "dancing",
+                "to dance",
+                "dance",
+                "danced"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 30,
+            "question": "I remember _____ my keys on the table.",
+            "options": [
+                "putting",
+                "to put",
+                "put",
+                "puts"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 31,
+            "question": "He offered _____ me home.",
+            "options": [
+                "to drive",
+                "driving",
+                "drive",
+                "drove"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 32,
+            "question": "They risk _____ everything.",
+            "options": [
+                "losing",
+                "to lose",
+                "lose",
+                "lost"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 33,
+            "question": "I forgot _____ the door.",
+            "options": [
+                "to lock",
+                "locking",
+                "lock",
+                "locked"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 34,
+            "question": "She enjoys _____ new people.",
+            "options": [
+                "meeting",
+                "to meet",
+                "meet",
+                "met"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 35,
+            "question": "We pretend _____ happy.",
+            "options": [
+                "to be",
+                "being",
+                "be",
+                "was"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 36,
+            "question": "He stopped _____ five years ago.",
+            "options": [
+                "smoking",
+                "to smoke",
+                "smoke",
+                "smoked"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 37,
+            "question": "I try _____ healthy food.",
+            "options": [
+                "to eat",
+                "eating",
+                "eat",
+                "ate"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 38,
+            "question": "She can't help _____ when she's nervous.",
+            "options": [
+                "laughing",
+                "to laugh",
+                "laugh",
+                "laughed"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 39,
+            "question": "They afford _____ a new house.",
+            "options": [
+                "to buy",
+                "buying",
+                "buy",
+                "bought"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 40,
+            "question": "I regret _____ you that bad news.",
+            "options": [
+                "to tell",
+                "telling",
+                "tell",
+                "told"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 41,
+            "question": "He continues _____ hard.",
+            "options": [
+                "working",
+                "to work",
+                "work",
+                "worked"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 42,
+            "question": "We delay _____ the meeting.",
+            "options": [
+                "having",
+                "to have",
+                "have",
+                "had"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 43,
+            "question": "She seems _____ tired today.",
+            "options": [
+                "to be",
+                "being",
+                "be",
+                "was"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 44,
+            "question": "I hate _____ up early.",
+            "options": [
+                "getting",
+                "to get",
+                "get",
+                "got"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 45,
+            "question": "He began _____ the violin last year.",
+            "options": [
+                "to play",
+                "playing",
+                "play",
+                "played"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 46,
+            "question": "They appreciate _____ invited.",
+            "options": [
+                "being",
+                "to be",
+                "be",
+                "was"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 47,
+            "question": "I fail _____ the exam.",
+            "options": [
+                "to pass",
+                "passing",
+                "pass",
+                "passed"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 48,
+            "question": "She started _____ French last month.",
+            "options": [
+                "learning",
+                "to learn",
+                "learn",
+                "learned"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 49,
+            "question": "We mention _____ there before.",
+            "options": [
+                "being",
+                "to be",
+                "be",
+                "was"
+            ],
+            "correctAnswer": 0
+        },
+        {
+            "id": 50,
+            "question": "He tends _____ forgetful.",
+            "options": [
+                "to be",
+                "being",
+                "be",
+                "was"
+            ],
+            "correctAnswer": 0
+        }
+    ]
+}
